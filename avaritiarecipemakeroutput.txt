@@ -1,0 +1,16 @@
+// Coke Brick
+recipes.remove(<immersiveengineering:stone_decoration:0>);
+recipes.addShaped(<immersiveengineering:stone_decoration:0> * 3, [[<minecraft:clay_ball>, <minecraft:clay>, <minecraft:clay_ball>], [<minecraft:clay>, <minecraft:sandstone:0>, <minecraft:clay>],[<minecraft:clay_ball>, <minecraft:clay>, <minecraft:clay_ball>]]);
+
+// Blast Brick
+recipes.remove(<immersiveengineering:stone_decoration:1>);
+recipes.addShaped(<immersiveengineering:stone_decoration:1> * 4, [[<minecraft:nether_brick>, <minecraft:brick_block>, <minecraft:nether_brick>], [<minecraft:brick_block>, <minecraft:blaze_powder>, <minecraft:brick_block>],[<minecraft:nether_brick>, <minecraft:brick_block>, <minecraft:nether_brick>]]);
+
+// Chest
+recipes.remove(<minecraft:chest>);
+recipes.addShaped(<minecraft:chest> * 4, [[<minecraft:log:0>, <minecraft:planks:0>, <minecraft:log:0>], [<minecraft:planks:0>, <immersiveengineering:wooden_device0:0>, <minecraft:planks:0>],[<minecraft:log:0>, <minecraft:planks:0>, <minecraft:log:0>]]);
+
+// Oak Wood Planks
+recipes.remove(<minecraft:planks:0>);
+recipes.addShaped(<minecraft:planks:0> * 2, [[null, null, null], [null, <minecraft:log:0>, null],[null, null, null]]);
+
