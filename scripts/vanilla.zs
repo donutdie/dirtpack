@@ -29,6 +29,7 @@ recipes.addShapedMirrored("Sticks from logs",
 
 // Chest
 recipes.remove(<minecraft:chest>);
+
 recipes.addShaped("Chest Basic", <minecraft:chest>, [
 [<ore:logWood>, <ore:plankWood>, <ore:logWood>], 
 [<ore:plankWood>, null , <ore:plankWood>],

@@ -14,3 +14,19 @@ recipes.addShaped(<minecraft:chest> * 4, [[<minecraft:log:0>, <minecraft:planks:
 recipes.remove(<minecraft:planks:0>);
 recipes.addShaped(<minecraft:planks:0> * 2, [[null, null, null], [null, <minecraft:log:0>, null],[null, null, null]]);
 
+// Stone Compound Gear
+recipes.remove(<enderio:item_material:10>);
+recipes.addShaped(<enderio:item_material:10> * 1, [[null, <minecraft:stone:0>, null], [<minecraft:stone:0>, <enderio:item_material:9>, <minecraft:stone:0>],[null, <minecraft:stone:0>, null]]);
+
+// Quartz Grindstone
+recipes.remove(<appliedenergistics2:grindstone>);
+recipes.addShaped(<appliedenergistics2:grindstone> * 1, [[<extrautils2:compressedcobblestone:0>, <minecraft:coal_block>, <extrautils2:compressedcobblestone:0>], [<enderio:item_material:10>, <appliedenergistics2:quartz_block>, <enderio:item_material:10>],[<extrautils2:compressedcobblestone:0>, <minecraft:iron_block>, <extrautils2:compressedcobblestone:0>]]);
+
+// Sturdy Casing
+recipes.remove(<forestry:sturdy_machine>);
+recipes.addShaped(<forestry:sturdy_machine> * 1, [[<thermalfoundation:material:24>, <thermalfoundation:material:163>, <thermalfoundation:material:163>], [<thermalfoundation:material:163>, null, <thermalfoundation:material:163>],[<thermalfoundation:material:163>, <thermalfoundation:material:163>, <thermalfoundation:material:24>]]);
+
+// Sturdy Casing
+recipes.remove(<forestry:sturdy_machine>);
+recipes.addShaped(<forestry:sturdy_machine> * 1, [[<thermalfoundation:material:24>, <thermalfoundation:material:163>, <thermalfoundation:material:291>], [<thermalfoundation:material:163>, null, <thermalfoundation:material:163>],[<thermalfoundation:material:291>, <thermalfoundation:material:163>, <thermalfoundation:material:24>]]);
+
