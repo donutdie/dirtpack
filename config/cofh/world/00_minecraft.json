@@ -1,6 +1,41 @@
 {
 	"priority": 1000000000000,
 	"populate": {
-		
+		"large_vein_iron": {
+			"distribution": "fractal",
+			"generator": {
+				"block": [
+					{
+						"name": "minecraft:iron_ore",
+						"metadata": 0,
+						"weight": 70
+					},
+					{
+						"name": "thermalfoundation:ore",
+						"metadata": 5,
+						"weight": 30
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 500,
+				"sparse": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 7,
+			"min-height": 25,
+			"vein-height": 50,
+			"vein-diameter": 20,
+			"vertical-density": 15,
+			"horizontal-density": 70,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
 	}
 }
