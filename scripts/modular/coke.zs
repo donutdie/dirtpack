@@ -5,7 +5,7 @@ var coal_coke = mods.modularmachinery.RecipeBuilder.newBuilder("coal_coke", "ove
 coal_coke.addEnergyPerTickInput(50);
 coal_coke.addItemInput(<minecraft:coal>);
 coal_coke.addItemOutput(<ore:fuelCoke>);
-coal_coke.addFluidOutput(<liquid:creosote> * 500);
+coal_coke.addFluidOutput(<liquid:creosote> * 250);
 coal_coke.build();
 
 #coal coke block
