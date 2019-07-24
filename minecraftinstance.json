@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-07-24T17:49:02.0057309Z",
+  "lastPlayed": "2019-07-24T21:13:10.8599754Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -784,6 +784,21 @@
       "fileSize": 50296
     },
     {
+      "folderName": "CraftTweaker2-1.12-4.1.19.jar",
+      "fingerprint": 4052665094,
+      "fileDateHash": 4204372495,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4052665094
+      ],
+      "status": 1,
+      "timestamp": "2019-07-23T19:29:31.641328Z",
+      "lastWriteTimeUtc": "2019-07-23T18:34:20.7260015Z",
+      "queryTimestamp": "2019-07-23T19:29:34.4580658Z",
+      "fileCount": 1,
+      "fileSize": 1368377
+    },
+    {
       "folderName": "Test 1",
       "fingerprint": 4090835764,
       "fileDateHash": 4098463842,
@@ -847,21 +862,6 @@
       "queryTimestamp": "2019-07-23T19:29:34.4580658Z",
       "fileCount": 17,
       "fileSize": 0
-    },
-    {
-      "folderName": "CraftTweaker2-1.12-4.1.19.jar",
-      "fingerprint": 4052665094,
-      "fileDateHash": 4204372495,
-      "sectionID": 8,
-      "individualFingerprints": [
-        4052665094
-      ],
-      "status": 1,
-      "timestamp": "2019-07-23T19:29:31.641328Z",
-      "lastWriteTimeUtc": "2019-07-23T18:34:20.7260015Z",
-      "queryTimestamp": "2019-07-23T19:29:34.4580658Z",
-      "fileCount": 1,
-      "fileSize": 1368377
     },
     {
       "folderName": "Ore Gen Strip",

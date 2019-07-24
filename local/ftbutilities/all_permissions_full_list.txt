@@ -1,4 +1,4 @@
-5119 nodes in total
+5113 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -444,7 +444,6 @@ ftbutilities.claims.block.edit.advancedrocketry.warpmonitor: OP
 ftbutilities.claims.block.edit.advancedrocketry.wirelesstransciever: OP
 ftbutilities.claims.block.edit.appliedenergistics2.cable_bus: OP
 ftbutilities.claims.block.edit.appliedenergistics2.cell_workbench: OP
-ftbutilities.claims.block.edit.appliedenergistics2.charged_quartz_ore: OP
 ftbutilities.claims.block.edit.appliedenergistics2.charger: OP
 ftbutilities.claims.block.edit.appliedenergistics2.chest: OP
 ftbutilities.claims.block.edit.appliedenergistics2.chiseled_quartz_block: OP
@@ -486,7 +485,6 @@ ftbutilities.claims.block.edit.appliedenergistics2.quartz_double_slab: OP
 ftbutilities.claims.block.edit.appliedenergistics2.quartz_fixture: OP
 ftbutilities.claims.block.edit.appliedenergistics2.quartz_glass: OP
 ftbutilities.claims.block.edit.appliedenergistics2.quartz_growth_accelerator: OP
-ftbutilities.claims.block.edit.appliedenergistics2.quartz_ore: OP
 ftbutilities.claims.block.edit.appliedenergistics2.quartz_pillar: OP
 ftbutilities.claims.block.edit.appliedenergistics2.quartz_pillar_double_slab: OP
 ftbutilities.claims.block.edit.appliedenergistics2.quartz_pillar_slab: OP
@@ -1654,7 +1652,6 @@ ftbutilities.claims.block.interact.advancedrocketry.warpmonitor: OP
 ftbutilities.claims.block.interact.advancedrocketry.wirelesstransciever: OP
 ftbutilities.claims.block.interact.appliedenergistics2.cable_bus: OP
 ftbutilities.claims.block.interact.appliedenergistics2.cell_workbench: OP
-ftbutilities.claims.block.interact.appliedenergistics2.charged_quartz_ore: OP
 ftbutilities.claims.block.interact.appliedenergistics2.charger: OP
 ftbutilities.claims.block.interact.appliedenergistics2.chest: OP
 ftbutilities.claims.block.interact.appliedenergistics2.chiseled_quartz_block: OP
@@ -1696,7 +1693,6 @@ ftbutilities.claims.block.interact.appliedenergistics2.quartz_double_slab: OP
 ftbutilities.claims.block.interact.appliedenergistics2.quartz_fixture: OP
 ftbutilities.claims.block.interact.appliedenergistics2.quartz_glass: OP
 ftbutilities.claims.block.interact.appliedenergistics2.quartz_growth_accelerator: OP
-ftbutilities.claims.block.interact.appliedenergistics2.quartz_ore: OP
 ftbutilities.claims.block.interact.appliedenergistics2.quartz_pillar: OP
 ftbutilities.claims.block.interact.appliedenergistics2.quartz_pillar_double_slab: OP
 ftbutilities.claims.block.interact.appliedenergistics2.quartz_pillar_slab: OP
@@ -3086,7 +3082,6 @@ ftbutilities.claims.item.appliedenergistics2.certus_quartz_pickaxe: ALL
 ftbutilities.claims.item.appliedenergistics2.certus_quartz_spade: ALL
 ftbutilities.claims.item.appliedenergistics2.certus_quartz_sword: ALL
 ftbutilities.claims.item.appliedenergistics2.certus_quartz_wrench: ALL
-ftbutilities.claims.item.appliedenergistics2.charged_quartz_ore: ALL
 ftbutilities.claims.item.appliedenergistics2.charged_staff: ALL
 ftbutilities.claims.item.appliedenergistics2.charger: ALL
 ftbutilities.claims.item.appliedenergistics2.chest: ALL
@@ -3150,7 +3145,6 @@ ftbutilities.claims.item.appliedenergistics2.quartz_block: ALL
 ftbutilities.claims.item.appliedenergistics2.quartz_fixture: ALL
 ftbutilities.claims.item.appliedenergistics2.quartz_glass: ALL
 ftbutilities.claims.item.appliedenergistics2.quartz_growth_accelerator: ALL
-ftbutilities.claims.item.appliedenergistics2.quartz_ore: ALL
 ftbutilities.claims.item.appliedenergistics2.quartz_pillar: ALL
 ftbutilities.claims.item.appliedenergistics2.quartz_pillar_slab: ALL
 ftbutilities.claims.item.appliedenergistics2.quartz_pillar_stairs: ALL
