@@ -27,7 +27,7 @@
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] Initializing Vanilla
 [INITIALIZATION][CLIENT][INFO] Vanilla Initialized
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 717ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 607ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Rod with name Iron Rod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Oak Wood Planks with name Planks

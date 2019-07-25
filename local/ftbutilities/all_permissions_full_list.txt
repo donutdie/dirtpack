@@ -1,4 +1,4 @@
-8291 nodes in total
+8276 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -2084,11 +2084,6 @@ ftbutilities.claims.block.edit.thermalfoundation.rockwool: OP
 ftbutilities.claims.block.edit.thermalfoundation.storage: OP
 ftbutilities.claims.block.edit.thermalfoundation.storage_alloy: OP
 ftbutilities.claims.block.edit.thermalfoundation.storage_resource: OP
-ftbutilities.claims.block.edit.torchmaster.dread_lamp: OP
-ftbutilities.claims.block.edit.torchmaster.feral_flare_lantern: OP
-ftbutilities.claims.block.edit.torchmaster.invisible_light: OP
-ftbutilities.claims.block.edit.torchmaster.mega_torch: OP
-ftbutilities.claims.block.edit.torchmaster.terrain_lighter: OP
 ftbutilities.claims.block.edit.xreliquary.altar: OP
 ftbutilities.claims.block.edit.xreliquary.apothecary_cauldron: OP
 ftbutilities.claims.block.edit.xreliquary.apothecary_mortar: OP
@@ -3922,11 +3917,6 @@ ftbutilities.claims.block.interact.thermalfoundation.rockwool: OP
 ftbutilities.claims.block.interact.thermalfoundation.storage: OP
 ftbutilities.claims.block.interact.thermalfoundation.storage_alloy: OP
 ftbutilities.claims.block.interact.thermalfoundation.storage_resource: OP
-ftbutilities.claims.block.interact.torchmaster.dread_lamp: OP
-ftbutilities.claims.block.interact.torchmaster.feral_flare_lantern: OP
-ftbutilities.claims.block.interact.torchmaster.invisible_light: OP
-ftbutilities.claims.block.interact.torchmaster.mega_torch: OP
-ftbutilities.claims.block.interact.torchmaster.terrain_lighter: OP
 ftbutilities.claims.block.interact.xreliquary.altar: OP
 ftbutilities.claims.block.interact.xreliquary.apothecary_cauldron: OP
 ftbutilities.claims.block.interact.xreliquary.apothecary_mortar: OP
@@ -8211,11 +8201,6 @@ ftbutilities.claims.item.thermalinnovation.injector: ALL
 ftbutilities.claims.item.thermalinnovation.magnet: ALL
 ftbutilities.claims.item.thermalinnovation.quiver: ALL
 ftbutilities.claims.item.thermalinnovation.saw: ALL
-ftbutilities.claims.item.torchmaster.dread_lamp: ALL
-ftbutilities.claims.item.torchmaster.feral_flare_lantern: ALL
-ftbutilities.claims.item.torchmaster.frozen_pearl: ALL
-ftbutilities.claims.item.torchmaster.mega_torch: ALL
-ftbutilities.claims.item.torchmaster.terrain_lighter: ALL
 ftbutilities.claims.item.valkyrielib.guide: ALL
 ftbutilities.claims.item.valkyrielib.modifier_component: ALL
 ftbutilities.claims.item.valkyrielib.modifier_speed: ALL

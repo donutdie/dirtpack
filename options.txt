@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:false
 ao:0
 renderClouds:false
@@ -170,6 +170,7 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
+key_OTG Pregenerator HUD toggle:61
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
