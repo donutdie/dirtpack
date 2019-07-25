@@ -8457,6 +8457,7 @@ command.openblocks.luck
 command.openblocks.ob_inventory
 command.openmods.om_config_s
 command.openmods.om_source_s
+command.openterraingenerator.otg
 command.particle
 command.playsound
 command.publish

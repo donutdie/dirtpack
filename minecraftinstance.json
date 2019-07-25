@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-07-25T20:17:49.7731054Z",
+  "lastPlayed": "2019-07-25T21:13:32.7864162Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -5919,6 +5919,87 @@
       "installedTargets": null
     },
     {
+      "addonID": 265894,
+      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
+      "installedFile": {
+        "id": 2542614,
+        "displayName": "OpenTerrainGenerator-1.12.2 - v6.jar",
+        "fileName": "OpenTerrainGenerator-1.12.2 - v6.jar",
+        "fileDate": "2018-03-18T23:04:47.937Z",
+        "fileLength": 1138314,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2542/614/OpenTerrainGenerator-1.12.2 - v6.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1031550165,
+            "type": 0
+          },
+          {
+            "foldername": "OTG-Core.jar",
+            "fingerprint": 1034384432,
+            "type": 0
+          },
+          {
+            "foldername": "OTGlogo.png",
+            "fingerprint": 619918241,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1685986190,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 399502977,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 36002174,
+            "type": 0
+          },
+          {
+            "foldername": "plugin.yml",
+            "fingerprint": 1578775130,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2085868394,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "OpenTerrainGenerator-1.12.2 - v6.jar"
+      },
+      "dateInstalled": "2019-07-25T21:01:17.8852396Z",
+      "dateUpdated": "2019-07-25T21:01:17.9033026Z",
+      "dateLastUpdateAttempted": "2019-07-25T21:01:17.9033026Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 274807,
       "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
       "installedFile": {
@@ -8859,6 +8940,84 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 241542,
+      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
+      "installedFile": {
+        "id": 2505277,
+        "displayName": "Biome_Bundle-1.12.2-v6.1.jar",
+        "fileName": "Biome_Bundle-1.12.2-v6.1.jar",
+        "fileDate": "2017-12-01T08:58:59.137Z",
+        "fileLength": 13792706,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2505/277/Biome_Bundle-1.12.2-v6.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 265894,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "assets",
+            "fingerprint": 1762057489,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2775836407,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2774468170,
+            "type": 0
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0
+          },
+          {
+            "foldername": "OTGlogo.png",
+            "fingerprint": 619918241,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2161977903,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "Biome_Bundle-1.12.2-v6.1.jar"
+      },
+      "dateInstalled": "2019-07-25T21:01:31.7109038Z",
+      "dateUpdated": "2019-07-25T21:01:31.7298237Z",
+      "dateLastUpdateAttempted": "2019-07-25T21:01:31.7298237Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 301144,
