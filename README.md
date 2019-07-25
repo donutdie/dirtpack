@@ -7,20 +7,3 @@
     
   ### Side goals
     - Make custom main menu
-     
-  
-  #### DoNotDie
-  
-  
-  #### profileNaem
-  
-  
-  #### popcorn
-    - main menu
-    - loading screen 
-  
-  
-  #### Lordomus
-  
-  
-  #### LuckyChuckie
