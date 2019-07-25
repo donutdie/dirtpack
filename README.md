@@ -7,3 +7,18 @@
     
   ### Side goals
     - Make custom main menu
+     
+  
+  ####DoNotDie
+  
+  
+  ####profileNaem
+  
+  
+  ####popcorn
+  
+  
+  ####Lordomus
+  
+  
+  ####LuckyChuckie
