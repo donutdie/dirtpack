@@ -24,9 +24,9 @@
 			"chunk-chance": 7,
 			"min-height": 25,
 			"vein-height": 50,
-			"vein-diameter": 20,
+			"vein-diameter": 15,
 			"vertical-density": 15,
-			"horizontal-density": 70,
+			"horizontal-density": 80,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
