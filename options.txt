@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:false
 ao:0
 renderClouds:false
@@ -85,6 +85,8 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_keybind.baublesinventory:48
+key_key.betterquesting.quests:41
 key_enderio.keybind.inventory:23
 key_enderio.keybind.glidertoggle:34
 key_enderio.keybind.soundlocator:0
@@ -106,11 +108,17 @@ key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
+key_openblocks.keybind.vario_switch:47
+key_openblocks.keybind.vario_vol_up:0
+key_openblocks.keybind.vario_vol_down:0
+key_key.toastcontrol.clear:36
 key_Strip World:37
 key_Dress World:210
 key_Inspect Block:199
 key_key.cofh.multimode:47
 key_key.toggle_focus.desc:15
+key_bbw.key.mode:50
+key_bbw.key.fluidmode:33
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -129,15 +137,17 @@ key_key.toggleFlight:0
 key_key.toggleDislocator:0
 key_key.cycleDigAOE:0
 key_key.cycleAttackAOE:0
+key_mekanism.key.mode:50
+key_mekanism.key.armorMode:34
+key_mekanism.key.feetMode:35
+key_mekanism.key.voice:22
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_invtweaks.key.sort:19
-key_mekanism.key.mode:50
-key_mekanism.key.armorMode:34
-key_mekanism.key.feetMode:35
-key_mekanism.key.voice:22
+key_Quick Commands:83
+key_xreliquary.keybind.fortune_coin:0
 key_Toggle Jetpack:45
 key_Open Rocket GUI:46
 key_Toggle RCS:19
@@ -145,6 +155,21 @@ key_Rotate Vehicle Right:32
 key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44
 key_Move Vehicle Down:45
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.minimap_type:26
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
+key_key.journeymap.fullscreen_create_waypoint:48
+key_key.journeymap.fullscreen_chat_position:46
+key_key.journeymap.map_toggle_alt:36
+key_key.journeymap.fullscreen_waypoints:48:CONTROL
+key_key.journeymap.minimap_toggle_alt:36:CONTROL
+key_key.journeymap.fullscreen_options:24
+key_key.journeymap.fullscreen.north:200
+key_key.journeymap.fullscreen.south:208
+key_key.journeymap.fullscreen.east:205
+key_key.journeymap.fullscreen.west:203
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0

@@ -46,6 +46,145 @@ false
 <p>Allow to edit gamerules via Admin Panel</p>
 </td></tr>
 <tr>
+<td><code>betterquesting.command.admin</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>admin commmand permission</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.complete</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to force completes a quest for the given user</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.default</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to saves/loads the current quest database to/from the global default directory</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.delete</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to delete given quest(s) and progression data however it does not delete new world defaults</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.edit</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to activate quest editing mode on and off</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.hardcore</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to activate or not the use of hardcore lives</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.lives</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set lives to the given user</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.purge</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to purge all hidden quests and progression data however it does not delete any in new world defaults</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.admin.reset</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to erases quest completion data for the given user</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.user</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>user commmand permission</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.user.hardcores</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to manually resyncs the local questing database with the server in case of potential desync issues</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.user.help</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to execute command which gives the player a copy of the in game starter guide.</p>
+</td></tr>
+<tr>
+<td><code>betterquesting.command.user.refresh</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to manually resyncs the local questing database with the server in case of potential desync issues</p>
+</td></tr>
+<tr>
 <td><code>command</code></td>
 <td><code>bool</code></td>
 <td class='false'><code>false</code></td>
@@ -926,46 +1065,6 @@ true
 false 
 '>
 <p>Permission to open the GUI(s) of Ender IO's item_species_item_filter</p>
-</td></tr>
-<tr>
-<td><code>enderio.gui.item_stellar_alloy_boots</code></td>
-<td><code>bool</code></td>
-<td class='true' colspan='2'><code>true</code></td>
-<td title='
-true 
-false 
-'>
-<p>Permission to open the GUI(s) of Ender IO's item_stellar_alloy_boots</p>
-</td></tr>
-<tr>
-<td><code>enderio.gui.item_stellar_alloy_chestplate</code></td>
-<td><code>bool</code></td>
-<td class='true' colspan='2'><code>true</code></td>
-<td title='
-true 
-false 
-'>
-<p>Permission to open the GUI(s) of Ender IO's item_stellar_alloy_chestplate</p>
-</td></tr>
-<tr>
-<td><code>enderio.gui.item_stellar_alloy_helmet</code></td>
-<td><code>bool</code></td>
-<td class='true' colspan='2'><code>true</code></td>
-<td title='
-true 
-false 
-'>
-<p>Permission to open the GUI(s) of Ender IO's item_stellar_alloy_helmet</p>
-</td></tr>
-<tr>
-<td><code>enderio.gui.item_stellar_alloy_leggings</code></td>
-<td><code>bool</code></td>
-<td class='true' colspan='2'><code>true</code></td>
-<td title='
-true 
-false 
-'>
-<p>Permission to open the GUI(s) of Ender IO's item_stellar_alloy_leggings</p>
 </td></tr>
 <tr>
 <td><code>enderio.soulvial.pickup</code></td>
@@ -2621,6 +2720,15 @@ false
 <p>Permission for blocks that players can break and place within claimed chunks</p>
 </td></tr>
 <tr>
+<td><code>ftbutilities.claims.block.edit.openblocks.grave</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
 <td><code>ftbutilities.claims.block.interact</code></td>
 <td><code>bool</code></td>
 <td class='false'><code>false</code></td>
@@ -3106,7 +3214,15 @@ false
 <tr><td><code>command.advancedrocketry.advancedrocketry</code></td><td class='error' title='Invalid usage language key!'>advancedRocketry help</td></tr>
 <tr><td><code>command.advancement</code></td><td>/advancement &lt;grant|revoke|test&gt; &lt;player&gt;</td></tr>
 <tr><td><code>command.appliedenergistics2.ae2</code></td><td>Commands provided by Applied Energistics 2 - use /ae2 list for a list, and /ae2 help _____ for help with a command.</td></tr>
+<tr><td><code>command.baubles.baubles</code></td><td class='error' title='Invalid usage language key!'>/baubles &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
+<tr><td><code>command.bdlib.dumpregistry</code></td><td>dumpregistry</td></tr>
+<tr><td><code>command.bdlib.oredistribution</code></td><td>/oredistribution &lt;radius&gt; [&lt;min height&gt;] [&lt;max height&gt;] [--file]</td></tr>
+<tr><td><code>command.betterbuilderswands.wandoops</code></td><td class='error' title='Invalid usage language key!'>/wandOops</td></tr>
+<tr><td><code>command.betterquesting.bq_admin</code></td><td class='error' title='Invalid usage language key!'>/bq_admin edit [true|false], /bq_admin hardcore [true|false], /bq_admin reset [all|&lt;quest_id&gt;] [username|uuid], /bq_admin complete &lt;quest_id&gt; [username|uuid], /bq_admin delete [all|&lt;quest_id&gt;], /bq_admin default [save|load|set] [file_name], /bq_admin lives [add|set|max|default] &lt;value&gt; [username|uuid], /bq_admin purge_hidden_quests</td></tr>
+<tr><td><code>command.betterquesting.bq_user</code></td><td class='error' title='Invalid usage language key!'>/bq_user help, /bq_user refresh, /bq_user hardcore</td></tr>
 <tr><td><code>command.blockdata</code></td><td>/blockdata &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;dataTag&gt;</td></tr>
+<tr><td><code>command.bq_standard.bqs_advancement_dump</code></td><td class='error' title='Invalid usage language key!'>/bqs_advancement_dump</td></tr>
+<tr><td><code>command.bq_standard.bqs_loot</code></td><td class='error' title='Invalid usage language key!'>/bqs_loot default [save|load], /bqs_loot delete [all|&lt;loot_id&gt;]</td></tr>
 <tr><td><code>command.brandonscore.bcore_ticktime</code></td><td class='error' title='Invalid usage language key!'>/bcore_ticktime</td></tr>
 <tr><td><code>command.brandonscore.bcore_util</code></td><td class='error' title='Invalid usage language key!'>/bcore_util help</td></tr>
 <tr><td><code>command.brandonscore.tpx</code></td><td>/tpx [target player] &lt;destination player&gt;<br>/tpx [target player] &lt;destination dimension&gt;<br>/tpx [target player] &lt;x&gt; &lt;y&gt; &lt;z&gt; [dimension] [&lt;yaw&gt; &lt;pitch&gt;]</td></tr>
@@ -3116,7 +3232,7 @@ false
 <tr><td><code>command.cofhworld.cofhworld.list</code></td><td>Lists all CoFHWorld features</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.reload</code></td><td>Reloads CoFHWorld configuration</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.version</code></td><td>cofhworld.version.usage</td></tr>
-<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blocks | bugs | conflict | copy | discord | docs | dumpzs | enchants | entities | foods | gases | give | hand | help | infuseTypes | inventory | jeiCategories | json | keyNames | liquids | log | mekrecipes | mods | names | nbt | oredict | potions | recipeNames | recipes | reload | scripts | seeds | syntax | ticmat | wiki | zslint</td></tr>
+<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blocks | bugs | chiselGroups | conflict | copy | discord | docs | dumpzs | enchants | entities | foods | gases | give | hand | help | infuseTypes | inventory | jeiCategories | json | keyNames | liquids | log | mekrecipes | mods | names | nbt | oredict | potions | recipeNames | recipes | reload | scripts | seeds | syntax | ticmat | wiki | zslint</td></tr>
 <tr><td><code>command.crafttweaker.ctgui</code></td><td class='error' title='Invalid usage language key!'>CTGUI &lt;id&gt;</td></tr>
 <tr><td><code>command.debug</code></td><td>/debug &lt;start|stop&gt;</td></tr>
 <tr><td><code>command.defaultgamemode</code></td><td>/defaultgamemode &lt;mode&gt;</td></tr>
@@ -3234,6 +3350,8 @@ false
 <tr><td><code>command.immersiveengineering.ie.mineral.set</code></td><td class='error' title='Invalid usage language key!'>/mineral set &lt;mineral name&gt; (surround the name in &lt;angle brackets&gt; if it contains a space)</td></tr>
 <tr><td><code>command.immersiveengineering.ie.mineral.setdepletion</code></td><td class='error' title='Invalid usage language key!'>/mineral setDepletion &lt;depletion&gt;</td></tr>
 <tr><td><code>command.immersivepetroleum.ip</code></td><td class='error' title='Invalid usage language key!'>/ip &lt;help|reservoir&gt;</td></tr>
+<tr><td><code>command.jeresources.jer_profile</code></td><td class='error' title='Invalid usage language key!'>jer_profile [chunks|stop] [all]</td></tr>
+<tr><td><code>command.journeymap.jtp</code></td><td class='error' title='Invalid usage language key!'>/jtp &lt;x y z dim&gt;</td></tr>
 <tr><td><code>command.kill</code></td><td>/kill [player|entity]</td></tr>
 <tr><td><code>command.locate</code></td><td>/locate &lt;feature&gt;</td></tr>
 <tr><td><code>command.me</code></td><td>/me &lt;action ...&gt;</td></tr>
@@ -3249,6 +3367,20 @@ false
 <tr><td><code>command.mekanism.mtpop</code></td><td>Return to last position on stack</td></tr>
 <tr><td><code>command.modularmachinery.mm-hand</code></td><td>/mm-hand</td></tr>
 <tr><td><code>command.modularmachinery.mm-syntax</code></td><td>/mm-syntax</td></tr>
+<tr><td><code>command.mputils.mpadmin</code></td><td class='error' title='Invalid usage language key!'>&lt;/mpadmin, /mpa&gt;</td></tr>
+<tr><td><code>command.openblocks.flimflam</code></td><td class='error' title='Invalid usage language key!'>flimflam &lt;player&gt; [&lt;effect&gt;]</td></tr>
+<tr><td><code>command.openblocks.luck</code></td><td class='error' title='Invalid usage language key!'>luck &lt;player&gt; [&lt;amount&gt;]</td></tr>
+<tr><td><code>command.openblocks.ob_inventory</code></td><td class='error' title='Invalid usage language key!'>ob_inventory store &lt;player&gt;<br>ob_inventory restore &lt;player&gt; &lt;file without 'inventory-' and '.dat'&gt;<br>ob_inventory spawn &lt;file without 'inventory-' and '.dat'&gt; [&lt;sub_inventory<br>'main'&gt;,  [&lt;index of item&gt;]]</td></tr>
+<tr><td><code>command.openmods.om_config_s</code></td><td class='error' title='Invalid usage language key!'>om_config_s save &lt;modid&gt; OR
+om_config_s help &lt;modid&gt; &lt;category&gt; &lt;name&gt; OR
+om_config_s get &lt;modid&gt; &lt;category&gt; &lt;name&gt; OR
+om_config_s clear &lt;modid&gt; &lt;category&gt; &lt;name&gt; OR
+om_config_s set &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;... OR
+om_config_s append &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;... OR
+om_config_s remove &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;... OR
+om_config_s default &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;... OR
+</td></tr>
+<tr><td><code>command.openmods.om_source_s</code></td><td class='error' title='Invalid usage language key!'>om_source_s class &lt;class name&gt;</td></tr>
 <tr><td><code>command.particle</code></td><td>/particle &lt;name&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;xd&gt; &lt;yd&gt; &lt;zd&gt; &lt;speed&gt; [count] [mode] [player] [params]</td></tr>
 <tr><td><code>command.playsound</code></td><td>/playsound &lt;sound&gt; &lt;source&gt; &lt;player&gt; [x] [y] [z] [volume] [pitch] [minimumVolume]</td></tr>
 <tr><td><code>command.publish</code></td><td>/publish</td></tr>
@@ -3259,10 +3391,14 @@ false
 <tr><td><code>command.seed</code></td><td>/seed</td></tr>
 <tr><td><code>command.setblock</code></td><td>/setblock &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;block&gt; [dataValue|state] [oldBlockHandling] [dataTag]</td></tr>
 <tr><td><code>command.setworldspawn</code></td><td>/setworldspawn [&lt;x&gt; &lt;y&gt; &lt;z&gt;]</td></tr>
+<tr><td><code>command.shadowmc.shadow.calc</code></td><td class='error' title='Invalid usage language key!'>/shadow calc &lt;expr&gt;</td></tr>
+<tr><td><code>command.shadowmc.shadow.help</code></td><td class='error' title='Invalid usage language key!'>/shadow help &lt;command&gt;</td></tr>
+<tr><td><code>command.shadowmc.shadow.killall</code></td><td class='error' title='Invalid usage language key!'>/shadow killall &lt;range&gt;</td></tr>
 <tr><td><code>command.spawnpoint</code></td><td>/spawnpoint [player] [&lt;x&gt; &lt;y&gt; &lt;z&gt;]</td></tr>
 <tr><td><code>command.spreadplayers</code></td><td>/spreadplayers &lt;x&gt; &lt;z&gt; &lt;spreadDistance&gt; &lt;maxRange&gt; &lt;respectTeams true|false&gt; &lt;player ...&gt;</td></tr>
 <tr><td><code>command.stats</code></td><td>/stats &lt;entity|block&gt; ...</td></tr>
 <tr><td><code>command.stopsound</code></td><td>/stopsound &lt;player&gt; [source] [sound]</td></tr>
+<tr><td><code>command.storagedrawers.storagedrawers</code></td><td>commands.storagedrawers.usage</td></tr>
 <tr><td><code>command.summon</code></td><td>/summon &lt;entityname&gt; [x] [y] [z] [dataTag]</td></tr>
 <tr><td><code>command.teleport</code></td><td>/teleport &lt;entity&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;y-rot&gt; &lt;x-rot&gt;]</td></tr>
 <tr><td><code>command.tell</code></td><td>/tell &lt;player&gt; &lt;private message ...&gt;</td></tr>
@@ -3275,6 +3411,7 @@ false
 <tr><td><code>command.toggledownfall</code></td><td>/toggledownfall</td></tr>
 <tr><td><code>command.tp</code></td><td>/tp [target player] &lt;destination player&gt;<br>/tp [target player] &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;yaw&gt; &lt;pitch&gt;]</td></tr>
 <tr><td><code>command.trigger</code></td><td>/trigger &lt;objective&gt; &lt;add|set&gt; &lt;value&gt;</td></tr>
+<tr><td><code>command.valkyrielib.removeowner</code></td><td>valkyrielib.removeowner</td></tr>
 <tr><td><code>command.weather</code></td><td>/weather &lt;clear|rain|thunder&gt; [duration in seconds]</td></tr>
 <tr><td><code>command.worldborder</code></td><td>/worldborder &lt;set|center|damage|warning|get|add&gt; ...</td></tr>
 <tr><td><code>command.xp</code></td><td>/xp &lt;amount&gt; [player]<br>/xp &lt;amount&gt;L [player]</td></tr>

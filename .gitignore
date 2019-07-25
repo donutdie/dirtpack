@@ -2,3 +2,5 @@
 minecraftinstance.json
 config/splash.properties
 minecraftinstance.json
+logs/latest.log
+usercache.json
