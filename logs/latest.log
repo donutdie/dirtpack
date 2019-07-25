@@ -1,0 +1,232 @@
+[12:58:29] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:58:29] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:58:29] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:58:29] [main/INFO]: Forge Mod Loader version 14.23.5.2838 for Minecraft 1.12.2 loading
+[12:58:29] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 10:amd64:10.0, installed at C:\Users\Doctor\Twitch\Minecraft\Install\runtime\jre-x64
+[12:58:31] [main/INFO]: Searching C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\mods for mods
+[12:58:31] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in AdvancedRocketry-1.12.2-1.6.0-160-universal.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:58:31] [main/WARN]: The coremod AdvancedRocketryPlugin (zmaster587.advancedRocketry.asm.AdvancedRocketryPlugin) is not signed!
+[12:58:31] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.2.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:58:32] [main/WARN]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
+[12:58:32] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in Aroma1997Core-1.12.2-2.0.0.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:58:32] [main/WARN]: The coremod aroma1997.core.coremod.CoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:58:32] [main/INFO]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[12:58:32] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-0.3.3.22.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:58:32] [main/WARN]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:58:32] [main/WARN]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[12:58:33] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.10.5-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:58:33] [main/WARN]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:58:33] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:58:33] [main/WARN]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:58:33] [main/WARN]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[12:58:33] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:58:35] [main/WARN]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:58:35] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in Mekanism-1.12.2-9.8.0.381.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:58:35] [main/WARN]: The coremod mekanism.coremod.MekanismCoremod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:58:35] [main/WARN]: The coremod MekanismCoremod (mekanism.coremod.MekanismCoremod) is not signed!
+[12:58:35] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in OpenModsLib-1.12.2-0.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:58:36] [main/WARN]: The coremod openmods.core.OpenModsCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:58:36] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in p455w0rdslib-1.12.2-2.2.156.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:58:36] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in ResourceLoader-MC1.12.1-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:58:36] [main/WARN]: The coremod lumien.resourceloader.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:58:36] [main/WARN]: The coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:58:36] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:58:36] [main/INFO]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[12:58:36] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:58:36] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:58:36] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:58:36] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:41] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[12:58:41] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[12:58:41] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:41] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:41] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:41] [main/INFO]: Finished data injection.
+[12:58:41] [main/INFO]: Finished data injection.
+[12:58:41] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:41] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:41] [main/INFO]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[12:58:41] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:58:41] [main/ERROR]: A critical problem occurred registering the ASM transformer class 
+java.lang.ClassNotFoundException: 
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_51]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.LaunchClassLoader.registerTransformer(LaunchClassLoader.java:88) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.fml.common.launcher.FMLDeobfTweaker.injectIntoClassLoader(FMLDeobfTweaker.java:46) [forge-1.12.2-14.23.5.2838.jar:?]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	... 6 more
+[12:58:42] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:42] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:42] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:42] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:42] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:42] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:42] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:42] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:58:42] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:58:42] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:58:42] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[12:58:42] [main/INFO]: Patching net.minecraft.client.Minecraft... (bib)
+[12:58:43] [main/INFO]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[12:58:43] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[12:58:43] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:161]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[12:58:44] [main/INFO]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:62]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[12:58:44] [main/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraft.client.util.SearchTreeManager.func_110549_a
+[12:58:44] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[12:58:44] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[12:58:44] [Client thread/INFO]: Setting user: DoNotDie
+[12:58:44] [Client thread/INFO]: Patching net.minecraft.block.Block... (aow)
+[12:58:44] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[12:58:44] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[12:58:45] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
+[12:58:45] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[12:58:45] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[12:58:45] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:184]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[12:58:45] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:184]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[12:58:45] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[12:58:45] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:184]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[12:58:45] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:184]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[12:58:45] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[12:58:45] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[12:58:45] [Client thread/INFO]: Patching math utils with "RIVENS_HALF" algorithm
+[12:58:46] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[12:58:46] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[12:58:46] [Client thread/INFO]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[12:58:46] [Client thread/INFO]: Patching net.minecraft.block.BlockHopper... (arl)
+[12:58:46] [Client thread/INFO]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[12:58:46] [Client thread/INFO]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[12:58:46] [Client thread/INFO]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[12:58:48] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:124]: Added INTERFACE: pl/asie/foamfix/api/IFoamFixMobSpawnerLogic
+[12:58:48] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraft.tileentity.MobSpawnerBaseLogic.func_98279_f
+[12:58:48] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:184]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCache
+[12:58:48] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:184]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCachePESize
+[12:58:48] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:184]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCacheTime
+[12:58:48] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:184]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCache
+[12:58:48] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:184]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCacheTime
+[12:58:50] [Client thread/INFO]: Patching GameSettings.datafix
+[12:58:50] [Client thread/WARN]: Skipping bad option: lastServer:
+[12:58:50] [Client thread/INFO]: LWJGL Version: 2.9.4
+[12:58:51] [BetterFps Update Checker/WARN]: Could not check for updates: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 2 column 2 path $
+[12:58:54] [Client thread/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 110371552 bytes (105 MB) / 268435456 bytes (256 MB) up to 6442450944 bytes (6144 MB)
+	JVM Flags: 10 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx6144m -Xms256m -XX:PermSize=256m -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+ForgelinPlugin (Forgelin-1.8.3.jar)
+  
+IELoadingPlugin (ImmersiveEngineering-core-0.12-89.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.5-1.12.2.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+AppleCore (AppleCore-mc1.12.2-3.2.0.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  openmods.core.OpenModsClassTransformer
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+MekanismCoremod (Mekanism-1.12.2-9.8.0.381.jar)
+  mekanism.coremod.KeybindingMigrationHelper
+AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.6.0-160-universal.jar)
+  zmaster587.advancedRocketry.asm.ClassTransformer
+CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
+  
+CTMCorePlugin (CTM-MC1.12.2-0.3.3.22.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+p455w0rdc0re (p455w0rdslib-1.12.2-2.2.156.jar)
+  p455w0rdslib.asm.ClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 417.71' Renderer: 'GeForce GTX 960M/PCIe/SSE2'
+[12:58:54] [Client thread/INFO]: MinecraftForge v14.23.5.2838 Initialized
+[12:58:54] [Client thread/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[12:58:54] [Client thread/INFO]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[12:58:54] [Client thread/INFO]: Replaced 1227 ore ingredients
+[12:58:55] [Client thread/INFO]: [zmaster587.advancedRocketry.asm.ModContainer:<init>:23]: ********* CoreDummyContainer. OK
+[12:58:55] [Client thread/INFO]: Searching C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\mods for mods
+[12:58:57] [Thread-4/INFO]: Using sync timing. 200 frames of Display.update took 271348617 nanos
+[12:58:59] [Client thread/WARN]: Mod aroma1997core is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.0.0.2
+[12:58:59] [Client thread/WARN]: Mod aroma1997sdimension is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.0.0.2
+[12:58:59] [Client thread/WARN]: Mod betterbuilderswands is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.11.1
+[12:59:00] [Client thread/WARN]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.2.353
+[12:59:00] [Client thread/WARN]: Mod cookingforblockheads is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 6.4.71
+[12:59:00] [Client thread/WARN]: Mod craftingtweaks is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 8.1.9
+[12:59:01] [Client thread/WARN]: Mod enderstorage is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.5.135
+[12:59:03] [Client thread/WARN]: Mod justenoughpetroleum is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.1
+[12:59:04] [Client thread/WARN]: Mod mekanismgenerators is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-9.8.0.381
+[12:59:04] [Client thread/WARN]: Mod mekanismtools is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-9.8.0.381
+[12:59:04] [Client thread/WARN]: Mod modulardiversity is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.8
+[12:59:04] [Client thread/WARN]: Mod nmsot is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.2-mc1.12.2
+[12:59:06] [Client thread/WARN]: Mod worldstripper is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.6.0-1.12.2
+[12:59:06] [Client thread/INFO]: Forge Mod Loader has identified 154 mods to load
+[12:59:06] [Client thread/INFO]: [zmaster587.advancedRocketry.asm.ModContainer:registerBus:42]: ********* registerBus. OK
+[12:59:07] [Client thread/FATAL]: net.minecraftforge.fml.common.MissingModsException: Mod enderio (Ender IO) requires [endercore@[1.12.2-0.5.58,)]
+[12:59:07] [Client thread/FATAL]: net.minecraftforge.fml.common.MissingModsException: Mod enderioconduitsappliedenergistics (Ender IO Applied Energistics Conduits) requires [endercore@[1.12.2-0.5.58,)]
+[12:59:07] [Client thread/FATAL]: net.minecraftforge.fml.common.MissingModsException: Mod enderioconduitsopencomputers (Ender IO Open Computers Conduits) requires [endercore@[1.12.2-0.5.58,)]
+[12:59:07] [Client thread/FATAL]: net.minecraftforge.fml.common.MissingModsException: Mod enderioconduitsrefinedstorage (Ender IO Refined Storage Conduits) requires [endercore@[1.12.2-0.5.58,)]
+[12:59:07] [Client thread/FATAL]: net.minecraftforge.fml.common.MissingModsException: Mod enderioconduits (Ender IO Conduits) requires [endercore@[1.12.2-0.5.58,)]
+[12:59:07] [Client thread/FATAL]: net.minecraftforge.fml.common.MissingModsException: Mod enderiomachines (Ender IO Machines) requires [endercore@[1.12.2-0.5.58,)]
+[12:59:07] [Client thread/ERROR]: An exception was thrown, the game will display an error screen and halt.
+net.minecraftforge.fml.common.MultipleModsErrored: 
+Missing Mods:
+	unknown : need [1.12.2-0.5.58,): have missing
+
+Missing Mods:
+	unknown : need [1.12.2-0.5.58,): have missing
+
+Missing Mods:
+	unknown : need [1.12.2-0.5.58,): have missing
+
+Missing Mods:
+	unknown : need [1.12.2-0.5.58,): have missing
+
+Missing Mods:
+	unknown : need [1.12.2-0.5.58,): have missing
+
+Missing Mods:
+	unknown : need [1.12.2-0.5.58,): have missing
+
+
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:298) ~[Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:570) ~[Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[12:59:07] [Client thread/WARN]: EventBus 0 shutting down - future events will not be posted.
+[12:59:07] [Client thread/INFO]: Reloading ResourceManager: BetterFps, Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Actually Additions, FMLFileResourcePack:Advanced Rocketry, FMLFileResourcePack:AE2 Stuff, FMLFileResourcePack:AE2 Wireless Terminals (AE2WTLib), FMLFileResourcePack:AI Improvements, FMLFileResourcePack:AppleCore, FMLFileResourcePack:AppleSkin, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:Aroma1997Core, FMLFileResourcePack:Aroma1997's Dimensional World, FMLFileResourcePack:Avaritia, FMLFileResourcePack:Avaritia Recipe Maker, FMLFileResourcePack:Baubles, FMLFileResourcePack:BD Lib, FMLFileResourcePack:Better Builder's Wands, FMLFileResourcePack:Better Questing, FMLFileResourcePack:Blockcraftery, FMLFileResourcePack:Blood Arsenal, FMLFileResourcePack:Blood Magic: Alchemical Wizardry, FMLFileResourcePack:Bookshelf, FMLFileResourcePack:Brandon's Core, FMLFileResourcePack:Building Gadgets, FMLFileResourcePack:Chameleon, FMLFileResourcePack:Chisel, FMLFileResourcePack:Chisels & Bits, FMLFileResourcePack:Clumps, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:CoFH World, FMLFileResourcePack:Compact Machines 3, FMLFileResourcePack:Controlling, FMLFileResourcePack:Cooking for Blockheads, FMLFileResourcePack:Crafting Tweaks, FMLFileResourcePack:CT-GUI, FMLFileResourcePack:CraftTweaker2, FMLFileResourcePack:CraftTweaker JEI Support, FMLFileResourcePack:CTM, FMLFileResourcePack:Cucumber Library, FMLFileResourcePack:Custom Main Menu, FMLFileResourcePack:Minecraft Rich Presence, FMLFileResourcePack:Draconic Evolution, FMLFileResourcePack:Ender IO, FMLFileResourcePack:Ender IO Base, FMLFileResourcePack:Ender IO Applied Energistics Conduits, FMLFileResourcePack:Ender IO Open Computers Conduits, FMLFileResourcePack:Ender IO Refined Storage Conduits, FMLFileResourcePack:Ender IO Conduits, FMLFileResourcePack:Ender IO Integration with Forestry, FMLFileResourcePack:Ender IO Integration with Tinkers' Construct, FMLFileResourcePack:Ender IO Integration with Tinkers' Construct, FMLFileResourcePack:Ender IO Machines, FMLFileResourcePack:Ender IO Powertools, FMLFileResourcePack:EnderStorage, FMLFileResourcePack:Environmental Tech, FMLFileResourcePack:ET Lunar, FMLFileResourcePack:Extra Cells 2, FMLFileResourcePack:Extra Utilities 2, FMLFileResourcePack:Extreme Reactors, FMLFileResourcePack:Fast Leaf Decay, FMLFileResourcePack:Flux Networks, FMLFileResourcePack:FoamFix, FMLFileResourcePack:Forestry, FMLFileResourcePack:Shadowfacts' Forgelin, FMLFileResourcePack:FTB Library, FMLFileResourcePack:FTB Utilities, FMLFileResourcePack:FTB Utilities: Backups, FMLFileResourcePack:GenDustry, FMLFileResourcePack:Gendustry JEI Addon, FMLFileResourcePack:Guide-API, FMLFileResourcePack:Immersive Petroleum, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:JAOPCA, FMLFileResourcePack:OreDictInit, FMLFileResourcePack:Just Enough HarvestCraft, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:JEI Bees, FMLFileResourcePack:Jeivillagers, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Just Enough Energistics, FMLFileResourcePack:Just Enough Petroleum, FMLFileResourcePack:Just Enough Reactors, FMLFileResourcePack:Just Enough Resources, FMLFileResourcePack:Vulpes library, FMLFileResourcePack:Mantle, FMLFileResourcePack:McJtyLib, FMLFileResourcePack:Mekanism, FMLFileResourcePack:Mekanism: Generators, FMLFileResourcePack:Mekanism: Tools, FMLFileResourcePack:MekaTweaker, FMLFileResourcePack:Mod Name Tooltip, FMLFileResourcePack:Mod Tweaker, FMLFileResourcePack:Modular Diversity, FMLFileResourcePack:Modular Machinery, FMLFileResourcePack:More Libs, FMLFileResourcePack:MoreOverlays, FMLFileResourcePack:More Plates, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:ModPack Basic Tools, FMLFileResourcePack:ModPack Utilities, FMLFileResourcePack:MTLib, FMLFileResourcePack:Mystical Lib, FMLFileResourcePack:Netherending Ores, FMLFileResourcePack:No Mob Spawning on Trees, FMLFileResourcePack:No Night Vision Flashing, FMLFileResourcePack:OpenBlocks, FMLFileResourcePack:OpenModsLib, FMLFileResourcePack:p455w0rd's Library, FMLFileResourcePack:PackagedAuto, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Placebo, FMLFileResourcePack:PlusTiC, FMLFileResourcePack:Better Questing Quest Book, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:Reliquary, FMLFileResourcePack:Resource Loader, FMLFileResourcePack:RFTools, FMLFileResourcePack:RFTools Control, FMLFileResourcePack:Rustic, FMLFileResourcePack:ShadowMC, FMLFileResourcePack:Simply Jetpacks 2, FMLFileResourcePack:Snad, FMLFileResourcePack:SonarCore, FMLFileResourcePack:Standard Expansion, FMLFileResourcePack:Storage Drawers, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:The One Probe, FMLFileResourcePack:Thermal Cultivation, FMLFileResourcePack:Thermal Dynamics, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation, FMLFileResourcePack:Thermal Innovation, FMLFileResourcePack:Tinkers Tool Leveling, FMLFileResourcePack:Toast Control, FMLFileResourcePack:TorchMaster, FMLFileResourcePack:UniDict, FMLFileResourcePack:Universal Modifiers, FMLFileResourcePack:Valkyrie Lib, FMLFileResourcePack:WanionLib, FMLFileResourcePack:Woot, FMLFileResourcePack:World Stripper, FMLFileResourcePack:WrapUp, FMLFileResourcePack:XC Patch, FMLFileResourcePack:XNet, FMLFileResourcePack:YNot, FMLFileResourcePack:Zero CORE, FMLFileResourcePack:Immersive Engineering, FMLFileResourcePack:Spice of Life: Carrot Edition, CustomResources, CustomOverridingResources
+[12:59:07] [Client thread/INFO]: Patching net.minecraft.client.renderer.EntityRenderer... (buq)
+[12:59:08] [Client thread/WARN]: There were errors previously. Not beginning mod initialization phase
+[12:59:09] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:59:10] [Client thread/INFO]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:89]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[12:59:10] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[12:59:10] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[12:59:10] [Client thread/INFO]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[12:59:10] [Client thread/INFO]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[12:59:10] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[12:59:10] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[12:59:10] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[12:59:10] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:59:10] [Client thread/INFO]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:137]: Spliced in METHOD: net.minecraftforge.client.model.ItemLayerModel.bake
+[12:59:10] [Thread-6/INFO]: OpenAL initialized.
+[12:59:10] [Sound Library Loader/INFO]: Sound engine started
+[12:59:11] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[12:59:11] [Client thread/INFO]: Patching net.minecraft.client.gui.GuiOptions... (ble)
+[12:59:45] [Client thread/INFO]: Stopping!
+[12:59:45] [Client thread/INFO]: SoundSystem shutting down...
+[12:59:45] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

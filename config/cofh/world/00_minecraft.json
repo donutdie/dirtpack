@@ -21,7 +21,7 @@
 				"sparse": true
 			},
 			"cluster-count": 1,
-			"chunk-chance": 7,
+			"chunk-chance": 5,
 			"min-height": 25,
 			"vein-height": 50,
 			"vein-diameter": 15,
