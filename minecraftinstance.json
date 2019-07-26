@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-07-25T23:44:40.7249597Z",
+  "lastPlayed": "2019-07-26T02:08:58.5683365Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -823,21 +823,6 @@
       "queryTimestamp": "2019-07-25T18:12:13.0934831Z",
       "fileCount": 1,
       "fileSize": 36278
-    },
-    {
-      "folderName": "moreplates-1.12.2-5.5.2.jar.disabled",
-      "fingerprint": 3788312614,
-      "fileDateHash": 271769574,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3788312614
-      ],
-      "status": 1,
-      "timestamp": "2019-07-25T23:31:16.0036572Z",
-      "lastWriteTimeUtc": "2019-07-25T18:12:11.3328586Z",
-      "queryTimestamp": "2019-07-25T23:31:16.8294803Z",
-      "fileCount": 1,
-      "fileSize": 301542
     },
     {
       "folderName": "XCPatch-1.12.2-1.0.1.jar.disabled",
@@ -3890,7 +3875,7 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "Mekanism-1.12.2-9.8.0.381.jar"
+        "FileNameOnDisk": "Mekanism-1.12.2-9.8.0.381.jar.disabled"
       },
       "dateInstalled": "2019-07-22T23:40:42.1759369Z",
       "dateUpdated": "2019-07-22T23:40:42.1869243Z",
@@ -4095,7 +4080,7 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "MekanismGenerators-1.12.2-9.8.0.381.jar"
+        "FileNameOnDisk": "MekanismGenerators-1.12.2-9.8.0.381.jar.disabled"
       },
       "dateInstalled": "2019-07-22T23:39:33.96583Z",
       "dateUpdated": "2019-07-22T23:39:33.9678203Z",
@@ -4868,7 +4853,7 @@
         "gameVersionMappingId": 1645349,
         "gameVersionId": 6756,
         "gameId": 432,
-        "FileNameOnDisk": "mekatweaker-1.12-1.1.2.jar"
+        "FileNameOnDisk": "mekatweaker-1.12-1.1.2.jar.disabled"
       },
       "dateInstalled": "2019-07-25T18:12:13.9294027Z",
       "dateUpdated": "2018-07-25T18:12:13.9294027Z",
@@ -5143,7 +5128,7 @@
         "gameVersionMappingId": 1744544,
         "gameVersionId": 4458,
         "gameId": 432,
-        "FileNameOnDisk": "theoneprobe-1.12-1.4.28.jar"
+        "FileNameOnDisk": "theoneprobe-1.12-1.4.28.jar.disabled"
       },
       "dateInstalled": "2019-07-25T18:12:13.9124486Z",
       "dateUpdated": "2018-07-25T18:12:13.9124486Z",
@@ -7977,7 +7962,7 @@
         "gameVersionMappingId": 1867902,
         "gameVersionId": 4458,
         "gameId": 432,
-        "FileNameOnDisk": "mcjtylib-1.12-3.5.4.jar"
+        "FileNameOnDisk": "mcjtylib-1.12-3.5.4.jar.disabled"
       },
       "dateInstalled": "2019-07-25T18:12:13.9054675Z",
       "dateUpdated": "2018-07-25T18:12:13.9054675Z",
@@ -10605,7 +10590,7 @@
         "gameVersionMappingId": 1506902,
         "gameVersionId": 6756,
         "gameId": 432,
-        "FileNameOnDisk": "Baubles-1.12-1.5.2.jar"
+        "FileNameOnDisk": "Baubles-1.12-1.5.2.jar.disabled"
       },
       "dateInstalled": "2019-07-25T18:12:13.9114519Z",
       "dateUpdated": "2018-07-25T18:12:13.9114519Z",
@@ -12378,245 +12363,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 266736,
-      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
-      "installedFile": {
-        "id": 2668113,
-        "displayName": "moreplates-1.12.2-5.5.2.jar",
-        "fileName": "moreplates-1.12.2-5.5.2.jar",
-        "fileDate": "2019-02-02T18:13:17.143Z",
-        "fileLength": 301542,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2668/113/moreplates-1.12.2-5.5.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 233564,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 260327,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 225104,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 256247,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 242638,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 246640,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 223794,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 231951,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 225643,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 225561,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 74072,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 223628,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 261348,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 243076,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 223565,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 227639,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 226410,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 304346,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 226958,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 64578,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 228702,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 228404,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 297193,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 69163,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 281849,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 304920,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 268560,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 31659581,
-            "type": 0
-          },
-          {
-            "foldername": "panszelescik",
-            "fingerprint": 1936543792,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 350724781,
-            "type": 0
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 157258844,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2228373631,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2623885781,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3788312614,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "FileNameOnDisk": "moreplates-1.12.2-5.5.2.jar.disabled"
-      },
-      "dateInstalled": "2019-07-23T01:46:20.4003797Z",
-      "dateUpdated": "2019-07-23T01:46:20.4023704Z",
-      "dateLastUpdateAttempted": "2019-07-23T01:46:20.4023704Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 60092,
       "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
       "installedFile": {
@@ -13389,7 +13135,7 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "EnderIO-1.12.2-5.0.46.jar"
+        "FileNameOnDisk": "EnderIO-1.12.2-5.0.46.jar.disabled"
       },
       "dateInstalled": "2019-07-22T23:39:45.7716588Z",
       "dateUpdated": "2019-07-22T23:39:45.8047068Z",

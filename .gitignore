@@ -4,3 +4,5 @@ config/splash.properties
 minecraftinstance.json
 logs/latest.log
 usercache.json
+saves/
+journeymap/data/sp
