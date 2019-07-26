@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-07-26T02:08:58.5683365Z",
+  "lastPlayed": "2019-07-26T03:09:01.7407665Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -3875,7 +3875,7 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "Mekanism-1.12.2-9.8.0.381.jar.disabled"
+        "FileNameOnDisk": "Mekanism-1.12.2-9.8.0.381.jar"
       },
       "dateInstalled": "2019-07-22T23:40:42.1759369Z",
       "dateUpdated": "2019-07-22T23:40:42.1869243Z",
@@ -4080,7 +4080,7 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "MekanismGenerators-1.12.2-9.8.0.381.jar.disabled"
+        "FileNameOnDisk": "MekanismGenerators-1.12.2-9.8.0.381.jar"
       },
       "dateInstalled": "2019-07-22T23:39:33.96583Z",
       "dateUpdated": "2019-07-22T23:39:33.9678203Z",

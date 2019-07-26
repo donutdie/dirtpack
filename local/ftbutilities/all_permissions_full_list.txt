@@ -1,4 +1,4 @@
-7882 nodes in total
+8060 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1158,6 +1158,7 @@ ftbutilities.claims.block.edit.jaopca.block_blocktanzanite: OP
 ftbutilities.claims.block.edit.jaopca.block_blocktopaz: OP
 ftbutilities.claims.block.edit.jaopca.fluid_moltendraconium: OP
 ftbutilities.claims.block.edit.jaopca.fluid_moltenmithril: OP
+ftbutilities.claims.block.edit.jaopca.fluid_moltenosmium: OP
 ftbutilities.claims.block.edit.jaopca.fluid_moltentitanium: OP
 ftbutilities.claims.block.edit.libvulpes.advancedmotor: OP
 ftbutilities.claims.block.edit.libvulpes.advstructuremachine: OP
@@ -1175,6 +1176,29 @@ ftbutilities.claims.block.edit.libvulpes.motor: OP
 ftbutilities.claims.block.edit.libvulpes.ore0: OP
 ftbutilities.claims.block.edit.libvulpes.placeholder: OP
 ftbutilities.claims.block.edit.libvulpes.structuremachine: OP
+ftbutilities.claims.block.edit.mekanism.basicblock2: OP
+ftbutilities.claims.block.edit.mekanism.basicblock: OP
+ftbutilities.claims.block.edit.mekanism.boundingblock: OP
+ftbutilities.claims.block.edit.mekanism.cardboardbox: OP
+ftbutilities.claims.block.edit.mekanism.energycube: OP
+ftbutilities.claims.block.edit.mekanism.gastank: OP
+ftbutilities.claims.block.edit.mekanism.glowpanel: OP
+ftbutilities.claims.block.edit.mekanism.glowplasticblock: OP
+ftbutilities.claims.block.edit.mekanism.machineblock2: OP
+ftbutilities.claims.block.edit.mekanism.machineblock3: OP
+ftbutilities.claims.block.edit.mekanism.machineblock: OP
+ftbutilities.claims.block.edit.mekanism.obsidiantnt: OP
+ftbutilities.claims.block.edit.mekanism.oreblock: OP
+ftbutilities.claims.block.edit.mekanism.plasticblock: OP
+ftbutilities.claims.block.edit.mekanism.plasticfence: OP
+ftbutilities.claims.block.edit.mekanism.reinforcedplasticblock: OP
+ftbutilities.claims.block.edit.mekanism.roadplasticblock: OP
+ftbutilities.claims.block.edit.mekanism.saltblock: OP
+ftbutilities.claims.block.edit.mekanism.slickplasticblock: OP
+ftbutilities.claims.block.edit.mekanism.transmitter: OP
+ftbutilities.claims.block.edit.mekanismgenerators.generator: OP
+ftbutilities.claims.block.edit.mekanismgenerators.reactor: OP
+ftbutilities.claims.block.edit.mekanismgenerators.reactorglass: OP
 ftbutilities.claims.block.edit.minecraft.acacia_door: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence_gate: OP
@@ -2956,6 +2980,7 @@ ftbutilities.claims.block.interact.jaopca.block_blocktanzanite: OP
 ftbutilities.claims.block.interact.jaopca.block_blocktopaz: OP
 ftbutilities.claims.block.interact.jaopca.fluid_moltendraconium: OP
 ftbutilities.claims.block.interact.jaopca.fluid_moltenmithril: OP
+ftbutilities.claims.block.interact.jaopca.fluid_moltenosmium: OP
 ftbutilities.claims.block.interact.jaopca.fluid_moltentitanium: OP
 ftbutilities.claims.block.interact.libvulpes.advancedmotor: OP
 ftbutilities.claims.block.interact.libvulpes.advstructuremachine: OP
@@ -2973,6 +2998,29 @@ ftbutilities.claims.block.interact.libvulpes.motor: OP
 ftbutilities.claims.block.interact.libvulpes.ore0: OP
 ftbutilities.claims.block.interact.libvulpes.placeholder: OP
 ftbutilities.claims.block.interact.libvulpes.structuremachine: OP
+ftbutilities.claims.block.interact.mekanism.basicblock2: OP
+ftbutilities.claims.block.interact.mekanism.basicblock: OP
+ftbutilities.claims.block.interact.mekanism.boundingblock: OP
+ftbutilities.claims.block.interact.mekanism.cardboardbox: OP
+ftbutilities.claims.block.interact.mekanism.energycube: OP
+ftbutilities.claims.block.interact.mekanism.gastank: OP
+ftbutilities.claims.block.interact.mekanism.glowpanel: OP
+ftbutilities.claims.block.interact.mekanism.glowplasticblock: OP
+ftbutilities.claims.block.interact.mekanism.machineblock2: OP
+ftbutilities.claims.block.interact.mekanism.machineblock3: OP
+ftbutilities.claims.block.interact.mekanism.machineblock: OP
+ftbutilities.claims.block.interact.mekanism.obsidiantnt: OP
+ftbutilities.claims.block.interact.mekanism.oreblock: OP
+ftbutilities.claims.block.interact.mekanism.plasticblock: OP
+ftbutilities.claims.block.interact.mekanism.plasticfence: OP
+ftbutilities.claims.block.interact.mekanism.reinforcedplasticblock: OP
+ftbutilities.claims.block.interact.mekanism.roadplasticblock: OP
+ftbutilities.claims.block.interact.mekanism.saltblock: OP
+ftbutilities.claims.block.interact.mekanism.slickplasticblock: OP
+ftbutilities.claims.block.interact.mekanism.transmitter: OP
+ftbutilities.claims.block.interact.mekanismgenerators.generator: OP
+ftbutilities.claims.block.interact.mekanismgenerators.reactor: OP
+ftbutilities.claims.block.interact.mekanismgenerators.reactorglass: OP
 ftbutilities.claims.block.interact.minecraft.acacia_door: ALL
 ftbutilities.claims.block.interact.minecraft.acacia_fence: OP
 ftbutilities.claims.block.interact.minecraft.acacia_fence_gate: OP
@@ -6415,18 +6463,53 @@ ftbutilities.claims.item.jaopca.block_blocktanzanite: ALL
 ftbutilities.claims.item.jaopca.block_blocktopaz: ALL
 ftbutilities.claims.item.jaopca.fluid_moltendraconium: ALL
 ftbutilities.claims.item.jaopca.fluid_moltenmithril: ALL
+ftbutilities.claims.item.jaopca.fluid_moltenosmium: ALL
 ftbutilities.claims.item.jaopca.fluid_moltentitanium: ALL
+ftbutilities.claims.item.jaopca.item_clumpaluminium: ALL
+ftbutilities.claims.item.jaopca.item_clumpardite: ALL
+ftbutilities.claims.item.jaopca.item_clumpcobalt: ALL
+ftbutilities.claims.item.jaopca.item_clumpdraconium: ALL
+ftbutilities.claims.item.jaopca.item_clumpiridium: ALL
+ftbutilities.claims.item.jaopca.item_clumpmithril: ALL
+ftbutilities.claims.item.jaopca.item_clumpnickel: ALL
+ftbutilities.claims.item.jaopca.item_clumpplatinum: ALL
+ftbutilities.claims.item.jaopca.item_clumptitanium: ALL
+ftbutilities.claims.item.jaopca.item_clumpuranium: ALL
+ftbutilities.claims.item.jaopca.item_clumpyellorium: ALL
 ftbutilities.claims.item.jaopca.item_coinardite: ALL
 ftbutilities.claims.item.jaopca.item_coincobalt: ALL
 ftbutilities.claims.item.jaopca.item_coindraconium: ALL
+ftbutilities.claims.item.jaopca.item_coinosmium: ALL
 ftbutilities.claims.item.jaopca.item_cointitanium: ALL
 ftbutilities.claims.item.jaopca.item_coinuranium: ALL
 ftbutilities.claims.item.jaopca.item_coinyellorium: ALL
+ftbutilities.claims.item.jaopca.item_crystalaluminium: ALL
+ftbutilities.claims.item.jaopca.item_crystalardite: ALL
+ftbutilities.claims.item.jaopca.item_crystalcobalt: ALL
+ftbutilities.claims.item.jaopca.item_crystaldraconium: ALL
+ftbutilities.claims.item.jaopca.item_crystaliridium: ALL
+ftbutilities.claims.item.jaopca.item_crystalmithril: ALL
+ftbutilities.claims.item.jaopca.item_crystalnickel: ALL
+ftbutilities.claims.item.jaopca.item_crystalplatinum: ALL
+ftbutilities.claims.item.jaopca.item_crystaltitanium: ALL
+ftbutilities.claims.item.jaopca.item_crystaluranium: ALL
+ftbutilities.claims.item.jaopca.item_crystalyellorium: ALL
 ftbutilities.claims.item.jaopca.item_dustamber: ALL
 ftbutilities.claims.item.jaopca.item_dustamethyst: ALL
 ftbutilities.claims.item.jaopca.item_dustapatite: ALL
 ftbutilities.claims.item.jaopca.item_dustardite: ALL
 ftbutilities.claims.item.jaopca.item_dustcobalt: ALL
+ftbutilities.claims.item.jaopca.item_dustdirtyaluminium: ALL
+ftbutilities.claims.item.jaopca.item_dustdirtyardite: ALL
+ftbutilities.claims.item.jaopca.item_dustdirtycobalt: ALL
+ftbutilities.claims.item.jaopca.item_dustdirtydraconium: ALL
+ftbutilities.claims.item.jaopca.item_dustdirtyiridium: ALL
+ftbutilities.claims.item.jaopca.item_dustdirtymithril: ALL
+ftbutilities.claims.item.jaopca.item_dustdirtynickel: ALL
+ftbutilities.claims.item.jaopca.item_dustdirtyplatinum: ALL
+ftbutilities.claims.item.jaopca.item_dustdirtytitanium: ALL
+ftbutilities.claims.item.jaopca.item_dustdirtyuranium: ALL
+ftbutilities.claims.item.jaopca.item_dustdirtyyellorium: ALL
 ftbutilities.claims.item.jaopca.item_dustmalachite: ALL
 ftbutilities.claims.item.jaopca.item_dustperidot: ALL
 ftbutilities.claims.item.jaopca.item_dustruby: ALL
@@ -6452,6 +6535,7 @@ ftbutilities.claims.item.jaopca.item_dustsmalllead: ALL
 ftbutilities.claims.item.jaopca.item_dustsmallmalachite: ALL
 ftbutilities.claims.item.jaopca.item_dustsmallmithril: ALL
 ftbutilities.claims.item.jaopca.item_dustsmallnickel: ALL
+ftbutilities.claims.item.jaopca.item_dustsmallosmium: ALL
 ftbutilities.claims.item.jaopca.item_dustsmallperidot: ALL
 ftbutilities.claims.item.jaopca.item_dustsmallplatinum: ALL
 ftbutilities.claims.item.jaopca.item_dustsmallquartz: ALL
@@ -6487,6 +6571,7 @@ ftbutilities.claims.item.jaopca.item_dusttinylead: ALL
 ftbutilities.claims.item.jaopca.item_dusttinymalachite: ALL
 ftbutilities.claims.item.jaopca.item_dusttinymithril: ALL
 ftbutilities.claims.item.jaopca.item_dusttinynickel: ALL
+ftbutilities.claims.item.jaopca.item_dusttinyosmium: ALL
 ftbutilities.claims.item.jaopca.item_dusttinyperidot: ALL
 ftbutilities.claims.item.jaopca.item_dusttinyplatinum: ALL
 ftbutilities.claims.item.jaopca.item_dusttinyquartz: ALL
@@ -6512,6 +6597,7 @@ ftbutilities.claims.item.jaopca.item_gearcobalt: ALL
 ftbutilities.claims.item.jaopca.item_geardraconium: ALL
 ftbutilities.claims.item.jaopca.item_gearlapis: ALL
 ftbutilities.claims.item.jaopca.item_gearmalachite: ALL
+ftbutilities.claims.item.jaopca.item_gearosmium: ALL
 ftbutilities.claims.item.jaopca.item_gearperidot: ALL
 ftbutilities.claims.item.jaopca.item_gearquartz: ALL
 ftbutilities.claims.item.jaopca.item_gearquartzblack: ALL
@@ -6563,6 +6649,7 @@ ftbutilities.claims.item.jaopca.item_platedenselead: ALL
 ftbutilities.claims.item.jaopca.item_platedensemalachite: ALL
 ftbutilities.claims.item.jaopca.item_platedensemithril: ALL
 ftbutilities.claims.item.jaopca.item_platedensenickel: ALL
+ftbutilities.claims.item.jaopca.item_platedenseosmium: ALL
 ftbutilities.claims.item.jaopca.item_platedenseperidot: ALL
 ftbutilities.claims.item.jaopca.item_platedenseplatinum: ALL
 ftbutilities.claims.item.jaopca.item_platedensequartz: ALL
@@ -6581,6 +6668,7 @@ ftbutilities.claims.item.jaopca.item_platedraconium: ALL
 ftbutilities.claims.item.jaopca.item_plateemerald: ALL
 ftbutilities.claims.item.jaopca.item_platelapis: ALL
 ftbutilities.claims.item.jaopca.item_platemalachite: ALL
+ftbutilities.claims.item.jaopca.item_plateosmium: ALL
 ftbutilities.claims.item.jaopca.item_plateperidot: ALL
 ftbutilities.claims.item.jaopca.item_platequartz: ALL
 ftbutilities.claims.item.jaopca.item_platequartzblack: ALL
@@ -6589,6 +6677,17 @@ ftbutilities.claims.item.jaopca.item_platesapphire: ALL
 ftbutilities.claims.item.jaopca.item_platetanzanite: ALL
 ftbutilities.claims.item.jaopca.item_platetopaz: ALL
 ftbutilities.claims.item.jaopca.item_plateyellorium: ALL
+ftbutilities.claims.item.jaopca.item_shardaluminium: ALL
+ftbutilities.claims.item.jaopca.item_shardardite: ALL
+ftbutilities.claims.item.jaopca.item_shardcobalt: ALL
+ftbutilities.claims.item.jaopca.item_sharddraconium: ALL
+ftbutilities.claims.item.jaopca.item_shardiridium: ALL
+ftbutilities.claims.item.jaopca.item_shardmithril: ALL
+ftbutilities.claims.item.jaopca.item_shardnickel: ALL
+ftbutilities.claims.item.jaopca.item_shardplatinum: ALL
+ftbutilities.claims.item.jaopca.item_shardtitanium: ALL
+ftbutilities.claims.item.jaopca.item_sharduranium: ALL
+ftbutilities.claims.item.jaopca.item_shardyellorium: ALL
 ftbutilities.claims.item.jaopca.item_stickamber: ALL
 ftbutilities.claims.item.jaopca.item_stickamethyst: ALL
 ftbutilities.claims.item.jaopca.item_stickapatite: ALL
@@ -6605,6 +6704,7 @@ ftbutilities.claims.item.jaopca.item_sticklead: ALL
 ftbutilities.claims.item.jaopca.item_stickmalachite: ALL
 ftbutilities.claims.item.jaopca.item_stickmithril: ALL
 ftbutilities.claims.item.jaopca.item_sticknickel: ALL
+ftbutilities.claims.item.jaopca.item_stickosmium: ALL
 ftbutilities.claims.item.jaopca.item_stickperidot: ALL
 ftbutilities.claims.item.jaopca.item_stickplatinum: ALL
 ftbutilities.claims.item.jaopca.item_stickquartz: ALL
@@ -6646,6 +6746,84 @@ ftbutilities.claims.item.libvulpes.productplate: ALL
 ftbutilities.claims.item.libvulpes.productrod: ALL
 ftbutilities.claims.item.libvulpes.productsheet: ALL
 ftbutilities.claims.item.libvulpes.structuremachine: ALL
+ftbutilities.claims.item.mekanism.anchorupgrade: ALL
+ftbutilities.claims.item.mekanism.armoredjetpack: ALL
+ftbutilities.claims.item.mekanism.atomicalloy: ALL
+ftbutilities.claims.item.mekanism.atomicdisassembler: ALL
+ftbutilities.claims.item.mekanism.balloon: ALL
+ftbutilities.claims.item.mekanism.basicblock2: ALL
+ftbutilities.claims.item.mekanism.basicblock: ALL
+ftbutilities.claims.item.mekanism.biofuel: ALL
+ftbutilities.claims.item.mekanism.boundingblock: ALL
+ftbutilities.claims.item.mekanism.cardboardbox: ALL
+ftbutilities.claims.item.mekanism.clump: ALL
+ftbutilities.claims.item.mekanism.compressedcarbon: ALL
+ftbutilities.claims.item.mekanism.compresseddiamond: ALL
+ftbutilities.claims.item.mekanism.compressedobsidian: ALL
+ftbutilities.claims.item.mekanism.compressedredstone: ALL
+ftbutilities.claims.item.mekanism.configurationcard: ALL
+ftbutilities.claims.item.mekanism.configurator: ALL
+ftbutilities.claims.item.mekanism.controlcircuit: ALL
+ftbutilities.claims.item.mekanism.craftingformula: ALL
+ftbutilities.claims.item.mekanism.crystal: ALL
+ftbutilities.claims.item.mekanism.dictionary: ALL
+ftbutilities.claims.item.mekanism.dirtydust: ALL
+ftbutilities.claims.item.mekanism.dust: ALL
+ftbutilities.claims.item.mekanism.electricbow: ALL
+ftbutilities.claims.item.mekanism.electrolyticcore: ALL
+ftbutilities.claims.item.mekanism.energycube: ALL
+ftbutilities.claims.item.mekanism.energytablet: ALL
+ftbutilities.claims.item.mekanism.energyupgrade: ALL
+ftbutilities.claims.item.mekanism.enrichedalloy: ALL
+ftbutilities.claims.item.mekanism.enrichediron: ALL
+ftbutilities.claims.item.mekanism.filterupgrade: ALL
+ftbutilities.claims.item.mekanism.flamethrower: ALL
+ftbutilities.claims.item.mekanism.freerunners: ALL
+ftbutilities.claims.item.mekanism.gasmask: ALL
+ftbutilities.claims.item.mekanism.gastank: ALL
+ftbutilities.claims.item.mekanism.gasupgrade: ALL
+ftbutilities.claims.item.mekanism.gaugedropper: ALL
+ftbutilities.claims.item.mekanism.glowpanel: ALL
+ftbutilities.claims.item.mekanism.glowplasticblock: ALL
+ftbutilities.claims.item.mekanism.ingot: ALL
+ftbutilities.claims.item.mekanism.itemproxy: ALL
+ftbutilities.claims.item.mekanism.jetpack: ALL
+ftbutilities.claims.item.mekanism.machineblock2: ALL
+ftbutilities.claims.item.mekanism.machineblock3: ALL
+ftbutilities.claims.item.mekanism.machineblock: ALL
+ftbutilities.claims.item.mekanism.mufflingupgrade: ALL
+ftbutilities.claims.item.mekanism.networkreader: ALL
+ftbutilities.claims.item.mekanism.nugget: ALL
+ftbutilities.claims.item.mekanism.obsidiantnt: ALL
+ftbutilities.claims.item.mekanism.oreblock: ALL
+ftbutilities.claims.item.mekanism.otherdust: ALL
+ftbutilities.claims.item.mekanism.plasticblock: ALL
+ftbutilities.claims.item.mekanism.plasticfence: ALL
+ftbutilities.claims.item.mekanism.polyethene: ALL
+ftbutilities.claims.item.mekanism.portableteleporter: ALL
+ftbutilities.claims.item.mekanism.reinforcedalloy: ALL
+ftbutilities.claims.item.mekanism.reinforcedplasticblock: ALL
+ftbutilities.claims.item.mekanism.roadplasticblock: ALL
+ftbutilities.claims.item.mekanism.robit: ALL
+ftbutilities.claims.item.mekanism.salt: ALL
+ftbutilities.claims.item.mekanism.saltblock: ALL
+ftbutilities.claims.item.mekanism.sawdust: ALL
+ftbutilities.claims.item.mekanism.scubatank: ALL
+ftbutilities.claims.item.mekanism.seismicreader: ALL
+ftbutilities.claims.item.mekanism.shard: ALL
+ftbutilities.claims.item.mekanism.slickplasticblock: ALL
+ftbutilities.claims.item.mekanism.speedupgrade: ALL
+ftbutilities.claims.item.mekanism.substrate: ALL
+ftbutilities.claims.item.mekanism.teleportationcore: ALL
+ftbutilities.claims.item.mekanism.tierinstaller: ALL
+ftbutilities.claims.item.mekanism.transmitter: ALL
+ftbutilities.claims.item.mekanism.walkietalkie: ALL
+ftbutilities.claims.item.mekanismgenerators.generator: ALL
+ftbutilities.claims.item.mekanismgenerators.hohlraum: ALL
+ftbutilities.claims.item.mekanismgenerators.reactor: ALL
+ftbutilities.claims.item.mekanismgenerators.reactorglass: ALL
+ftbutilities.claims.item.mekanismgenerators.solarpanel: ALL
+ftbutilities.claims.item.mekanismgenerators.turbineblade: ALL
 ftbutilities.claims.item.minecraft.acacia_boat: ALL
 ftbutilities.claims.item.minecraft.acacia_door: ALL
 ftbutilities.claims.item.minecraft.acacia_fence: ALL
@@ -8031,6 +8209,16 @@ command.journeymap.jtp
 command.kill
 command.locate
 command.me
+command.mekanism.mek.chunk.clear
+command.mekanism.mek.chunk.flush
+command.mekanism.mek.chunk.unwatch
+command.mekanism.mek.chunk.watch
+command.mekanism.mek.debug
+command.mekanism.mek.testrules
+command.mekanism.mek.tp
+command.mekanism.mek.tpop
+command.mekanism.mtp
+command.mekanism.mtpop
 command.modularmachinery.mm-hand
 command.modularmachinery.mm-syntax
 command.mputils.mpadmin
