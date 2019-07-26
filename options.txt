@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -73,7 +73,7 @@ key_key.smoothCamera:0
 key_key.fullscreen:87
 key_key.spectatorOutlines:0
 key_key.swapHands:33
-key_key.saveToolbarActivator:46
+key_key.saveToolbarActivator:-96
 key_key.loadToolbarActivator:45
 key_key.advancements:38
 key_key.hotbar.1:2
@@ -100,9 +100,6 @@ key_Dress World:210
 key_Inspect Block:199
 key_key.cofh.multimode:47
 key_key.toggle_focus.desc:15
-key_bbw.key.mode:50
-key_bbw.key.fluidmode:33
-key_Options Gui:23
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -113,6 +110,9 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_bbw.key.mode:50
+key_bbw.key.fluidmode:33
+key_Options Gui:23
 key_key.placeItem:25
 key_key.toolConfig:46
 key_key.toolProfileChange:43
@@ -125,6 +125,8 @@ key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
+key_key.toggleLiquids:38
+key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_invtweaks.key.sort:19

@@ -2023,17 +2023,125 @@ forestry:resource_storage:2, Block of Tin
 forestry:resource_storage:3, Block of Bronze
 forestry:ash_brick:0, Ash Bricks
 forestry:ash_stairs:0, Ash Brick Stairs
-forestry:greenhouse:0, Greenhouse Block
-forestry:greenhouse:3, Greenhouse Energy Distributor
-forestry:greenhouse:4, Greenhouse Control
-forestry:greenhouse:5, Greenhouse Screen
-forestry:climatiser:0, Greenhouse Hygroregulator
-forestry:climatiser:1, Greenhouse Heater
-forestry:climatiser:2, Greenhouse Fan
-forestry:climatiser:3, Greenhouse Humidifier
-forestry:climatiser:4, Greenhouse Dehumidifier
-forestry:greenhouse_screen, Portable Greenhouse Screen
-forestry:camouflage_spray_can, Camouflage Spray Can
+forestry:charcoal:0, Block of Charcoal
+forestry:wood_pile:0, Wood Pile
+forestry:wood_pile_decorative:0, Decorative Wood Pile
+forestry:ash_block:0, Ash Block
+forestry:loam:0, Loam
+forestry:fluid.bio.ethanol, Ethanol
+forestry:fluid.biomass, Biomass
+forestry:fluid.glass, Liquid Glass
+forestry:fluid.for.honey, Honey
+forestry:fluid.ice, Crushed Ice
+forestry:fluid.juice, Fruit Juice
+forestry:fluid.milk, Milk
+forestry:fluid.seed.oil, Seed Oil
+forestry:fluid.short.mead, Short Mead
+forestry:can, item.for.can.name
+forestry:capsule, item.for.capsule.name
+forestry:refractory, item.for.refractory.name
+forestry:book_forester, Forester's Manual
+forestry:mushroom:0, tile.for.mushroom.name
+forestry:mushroom:1, tile.for.mushroom.name
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:worktable:0, Worktable
+forestry:engine_peat:0, Peat-fired Engine
+forestry:engine_biogas:0, Biogas Engine
+forestry:engine_clockwork:0, Clockwork Engine
+forestry:honeyed_slice, Honeyed Slice
+forestry:ambrosia, Ambrosia
+forestry:honey_pot, Honey Pot
+forestry:bottler:0, Bottler
+forestry:carpenter:0, Carpenter
+forestry:centrifuge:0, Centrifuge
+forestry:fermenter:0, Fermenter
+forestry:moistener:0, Moistener
+forestry:squeezer:0, Squeezer
+forestry:still:0, Still
+forestry:rainmaker:0, Rainmaker
+forestry:fabricator:0, Thermionic Fabricator
+forestry:raintank:0, Rain Tank
+forestry:crate, Crate
+forestry:arboretum:0, Arboretum (Managed)
+forestry:arboretum:1, Arboretum (Manual)
+forestry:farm_crops:0, Farm (Managed)
+forestry:farm_crops:1, Farm (Manual)
+forestry:farm_mushroom:0, Mushroom Farm (Managed)
+forestry:farm_mushroom:1, Mushroom Farm (Manual)
+forestry:farm_gourd:0, Gourd Farm (Managed)
+forestry:farm_gourd:1, Gourd Farm (Manual)
+forestry:farm_nether:0, Infernal Farm (Managed)
+forestry:farm_nether:1, Infernal Farm (Manual)
+forestry:farm_ender:0, Ender Farm (Managed)
+forestry:farm_ender:1, Ender Farm (Manual)
+forestry:peat_bog:0, Peat Bog (Managed)
+forestry:peat_bog:1, Peat Bog (Manual)
+forestry:stamps:0, Stamp (1n)
+forestry:stamps:1, Stamp (2n)
+forestry:stamps:2, Stamp (5n)
+forestry:stamps:3, Stamp (10n)
+forestry:stamps:4, Stamp (20n)
+forestry:stamps:5, Stamp (50n)
+forestry:stamps:6, Stamp (100n)
+forestry:letters, Letter
+forestry:catalogue, Catalogue
+forestry:mailbox:0, Mailbox
+forestry:trade_station:0, Trade Station
+forestry:stamp_collector:0, Stamp Collector
 forestry:habitat_locator, Habitat Locator
 forestry:imprinter, Imprinter
 forestry:cart.beehouse:0, Minecart with Bee House
@@ -2093,127 +2201,209 @@ forestry:alveary.heater:0, Alveary Heater
 forestry:alveary.hygro:0, Alveary Hygroregulator
 forestry:alveary.stabiliser:0, Alveary Stabiliser
 forestry:alveary.sieve:0, Alveary Sieve
-forestry:book_forester, Forester's Manual
-forestry:worktable:0, Worktable
-forestry:stamps:0, Stamp (1n)
-forestry:stamps:1, Stamp (2n)
-forestry:stamps:2, Stamp (5n)
-forestry:stamps:3, Stamp (10n)
-forestry:stamps:4, Stamp (20n)
-forestry:stamps:5, Stamp (50n)
-forestry:stamps:6, Stamp (100n)
-forestry:letters, Letter
-forestry:catalogue, Catalogue
-forestry:mailbox:0, Mailbox
-forestry:trade_station:0, Trade Station
-forestry:stamp_collector:0, Stamp Collector
-forestry:genetic_filter:0, Genetic Filter
-forestry:honeyed_slice, Honeyed Slice
-forestry:ambrosia, Ambrosia
-forestry:honey_pot, Honey Pot
-forestry:mushroom:0, tile.for.mushroom.name
-forestry:mushroom:1, tile.for.mushroom.name
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:arboretum:0, Arboretum (Managed)
-forestry:arboretum:1, Arboretum (Manual)
-forestry:farm_crops:0, Farm (Managed)
-forestry:farm_crops:1, Farm (Manual)
-forestry:farm_mushroom:0, Mushroom Farm (Managed)
-forestry:farm_mushroom:1, Mushroom Farm (Manual)
-forestry:farm_gourd:0, Gourd Farm (Managed)
-forestry:farm_gourd:1, Gourd Farm (Manual)
-forestry:farm_nether:0, Infernal Farm (Managed)
-forestry:farm_nether:1, Infernal Farm (Manual)
-forestry:farm_ender:0, Ender Farm (Managed)
-forestry:farm_ender:1, Ender Farm (Manual)
-forestry:peat_bog:0, Peat Bog (Managed)
-forestry:peat_bog:1, Peat Bog (Manual)
-forestry:fluid.bio.ethanol, Ethanol
-forestry:fluid.biomass, Biomass
-forestry:fluid.glass, Liquid Glass
-forestry:fluid.for.honey, Honey
-forestry:fluid.ice, Crushed Ice
-forestry:fluid.juice, Fruit Juice
-forestry:fluid.milk, Milk
-forestry:fluid.seed.oil, Seed Oil
-forestry:fluid.short.mead, Short Mead
-forestry:can, item.for.can.name
-forestry:capsule, item.for.capsule.name
-forestry:refractory, item.for.refractory.name
-forestry:crate, Crate
-forestry:bottler:0, Bottler
-forestry:carpenter:0, Carpenter
-forestry:centrifuge:0, Centrifuge
-forestry:fermenter:0, Fermenter
-forestry:moistener:0, Moistener
-forestry:squeezer:0, Squeezer
-forestry:still:0, Still
-forestry:rainmaker:0, Rainmaker
-forestry:fabricator:0, Thermionic Fabricator
-forestry:raintank:0, Rain Tank
-forestry:charcoal:0, Block of Charcoal
-forestry:wood_pile:0, Wood Pile
-forestry:wood_pile_decorative:0, Decorative Wood Pile
-forestry:ash_block:0, Ash Block
-forestry:loam:0, Loam
-forestry:engine_peat:0, Peat-fired Engine
-forestry:engine_biogas:0, Biogas Engine
-forestry:engine_clockwork:0, Clockwork Engine
+forestry:greenhouse:0, Greenhouse Block
+forestry:greenhouse:3, Greenhouse Energy Distributor
+forestry:greenhouse:4, Greenhouse Control
+forestry:greenhouse:5, Greenhouse Screen
+forestry:climatiser:0, Greenhouse Hygroregulator
+forestry:climatiser:1, Greenhouse Heater
+forestry:climatiser:2, Greenhouse Fan
+forestry:climatiser:3, Greenhouse Humidifier
+forestry:climatiser:4, Greenhouse Dehumidifier
+forestry:greenhouse_screen, Portable Greenhouse Screen
+forestry:camouflage_spray_can, Camouflage Spray Can
 forestry:database:0, Database
+forestry:genetic_filter:0, Genetic Filter
+thermalexpansion:machine:0, Redstone Furnace (Basic)
+thermalexpansion:machine:1, Pulverizer (Basic)
+thermalexpansion:machine:2, Sawmill (Basic)
+thermalexpansion:machine:3, Induction Smelter (Basic)
+thermalexpansion:machine:4, Phytogenic Insolator (Basic)
+thermalexpansion:machine:5, Compactor (Basic)
+thermalexpansion:machine:6, Magma Crucible (Basic)
+thermalexpansion:machine:7, Fractionating Still (Basic)
+thermalexpansion:machine:8, Fluid Transposer (Basic)
+thermalexpansion:machine:9, Energetic Infuser (Basic)
+thermalexpansion:machine:10, Centrifugal Separator (Basic)
+thermalexpansion:machine:11, Sequential Fabricator (Basic)
+thermalexpansion:machine:12, Alchemical Imbuer (Basic)
+thermalexpansion:machine:13, Arcane Ensorcellator (Basic)
+thermalexpansion:machine:14, Glacial Precipitator (Basic)
+thermalexpansion:machine:15, Igneous Extruder (Basic)
+thermalexpansion:device:0, Aqueous Accumulator
+thermalexpansion:device:1, Nullifier
+thermalexpansion:device:2, Thermal Mediator
+thermalexpansion:device:3, Arboreal Extractor
+thermalexpansion:device:4, Aquatic Entangler
+thermalexpansion:device:5, Item Allocator
+thermalexpansion:device:6, Fluid Allocator
+thermalexpansion:device:7, Lexical Transmuter
+thermalexpansion:device:8, Insightful Condenser
+thermalexpansion:device:9, Decoctive Diffuser
+thermalexpansion:device:10, Factorizer
+thermalexpansion:device:11, Creature Encaptulator
+thermalexpansion:device:12, Vacuumulator
+thermalexpansion:dynamo:0, Steam Dynamo (Basic)
+thermalexpansion:dynamo:1, Magmatic Dynamo (Basic)
+thermalexpansion:dynamo:2, Compression Dynamo (Basic)
+thermalexpansion:dynamo:3, Reactant Dynamo (Basic)
+thermalexpansion:dynamo:4, Enervation Dynamo (Basic)
+thermalexpansion:dynamo:5, Numismatic Dynamo (Basic)
+thermalexpansion:cell:0, Energy Cell (Basic)
+thermalexpansion:tank:0, Portable Tank (Basic)
+thermalexpansion:cache:0, Cache (Basic)
+thermalexpansion:strongbox:0, Strongbox (Basic)
+thermalexpansion:capacitor:0, Flux Capacitor (Basic)
+thermalexpansion:capacitor:1, Flux Capacitor (Hardened)
+thermalexpansion:capacitor:2, Flux Capacitor (Reinforced)
+thermalexpansion:capacitor:3, Flux Capacitor (Signalum)
+thermalexpansion:capacitor:4, Flux Capacitor (Resonant)
+thermalexpansion:capacitor:32000, Flux Capacitor (Creative)
+thermalexpansion:reservoir:0, Reservoir (Basic)
+thermalexpansion:reservoir:1, Reservoir (Hardened)
+thermalexpansion:reservoir:2, Reservoir (Reinforced)
+thermalexpansion:reservoir:3, Reservoir (Signalum)
+thermalexpansion:reservoir:4, Reservoir (Resonant)
+thermalexpansion:reservoir:32000, Reservoir (Creative)
+thermalexpansion:satchel:0, Satchel (Basic)
+thermalexpansion:satchel:1, Satchel (Hardened)
+thermalexpansion:satchel:2, Satchel (Reinforced)
+thermalexpansion:satchel:3, Satchel (Signalum)
+thermalexpansion:satchel:4, Satchel (Resonant)
+thermalexpansion:satchel:100, Satchel (Void)
+thermalexpansion:satchel:32000, Satchel (Creative)
+thermalexpansion:frame:0, Machine Frame
+thermalexpansion:frame:64, Device Frame
+thermalexpansion:frame:128, Energy Cell Frame
+thermalexpansion:frame:129, Hardened Cell Frame
+thermalexpansion:frame:130, Reinforced Cell Frame (Empty)
+thermalexpansion:frame:131, Signalum Cell Frame (Empty)
+thermalexpansion:frame:132, Resonant Cell Frame (Empty)
+thermalexpansion:frame:146, Reinforced Cell Frame (Full)
+thermalexpansion:frame:147, Signalum Cell Frame (Full)
+thermalexpansion:frame:148, Resonant Cell Frame (Full)
+thermalexpansion:augment:128, Augment: Auxiliary Reception Coil
+thermalexpansion:augment:129, Augment: Auxiliary Sieve
+thermalexpansion:augment:130, Augment: Nullification Chamber
+thermalexpansion:augment:256, Augment: Trivection Chamber
+thermalexpansion:augment:257, Augment: Flux Anodizers
+thermalexpansion:augment:258, Augment: Pyrolytic Conversion
+thermalexpansion:augment:273, Augment: Tectonic Initiator
+thermalexpansion:augment:288, Augment: Resin Funnel
+thermalexpansion:augment:303, Augment: Metallurgical Recovery
+thermalexpansion:augment:304, Augment: Pyro-Concentrator
+thermalexpansion:augment:320, Augment: Nutrient Recovery
+thermalexpansion:augment:323, Augment: Sapling Infuser
+thermalexpansion:augment:324, Augment: Monoculture Cycle
+thermalexpansion:augment:336, Augment: Numismatic Press
+thermalexpansion:augment:337, Augment: Gearworking Die
+thermalexpansion:augment:352, Augment: Pyroconvective Loop
+thermalexpansion:augment:368, Augment: Reflux Column
+thermalexpansion:augment:369, Augment: Alchemical Retort
+thermalexpansion:augment:400, Augment: Flux Linkage Concentrator
+thermalexpansion:augment:401, Augment: Flux Reconstruction
+thermalexpansion:augment:402, Augment: Parabolic Flux Coupling
+thermalexpansion:augment:416, Augment: Enstabulation Apparatus
+thermalexpansion:augment:432, Augment: Pattern Validation
+thermalexpansion:augment:433, Augment: Fluidic Fabrication
+thermalexpansion:augment:448, Augment: Reagent Recovery
+thermalexpansion:augment:496, Augment: Pyroclastic Injection
+thermalexpansion:augment:497, Augment: Clastic Deposition
+thermalexpansion:augment:512, Augment: Auxiliary Transmission Coil
+thermalexpansion:augment:513, Augment: Fuel Catalyzer
+thermalexpansion:augment:514, Augment: Transmission Coil Ducting
+thermalexpansion:augment:515, Augment: Excitation Field Limiter
+thermalexpansion:augment:576, Augment: Boiler Conversion
+thermalexpansion:augment:640, Augment: Turbine Conversion
+thermalexpansion:augment:656, Augment: Isentropic Reservoir
+thermalexpansion:augment:672, Augment: Closed-Loop Cooling
+thermalexpansion:augment:673, Augment: Ignition Plugs
+thermalexpansion:augment:674, Augment: Agitative Manifold
+thermalexpansion:augment:688, Augment: Elemental Catalyzer
+thermalexpansion:augment:704, Augment: Disjunctive Extraction
+thermalexpansion:augment:720, Augment: Lapidary Calibration
+moreplates:black_quartz_gear, Black Quartz Gear
+moreplates:black_quartz_plate, Black Quartz Plate
+moreplates:diamatine_gear, Diamatine Gear
+moreplates:diamatine_plate, Diamatine Plate
+moreplates:emeradic_gear, Emeradic Gear
+moreplates:emeradic_plate, Emeradic Plate
+moreplates:enori_gear, Enori Gear
+moreplates:enori_plate, Enori Plate
+moreplates:palis_gear, Palis Gear
+moreplates:palis_plate, Palis Plate
+moreplates:restonia_gear, Restonia Gear
+moreplates:restonia_plate, Restonia Plate
+moreplates:void_gear, Void Gear
+moreplates:void_plate, Void Plate
+moreplates:empowered_diamatine_gear, Empowered Diamatine Gear
+moreplates:empowered_diamatine_plate, Empowered Diamatine Plate
+moreplates:empowered_emeradic_gear, Empowered Emeradic Gear
+moreplates:empowered_emeradic_plate, Empowered Emeradic Plate
+moreplates:empowered_enori_gear, Empowered Enori Gear
+moreplates:empowered_enori_plate, Empowered Enori Plate
+moreplates:empowered_palis_gear, Empowered Palis Gear
+moreplates:empowered_palis_plate, Empowered Palis Plate
+moreplates:empowered_restonia_gear, Empowered Restonia Gear
+moreplates:empowered_restonia_plate, Empowered Restonia Plate
+moreplates:empowered_void_gear, Empowered Void Gear
+moreplates:empowered_void_plate, Empowered Void Plate
+moreplates:certus_quartz_gear, Certus Quartz Gear
+moreplates:certus_quartz_plate, Certus Quartz Plate
+moreplates:fluix_gear, Fluix Gear
+moreplates:fluix_plate, Fluix Plate
+moreplates:awakened_draconium_gear, Awakened Draconium Gear
+moreplates:awakened_draconium_plate, Awakened Draconium Plate
+moreplates:draconium_gear, Draconium Gear
+moreplates:draconium_plate, Draconium Plate
+moreplates:demon_gear, Demon Gear
+moreplates:demon_plate, Demon Plate
+moreplates:enchanted_gear, Enchanted Gear
+moreplates:enchanted_plate, Enchanted Plate
+moreplates:evil_infused_iron_gear, Evil Infused Iron Gear
+moreplates:evil_infused_iron_plate, Evil Infused Iron Plate
+moreplates:osmium_gear, Osmium Gear
+moreplates:osmium_plate, Osmium Plate
+moreplates:refined_glowstone_gear, Refined Glowstone Gear
+moreplates:refined_glowstone_plate, Refined Glowstone Plate
+moreplates:refined_obsidian_gear, Refined Obsidian Gear
+moreplates:refined_obsidian_plate, Refined Obsidian Plate
+moreplates:bronze_stick, Bronze Rod
+moreplates:constantan_stick, Constantan Rod
+moreplates:electrum_stick, Electrum Rod
+moreplates:enderium_stick, Enderium Rod
+moreplates:invar_stick, Invar Rod
+moreplates:lead_stick, Lead Rod
+moreplates:lumium_stick, Lumium Rod
+moreplates:mana_infused_stick, Mana Infused Rod
+moreplates:nickel_stick, Nickel Rod
+moreplates:platinum_stick, Platinum Rod
+moreplates:signalum_stick, Signalum Rod
+moreplates:silicon_gear, Silicon Gear
+moreplates:silver_stick, Silver Rod
+moreplates:tin_stick, Tin Rod
+moreplates:coal_gear, Coal Gear
+moreplates:coal_plate, Coal Plate
+moreplates:diamond_plate, Diamond Plate
+moreplates:emerald_plate, Emerald Plate
+moreplates:glowstone_gear, Glowstone Gear
+moreplates:glowstone_plate, Glowstone Plate
+moreplates:gold_stick, Gold Rod
+moreplates:lapis_lazuli_gear, Lapis Lazuli Gear
+moreplates:lapis_lazuli_plate, Lapis Lazuli Plate
+moreplates:nether_quartz_gear, Nether Quartz Gear
+moreplates:nether_quartz_plate, Nether Quartz Plate
+moreplates:redstone_plate, Redstone Plate
+moreplates:ardite_gear, Ardite Gear
+moreplates:ardite_plate, Ardite Plate
+moreplates:cobalt_gear, Cobalt Gear
+moreplates:cobalt_plate, Cobalt Plate
+moreplates:knightslime_gear, Knightslime Gear
+moreplates:knightslime_plate, Knightslime Plate
+moreplates:manyullyn_gear, Manyullyn Gear
+moreplates:manyullyn_plate, Manyullyn Plate
+moreplates:pig_iron_gear, Pig Iron Gear
+moreplates:pig_iron_plate, Pig Iron Plate
 openblocks:ladder, Jaded Ladder
 openblocks:guide, Building Guide
 openblocks:builder_guide, Enhanced Building Guide
@@ -2564,114 +2754,6 @@ rustic:chili_pepper, Chili Pepper
 rustic:chili_pepper_seeds, Chili Pepper Seeds
 rustic:wildberries, Wildberries
 rustic:grapes, Grapes
-thermalexpansion:machine:0, Redstone Furnace (Basic)
-thermalexpansion:machine:1, Pulverizer (Basic)
-thermalexpansion:machine:2, Sawmill (Basic)
-thermalexpansion:machine:3, Induction Smelter (Basic)
-thermalexpansion:machine:4, Phytogenic Insolator (Basic)
-thermalexpansion:machine:5, Compactor (Basic)
-thermalexpansion:machine:6, Magma Crucible (Basic)
-thermalexpansion:machine:7, Fractionating Still (Basic)
-thermalexpansion:machine:8, Fluid Transposer (Basic)
-thermalexpansion:machine:9, Energetic Infuser (Basic)
-thermalexpansion:machine:10, Centrifugal Separator (Basic)
-thermalexpansion:machine:11, Sequential Fabricator (Basic)
-thermalexpansion:machine:12, Alchemical Imbuer (Basic)
-thermalexpansion:machine:13, Arcane Ensorcellator (Basic)
-thermalexpansion:machine:14, Glacial Precipitator (Basic)
-thermalexpansion:machine:15, Igneous Extruder (Basic)
-thermalexpansion:device:0, Aqueous Accumulator
-thermalexpansion:device:1, Nullifier
-thermalexpansion:device:2, Thermal Mediator
-thermalexpansion:device:3, Arboreal Extractor
-thermalexpansion:device:4, Aquatic Entangler
-thermalexpansion:device:5, Item Allocator
-thermalexpansion:device:6, Fluid Allocator
-thermalexpansion:device:7, Lexical Transmuter
-thermalexpansion:device:8, Insightful Condenser
-thermalexpansion:device:9, Decoctive Diffuser
-thermalexpansion:device:10, Factorizer
-thermalexpansion:device:11, Creature Encaptulator
-thermalexpansion:device:12, Vacuumulator
-thermalexpansion:dynamo:0, Steam Dynamo (Basic)
-thermalexpansion:dynamo:1, Magmatic Dynamo (Basic)
-thermalexpansion:dynamo:2, Compression Dynamo (Basic)
-thermalexpansion:dynamo:3, Reactant Dynamo (Basic)
-thermalexpansion:dynamo:4, Enervation Dynamo (Basic)
-thermalexpansion:dynamo:5, Numismatic Dynamo (Basic)
-thermalexpansion:cell:0, Energy Cell (Basic)
-thermalexpansion:tank:0, Portable Tank (Basic)
-thermalexpansion:cache:0, Cache (Basic)
-thermalexpansion:strongbox:0, Strongbox (Basic)
-thermalexpansion:capacitor:0, Flux Capacitor (Basic)
-thermalexpansion:capacitor:1, Flux Capacitor (Hardened)
-thermalexpansion:capacitor:2, Flux Capacitor (Reinforced)
-thermalexpansion:capacitor:3, Flux Capacitor (Signalum)
-thermalexpansion:capacitor:4, Flux Capacitor (Resonant)
-thermalexpansion:capacitor:32000, Flux Capacitor (Creative)
-thermalexpansion:reservoir:0, Reservoir (Basic)
-thermalexpansion:reservoir:1, Reservoir (Hardened)
-thermalexpansion:reservoir:2, Reservoir (Reinforced)
-thermalexpansion:reservoir:3, Reservoir (Signalum)
-thermalexpansion:reservoir:4, Reservoir (Resonant)
-thermalexpansion:reservoir:32000, Reservoir (Creative)
-thermalexpansion:satchel:0, Satchel (Basic)
-thermalexpansion:satchel:1, Satchel (Hardened)
-thermalexpansion:satchel:2, Satchel (Reinforced)
-thermalexpansion:satchel:3, Satchel (Signalum)
-thermalexpansion:satchel:4, Satchel (Resonant)
-thermalexpansion:satchel:100, Satchel (Void)
-thermalexpansion:satchel:32000, Satchel (Creative)
-thermalexpansion:frame:0, Machine Frame
-thermalexpansion:frame:64, Device Frame
-thermalexpansion:frame:128, Energy Cell Frame
-thermalexpansion:frame:129, Hardened Cell Frame
-thermalexpansion:frame:130, Reinforced Cell Frame (Empty)
-thermalexpansion:frame:131, Signalum Cell Frame (Empty)
-thermalexpansion:frame:132, Resonant Cell Frame (Empty)
-thermalexpansion:frame:146, Reinforced Cell Frame (Full)
-thermalexpansion:frame:147, Signalum Cell Frame (Full)
-thermalexpansion:frame:148, Resonant Cell Frame (Full)
-thermalexpansion:augment:128, Augment: Auxiliary Reception Coil
-thermalexpansion:augment:129, Augment: Auxiliary Sieve
-thermalexpansion:augment:130, Augment: Nullification Chamber
-thermalexpansion:augment:256, Augment: Trivection Chamber
-thermalexpansion:augment:257, Augment: Flux Anodizers
-thermalexpansion:augment:258, Augment: Pyrolytic Conversion
-thermalexpansion:augment:273, Augment: Tectonic Initiator
-thermalexpansion:augment:288, Augment: Resin Funnel
-thermalexpansion:augment:303, Augment: Metallurgical Recovery
-thermalexpansion:augment:304, Augment: Pyro-Concentrator
-thermalexpansion:augment:320, Augment: Nutrient Recovery
-thermalexpansion:augment:323, Augment: Sapling Infuser
-thermalexpansion:augment:324, Augment: Monoculture Cycle
-thermalexpansion:augment:336, Augment: Numismatic Press
-thermalexpansion:augment:337, Augment: Gearworking Die
-thermalexpansion:augment:352, Augment: Pyroconvective Loop
-thermalexpansion:augment:368, Augment: Reflux Column
-thermalexpansion:augment:369, Augment: Alchemical Retort
-thermalexpansion:augment:400, Augment: Flux Linkage Concentrator
-thermalexpansion:augment:401, Augment: Flux Reconstruction
-thermalexpansion:augment:402, Augment: Parabolic Flux Coupling
-thermalexpansion:augment:416, Augment: Enstabulation Apparatus
-thermalexpansion:augment:432, Augment: Pattern Validation
-thermalexpansion:augment:433, Augment: Fluidic Fabrication
-thermalexpansion:augment:448, Augment: Reagent Recovery
-thermalexpansion:augment:496, Augment: Pyroclastic Injection
-thermalexpansion:augment:497, Augment: Clastic Deposition
-thermalexpansion:augment:512, Augment: Auxiliary Transmission Coil
-thermalexpansion:augment:513, Augment: Fuel Catalyzer
-thermalexpansion:augment:514, Augment: Transmission Coil Ducting
-thermalexpansion:augment:515, Augment: Excitation Field Limiter
-thermalexpansion:augment:576, Augment: Boiler Conversion
-thermalexpansion:augment:640, Augment: Turbine Conversion
-thermalexpansion:augment:656, Augment: Isentropic Reservoir
-thermalexpansion:augment:672, Augment: Closed-Loop Cooling
-thermalexpansion:augment:673, Augment: Ignition Plugs
-thermalexpansion:augment:674, Augment: Agitative Manifold
-thermalexpansion:augment:688, Augment: Elemental Catalyzer
-thermalexpansion:augment:704, Augment: Disjunctive Extraction
-thermalexpansion:augment:720, Augment: Lapidary Calibration
 thermalcultivation:watering_can:0, Watering Can (Basic)
 thermalcultivation:watering_can:1, Watering Can (Hardened)
 thermalcultivation:watering_can:2, Watering Can (Reinforced)
@@ -6592,6 +6674,11 @@ appliedenergistics2:facade:0, Cable Facade - Block of Copper
 appliedenergistics2:facade:0, Cable Facade - Block of Tin
 appliedenergistics2:facade:0, Cable Facade - Block of Bronze
 appliedenergistics2:facade:0, Cable Facade - Ash Bricks
+appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
+appliedenergistics2:facade:0, Cable Facade - Wood Pile
+appliedenergistics2:facade:0, Cable Facade - Decorative Wood Pile
+appliedenergistics2:facade:0, Cable Facade - Ash Block
+appliedenergistics2:facade:0, Cable Facade - Loam
 appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
 appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
 appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
@@ -6601,11 +6688,6 @@ appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
 appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
 appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
 appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
-appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
-appliedenergistics2:facade:0, Cable Facade - Wood Pile
-appliedenergistics2:facade:0, Cable Facade - Decorative Wood Pile
-appliedenergistics2:facade:0, Cable Facade - Ash Block
-appliedenergistics2:facade:0, Cable Facade - Loam
 appliedenergistics2:facade:0, Cable Facade - Elevator
 appliedenergistics2:facade:0, Cable Facade - Sponge
 appliedenergistics2:facade:0, Cable Facade - Scaffolding
@@ -9196,6 +9278,670 @@ appliedenergistics2:part:220, ME Storage Bus
 appliedenergistics2:part:400, ME Storage Monitor
 appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
+artisanworktables:worktable:0, Tailor's Worktable
+artisanworktables:worktable:1, Carpenter's Worktable
+artisanworktables:worktable:2, Mason's Worktable
+artisanworktables:worktable:3, Blacksmith's Worktable
+artisanworktables:worktable:4, Jeweler's Worktable
+artisanworktables:worktable:5, Basic Worktable
+artisanworktables:worktable:6, Engineer's Worktable
+artisanworktables:worktable:7, Mage's Worktable
+artisanworktables:worktable:8, Scribe's Worktable
+artisanworktables:worktable:9, Chemist's Worktable
+artisanworktables:worktable:10, Farmer's Worktable
+artisanworktables:worktable:11, Chef's Worktable
+artisanworktables:worktable:12, Designer's Worktable
+artisanworktables:worktable:13, Tanner's Worktable
+artisanworktables:worktable:14, Potter's Worktable
+artisanworktables:workstation:0, Tailor's Workstation
+artisanworktables:workstation:1, Carpenter's Workstation
+artisanworktables:workstation:2, Mason's Workstation
+artisanworktables:workstation:3, Blacksmith's Workstation
+artisanworktables:workstation:4, Jeweler's Workstation
+artisanworktables:workstation:5, Basic Workstation
+artisanworktables:workstation:6, Engineer's Workstation
+artisanworktables:workstation:7, Mage's Workstation
+artisanworktables:workstation:8, Scribe's Workstation
+artisanworktables:workstation:9, Chemist's Workstation
+artisanworktables:workstation:10, Farmer's Workstation
+artisanworktables:workstation:11, Chef's Workstation
+artisanworktables:workstation:12, Designer's Workstation
+artisanworktables:workstation:13, Tanner's Workstation
+artisanworktables:workstation:14, Potter's Workstation
+artisanworktables:workshop:0, Tailor's Workshop
+artisanworktables:workshop:1, Carpenter's Workshop
+artisanworktables:workshop:2, Mason's Workshop
+artisanworktables:workshop:3, Blacksmith's Workshop
+artisanworktables:workshop:4, Jeweler's Workshop
+artisanworktables:workshop:5, Basic Workshop
+artisanworktables:workshop:6, Engineer's Workshop
+artisanworktables:workshop:7, Mage's Workshop
+artisanworktables:workshop:8, Scribe's Workshop
+artisanworktables:workshop:9, Chemist's Workshop
+artisanworktables:workshop:10, Farmer's Workshop
+artisanworktables:workshop:11, Chef's Workshop
+artisanworktables:workshop:12, Designer's Workshop
+artisanworktables:workshop:13, Tanner's Workshop
+artisanworktables:workshop:14, Potter's Workshop
+artisanworktables:design_pattern, item.artisanworktables.design.pattern.name
+artisanworktables:artisans_cutters_wood, Artisan's %s Cutters
+artisanworktables:artisans_cutters_stone, Artisan's %s Cutters
+artisanworktables:artisans_cutters_iron, Artisan's %s Cutters
+artisanworktables:artisans_cutters_gold, Artisan's %s Cutters
+artisanworktables:artisans_cutters_diamond, Artisan's %s Cutters
+artisanworktables:artisans_cutters_flint, Artisan's %s Cutters
+artisanworktables:artisans_cutters_bone, Artisan's %s Cutters
+artisanworktables:artisans_cutters_aluminum, Artisan's %s Cutters
+artisanworktables:artisans_cutters_bronze, Artisan's %s Cutters
+artisanworktables:artisans_cutters_constantan, Artisan's %s Cutters
+artisanworktables:artisans_cutters_copper, Artisan's %s Cutters
+artisanworktables:artisans_cutters_electrum, Artisan's %s Cutters
+artisanworktables:artisans_cutters_invar, Artisan's %s Cutters
+artisanworktables:artisans_cutters_lead, Artisan's %s Cutters
+artisanworktables:artisans_cutters_nickel, Artisan's %s Cutters
+artisanworktables:artisans_cutters_platinum, Artisan's %s Cutters
+artisanworktables:artisans_cutters_silver, Artisan's %s Cutters
+artisanworktables:artisans_cutters_steel, Artisan's %s Cutters
+artisanworktables:artisans_cutters_tin, Artisan's %s Cutters
+artisanworktables:artisans_cutters_manasteel, Artisan's %s Cutters
+artisanworktables:artisans_cutters_elementium, Artisan's %s Cutters
+artisanworktables:artisans_cutters_terrasteel, Artisan's %s Cutters
+artisanworktables:artisans_hammer_wood, Artisan's %s Hammer
+artisanworktables:artisans_hammer_stone, Artisan's %s Hammer
+artisanworktables:artisans_hammer_iron, Artisan's %s Hammer
+artisanworktables:artisans_hammer_gold, Artisan's %s Hammer
+artisanworktables:artisans_hammer_diamond, Artisan's %s Hammer
+artisanworktables:artisans_hammer_flint, Artisan's %s Hammer
+artisanworktables:artisans_hammer_bone, Artisan's %s Hammer
+artisanworktables:artisans_hammer_aluminum, Artisan's %s Hammer
+artisanworktables:artisans_hammer_bronze, Artisan's %s Hammer
+artisanworktables:artisans_hammer_constantan, Artisan's %s Hammer
+artisanworktables:artisans_hammer_copper, Artisan's %s Hammer
+artisanworktables:artisans_hammer_electrum, Artisan's %s Hammer
+artisanworktables:artisans_hammer_invar, Artisan's %s Hammer
+artisanworktables:artisans_hammer_lead, Artisan's %s Hammer
+artisanworktables:artisans_hammer_nickel, Artisan's %s Hammer
+artisanworktables:artisans_hammer_platinum, Artisan's %s Hammer
+artisanworktables:artisans_hammer_silver, Artisan's %s Hammer
+artisanworktables:artisans_hammer_steel, Artisan's %s Hammer
+artisanworktables:artisans_hammer_tin, Artisan's %s Hammer
+artisanworktables:artisans_hammer_manasteel, Artisan's %s Hammer
+artisanworktables:artisans_hammer_elementium, Artisan's %s Hammer
+artisanworktables:artisans_hammer_terrasteel, Artisan's %s Hammer
+artisanworktables:artisans_framing_hammer_wood, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_stone, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_iron, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_gold, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_diamond, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_flint, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_bone, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_aluminum, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_bronze, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_constantan, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_copper, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_electrum, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_invar, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_lead, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_nickel, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_platinum, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_silver, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_steel, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_tin, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_manasteel, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_elementium, Artisan's %s Framing Hammer
+artisanworktables:artisans_framing_hammer_terrasteel, Artisan's %s Framing Hammer
+artisanworktables:artisans_handsaw_wood, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_stone, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_iron, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_gold, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_diamond, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_flint, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_bone, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_aluminum, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_bronze, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_constantan, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_copper, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_electrum, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_invar, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_lead, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_nickel, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_platinum, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_silver, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_steel, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_tin, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_manasteel, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_elementium, Artisan's %s Handsaw
+artisanworktables:artisans_handsaw_terrasteel, Artisan's %s Handsaw
+artisanworktables:artisans_cutting_board_wood, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_stone, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_iron, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_gold, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_diamond, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_flint, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_bone, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_aluminum, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_bronze, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_constantan, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_copper, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_electrum, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_invar, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_lead, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_nickel, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_platinum, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_silver, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_steel, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_tin, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_manasteel, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_elementium, Artisan's %s Cutting Board
+artisanworktables:artisans_cutting_board_terrasteel, Artisan's %s Cutting Board
+artisanworktables:artisans_pan_wood, Artisan's %s Pan
+artisanworktables:artisans_pan_stone, Artisan's %s Pan
+artisanworktables:artisans_pan_iron, Artisan's %s Pan
+artisanworktables:artisans_pan_gold, Artisan's %s Pan
+artisanworktables:artisans_pan_diamond, Artisan's %s Pan
+artisanworktables:artisans_pan_flint, Artisan's %s Pan
+artisanworktables:artisans_pan_bone, Artisan's %s Pan
+artisanworktables:artisans_pan_aluminum, Artisan's %s Pan
+artisanworktables:artisans_pan_bronze, Artisan's %s Pan
+artisanworktables:artisans_pan_constantan, Artisan's %s Pan
+artisanworktables:artisans_pan_copper, Artisan's %s Pan
+artisanworktables:artisans_pan_electrum, Artisan's %s Pan
+artisanworktables:artisans_pan_invar, Artisan's %s Pan
+artisanworktables:artisans_pan_lead, Artisan's %s Pan
+artisanworktables:artisans_pan_nickel, Artisan's %s Pan
+artisanworktables:artisans_pan_platinum, Artisan's %s Pan
+artisanworktables:artisans_pan_silver, Artisan's %s Pan
+artisanworktables:artisans_pan_steel, Artisan's %s Pan
+artisanworktables:artisans_pan_tin, Artisan's %s Pan
+artisanworktables:artisans_pan_manasteel, Artisan's %s Pan
+artisanworktables:artisans_pan_elementium, Artisan's %s Pan
+artisanworktables:artisans_pan_terrasteel, Artisan's %s Pan
+artisanworktables:artisans_beaker_wood, Artisan's %s Beaker
+artisanworktables:artisans_beaker_stone, Artisan's %s Beaker
+artisanworktables:artisans_beaker_iron, Artisan's %s Beaker
+artisanworktables:artisans_beaker_gold, Artisan's %s Beaker
+artisanworktables:artisans_beaker_diamond, Artisan's %s Beaker
+artisanworktables:artisans_beaker_flint, Artisan's %s Beaker
+artisanworktables:artisans_beaker_bone, Artisan's %s Beaker
+artisanworktables:artisans_beaker_aluminum, Artisan's %s Beaker
+artisanworktables:artisans_beaker_bronze, Artisan's %s Beaker
+artisanworktables:artisans_beaker_constantan, Artisan's %s Beaker
+artisanworktables:artisans_beaker_copper, Artisan's %s Beaker
+artisanworktables:artisans_beaker_electrum, Artisan's %s Beaker
+artisanworktables:artisans_beaker_invar, Artisan's %s Beaker
+artisanworktables:artisans_beaker_lead, Artisan's %s Beaker
+artisanworktables:artisans_beaker_nickel, Artisan's %s Beaker
+artisanworktables:artisans_beaker_platinum, Artisan's %s Beaker
+artisanworktables:artisans_beaker_silver, Artisan's %s Beaker
+artisanworktables:artisans_beaker_steel, Artisan's %s Beaker
+artisanworktables:artisans_beaker_tin, Artisan's %s Beaker
+artisanworktables:artisans_beaker_manasteel, Artisan's %s Beaker
+artisanworktables:artisans_beaker_elementium, Artisan's %s Beaker
+artisanworktables:artisans_beaker_terrasteel, Artisan's %s Beaker
+artisanworktables:artisans_burner_wood, Artisan's %s Burner
+artisanworktables:artisans_burner_stone, Artisan's %s Burner
+artisanworktables:artisans_burner_iron, Artisan's %s Burner
+artisanworktables:artisans_burner_gold, Artisan's %s Burner
+artisanworktables:artisans_burner_diamond, Artisan's %s Burner
+artisanworktables:artisans_burner_flint, Artisan's %s Burner
+artisanworktables:artisans_burner_bone, Artisan's %s Burner
+artisanworktables:artisans_burner_aluminum, Artisan's %s Burner
+artisanworktables:artisans_burner_bronze, Artisan's %s Burner
+artisanworktables:artisans_burner_constantan, Artisan's %s Burner
+artisanworktables:artisans_burner_copper, Artisan's %s Burner
+artisanworktables:artisans_burner_electrum, Artisan's %s Burner
+artisanworktables:artisans_burner_invar, Artisan's %s Burner
+artisanworktables:artisans_burner_lead, Artisan's %s Burner
+artisanworktables:artisans_burner_nickel, Artisan's %s Burner
+artisanworktables:artisans_burner_platinum, Artisan's %s Burner
+artisanworktables:artisans_burner_silver, Artisan's %s Burner
+artisanworktables:artisans_burner_steel, Artisan's %s Burner
+artisanworktables:artisans_burner_tin, Artisan's %s Burner
+artisanworktables:artisans_burner_manasteel, Artisan's %s Burner
+artisanworktables:artisans_burner_elementium, Artisan's %s Burner
+artisanworktables:artisans_burner_terrasteel, Artisan's %s Burner
+artisanworktables:artisans_driver_wood, Artisan's %s Driver
+artisanworktables:artisans_driver_stone, Artisan's %s Driver
+artisanworktables:artisans_driver_iron, Artisan's %s Driver
+artisanworktables:artisans_driver_gold, Artisan's %s Driver
+artisanworktables:artisans_driver_diamond, Artisan's %s Driver
+artisanworktables:artisans_driver_flint, Artisan's %s Driver
+artisanworktables:artisans_driver_bone, Artisan's %s Driver
+artisanworktables:artisans_driver_aluminum, Artisan's %s Driver
+artisanworktables:artisans_driver_bronze, Artisan's %s Driver
+artisanworktables:artisans_driver_constantan, Artisan's %s Driver
+artisanworktables:artisans_driver_copper, Artisan's %s Driver
+artisanworktables:artisans_driver_electrum, Artisan's %s Driver
+artisanworktables:artisans_driver_invar, Artisan's %s Driver
+artisanworktables:artisans_driver_lead, Artisan's %s Driver
+artisanworktables:artisans_driver_nickel, Artisan's %s Driver
+artisanworktables:artisans_driver_platinum, Artisan's %s Driver
+artisanworktables:artisans_driver_silver, Artisan's %s Driver
+artisanworktables:artisans_driver_steel, Artisan's %s Driver
+artisanworktables:artisans_driver_tin, Artisan's %s Driver
+artisanworktables:artisans_driver_manasteel, Artisan's %s Driver
+artisanworktables:artisans_driver_elementium, Artisan's %s Driver
+artisanworktables:artisans_driver_terrasteel, Artisan's %s Driver
+artisanworktables:artisans_spanner_wood, Artisan's %s Spanner
+artisanworktables:artisans_spanner_stone, Artisan's %s Spanner
+artisanworktables:artisans_spanner_iron, Artisan's %s Spanner
+artisanworktables:artisans_spanner_gold, Artisan's %s Spanner
+artisanworktables:artisans_spanner_diamond, Artisan's %s Spanner
+artisanworktables:artisans_spanner_flint, Artisan's %s Spanner
+artisanworktables:artisans_spanner_bone, Artisan's %s Spanner
+artisanworktables:artisans_spanner_aluminum, Artisan's %s Spanner
+artisanworktables:artisans_spanner_bronze, Artisan's %s Spanner
+artisanworktables:artisans_spanner_constantan, Artisan's %s Spanner
+artisanworktables:artisans_spanner_copper, Artisan's %s Spanner
+artisanworktables:artisans_spanner_electrum, Artisan's %s Spanner
+artisanworktables:artisans_spanner_invar, Artisan's %s Spanner
+artisanworktables:artisans_spanner_lead, Artisan's %s Spanner
+artisanworktables:artisans_spanner_nickel, Artisan's %s Spanner
+artisanworktables:artisans_spanner_platinum, Artisan's %s Spanner
+artisanworktables:artisans_spanner_silver, Artisan's %s Spanner
+artisanworktables:artisans_spanner_steel, Artisan's %s Spanner
+artisanworktables:artisans_spanner_tin, Artisan's %s Spanner
+artisanworktables:artisans_spanner_manasteel, Artisan's %s Spanner
+artisanworktables:artisans_spanner_elementium, Artisan's %s Spanner
+artisanworktables:artisans_spanner_terrasteel, Artisan's %s Spanner
+artisanworktables:artisans_lens_wood, Artisan's %s Lens
+artisanworktables:artisans_lens_stone, Artisan's %s Lens
+artisanworktables:artisans_lens_iron, Artisan's %s Lens
+artisanworktables:artisans_lens_gold, Artisan's %s Lens
+artisanworktables:artisans_lens_diamond, Artisan's %s Lens
+artisanworktables:artisans_lens_flint, Artisan's %s Lens
+artisanworktables:artisans_lens_bone, Artisan's %s Lens
+artisanworktables:artisans_lens_aluminum, Artisan's %s Lens
+artisanworktables:artisans_lens_bronze, Artisan's %s Lens
+artisanworktables:artisans_lens_constantan, Artisan's %s Lens
+artisanworktables:artisans_lens_copper, Artisan's %s Lens
+artisanworktables:artisans_lens_electrum, Artisan's %s Lens
+artisanworktables:artisans_lens_invar, Artisan's %s Lens
+artisanworktables:artisans_lens_lead, Artisan's %s Lens
+artisanworktables:artisans_lens_nickel, Artisan's %s Lens
+artisanworktables:artisans_lens_platinum, Artisan's %s Lens
+artisanworktables:artisans_lens_silver, Artisan's %s Lens
+artisanworktables:artisans_lens_steel, Artisan's %s Lens
+artisanworktables:artisans_lens_tin, Artisan's %s Lens
+artisanworktables:artisans_lens_manasteel, Artisan's %s Lens
+artisanworktables:artisans_lens_elementium, Artisan's %s Lens
+artisanworktables:artisans_lens_terrasteel, Artisan's %s Lens
+artisanworktables:artisans_sifter_wood, Artisan's %s Sifter
+artisanworktables:artisans_sifter_stone, Artisan's %s Sifter
+artisanworktables:artisans_sifter_iron, Artisan's %s Sifter
+artisanworktables:artisans_sifter_gold, Artisan's %s Sifter
+artisanworktables:artisans_sifter_diamond, Artisan's %s Sifter
+artisanworktables:artisans_sifter_flint, Artisan's %s Sifter
+artisanworktables:artisans_sifter_bone, Artisan's %s Sifter
+artisanworktables:artisans_sifter_aluminum, Artisan's %s Sifter
+artisanworktables:artisans_sifter_bronze, Artisan's %s Sifter
+artisanworktables:artisans_sifter_constantan, Artisan's %s Sifter
+artisanworktables:artisans_sifter_copper, Artisan's %s Sifter
+artisanworktables:artisans_sifter_electrum, Artisan's %s Sifter
+artisanworktables:artisans_sifter_invar, Artisan's %s Sifter
+artisanworktables:artisans_sifter_lead, Artisan's %s Sifter
+artisanworktables:artisans_sifter_nickel, Artisan's %s Sifter
+artisanworktables:artisans_sifter_platinum, Artisan's %s Sifter
+artisanworktables:artisans_sifter_silver, Artisan's %s Sifter
+artisanworktables:artisans_sifter_steel, Artisan's %s Sifter
+artisanworktables:artisans_sifter_tin, Artisan's %s Sifter
+artisanworktables:artisans_sifter_manasteel, Artisan's %s Sifter
+artisanworktables:artisans_sifter_elementium, Artisan's %s Sifter
+artisanworktables:artisans_sifter_terrasteel, Artisan's %s Sifter
+artisanworktables:artisans_gemcutter_wood, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_stone, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_iron, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_gold, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_diamond, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_flint, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_bone, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_aluminum, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_bronze, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_constantan, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_copper, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_electrum, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_invar, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_lead, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_nickel, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_platinum, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_silver, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_steel, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_tin, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_manasteel, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_elementium, Artisan's %s Gemcutter
+artisanworktables:artisans_gemcutter_terrasteel, Artisan's %s Gemcutter
+artisanworktables:artisans_pliers_wood, Artisan's %s Pliers
+artisanworktables:artisans_pliers_stone, Artisan's %s Pliers
+artisanworktables:artisans_pliers_iron, Artisan's %s Pliers
+artisanworktables:artisans_pliers_gold, Artisan's %s Pliers
+artisanworktables:artisans_pliers_diamond, Artisan's %s Pliers
+artisanworktables:artisans_pliers_flint, Artisan's %s Pliers
+artisanworktables:artisans_pliers_bone, Artisan's %s Pliers
+artisanworktables:artisans_pliers_aluminum, Artisan's %s Pliers
+artisanworktables:artisans_pliers_bronze, Artisan's %s Pliers
+artisanworktables:artisans_pliers_constantan, Artisan's %s Pliers
+artisanworktables:artisans_pliers_copper, Artisan's %s Pliers
+artisanworktables:artisans_pliers_electrum, Artisan's %s Pliers
+artisanworktables:artisans_pliers_invar, Artisan's %s Pliers
+artisanworktables:artisans_pliers_lead, Artisan's %s Pliers
+artisanworktables:artisans_pliers_nickel, Artisan's %s Pliers
+artisanworktables:artisans_pliers_platinum, Artisan's %s Pliers
+artisanworktables:artisans_pliers_silver, Artisan's %s Pliers
+artisanworktables:artisans_pliers_steel, Artisan's %s Pliers
+artisanworktables:artisans_pliers_tin, Artisan's %s Pliers
+artisanworktables:artisans_pliers_manasteel, Artisan's %s Pliers
+artisanworktables:artisans_pliers_elementium, Artisan's %s Pliers
+artisanworktables:artisans_pliers_terrasteel, Artisan's %s Pliers
+artisanworktables:artisans_athame_wood, Artisan's %s Athame
+artisanworktables:artisans_athame_stone, Artisan's %s Athame
+artisanworktables:artisans_athame_iron, Artisan's %s Athame
+artisanworktables:artisans_athame_gold, Artisan's %s Athame
+artisanworktables:artisans_athame_diamond, Artisan's %s Athame
+artisanworktables:artisans_athame_flint, Artisan's %s Athame
+artisanworktables:artisans_athame_bone, Artisan's %s Athame
+artisanworktables:artisans_athame_aluminum, Artisan's %s Athame
+artisanworktables:artisans_athame_bronze, Artisan's %s Athame
+artisanworktables:artisans_athame_constantan, Artisan's %s Athame
+artisanworktables:artisans_athame_copper, Artisan's %s Athame
+artisanworktables:artisans_athame_electrum, Artisan's %s Athame
+artisanworktables:artisans_athame_invar, Artisan's %s Athame
+artisanworktables:artisans_athame_lead, Artisan's %s Athame
+artisanworktables:artisans_athame_nickel, Artisan's %s Athame
+artisanworktables:artisans_athame_platinum, Artisan's %s Athame
+artisanworktables:artisans_athame_silver, Artisan's %s Athame
+artisanworktables:artisans_athame_steel, Artisan's %s Athame
+artisanworktables:artisans_athame_tin, Artisan's %s Athame
+artisanworktables:artisans_athame_manasteel, Artisan's %s Athame
+artisanworktables:artisans_athame_elementium, Artisan's %s Athame
+artisanworktables:artisans_athame_terrasteel, Artisan's %s Athame
+artisanworktables:artisans_grimoire_wood, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_stone, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_iron, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_gold, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_diamond, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_flint, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_bone, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_aluminum, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_bronze, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_constantan, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_copper, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_electrum, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_invar, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_lead, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_nickel, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_platinum, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_silver, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_steel, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_tin, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_manasteel, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_elementium, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_grimoire_terrasteel, Artisan's %s-Bound Grimoire
+artisanworktables:artisans_chisel_wood, Artisan's %s Chisel
+artisanworktables:artisans_chisel_stone, Artisan's %s Chisel
+artisanworktables:artisans_chisel_iron, Artisan's %s Chisel
+artisanworktables:artisans_chisel_gold, Artisan's %s Chisel
+artisanworktables:artisans_chisel_diamond, Artisan's %s Chisel
+artisanworktables:artisans_chisel_flint, Artisan's %s Chisel
+artisanworktables:artisans_chisel_bone, Artisan's %s Chisel
+artisanworktables:artisans_chisel_aluminum, Artisan's %s Chisel
+artisanworktables:artisans_chisel_bronze, Artisan's %s Chisel
+artisanworktables:artisans_chisel_constantan, Artisan's %s Chisel
+artisanworktables:artisans_chisel_copper, Artisan's %s Chisel
+artisanworktables:artisans_chisel_electrum, Artisan's %s Chisel
+artisanworktables:artisans_chisel_invar, Artisan's %s Chisel
+artisanworktables:artisans_chisel_lead, Artisan's %s Chisel
+artisanworktables:artisans_chisel_nickel, Artisan's %s Chisel
+artisanworktables:artisans_chisel_platinum, Artisan's %s Chisel
+artisanworktables:artisans_chisel_silver, Artisan's %s Chisel
+artisanworktables:artisans_chisel_steel, Artisan's %s Chisel
+artisanworktables:artisans_chisel_tin, Artisan's %s Chisel
+artisanworktables:artisans_chisel_manasteel, Artisan's %s Chisel
+artisanworktables:artisans_chisel_elementium, Artisan's %s Chisel
+artisanworktables:artisans_chisel_terrasteel, Artisan's %s Chisel
+artisanworktables:artisans_trowel_wood, Artisan's %s Trowel
+artisanworktables:artisans_trowel_stone, Artisan's %s Trowel
+artisanworktables:artisans_trowel_iron, Artisan's %s Trowel
+artisanworktables:artisans_trowel_gold, Artisan's %s Trowel
+artisanworktables:artisans_trowel_diamond, Artisan's %s Trowel
+artisanworktables:artisans_trowel_flint, Artisan's %s Trowel
+artisanworktables:artisans_trowel_bone, Artisan's %s Trowel
+artisanworktables:artisans_trowel_aluminum, Artisan's %s Trowel
+artisanworktables:artisans_trowel_bronze, Artisan's %s Trowel
+artisanworktables:artisans_trowel_constantan, Artisan's %s Trowel
+artisanworktables:artisans_trowel_copper, Artisan's %s Trowel
+artisanworktables:artisans_trowel_electrum, Artisan's %s Trowel
+artisanworktables:artisans_trowel_invar, Artisan's %s Trowel
+artisanworktables:artisans_trowel_lead, Artisan's %s Trowel
+artisanworktables:artisans_trowel_nickel, Artisan's %s Trowel
+artisanworktables:artisans_trowel_platinum, Artisan's %s Trowel
+artisanworktables:artisans_trowel_silver, Artisan's %s Trowel
+artisanworktables:artisans_trowel_steel, Artisan's %s Trowel
+artisanworktables:artisans_trowel_tin, Artisan's %s Trowel
+artisanworktables:artisans_trowel_manasteel, Artisan's %s Trowel
+artisanworktables:artisans_trowel_elementium, Artisan's %s Trowel
+artisanworktables:artisans_trowel_terrasteel, Artisan's %s Trowel
+artisanworktables:artisans_carver_wood, Artisan's %s Carver
+artisanworktables:artisans_carver_stone, Artisan's %s Carver
+artisanworktables:artisans_carver_iron, Artisan's %s Carver
+artisanworktables:artisans_carver_gold, Artisan's %s Carver
+artisanworktables:artisans_carver_diamond, Artisan's %s Carver
+artisanworktables:artisans_carver_flint, Artisan's %s Carver
+artisanworktables:artisans_carver_bone, Artisan's %s Carver
+artisanworktables:artisans_carver_aluminum, Artisan's %s Carver
+artisanworktables:artisans_carver_bronze, Artisan's %s Carver
+artisanworktables:artisans_carver_constantan, Artisan's %s Carver
+artisanworktables:artisans_carver_copper, Artisan's %s Carver
+artisanworktables:artisans_carver_electrum, Artisan's %s Carver
+artisanworktables:artisans_carver_invar, Artisan's %s Carver
+artisanworktables:artisans_carver_lead, Artisan's %s Carver
+artisanworktables:artisans_carver_nickel, Artisan's %s Carver
+artisanworktables:artisans_carver_platinum, Artisan's %s Carver
+artisanworktables:artisans_carver_silver, Artisan's %s Carver
+artisanworktables:artisans_carver_steel, Artisan's %s Carver
+artisanworktables:artisans_carver_tin, Artisan's %s Carver
+artisanworktables:artisans_carver_manasteel, Artisan's %s Carver
+artisanworktables:artisans_carver_elementium, Artisan's %s Carver
+artisanworktables:artisans_carver_terrasteel, Artisan's %s Carver
+artisanworktables:artisans_razor_wood, Artisan's %s Razor
+artisanworktables:artisans_razor_stone, Artisan's %s Razor
+artisanworktables:artisans_razor_iron, Artisan's %s Razor
+artisanworktables:artisans_razor_gold, Artisan's %s Razor
+artisanworktables:artisans_razor_diamond, Artisan's %s Razor
+artisanworktables:artisans_razor_flint, Artisan's %s Razor
+artisanworktables:artisans_razor_bone, Artisan's %s Razor
+artisanworktables:artisans_razor_aluminum, Artisan's %s Razor
+artisanworktables:artisans_razor_bronze, Artisan's %s Razor
+artisanworktables:artisans_razor_constantan, Artisan's %s Razor
+artisanworktables:artisans_razor_copper, Artisan's %s Razor
+artisanworktables:artisans_razor_electrum, Artisan's %s Razor
+artisanworktables:artisans_razor_invar, Artisan's %s Razor
+artisanworktables:artisans_razor_lead, Artisan's %s Razor
+artisanworktables:artisans_razor_nickel, Artisan's %s Razor
+artisanworktables:artisans_razor_platinum, Artisan's %s Razor
+artisanworktables:artisans_razor_silver, Artisan's %s Razor
+artisanworktables:artisans_razor_steel, Artisan's %s Razor
+artisanworktables:artisans_razor_tin, Artisan's %s Razor
+artisanworktables:artisans_razor_manasteel, Artisan's %s Razor
+artisanworktables:artisans_razor_elementium, Artisan's %s Razor
+artisanworktables:artisans_razor_terrasteel, Artisan's %s Razor
+artisanworktables:artisans_compass_wood, Artisan's %s Compass
+artisanworktables:artisans_compass_stone, Artisan's %s Compass
+artisanworktables:artisans_compass_iron, Artisan's %s Compass
+artisanworktables:artisans_compass_gold, Artisan's %s Compass
+artisanworktables:artisans_compass_diamond, Artisan's %s Compass
+artisanworktables:artisans_compass_flint, Artisan's %s Compass
+artisanworktables:artisans_compass_bone, Artisan's %s Compass
+artisanworktables:artisans_compass_aluminum, Artisan's %s Compass
+artisanworktables:artisans_compass_bronze, Artisan's %s Compass
+artisanworktables:artisans_compass_constantan, Artisan's %s Compass
+artisanworktables:artisans_compass_copper, Artisan's %s Compass
+artisanworktables:artisans_compass_electrum, Artisan's %s Compass
+artisanworktables:artisans_compass_invar, Artisan's %s Compass
+artisanworktables:artisans_compass_lead, Artisan's %s Compass
+artisanworktables:artisans_compass_nickel, Artisan's %s Compass
+artisanworktables:artisans_compass_platinum, Artisan's %s Compass
+artisanworktables:artisans_compass_silver, Artisan's %s Compass
+artisanworktables:artisans_compass_steel, Artisan's %s Compass
+artisanworktables:artisans_compass_tin, Artisan's %s Compass
+artisanworktables:artisans_compass_manasteel, Artisan's %s Compass
+artisanworktables:artisans_compass_elementium, Artisan's %s Compass
+artisanworktables:artisans_compass_terrasteel, Artisan's %s Compass
+artisanworktables:artisans_quill_wood, Artisan's %s Quill
+artisanworktables:artisans_quill_stone, Artisan's %s Quill
+artisanworktables:artisans_quill_iron, Artisan's %s Quill
+artisanworktables:artisans_quill_gold, Artisan's %s Quill
+artisanworktables:artisans_quill_diamond, Artisan's %s Quill
+artisanworktables:artisans_quill_flint, Artisan's %s Quill
+artisanworktables:artisans_quill_bone, Artisan's %s Quill
+artisanworktables:artisans_quill_aluminum, Artisan's %s Quill
+artisanworktables:artisans_quill_bronze, Artisan's %s Quill
+artisanworktables:artisans_quill_constantan, Artisan's %s Quill
+artisanworktables:artisans_quill_copper, Artisan's %s Quill
+artisanworktables:artisans_quill_electrum, Artisan's %s Quill
+artisanworktables:artisans_quill_invar, Artisan's %s Quill
+artisanworktables:artisans_quill_lead, Artisan's %s Quill
+artisanworktables:artisans_quill_nickel, Artisan's %s Quill
+artisanworktables:artisans_quill_platinum, Artisan's %s Quill
+artisanworktables:artisans_quill_silver, Artisan's %s Quill
+artisanworktables:artisans_quill_steel, Artisan's %s Quill
+artisanworktables:artisans_quill_tin, Artisan's %s Quill
+artisanworktables:artisans_quill_manasteel, Artisan's %s Quill
+artisanworktables:artisans_quill_elementium, Artisan's %s Quill
+artisanworktables:artisans_quill_terrasteel, Artisan's %s Quill
+artisanworktables:artisans_needle_wood, Artisan's %s Needle
+artisanworktables:artisans_needle_stone, Artisan's %s Needle
+artisanworktables:artisans_needle_iron, Artisan's %s Needle
+artisanworktables:artisans_needle_gold, Artisan's %s Needle
+artisanworktables:artisans_needle_diamond, Artisan's %s Needle
+artisanworktables:artisans_needle_flint, Artisan's %s Needle
+artisanworktables:artisans_needle_bone, Artisan's %s Needle
+artisanworktables:artisans_needle_aluminum, Artisan's %s Needle
+artisanworktables:artisans_needle_bronze, Artisan's %s Needle
+artisanworktables:artisans_needle_constantan, Artisan's %s Needle
+artisanworktables:artisans_needle_copper, Artisan's %s Needle
+artisanworktables:artisans_needle_electrum, Artisan's %s Needle
+artisanworktables:artisans_needle_invar, Artisan's %s Needle
+artisanworktables:artisans_needle_lead, Artisan's %s Needle
+artisanworktables:artisans_needle_nickel, Artisan's %s Needle
+artisanworktables:artisans_needle_platinum, Artisan's %s Needle
+artisanworktables:artisans_needle_silver, Artisan's %s Needle
+artisanworktables:artisans_needle_steel, Artisan's %s Needle
+artisanworktables:artisans_needle_tin, Artisan's %s Needle
+artisanworktables:artisans_needle_manasteel, Artisan's %s Needle
+artisanworktables:artisans_needle_elementium, Artisan's %s Needle
+artisanworktables:artisans_needle_terrasteel, Artisan's %s Needle
+artisanworktables:artisans_shears_wood, Artisan's %s Shears
+artisanworktables:artisans_shears_stone, Artisan's %s Shears
+artisanworktables:artisans_shears_iron, Artisan's %s Shears
+artisanworktables:artisans_shears_gold, Artisan's %s Shears
+artisanworktables:artisans_shears_diamond, Artisan's %s Shears
+artisanworktables:artisans_shears_flint, Artisan's %s Shears
+artisanworktables:artisans_shears_bone, Artisan's %s Shears
+artisanworktables:artisans_shears_aluminum, Artisan's %s Shears
+artisanworktables:artisans_shears_bronze, Artisan's %s Shears
+artisanworktables:artisans_shears_constantan, Artisan's %s Shears
+artisanworktables:artisans_shears_copper, Artisan's %s Shears
+artisanworktables:artisans_shears_electrum, Artisan's %s Shears
+artisanworktables:artisans_shears_invar, Artisan's %s Shears
+artisanworktables:artisans_shears_lead, Artisan's %s Shears
+artisanworktables:artisans_shears_nickel, Artisan's %s Shears
+artisanworktables:artisans_shears_platinum, Artisan's %s Shears
+artisanworktables:artisans_shears_silver, Artisan's %s Shears
+artisanworktables:artisans_shears_steel, Artisan's %s Shears
+artisanworktables:artisans_shears_tin, Artisan's %s Shears
+artisanworktables:artisans_shears_manasteel, Artisan's %s Shears
+artisanworktables:artisans_shears_elementium, Artisan's %s Shears
+artisanworktables:artisans_shears_terrasteel, Artisan's %s Shears
+artisanworktables:artisans_punch_wood, Artisan's %s Punch
+artisanworktables:artisans_punch_stone, Artisan's %s Punch
+artisanworktables:artisans_punch_iron, Artisan's %s Punch
+artisanworktables:artisans_punch_gold, Artisan's %s Punch
+artisanworktables:artisans_punch_diamond, Artisan's %s Punch
+artisanworktables:artisans_punch_flint, Artisan's %s Punch
+artisanworktables:artisans_punch_bone, Artisan's %s Punch
+artisanworktables:artisans_punch_aluminum, Artisan's %s Punch
+artisanworktables:artisans_punch_bronze, Artisan's %s Punch
+artisanworktables:artisans_punch_constantan, Artisan's %s Punch
+artisanworktables:artisans_punch_copper, Artisan's %s Punch
+artisanworktables:artisans_punch_electrum, Artisan's %s Punch
+artisanworktables:artisans_punch_invar, Artisan's %s Punch
+artisanworktables:artisans_punch_lead, Artisan's %s Punch
+artisanworktables:artisans_punch_nickel, Artisan's %s Punch
+artisanworktables:artisans_punch_platinum, Artisan's %s Punch
+artisanworktables:artisans_punch_silver, Artisan's %s Punch
+artisanworktables:artisans_punch_steel, Artisan's %s Punch
+artisanworktables:artisans_punch_tin, Artisan's %s Punch
+artisanworktables:artisans_punch_manasteel, Artisan's %s Punch
+artisanworktables:artisans_punch_elementium, Artisan's %s Punch
+artisanworktables:artisans_punch_terrasteel, Artisan's %s Punch
+artisanworktables:artisans_groover_wood, Artisan's %s Groover
+artisanworktables:artisans_groover_stone, Artisan's %s Groover
+artisanworktables:artisans_groover_iron, Artisan's %s Groover
+artisanworktables:artisans_groover_gold, Artisan's %s Groover
+artisanworktables:artisans_groover_diamond, Artisan's %s Groover
+artisanworktables:artisans_groover_flint, Artisan's %s Groover
+artisanworktables:artisans_groover_bone, Artisan's %s Groover
+artisanworktables:artisans_groover_aluminum, Artisan's %s Groover
+artisanworktables:artisans_groover_bronze, Artisan's %s Groover
+artisanworktables:artisans_groover_constantan, Artisan's %s Groover
+artisanworktables:artisans_groover_copper, Artisan's %s Groover
+artisanworktables:artisans_groover_electrum, Artisan's %s Groover
+artisanworktables:artisans_groover_invar, Artisan's %s Groover
+artisanworktables:artisans_groover_lead, Artisan's %s Groover
+artisanworktables:artisans_groover_nickel, Artisan's %s Groover
+artisanworktables:artisans_groover_platinum, Artisan's %s Groover
+artisanworktables:artisans_groover_silver, Artisan's %s Groover
+artisanworktables:artisans_groover_steel, Artisan's %s Groover
+artisanworktables:artisans_groover_tin, Artisan's %s Groover
+artisanworktables:artisans_groover_manasteel, Artisan's %s Groover
+artisanworktables:artisans_groover_elementium, Artisan's %s Groover
+artisanworktables:artisans_groover_terrasteel, Artisan's %s Groover
+artisanworktables:artisans_mortar_wood, Artisan's %s Mortar
+artisanworktables:artisans_mortar_stone, Artisan's %s Mortar
+artisanworktables:artisans_mortar_iron, Artisan's %s Mortar
+artisanworktables:artisans_mortar_gold, Artisan's %s Mortar
+artisanworktables:artisans_mortar_diamond, Artisan's %s Mortar
+artisanworktables:artisans_mortar_flint, Artisan's %s Mortar
+artisanworktables:artisans_mortar_bone, Artisan's %s Mortar
+artisanworktables:artisans_mortar_aluminum, Artisan's %s Mortar
+artisanworktables:artisans_mortar_bronze, Artisan's %s Mortar
+artisanworktables:artisans_mortar_constantan, Artisan's %s Mortar
+artisanworktables:artisans_mortar_copper, Artisan's %s Mortar
+artisanworktables:artisans_mortar_electrum, Artisan's %s Mortar
+artisanworktables:artisans_mortar_invar, Artisan's %s Mortar
+artisanworktables:artisans_mortar_lead, Artisan's %s Mortar
+artisanworktables:artisans_mortar_nickel, Artisan's %s Mortar
+artisanworktables:artisans_mortar_platinum, Artisan's %s Mortar
+artisanworktables:artisans_mortar_silver, Artisan's %s Mortar
+artisanworktables:artisans_mortar_steel, Artisan's %s Mortar
+artisanworktables:artisans_mortar_tin, Artisan's %s Mortar
+artisanworktables:artisans_mortar_manasteel, Artisan's %s Mortar
+artisanworktables:artisans_mortar_elementium, Artisan's %s Mortar
+artisanworktables:artisans_mortar_terrasteel, Artisan's %s Mortar
+artisanworktables:artisans_knife_wood, Artisan's %s Knife
+artisanworktables:artisans_knife_stone, Artisan's %s Knife
+artisanworktables:artisans_knife_iron, Artisan's %s Knife
+artisanworktables:artisans_knife_gold, Artisan's %s Knife
+artisanworktables:artisans_knife_diamond, Artisan's %s Knife
+artisanworktables:artisans_knife_flint, Artisan's %s Knife
+artisanworktables:artisans_knife_bone, Artisan's %s Knife
+artisanworktables:artisans_knife_aluminum, Artisan's %s Knife
+artisanworktables:artisans_knife_bronze, Artisan's %s Knife
+artisanworktables:artisans_knife_constantan, Artisan's %s Knife
+artisanworktables:artisans_knife_copper, Artisan's %s Knife
+artisanworktables:artisans_knife_electrum, Artisan's %s Knife
+artisanworktables:artisans_knife_invar, Artisan's %s Knife
+artisanworktables:artisans_knife_lead, Artisan's %s Knife
+artisanworktables:artisans_knife_nickel, Artisan's %s Knife
+artisanworktables:artisans_knife_platinum, Artisan's %s Knife
+artisanworktables:artisans_knife_silver, Artisan's %s Knife
+artisanworktables:artisans_knife_steel, Artisan's %s Knife
+artisanworktables:artisans_knife_tin, Artisan's %s Knife
+artisanworktables:artisans_knife_manasteel, Artisan's %s Knife
+artisanworktables:artisans_knife_elementium, Artisan's %s Knife
+artisanworktables:artisans_knife_terrasteel, Artisan's %s Knife
+artisanworktables:toolbox, Toolbox
+artisanworktables:mechanical_toolbox, Mechanical Toolbox
 avaritiarecipemaker:avaritiarecipemakerblock, Avaritia Recipe Factory
 avaritiarecipemaker:vanillarecipemakerblock, Vanilla Recipe Factory
 betterquesting:placeholder, Item Placeholder
@@ -9343,34 +10089,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Shard Pattern
 tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Arrow Head Pattern
 tconstruct:pattern:0, Excavator Head Pattern
 tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Bowlimb Pattern
 tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Kama Head Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -10482,62 +11228,62 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Shard Cast
 tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Arrow Head Cast
 tconstruct:cast:0, Excavator Head Cast
 tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Bowlimb Cast
 tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Kama Head Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
 tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
 tconstruct:clay_cast:0, Excavator Head Clay Cast
 tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
 tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -11411,6 +12157,7 @@ mekanismgenerators:reactor:2, Reactor Port
 mekanismgenerators:reactor:3, Reactor Logic Adapter
 mekanismgenerators:reactorglass:0, Reactor Glass
 mekanismgenerators:reactorglass:1, Laser Focus Matrix
+moreplates:hammer, Hammer
 netherendingores:creative_tab, Creative Tab Block
 netherendingores:ore_end_modded_1:0, End Aluminum Ore
 netherendingores:ore_end_modded_1:1, End Copper Ore
@@ -11613,27 +12360,6 @@ xreliquary:fertile_potion, item.fertile_potion.name
 xreliquary:potion:0, Condensed Potion Vial
 xreliquary:tipped_arrow, Tipped Arrow
 bq_standard:loot_chest, Loot Chest
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -11684,6 +12410,27 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 actuallyadditions:block_canola_oil, Canola Oil
 actuallyadditions:block_refined_canola_oil, Refined Canola Oil
 actuallyadditions:block_crystal_oil, Crystallized Oil
@@ -12153,6 +12900,12 @@ betterbuilderswands:wandstone, Stone Wand
 betterbuilderswands:wandiron, Iron Wand
 betterbuilderswands:wanddiamond, Diamond Wand
 betterbuilderswands:wandunbreakable, Unbreakable Wand
+theoneprobe:probe, The One Probe
+theoneprobe:creativeprobe, The Creative Probe
+theoneprobe:probenote, The One Probe Read Me
+theoneprobe:diamond_helmet_probe:0, Diamond Helmet with Probe
+theoneprobe:gold_helmet_probe:0, Gold Helmet with Probe
+theoneprobe:iron_helmet_probe:0, Iron Helmet with Probe
 harvestcraft:blackberryitem, Blackberry
 harvestcraft:blackberryseeditem, Blackberry Seed
 harvestcraft:blueberryitem, Blueberry
@@ -13638,43 +14391,23 @@ jaopca:item_coinosmium, %s Coin
 jaopca:item_cointitanium, %s Coin
 jaopca:item_coinuranium, %s Coin
 jaopca:item_coinyellorium, %s Coin
-jaopca:item_gearardite, %s Gear
-jaopca:item_gearcobalt, %s Gear
-jaopca:item_geardraconium, %s Gear
-jaopca:item_gearosmium, %s Gear
 jaopca:item_gearuranium, %s Gear
 jaopca:item_gearyellorium, %s Gear
 jaopca:item_gearamber, %s Gear
 jaopca:item_gearamethyst, %s Gear
 jaopca:item_gearapatite, %s Gear
-jaopca:item_gearcertusquartz, %s Gear
-jaopca:item_gearcoal, %s Gear
-jaopca:item_gearlapis, %s Gear
 jaopca:item_gearmalachite, %s Gear
 jaopca:item_gearperidot, %s Gear
-jaopca:item_gearquartz, %s Gear
-jaopca:item_gearquartzblack, %s Gear
 jaopca:item_gearruby, %s Gear
 jaopca:item_gearsapphire, %s Gear
 jaopca:item_geartanzanite, %s Gear
 jaopca:item_geartopaz, %s Gear
-jaopca:item_plateardite, %s Plate
-jaopca:item_platecobalt, %s Plate
-jaopca:item_platedraconium, %s Plate
-jaopca:item_plateosmium, %s Plate
 jaopca:item_plateyellorium, %s Plate
 jaopca:item_plateamber, %s Plate
 jaopca:item_plateamethyst, %s Plate
 jaopca:item_plateapatite, %s Plate
-jaopca:item_platecertusquartz, %s Plate
-jaopca:item_platecoal, %s Plate
-jaopca:item_platediamond, %s Plate
-jaopca:item_plateemerald, %s Plate
-jaopca:item_platelapis, %s Plate
 jaopca:item_platemalachite, %s Plate
 jaopca:item_plateperidot, %s Plate
-jaopca:item_platequartz, %s Plate
-jaopca:item_platequartzblack, %s Plate
 jaopca:item_plateruby, %s Plate
 jaopca:item_platesapphire, %s Plate
 jaopca:item_platetanzanite, %s Plate
@@ -13682,14 +14415,7 @@ jaopca:item_platetopaz, %s Plate
 jaopca:item_stickardite, %s Rod
 jaopca:item_stickcobalt, %s Rod
 jaopca:item_stickdraconium, %s Rod
-jaopca:item_stickgold, %s Rod
-jaopca:item_sticklead, %s Rod
-jaopca:item_stickmithril, %s Rod
-jaopca:item_sticknickel, %s Rod
 jaopca:item_stickosmium, %s Rod
-jaopca:item_stickplatinum, %s Rod
-jaopca:item_sticksilver, %s Rod
-jaopca:item_sticktin, %s Rod
 jaopca:item_stickuranium, %s Rod
 jaopca:item_stickyellorium, %s Rod
 jaopca:item_stickamber, %s Rod
