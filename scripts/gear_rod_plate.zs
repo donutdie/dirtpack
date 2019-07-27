@@ -152,12 +152,6 @@ for rod in rodsR {
 
 
 
-recipes.addShapedMirrored("Iron Rod", 
-<immersiveengineering:material:1> * 2, 
-[[<ore:ingotIron>],
-[<ore:ingotIron>]]);
-
-
 val platesR = [
 	<thermalfoundation:material:32>,
 	<thermalfoundation:material:33>,
