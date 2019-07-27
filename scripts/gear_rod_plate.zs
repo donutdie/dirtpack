@@ -199,7 +199,7 @@ var ingots = [
 var rods = [
 	<immersiveengineering:material:1>,
 	<moreplates:gold_stick>,
-	<thermalfoundation:material:128>,
+	<libvulpes:productrod:4>,
 	<moreplates:tin_stick>,
 	<moreplates:silver_stick>,
 	<moreplates:lead_stick>,
@@ -243,6 +243,8 @@ var gears = [
 
 for i,plate in platesR {
 	recipes.remove(plate);
+	recipes.remove(rods[i]);
+	recipes.remove(gears[i]);
 	RecipeBuilder.get("blacksmith")
 		.setShaped([
 			[ingots[i], ingots[i]],

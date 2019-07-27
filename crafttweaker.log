@@ -29,7 +29,7 @@
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] Initializing Vanilla
 [INITIALIZATION][CLIENT][INFO] Vanilla Initialized
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 694ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 883ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Sacred Oak Wood Planks with name ct_shapeless-1113116431
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cherry Wood Planks with name ct_shapeless274035945
@@ -53,6 +53,14 @@
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Clockwork Engine with name ct_shaped-274944687
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stone Gear with name ct_shaped1722803943
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wooden Gear with name ct_shaped1625839105
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for LV Wire Coil with name ct_shaped-136828073
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for External Heater with name ct_shaped170961358
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blast Furnace Preheater with name ct_shaped-1092944069
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blast Brick with name ct_shaped-1435297565
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Coke Brick with name ct_shaped-1772911470
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Engineer's Hammer with name ct_shaped537122633
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blacksmith's Worktable with name ct_shaped-302410942
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tough Fabric with name ct_shaped1623472845
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blank Pattern with name Pattern
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Seared Tank with name ct_shaped-626135296
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Smeltery Controller with name ct_shaped-712788035
@@ -144,3 +152,41 @@
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <bigreactors:orebenitoite>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <bigreactors:oreanglesite>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:diamond_pickaxe>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockinputbus>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockoutputbus>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidinputhatch>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidoutputhatch>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyinputhatch>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyoutputhatch>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockinputbus:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockoutputbus:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidinputhatch:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidoutputhatch:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyinputhatch:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyoutputhatch:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockinputbus:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockoutputbus:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidinputhatch:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidoutputhatch:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyinputhatch:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyoutputhatch:3>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockinputbus:4>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockoutputbus:4>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidinputhatch:4>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidoutputhatch:4>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyinputhatch:4>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyoutputhatch:4>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockinputbus:5>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockoutputbus:5>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidinputhatch:5>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyinputhatch:5>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidoutputhatch:5>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyoutputhatch:5>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockinputbus:6>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockoutputbus:6>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidinputhatch:6>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockfluidoutputhatch:6>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyinputhatch:6>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <modularmachinery:blockenergyoutputhatch:6>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productrod:1>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productrod:6>

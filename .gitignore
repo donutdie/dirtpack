@@ -11,3 +11,4 @@ journeymap/data/sp
 journeymap/journeymap.log
 valkyrielib/cache/supporters.json
 crafttweaker.log
+*.gz
