@@ -254,8 +254,8 @@ for i,plate in platesR {
 			[ingots[i], ingots[i]],
 			[ingots[i], ingots[i]]
 			])
-		.addTool(<ore:artisansHammer>, 2)
-		.addOutput(plate)
+		.addTool(<ore:artisansHammer>, 5)
+		.addOutput(plate *2)
 		.create();
 	RecipeBuilder.get("blacksmith")
 		.setShaped([
@@ -263,7 +263,7 @@ for i,plate in platesR {
 			[null, ingots[i], null],
 			[ingots[i], null, null]
 			])
-		.addTool(<ore:artisansHammer>, 2)
+		.addTool(<ore:artisansHammer>, 5)
 		.addOutput(rods[i])
 		.create();
 	RecipeBuilder.get("blacksmith")
@@ -272,7 +272,7 @@ for i,plate in platesR {
 			[plate, ingots[i], plate],
 			[rods[i], null, rods[i]]
 			])
-		.addTool(<ore:artisansHammer>, 2)
+		.addTool(<ore:artisansHammer>, 5)
 		.addOutput(gears[i])
 		.create();
 	

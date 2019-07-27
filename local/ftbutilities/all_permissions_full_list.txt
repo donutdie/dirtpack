@@ -1,4 +1,4 @@
-8754 nodes in total
+8748 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -303,8 +303,6 @@ ftbutilities.claims.block.edit.artisanworktables.toolbox: OP
 ftbutilities.claims.block.edit.artisanworktables.workshop: OP
 ftbutilities.claims.block.edit.artisanworktables.workstation: OP
 ftbutilities.claims.block.edit.artisanworktables.worktable: OP
-ftbutilities.claims.block.edit.avaritiarecipemaker.avaritiarecipemakerblock: OP
-ftbutilities.claims.block.edit.avaritiarecipemaker.vanillarecipemakerblock: OP
 ftbutilities.claims.block.edit.betterquesting.submit_station: OP
 ftbutilities.claims.block.edit.bigreactors.blockblutonium: OP
 ftbutilities.claims.block.edit.bigreactors.blockcyanite: OP
@@ -2130,8 +2128,6 @@ ftbutilities.claims.block.interact.artisanworktables.toolbox: OP
 ftbutilities.claims.block.interact.artisanworktables.workshop: OP
 ftbutilities.claims.block.interact.artisanworktables.workstation: OP
 ftbutilities.claims.block.interact.artisanworktables.worktable: OP
-ftbutilities.claims.block.interact.avaritiarecipemaker.avaritiarecipemakerblock: OP
-ftbutilities.claims.block.interact.avaritiarecipemaker.vanillarecipemakerblock: OP
 ftbutilities.claims.block.interact.betterquesting.submit_station: OP
 ftbutilities.claims.block.interact.bigreactors.blockblutonium: OP
 ftbutilities.claims.block.interact.bigreactors.blockcyanite: OP
@@ -4822,8 +4818,6 @@ ftbutilities.claims.item.artisanworktables.toolbox: ALL
 ftbutilities.claims.item.artisanworktables.workshop: ALL
 ftbutilities.claims.item.artisanworktables.workstation: ALL
 ftbutilities.claims.item.artisanworktables.worktable: ALL
-ftbutilities.claims.item.avaritiarecipemaker.avaritiarecipemakerblock: ALL
-ftbutilities.claims.item.avaritiarecipemaker.vanillarecipemakerblock: ALL
 ftbutilities.claims.item.betterbuilderswands.wanddiamond: ALL
 ftbutilities.claims.item.betterbuilderswands.wandiron: ALL
 ftbutilities.claims.item.betterbuilderswands.wandstone: ALL
@@ -8898,7 +8892,6 @@ command.immersiveengineering.ie.mineral.list
 command.immersiveengineering.ie.mineral.set
 command.immersiveengineering.ie.mineral.setdepletion
 command.immersivepetroleum.ip
-command.jeresources.jer_profile
 command.journeymap.jtp
 command.kill
 command.locate
@@ -8915,7 +8908,6 @@ command.mekanism.mtp
 command.mekanism.mtpop
 command.modularmachinery.mm-hand
 command.modularmachinery.mm-syntax
-command.mputils.mpadmin
 command.openblocks.flimflam
 command.openblocks.luck
 command.openblocks.ob_inventory
