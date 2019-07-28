@@ -55,7 +55,7 @@ recipes.addShaped(<immersiveengineering:material:5>, [
 recipes.addShaped(<immersiveengineering:metal_device1:1>, [
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
 [<minecraft:lava_bucket>, <immersiveengineering:metal_decoration0>, <minecraft:lava_bucket>], 
-[<ore:blockFuelCoke>, <forestry:chipsets:1>, <immersiveengineering:stone_decoration:3>]]);
+[<ore:blockFuelCoke>, <forestry:chipsets:1>, <ore:blockFuelCoke>]]);
 
 //TE Copper coil block
 recipes.addShaped(<immersiveengineering:metal_decoration0>, [
