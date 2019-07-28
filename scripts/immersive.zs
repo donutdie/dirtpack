@@ -53,7 +53,7 @@ recipes.addShaped(<immersiveengineering:stone_decoration> * 9, [
 recipes.addShaped(<immersiveengineering:tool>, [
 [<ore:cropFlax>, <ore:plateIron>, <ore:cropFlax>],
 [null, <ore:stickWood>, <ore:plateIron>], 
-[<ore:stickWood>, null, <ore:cropFlax]]);
+[<ore:stickWood>, null, <ore:cropFlax>]]);
 
 #artisan Work Table
 recipes.addShaped(<artisanworktables:worktable:3>, [
