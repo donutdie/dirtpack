@@ -24,6 +24,10 @@ recipes.remove(<immersiveengineering:connector:3>);
 recipes.remove(<immersiveengineering:connector:12>);
 recipes.remove(<immersiveengineering:connector:4>);
 recipes.remove(<immersiveengineering:connector:5>);
+recipes.remove(<immersiveengineering:metal_decoration0:5>);
+recipes.remove(<immersiveengineering:metal_decoration0:4>);
+recipes.remove(<immersiveengineering:metal_decoration0:3>);
+recipes.remove(<ore:scaffoldingSteel>);
 
 #copper wire
 recipes.addShaped(<immersiveengineering:wirecoil> * 4, [
@@ -171,12 +175,27 @@ recipes.addShaped(<immersiveengineering:connector:12> * 4, [
 
 #HV wire connector
 recipes.addShaped(<immersiveengineering:connector:4>, [
-[null, <ore:plateAluminum>, null],
-[<minecraft:hardened_clay>, <ore:plateAluminum>, <minecraft:hardened_clay>], 
+[null, <ore:plateSteel>, null],
+[<minecraft:hardened_clay>, <ore:plateSteel>, <minecraft:hardened_clay>], 
 [<minecraft:hardened_clay>, <immersiveengineering:connector:2>, <minecraft:hardened_clay>]]);
 
 #HV wire relay
 recipes.addShaped(<immersiveengineering:connector:5> * 4, [
 [null, <ore:plateAluminum>, null],
-[<immersiveengineering:stone_decoration:8>, <ore:plateAluminum>, <immersiveengineering:stone_decoration:8>],
+[<immersiveengineering:stone_decoration:8>, <ore:plateSteel>, <immersiveengineering:stone_decoration:8>],
 [<immersiveengineering:stone_decoration:8>, <immersiveengineering:connector:4>, <immersiveengineering:stone_decoration:8>]]);
+
+#Steel Scaffold
+recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 6, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],[<ore:plateSteel>, <ore:stickSteel>, <ore:plateSteel>], [<ore:stickSteel>, null, <ore:stickSteel>]]);
+
+#Heavy Eng Block
+recipes.addShaped(<immersiveengineering:metal_decoration0:5> * 2, [[<immersiveengineering:material:9>, <ore:plateNickel>, <immersiveengineering:material:9>],[<minecraft:piston>, <ore:gearElectrum>, <minecraft:piston>], [<immersiveengineering:material:9>, <thermalfoundation:material:325>, <immersiveengineering:material:9>]]);
+
+;
+
+#Light Eng Block
+recipes.addShaped(<immersiveengineering:metal_decoration0:4> * 2, [[<ore:plateNickel>, <ore:plateNickel>, <ore:plateNickel>],[<immersiveengineering:material:8>, <immersiveengineering:material:8>, <immersiveengineering:material:8>], [<ore:plateCopper>, <ore:gearCopper>, <ore:plateCopper>]]);
+
+#Redstone Eng Block.
+recipes.addShaped(<immersiveengineering:metal_decoration0:3> * 2, [[<ore:plateIron>, <ore:alloyBasic>, <ore:plateIron>],[<ore:alloyBasic>, <ore:gearConstantan>, <ore:alloyBasic>], [<ore:plateIron>, <ore:alloyBasic>, <ore:plateIron>]]);
+//File End

@@ -13,6 +13,7 @@ recipes.addShapeless("Planks4", <minecraft:planks:4> * 2, [<minecraft:log2>]);
 recipes.addShapeless("Planks5", <minecraft:planks:5> * 2, [<minecraft:log2:1>]);
 
 
+
 //Sticks
 recipes.remove(<minecraft:stick>);
 recipes.addShapedMirrored("Sticks", 
@@ -61,5 +62,9 @@ recipes.addShaped("Minecraft Dispenser", <minecraft:dispenser>,[
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[null, null, null],[<ore:plateIron>, <immersiveengineering:tool>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 
+
+#Piston
+recipes.remove(<minecraft:piston>);
+recipes.addShaped(<minecraft:piston>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<ore:plankTreatedWood>, <ore:gearSteel>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:gearElectrum>, <ore:plankTreatedWood>]])
 
 print("Vanilla Initialized");
