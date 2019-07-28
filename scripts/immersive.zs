@@ -17,7 +17,7 @@ recipes.remove(<immersiveengineering:material:27>);
 recipes.addShaped(<immersiveengineering:wirecoil> * 4, [
 [null, <ore:wireCopper>, null],
 [<ore:wireCopper>, <forestry:oak_stick>, <ore:wireCopper>],
- [null, <ore:wireCopper>, null]]);
+[null, <ore:wireCopper>, null]]);
 
 #blast heater
 recipes.addShaped(<immersiveengineering:metal_device1>, [
@@ -78,7 +78,6 @@ recipes.addShaped(<immersiveengineering:wooden_device1>, [
 [null, <immersiveengineering:material:10>, null], 
 [<immersiveengineering:material:10>, <ore:stickSteel>, <immersiveengineering:material:10>], 
 [null, <immersiveengineering:material:10>, null]]);
-
 
 #IE Windmill
 recipes.addShaped(<immersiveengineering:wooden_device1:1>, [
