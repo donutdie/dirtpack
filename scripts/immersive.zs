@@ -12,6 +12,18 @@ recipes.remove(<immersiveengineering:wooden_device1>);
 recipes.remove(<immersiveengineering:metal_device0>);
 recipes.remove(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}));
 recipes.remove(<immersiveengineering:material:27>);
+recipes.remove(<immersiveengineering:wooden_device0:6>);
+recipes.remove(<immersiveengineering:metal_device1:6>);
+recipes.remove(<immersiveengineering:wooden_device0:3>);
+recipes.remove(<immersiveengineering:wooden_device0:7>);
+recipes.remove(<immersiveengineering:metal_device1:5>);
+recipes.remove(<immersiveengineering:connector>);
+recipes.remove(<immersiveengineering:connector:2>);
+recipes.remove(<immersiveengineering:connector:1>); 
+recipes.remove(<immersiveengineering:connector:3>);
+recipes.remove(<immersiveengineering:connector:12>);
+recipes.remove(<immersiveengineering:connector:4>);
+recipes.remove(<immersiveengineering:connector:5>);
 
 #copper wire
 recipes.addShaped(<immersiveengineering:wirecoil> * 4, [
@@ -96,3 +108,75 @@ recipes.addShaped(<immersiveengineering:conveyor> * 8, [
 [null, null, null],
 [<ore:itemLeather>, <immersiveengineering:wirecoil:1>, <ore:itemLeather>],
 [<ore:gearCopper>, <forestry:chipsets>, <ore:gearCopper>]]);
+
+#Item router
+recipes.addShaped(<immersiveengineering:wooden_device0:3>, [
+[<ore:plankTreatedWood>, <immersiveengineering:wirecoil:5>, <ore:plankTreatedWood>],
+[<ore:plateIron>, <immersiveengineering:conveyor>, <ore:plateIron>],
+[<ore:plankTreatedWood>,<immersiveengineering:material:8>, <ore:plankTreatedWood>]]);
+
+#Turn table
+recipes.addShaped(<immersiveengineering:wooden_device0:6>, [
+[null, null, null],
+[<immersiveengineering:wirecoil:5>, <ore:gearIron>, <immersiveengineering:wirecoil:5>], 
+[<forestry:chipsets:1>, <immersiveengineering:metal_decoration0>, <forestry:chipsets:1>]]);
+
+#Fluid pipe
+recipes.addShaped(<immersiveengineering:metal_device1:6> * 8, [
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+[null, <minecraft:bucket>, null],
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
+#Fluid router
+recipes.addShaped(<immersiveengineering:wooden_device0:7>, [
+[<ore:plankTreatedWood>, <immersiveengineering:wirecoil:5>, <ore:plankTreatedWood>],
+[<ore:plateIron>, <immersiveengineering:metal_device1:6>, <ore:plateIron>], 
+[<ore:plankTreatedWood>, <immersiveengineering:material:8>, <ore:plankTreatedWood>]]);
+
+#Charging station
+recipes.addShaped(<immersiveengineering:metal_device1:5>, [
+[<ore:plateIron>, <immersiveengineering:connector:2>, <ore:plateIron>],
+[<immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>],
+[<forestry:chipsets:1>, <immersiveengineering:metal_decoration0>, <forestry:chipsets:1>]]);
+
+#LV wire connector
+recipes.addShaped(<immersiveengineering:connector> * 4, [
+[null, <ore:plateCopper>, null],
+[<minecraft:hardened_clay>, <ore:plateCopper>, <minecraft:hardened_clay>],
+[<minecraft:hardened_clay>, <ore:plateCopper>, <minecraft:hardened_clay>]]);
+
+#LV wire relay
+recipes.addShaped(<immersiveengineering:connector:1> * 4, [
+[null, null, null],
+[null, <ore:plateCopper>, null], 
+[<minecraft:hardened_clay>, <immersiveengineering:connector>, <minecraft:hardened_clay>]]);
+
+#MV wire connector
+recipes.addShaped(<immersiveengineering:connector:2> * 2, [
+[null, <ore:plateIron>, null],
+[<minecraft:hardened_clay>, <ore:plateIron>, <minecraft:hardened_clay>],
+[<minecraft:hardened_clay>, <immersiveengineering:connector>, <minecraft:hardened_clay>]]);
+
+#MV wire relay
+recipes.addShaped(<immersiveengineering:connector:3> * 4, [
+[null, null, null],
+[null, <ore:plateIron>, null],
+[<minecraft:hardened_clay>, <immersiveengineering:connector:2>, <minecraft:hardened_clay>]]);
+
+#Redstone wire connector
+recipes.addShaped(<immersiveengineering:connector:12> * 4, [
+[null, null, null],
+[<ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>],
+[<minecraft:hardened_clay>, <immersiveengineering:wirecoil:5>, <minecraft:hardened_clay>]]);
+
+#HV wire connector
+recipes.addShaped(<immersiveengineering:connector:4>, [
+[null, <ore:plateAluminum>, null],
+[<minecraft:hardened_clay>, <ore:plateAluminum>, <minecraft:hardened_clay>], 
+[<minecraft:hardened_clay>, <immersiveengineering:connector:2>, <minecraft:hardened_clay>]]);
+
+#HV wire relay
+recipes.addShaped(<immersiveengineering:connector:5> * 4, [
+[null, <ore:plateAluminum>, null],
+[<immersiveengineering:stone_decoration:8>, <ore:plateAluminum>, <immersiveengineering:stone_decoration:8>],
+[<immersiveengineering:stone_decoration:8>, <immersiveengineering:connector:4>, <immersiveengineering:stone_decoration:8>]]);
