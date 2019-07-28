@@ -58,7 +58,7 @@ recipes.addShaped("Minecraft Dispenser", <minecraft:dispenser>,[
     [<extrautils2:compressedcobblestone>, <thermalfoundation:material:24>, <extrautils2:compressedcobblestone>]]);
 
 #Bucket
-recipes.remove(<minecraft:buket>);
+recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[null, null, null],[<ore:plateIron>, <immersiveengineering:tool>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 
 
