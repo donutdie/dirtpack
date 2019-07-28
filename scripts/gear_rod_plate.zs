@@ -83,6 +83,9 @@ for gear in gearsR {
 		recipes.remove(gear);
 }
 
+recipes.remove(<ore:gearWood>);
+recipes.remove(<ore:gearStone>);
+
 
 
 

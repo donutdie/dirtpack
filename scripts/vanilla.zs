@@ -25,6 +25,8 @@ recipes.addShapedMirrored("Sticks from logs",
 [[<ore:logWood>],
 [<ore:logWood>]]);
 
+recipes.remove(<minecraft:furnace>);
+recipes.addShaped(<minecraft:furnace>, [[<ore:compressed1xCobblestone>, <ore:cobblestone>, <ore:compressed1xCobblestone>],[<ore:cobblestone>, <ore:blockCoal>, <ore:cobblestone>], [<ore:compressed1xCobblestone>, <ore:cobblestone>, <ore:compressed1xCobblestone>]]);
 
 
 // Chest
@@ -41,6 +43,19 @@ recipes.addShaped("Chest Treated", <minecraft:chest> * 4, [
 [<ore:plankWood>, <immersiveengineering:wooden_device0:0>, <ore:plankWood>],
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
+
+recipes.remove(<minecraft:dropper>);
+recipes.remove(<minecraft:dispenser>);
+
+recipes.addShaped("Minecraft Dropper", <minecraft:dropper>,[
+    [<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>],
+    [<minecraft:redstone_block>, null, <minecraft:redstone_block>],
+    [<extrautils2:compressedcobblestone>, <thermalfoundation:material:24>, <extrautils2:compressedcobblestone>]]);
+
+recipes.addShaped("Minecraft Dispenser", <minecraft:dispenser>,[
+    [<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>],
+    [<minecraft:redstone_block>, <minecraft:bow>, <minecraft:redstone_block>],
+    [<extrautils2:compressedcobblestone>, <thermalfoundation:material:24>, <extrautils2:compressedcobblestone>]]);
 
 
 print("Vanilla Initialized");

@@ -5,6 +5,9 @@ recipes.remove(<immersiveengineering:stone_decoration:1>);
 recipes.remove(<immersiveengineering:stone_decoration>);
 recipes.remove(<immersiveengineering:tool>);
 recipes.remove(<immersiveengineering:material:5>);
+recipes.remove(<immersiveengineering:metal_decoration0>);
+
+
 
 #copper wire
 recipes.addShaped(<immersiveengineering:wirecoil> * 4, [
@@ -12,17 +15,11 @@ recipes.addShaped(<immersiveengineering:wirecoil> * 4, [
 [<ore:wireCopper>, <forestry:oak_stick>, <ore:wireCopper>],
  [null, <ore:wireCopper>, null]]);
 
-#heater
-#recipes.addShaped(<immersiveengineering:metal_device1:1>, [
-#[<ore:plateIron>, <ore:plateCopper>, <ore:plateIron>],
-#[<ore:plateCopper>, <immersiveengineering:metal_decoration0>, <ore:plateCopper>], 
-#[<ore:plateIron>, <immersiveengineering:metal_decoration0>, <ore:plateIron>]]);
-
 #blast heater
-#recipes.addShaped(<immersiveengineering:metal_device1>, [
-#[<ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>],
-#[<ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>], 
-#[<ore:blockSheetmetalIron>, <immersiveengineering:metal_device1:1>, <ore:blockSheetmetalIron>]]);
+recipes.addShaped(<immersiveengineering:metal_device1>, [
+[<ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>],
+[<ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>], 
+[<ore:blockSheetmetalIron>, <immersiveengineering:metal_device1:1>, <ore:blockSheetmetalIron>]]);
 
 #blast brick
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [
@@ -52,4 +49,16 @@ recipes.addShaped(<artisanworktables:worktable:3>, [
 recipes.addShaped(<immersiveengineering:material:5>, [
 [<immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>],
 [<immersiveengineering:material:4>, <ore:stickTreatedWood>, <immersiveengineering:material:4>],
- [<immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>]]);
+[<immersiveengineering:material:4>, <immersiveengineering:material:4>, <immersiveengineering:material:4>]]);
+
+#External Heater
+recipes.addShaped(<immersiveengineering:metal_device1:1>, [
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+[<minecraft:lava_bucket>, <immersiveengineering:metal_decoration0>, <minecraft:lava_bucket>], 
+[<ore:blockFuelCoke>, <forestry:chipsets:1>, <immersiveengineering:stone_decoration:3>]]);
+
+//TE Copper coil block
+recipes.addShaped(<immersiveengineering:metal_decoration0>, [
+[<immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>],
+[<immersiveengineering:wirecoil>, <ore:stickCopper>, <immersiveengineering:wirecoil>], 
+[<immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>]]);
