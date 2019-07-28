@@ -191,7 +191,6 @@ recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 6, [[<ore:plateSt
 #Heavy Eng Block
 recipes.addShaped(<immersiveengineering:metal_decoration0:5> * 2, [[<immersiveengineering:material:9>, <ore:plateNickel>, <immersiveengineering:material:9>],[<minecraft:piston>, <ore:gearElectrum>, <minecraft:piston>], [<immersiveengineering:material:9>, <thermalfoundation:material:325>, <immersiveengineering:material:9>]]);
 
-;
 
 #Light Eng Block
 recipes.addShaped(<immersiveengineering:metal_decoration0:4> * 2, [[<ore:plateNickel>, <ore:plateNickel>, <ore:plateNickel>],[<immersiveengineering:material:8>, <immersiveengineering:material:8>, <immersiveengineering:material:8>], [<ore:plateCopper>, <ore:gearCopper>, <ore:plateCopper>]]);

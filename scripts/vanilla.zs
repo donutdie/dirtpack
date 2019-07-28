@@ -65,6 +65,6 @@ recipes.addShaped(<minecraft:bucket>, [[null, null, null],[<ore:plateIron>, <imm
 
 #Piston
 recipes.remove(<minecraft:piston>);
-recipes.addShaped(<minecraft:piston>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<ore:plankTreatedWood>, <ore:gearSteel>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:gearElectrum>, <ore:plankTreatedWood>]])
+recipes.addShaped(<minecraft:piston>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<ore:plankTreatedWood>, <ore:gearSteel>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:gearElectrum>, <ore:plankTreatedWood>]]);
 
 print("Vanilla Initialized");

@@ -22,13 +22,15 @@
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: hideitkeepitsafe.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: immersive.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: lucky.zs}
-[INITIALIZATION][CLIENT][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing lucky.zs:12 -- ] expected
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modular\coke.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oredict.zs}
+[INITIALIZATION][CLIENT][INFO] Initialzing Ore Dict
+[INITIALIZATION][CLIENT][INFO] Ore Dict Sucesfully Loaded
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tconstruct.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 821ms
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing vanilla.zs:70 -- ; expected
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 878ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:27> and replacing them with <forestry:chipsets:1>
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Sacred Oak Wood Planks with name ct_shapeless-1113116431
@@ -77,8 +79,20 @@
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for MV Wire Connector with name ct_shaped374868901
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for MV Wire Relay with name ct_shaped-145285573
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Wire Connector with name ct_shaped909119796
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Connector with name ct_shaped-2101182289
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Relay with name ct_shaped2138938970
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Connector with name ct_shaped1492018069
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Relay with name ct_shaped592402107
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Scaffolding with name ct_shaped-1387214102
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Heavy Engineering Block with name ct_shaped-300692071
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Light Engineering Block with name ct_shaped-1807297518
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Engineering Block with name ct_shaped-38071822
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blank Pattern with name Pattern
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Seared Tank with name ct_shaped-626135296
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Smeltery Controller with name ct_shaped-712788035
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Faucet with name ct_shaped-1118600989
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Smeltery Drain with name ct_shaped-1546942683
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Casting Basin with name ct_shaped-1039209257
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Casting Table with name ct_shaped1564404262
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name ct_shaped1478516236
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gun Turret with name immersiveengineering-metal_devices/turret_gun-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chemthrower Turret with name immersiveengineering-metal_devices/turret_chemthrower-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Probe Connector with name immersiveengineering-connectors/connector_probe-modified
@@ -142,8 +156,12 @@
 [AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Basic Circuit Board
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Enhanced Circuit Board
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Refined Circuit Board
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Intricate Circuit Board
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Basic Circuit Board
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Enhanced Circuit Board
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Refined Circuit Board
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Intricate Circuit Board
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:material:27>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:ore0:4>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:ore0:5>
@@ -199,43 +217,6 @@
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productrod:1>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:productrod:6>
 [SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 1ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: biomesOPlenty.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: forestry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gear_rod_plate.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: hideitkeepitsafe.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: immersive.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: lucky.zs}
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:2 > No such member: carpenter
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:3 > No such member: carpenter
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:4 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:4 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:4 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:5 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:5 > Cannot cast ZenTypeNative: crafttweaker.oredict.IOreDictEntry to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:5 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:6 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:6 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:6 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:9 > No such member: carpenter
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:10 > No such member: carpenter
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:11 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:11 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:11 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:12 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:12 > Cannot cast ZenTypeNative: crafttweaker.oredict.IOreDictEntry to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:12 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:13 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:13 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][ERROR] lucky.zs:13 > Cannot cast ZenTypeNative: crafttweaker.item.IItemStack to ZenTypeNative: crafttweaker.data.IData
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modular\coke.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oredict.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 189ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
 [SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
 [SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: biomesOPlenty.zs}
@@ -249,34 +230,4 @@
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tconstruct.zs}
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 33ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: biomesOPlenty.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: forestry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gear_rod_plate.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: hideitkeepitsafe.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: immersive.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: lucky.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modular\coke.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oredict.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 52ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: biomesOPlenty.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: forestry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gear_rod_plate.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: hideitkeepitsafe.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: immersive.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: lucky.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modular\coke.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oredict.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 68ms
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 79ms
