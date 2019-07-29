@@ -9,6 +9,9 @@ recipes.addShaped(<minecraft:iron_bars> * 16,[
 
 recipes.remove(<immersiveengineering:material:8>);
 recipes.remove(<immersiveengineering:material:9>);
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:8>);
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:9>);
+
 
 #Iron mechanical component
 recipes.addShaped(<immersiveengineering:material:8> * 4,[
