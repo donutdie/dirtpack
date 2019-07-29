@@ -81,6 +81,7 @@ val gearsR = [
 
 for gear in gearsR {
 		recipes.remove(gear);
+		mods.immersiveengineering.MetalPress.removeRecipe(gear);
 }
 
 recipes.remove(<ore:gearWood>);
@@ -146,6 +147,7 @@ val rodsR = [
 	<moreplates:gold_stick>,
 	<libvulpes:productrod:7>,
 	<libvulpes:productrod:10>,
+	<jaopca:item_stickdimensionalshard>,
 ] as IItemStack[];
 
 for rod in rodsR {
@@ -267,9 +269,9 @@ for i,plate in platesR {
 		.create();
 	RecipeBuilder.get("blacksmith")
 		.setShaped([
-			[rods[i], null, rods[i]],
-			[plate, ingots[i], plate],
-			[rods[i], null, rods[i]]
+			[rods[i], ingots[i], rods[i]],
+			[plate, null, plate],
+			[rods[i], ingots[i], rods[i]]
 			])
 		.addTool(<ore:artisansHammer>, 5)
 		.addOutput(gears[i])
@@ -277,4 +279,32 @@ for i,plate in platesR {
 	
 	
 
+}
+
+var ingotsToAdd = [
+<appliedenergistics2:material>,
+<minecraft:coal>,
+<minecraft:diamond>,
+<minecraft:emerald>,
+<minecraft:dye:4>,
+<minecraft:quartz>,
+<actuallyadditions:item_misc:5>,
+<thermalfoundation:material:164>,
+<thermalfoundation:material:134>,
+] as IItemStack[];
+
+var rodsToAdd = [
+<jaopca:item_stickcertusquartz>,
+<jaopca:item_stickcoal>,
+<jaopca:item_stickdiamond>,
+<jaopca:item_stickemerald>,
+<jaopca:item_sticklapis>,
+<jaopca:item_stickquartz>,
+<jaopca:item_stickquartzblack>,
+<moreplates:constantan_stick>,
+<moreplates:platinum_stick>,
+] as IItemStack[];
+
+for i, rod in rodsToAdd {
+	mods.immersiveengineering.MetalPress.addRecipe(rod * 2, ingotsToAdd[i], <immersiveengineering:mold:2>, 2400);
 }

@@ -58,6 +58,16 @@ val shitToHide = [
 	<modularmachinery:blockenergyoutputhatch:6>,
 	<libvulpes:productrod:1>,
 	<libvulpes:productrod:6>,
+	<actuallyadditions:block_coal_generator>,
+	<rftools:coalgenerator>,
+	<libvulpes:coalgenerator>,
+	<modularmachinery:blockenergyoutputhatch:7>,
+	<modularmachinery:blockenergyinputhatch:7>,
+	<modularmachinery:blockfluidinputhatch:7>,
+	<modularmachinery:blockfluidoutputhatch:7>,
+	<immersiveengineering:mold:1>,
+	<tconstruct:cast_custom:4>,
+	<tconstruct:cast_custom:3>,
 
 ] as IItemStack[];
 
