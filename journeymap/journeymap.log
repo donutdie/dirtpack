@@ -86,3 +86,4 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 [15:59:21] [Client thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\New World\waypoints
 [15:59:21] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\New World\DIM0. Memory: 4000MB total, 2451MB free 
 [15:59:21] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[16:47:21] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\New World\DIM0
