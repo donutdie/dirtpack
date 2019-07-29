@@ -1,4 +1,4 @@
-9486 nodes in total
+9490 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1104,6 +1104,7 @@ ftbutilities.claims.block.edit.enderio.block_wireless_charger: OP
 ftbutilities.claims.block.edit.enderio.block_wireless_charger_extension: OP
 ftbutilities.claims.block.edit.enderio.block_xp_vacuum: OP
 ftbutilities.claims.block.edit.enderio.block_zombie_generator: OP
+ftbutilities.claims.block.edit.enderstorage.ender_storage: OP
 ftbutilities.claims.block.edit.extrautils2.analogcrafter: OP
 ftbutilities.claims.block.edit.extrautils2.angelblock: OP
 ftbutilities.claims.block.edit.extrautils2.chunkloader: OP
@@ -3077,6 +3078,7 @@ ftbutilities.claims.block.interact.enderio.block_wireless_charger: OP
 ftbutilities.claims.block.interact.enderio.block_wireless_charger_extension: OP
 ftbutilities.claims.block.interact.enderio.block_xp_vacuum: OP
 ftbutilities.claims.block.interact.enderio.block_zombie_generator: OP
+ftbutilities.claims.block.interact.enderstorage.ender_storage: OP
 ftbutilities.claims.block.interact.extrautils2.analogcrafter: OP
 ftbutilities.claims.block.interact.extrautils2.angelblock: OP
 ftbutilities.claims.block.interact.extrautils2.chunkloader: OP
@@ -6067,6 +6069,8 @@ ftbutilities.claims.item.enderio.item_staff_of_levity: ALL
 ftbutilities.claims.item.enderio.item_travel_staff: ALL
 ftbutilities.claims.item.enderio.item_xp_transfer: ALL
 ftbutilities.claims.item.enderio.item_yeta_wrench: ALL
+ftbutilities.claims.item.enderstorage.ender_pouch: ALL
+ftbutilities.claims.item.enderstorage.ender_storage: ALL
 ftbutilities.claims.item.extrautils2.analogcrafter: ALL
 ftbutilities.claims.item.extrautils2.angelblock: ALL
 ftbutilities.claims.item.extrautils2.angelring: ALL
@@ -9522,6 +9526,8 @@ command.draconicevolution.de_upgrade
 command.effect
 command.enchant
 command.endercore.scoreboardinfo
+command.enderstorage.enderstorage.clear
+command.enderstorage.enderstorage.help
 command.entitydata
 command.execute
 command.extrautils2.xudebug

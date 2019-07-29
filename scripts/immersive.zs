@@ -181,7 +181,7 @@ recipes.addShaped(<immersiveengineering:connector:4>, [
 
 #HV wire relay
 recipes.addShaped(<immersiveengineering:connector:5> * 4, [
-[null, <ore:plateAluminum>, null],
+[null, <ore:plateSteel>, null],
 [<immersiveengineering:stone_decoration:8>, <ore:plateSteel>, <immersiveengineering:stone_decoration:8>],
 [<immersiveengineering:stone_decoration:8>, <immersiveengineering:connector:4>, <immersiveengineering:stone_decoration:8>]]);
 
@@ -198,3 +198,17 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:4> * 2, [[<ore:plateNi
 #Redstone Eng Block.
 recipes.addShaped(<immersiveengineering:metal_decoration0:3> * 2, [[<ore:plateIron>, <ore:alloyBasic>, <ore:plateIron>],[<ore:alloyBasic>, <ore:gearConstantan>, <ore:alloyBasic>], [<ore:plateIron>, <ore:alloyBasic>, <ore:plateIron>]]);
 //File End
+
+
+
+//OH FUCK! This is how you tie it all together
+//HOP GRAPHITE RECIPE REQUIRES BIODIESEL
+mods.immersiveengineering.Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
+
+mods.forestry.Carpenter.addRecipe(<immersiveengineering:material:18>, [
+	[<immersiveengineering:material:17>, <immersiveengineering:material:17>,<immersiveengineering:material:17>],
+	[<immersiveengineering:material:17>, null ,<immersiveengineering:material:17>] ,
+	[<immersiveengineering:material:17>, <immersiveengineering:material:17> ,<immersiveengineering:material:17>]
+	], 5, <liquid:biodiesel> * 500);	
+
+
