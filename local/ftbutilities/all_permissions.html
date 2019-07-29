@@ -3354,34 +3354,44 @@ false
 '>
 <p>/warp Warmup Timer</p>
 </td></tr>
-<tr>
-<td><code>pregen-chunkview</code></td>
-<td><code>bool</code></td>
-<td class='false'><code>false</code></td>
-<td class='true'><code>true</code></td>
-<td title='
-true 
-false 
-'>
-<p>Allows Access to the ChunkView in the clientOnly part of Chunk Pregen</p>
-</td></tr>
 </table><br><table><tr><th>Available command nodes</th><th>Usage</th></tr>
 <tr><td><code>command.advancedrocketry.advancedrocketry</code></td><td class='error' title='Invalid usage language key!'>advancedRocketry help</td></tr>
 <tr><td><code>command.advancement</code></td><td>/advancement &lt;grant|revoke|test&gt; &lt;player&gt;</td></tr>
 <tr><td><code>command.appliedenergistics2.ae2</code></td><td>Commands provided by Applied Energistics 2 - use /ae2 list for a list, and /ae2 help _____ for help with a command.</td></tr>
+<tr><td><code>command.baubles.baubles</code></td><td class='error' title='Invalid usage language key!'>/baubles &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
 <tr><td><code>command.bdlib.dumpregistry</code></td><td>dumpregistry</td></tr>
 <tr><td><code>command.bdlib.oredistribution</code></td><td>/oredistribution &lt;radius&gt; [&lt;min height&gt;] [&lt;max height&gt;] [--file]</td></tr>
-<tr><td><code>command.betterbuilderswands.wandoops</code></td><td class='error' title='Invalid usage language key!'>/wandOops</td></tr>
 <tr><td><code>command.betterquesting.bq_admin</code></td><td class='error' title='Invalid usage language key!'>/bq_admin edit [true|false], /bq_admin hardcore [true|false], /bq_admin reset [all|&lt;quest_id&gt;] [username|uuid], /bq_admin complete &lt;quest_id&gt; [username|uuid], /bq_admin delete [all|&lt;quest_id&gt;], /bq_admin default [save|load|set] [file_name], /bq_admin lives [add|set|max|default] &lt;value&gt; [username|uuid], /bq_admin purge_hidden_quests</td></tr>
 <tr><td><code>command.betterquesting.bq_user</code></td><td class='error' title='Invalid usage language key!'>/bq_user help, /bq_user refresh, /bq_user hardcore</td></tr>
 <tr><td><code>command.biomesoplenty.biomesoplenty</code></td><td>/biomesoplenty &lt;tpbiome|biomename|stripchunk&gt; [args]</td></tr>
 <tr><td><code>command.blockdata</code></td><td>/blockdata &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;dataTag&gt;</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.help.bind</code></td><td>/bloodmagic bind [true|false] [player] ("?" or "help" for help)</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.help.network</code></td><td>/bloodmagic network [syphon|add|get|fill|cap] player [amount]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.help.orb</code></td><td>/bloodmagic orb [set|get] player [tier] ("?" or "help" for help)</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.help.ritual</code></td><td class='error' title='Invalid usage language key!'>null</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.help.teleposer</code></td><td>Teleposer Utilities ("?" or "help" for help)</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.add</code></td><td>/bloodmagic network add [player] [amount]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.cap</code></td><td>/bloodmagic network cap [player]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.fill</code></td><td>/bloodmagic network fill [player]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.get</code></td><td>/bloodmagic network get [player]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.set</code></td><td>/bloodmagic network set [player] [amount]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.syphon</code></td><td>/bloodmagic network syphon [player] [amount]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.network.help.tickethistory</code></td><td>/bloodmagic network tickethistory [player]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.orb.help.get</code></td><td>/bloodmagic orb get [player|?|help]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.orb.help.set</code></td><td>/bloodmagic orb set [player|?|help]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.ritual.help.create</code></td><td>Creates the specified ritual with the MRS at your feet, ignores other blocks by default. (Optional parameters: ([&lt;player&gt; (safe|true|false)] | [safe|true|false]))</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.ritual.help.repair</code></td><td>commands.bloodmagic.ritual.repair.usage</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.list</code></td><td>/bloodmagic teleposer list [player|?|help]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.remove</code></td><td>/bloodmagic teleposer remove [ID|?|help]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.removeall</code></td><td>/bloodmagic teleposer removeall [player|?|help]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.rmrf</code></td><td>/bloodmagic teleposer rmrf [ID|?|help]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.teleport</code></td><td>/bloodmagic teleposer teleport [ID|?|help]</td></tr>
+<tr><td><code>command.bloodmagic.bloodmagic.teleposer.help.teleportfocus</code></td><td>/bloodmagic teleposer teleportfocus [ID|?|help]</td></tr>
 <tr><td><code>command.bq_standard.bqs_advancement_dump</code></td><td class='error' title='Invalid usage language key!'>/bqs_advancement_dump</td></tr>
 <tr><td><code>command.bq_standard.bqs_loot</code></td><td class='error' title='Invalid usage language key!'>/bqs_loot default [save|load], /bqs_loot delete [all|&lt;loot_id&gt;]</td></tr>
 <tr><td><code>command.brandonscore.bcore_ticktime</code></td><td class='error' title='Invalid usage language key!'>/bcore_ticktime</td></tr>
 <tr><td><code>command.brandonscore.bcore_util</code></td><td class='error' title='Invalid usage language key!'>/bcore_util help</td></tr>
 <tr><td><code>command.brandonscore.tpx</code></td><td>/tpx [target player] &lt;destination player&gt;<br>/tpx [target player] &lt;destination dimension&gt;<br>/tpx [target player] &lt;x&gt; &lt;y&gt; &lt;z&gt; [dimension] [&lt;yaw&gt; &lt;pitch&gt;]</td></tr>
-<tr><td><code>command.chunkpregenerator.pregen</code></td><td class='error' title='Invalid usage language key!'>/pregen Allows you to Pregenerate Worlds, Control Structures, Delete Chunks and other things</td></tr>
 <tr><td><code>command.clear</code></td><td>/clear [player] [item] [data] [maxCount] [dataTag]</td></tr>
 <tr><td><code>command.clone</code></td><td>/clone &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [maskMode] [cloneMode]</td></tr>
 <tr><td><code>command.cofhcore.cofh</code></td><td class='error' title='Invalid usage language key!'>/cofh help</td></tr>
@@ -3494,6 +3504,9 @@ false
 <tr><td><code>command.function</code></td><td>/function &lt;name&gt; [if &lt;selector&gt;|unless &lt;selector&gt;]</td></tr>
 <tr><td><code>command.gamemode</code></td><td>/gamemode &lt;mode&gt; [player]</td></tr>
 <tr><td><code>command.gamerule</code></td><td>/gamerule &lt;rule name&gt; [value]</td></tr>
+<tr><td><code>command.gendustry.dumpalleles</code></td><td>dumpalleles</td></tr>
+<tr><td><code>command.gendustry.givesample</code></td><td>/givesample &lt;species&gt; &lt;chromosome&gt; &lt;allele&gt;</td></tr>
+<tr><td><code>command.gendustry.givetemplate</code></td><td>/givetemplate &lt;uid&gt;</td></tr>
 <tr><td><code>command.give</code></td><td>/give &lt;player&gt; &lt;item&gt; [amount] [data] [dataTag]</td></tr>
 <tr><td><code>command.help</code></td><td>/help [page|command name]</td></tr>
 <tr><td><code>command.immersiveengineering.ie.clearshaders</code></td><td class='error' title='Invalid usage language key!'>/ie clearshaders [player name]</td></tr>
@@ -3542,6 +3555,10 @@ om_config_s default &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;...
 <tr><td><code>command.publish</code></td><td>/publish</td></tr>
 <tr><td><code>command.recipe</code></td><td>/recipe &lt;give|take&gt; [player] &lt;name|*&gt;</td></tr>
 <tr><td><code>command.replaceitem</code></td><td>/replaceitem &lt;entity|block&gt; ...</td></tr>
+<tr><td><code>command.rftools.rftcfg</code></td><td class='error' title='Invalid usage language key!'>rftcfg &lt;subcommand&gt; &lt;args&gt; (try 'rftcfg help' for more info)</td></tr>
+<tr><td><code>command.rftools.rftdb</code></td><td class='error' title='Invalid usage language key!'>rftdb &lt;subcommand&gt; &lt;args&gt; (try 'rftdb help' for more info)</td></tr>
+<tr><td><code>command.rftools.rftshape</code></td><td class='error' title='Invalid usage language key!'>rftshape &lt;subcommand&gt; &lt;args&gt; (try 'rftshape help' for more info)</td></tr>
+<tr><td><code>command.rftools.rfttp</code></td><td class='error' title='Invalid usage language key!'>rfttp &lt;subcommand&gt; &lt;args&gt; (try 'rfttp help' for more info)</td></tr>
 <tr><td><code>command.say</code></td><td>/say &lt;message ...&gt;</td></tr>
 <tr><td><code>command.scoreboard</code></td><td>/scoreboard &lt;objectives|players|teams&gt; ...</td></tr>
 <tr><td><code>command.seed</code></td><td>/seed</td></tr>
@@ -3565,10 +3582,22 @@ om_config_s default &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;...
 <tr><td><code>command.time</code></td><td>/time &lt;set|add|query&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.title</code></td><td>/title &lt;player&gt; title|subtitle|actionbar|clear|reset|times ...</td></tr>
 <tr><td><code>command.toggledownfall</code></td><td>/toggledownfall</td></tr>
+<tr><td><code>command.topaddons.tophelmet</code></td><td class='error' title='Invalid usage language key!'>/tophelmet blacklist &lt;add/remove&gt;</td></tr>
 <tr><td><code>command.tp</code></td><td>/tp [target player] &lt;destination player&gt;<br>/tp [target player] &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;yaw&gt; &lt;pitch&gt;]</td></tr>
 <tr><td><code>command.trigger</code></td><td>/trigger &lt;objective&gt; &lt;add|set&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.valkyrielib.removeowner</code></td><td>valkyrielib.removeowner</td></tr>
 <tr><td><code>command.weather</code></td><td>/weather &lt;clear|rain|thunder&gt; [duration in seconds]</td></tr>
+<tr><td><code>command.woot.woot.dev.debug</code></td><td>Use /woot dev debug {[!]event|show|list}.</td></tr>
+<tr><td><code>command.woot.woot.dev.power</code></td><td>Use /woot dev power &lt;bool&gt;.</td></tr>
+<tr><td><code>command.woot.woot.dev.teleport</code></td><td>commands.woot.dev.teleport.usage</td></tr>
+<tr><td><code>command.woot.woot.dump.learning</code></td><td>Use /woot dump learning</td></tr>
+<tr><td><code>command.woot.woot.dump.loot</code></td><td>Not implemented</td></tr>
+<tr><td><code>command.woot.woot.dump.mobs</code></td><td>Use /woot dump mobs</td></tr>
+<tr><td><code>command.woot.woot.dump.policy</code></td><td>Use /woot dump policy {int|ext} &lt;mob|item&gt;</td></tr>
+<tr><td><code>command.woot.woot.dump.structure</code></td><td>Use /woot dump structure</td></tr>
+<tr><td><code>command.woot.woot.dump.tartarus</code></td><td>Use /woot dump tartarus</td></tr>
+<tr><td><code>command.woot.woot.flush</code></td><td>Use /woot flush {all|&lt;mobname&gt;}</td></tr>
+<tr><td><code>command.woot.woot.give</code></td><td>Use /woot give &lt;player&gt; &lt;mobname&gt; &lt;mob display name&gt;</td></tr>
 <tr><td><code>command.worldborder</code></td><td>/worldborder &lt;set|center|damage|warning|get|add&gt; ...</td></tr>
 <tr><td><code>command.xp</code></td><td>/xp &lt;amount&gt; [player]<br>/xp &lt;amount&gt;L [player]</td></tr>
 </table>

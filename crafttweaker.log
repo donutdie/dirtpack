@@ -11,7 +11,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tconstruct.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 3ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 5ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
@@ -19,177 +19,6 @@
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: biomesOPlenty.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: forestry.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gear_rod_plate.zs}
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:21: Could not resolve <moreplates : black_quartz_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:22: Could not resolve <moreplates : diamatine_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:23: Could not resolve <moreplates : emeradic_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:24: Could not resolve <moreplates : enori_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:25: Could not resolve <moreplates : palis_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:26: Could not resolve <moreplates : restonia_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:27: Could not resolve <moreplates : void_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:28: Could not resolve <moreplates : empowered_diamatine_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:29: Could not resolve <moreplates : empowered_emeradic_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:30: Could not resolve <moreplates : empowered_enori_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:31: Could not resolve <moreplates : empowered_palis_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:32: Could not resolve <moreplates : empowered_restonia_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:33: Could not resolve <moreplates : empowered_void_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:34: Could not resolve <moreplates : certus_quartz_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:35: Could not resolve <moreplates : fluix_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:36: Could not resolve <moreplates : awakened_draconium_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:37: Could not resolve <moreplates : draconium_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:38: Could not resolve <moreplates : demon_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:39: Could not resolve <moreplates : enchanted_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:40: Could not resolve <moreplates : evil_infused_iron_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:41: Could not resolve <moreplates : osmium_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:42: Could not resolve <moreplates : refined_glowstone_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:43: Could not resolve <moreplates : refined_obsidian_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:44: Could not resolve <moreplates : silicon_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:45: Could not resolve <moreplates : coal_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:46: Could not resolve <moreplates : glowstone_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:47: Could not resolve <moreplates : lapis_lazuli_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:48: Could not resolve <moreplates : nether_quartz_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:49: Could not resolve <moreplates : ardite_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:50: Could not resolve <moreplates : cobalt_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:51: Could not resolve <moreplates : knightslime_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:52: Could not resolve <moreplates : manyullyn_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:53: Could not resolve <moreplates : pig_iron_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:133: Could not resolve <moreplates : bronze_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:134: Could not resolve <moreplates : constantan_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:135: Could not resolve <moreplates : electrum_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:136: Could not resolve <moreplates : enderium_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:137: Could not resolve <moreplates : invar_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:138: Could not resolve <moreplates : lead_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:139: Could not resolve <moreplates : lumium_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:140: Could not resolve <moreplates : mana_infused_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:141: Could not resolve <moreplates : nickel_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:142: Could not resolve <moreplates : platinum_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:143: Could not resolve <moreplates : signalum_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:144: Could not resolve <moreplates : silver_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:145: Could not resolve <moreplates : tin_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:146: Could not resolve <moreplates : gold_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:171: Could not resolve <moreplates : certus_quartz_plate>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:172: Could not resolve <moreplates : coal_plate>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:173: Could not resolve <moreplates : diamond_plate>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:174: Could not resolve <moreplates : emerald_plate>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:176: Could not resolve <moreplates : black_quartz_plate>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:177: Could not resolve <moreplates : nether_quartz_plate>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:204: Could not resolve <moreplates : gold_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:206: Could not resolve <moreplates : tin_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:207: Could not resolve <moreplates : silver_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:208: Could not resolve <moreplates : lead_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:210: Could not resolve <moreplates : nickel_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:212: Could not resolve <moreplates : electrum_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:213: Could not resolve <moreplates : invar_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:214: Could not resolve <moreplates : bronze_stick>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:238: Could not resolve <moreplates : certus_quartz_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:239: Could not resolve <moreplates : coal_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:242: Could not resolve <moreplates : lapis_lazuli_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:243: Could not resolve <moreplates : black_quartz_gear>
-[INITIALIZATION][CLIENT][ERROR] gear_rod_plate.zs:244: Could not resolve <moreplates : nether_quartz_gear>
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Output can't be empty (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Failed to create recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Invalid recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Output can't be empty (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Failed to create recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Invalid recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Output can't be empty (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Failed to create recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Invalid recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Output can't be empty (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Failed to create recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Invalid recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Output can't be empty (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Failed to create recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Invalid recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Output can't be empty (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Failed to create recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Invalid recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Output can't be empty (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Failed to create recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Invalid recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Output can't be empty (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Failed to create recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Invalid recipe (gear_rod_plate.zs:259)
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] Cannot remove recipes for a null item!
-[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: gear_rod_plate.zs}: null
-java.lang.NullPointerException
-	at Gear_rod_plate.__script__(gear_rod_plate.zs:251)
-	at __ZenMain__.run(Gear_rod_plate)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
-	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:69)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_690_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:857)
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:629)
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:742)
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
-	at net.minecraft.client.main.Main.main(SourceFile:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: hideitkeepitsafe.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: immersive.zs}
 [INITIALIZATION][CLIENT][INFO] Removing Squeezer Recipes for ItemStack HOP Graphite Dust
@@ -203,7 +32,7 @@ java.lang.NullPointerException
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] Initializing Vanilla
 [INITIALIZATION][CLIENT][INFO] Vanilla Initialized
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 882ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 999ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:27> and replacing them with <forestry:chipsets:1>
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Sacred Oak Wood Planks with name ct_shapeless-1113116431
@@ -287,6 +116,35 @@ java.lang.NullPointerException
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gun Turret with name immersiveengineering-metal_devices/turret_gun-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chemthrower Turret with name immersiveengineering-metal_devices/turret_chemthrower-modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Probe Connector with name immersiveengineering-connectors/connector_probe-modified
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
