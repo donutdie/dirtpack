@@ -221,6 +221,6 @@ mods.forestry.Carpenter.addRecipe(<immersiveengineering:material:18>, [
 	[<immersiveengineering:material:17>, <immersiveengineering:material:17>,<immersiveengineering:material:17>],
 	[<immersiveengineering:material:17>, null ,<immersiveengineering:material:17>] ,
 	[<immersiveengineering:material:17>, <immersiveengineering:material:17> ,<immersiveengineering:material:17>]
-	], 5, <liquid:biodiesel> * 500);	
+	], 15, <liquid:biodiesel> * 500);	
 
 
