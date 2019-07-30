@@ -1882,12 +1882,21 @@ forestry:resource_storage:2, Block of Tin
 forestry:resource_storage:3, Block of Bronze
 forestry:ash_brick:0, Ash Bricks
 forestry:ash_stairs:0, Ash Brick Stairs
-forestry:worktable:0, Worktable
-forestry:charcoal:0, Block of Charcoal
-forestry:wood_pile:0, Wood Pile
-forestry:wood_pile_decorative:0, Decorative Wood Pile
-forestry:ash_block:0, Ash Block
-forestry:loam:0, Loam
+forestry:bottler:0, Bottler
+forestry:carpenter:0, Carpenter
+forestry:centrifuge:0, Centrifuge
+forestry:fermenter:0, Fermenter
+forestry:moistener:0, Moistener
+forestry:squeezer:0, Squeezer
+forestry:still:0, Still
+forestry:rainmaker:0, Rainmaker
+forestry:fabricator:0, Thermionic Fabricator
+forestry:raintank:0, Rain Tank
+forestry:database:0, Database
+forestry:honeyed_slice, Honeyed Slice
+forestry:ambrosia, Ambrosia
+forestry:honey_pot, Honey Pot
+forestry:book_forester, Forester's Manual
 forestry:habitat_locator, Habitat Locator
 forestry:imprinter, Imprinter
 forestry:cart.beehouse:0, Minecart with Bee House
@@ -1959,7 +1968,27 @@ forestry:fluid.short.mead, Short Mead
 forestry:can, item.for.can.name
 forestry:capsule, item.for.capsule.name
 forestry:refractory, item.for.refractory.name
-forestry:genetic_filter:0, Genetic Filter
+forestry:engine_peat:0, Peat-fired Engine
+forestry:engine_biogas:0, Biogas Engine
+forestry:engine_clockwork:0, Clockwork Engine
+forestry:crate, Crate
+forestry:charcoal:0, Block of Charcoal
+forestry:wood_pile:0, Wood Pile
+forestry:wood_pile_decorative:0, Decorative Wood Pile
+forestry:ash_block:0, Ash Block
+forestry:loam:0, Loam
+forestry:stamps:0, Stamp (1n)
+forestry:stamps:1, Stamp (2n)
+forestry:stamps:2, Stamp (5n)
+forestry:stamps:3, Stamp (10n)
+forestry:stamps:4, Stamp (20n)
+forestry:stamps:5, Stamp (50n)
+forestry:stamps:6, Stamp (100n)
+forestry:letters, Letter
+forestry:catalogue, Catalogue
+forestry:mailbox:0, Mailbox
+forestry:trade_station:0, Trade Station
+forestry:stamp_collector:0, Stamp Collector
 forestry:mushroom:0, tile.for.mushroom.name
 forestry:mushroom:1, tile.for.mushroom.name
 forestry:ffarm:0, Farm Block
@@ -2017,36 +2046,6 @@ forestry:ffarm:5, Farm Control
 forestry:ffarm:5, Farm Control
 forestry:ffarm:5, Farm Control
 forestry:ffarm:5, Farm Control
-forestry:crate, Crate
-forestry:honeyed_slice, Honeyed Slice
-forestry:ambrosia, Ambrosia
-forestry:honey_pot, Honey Pot
-forestry:bottler:0, Bottler
-forestry:carpenter:0, Carpenter
-forestry:centrifuge:0, Centrifuge
-forestry:fermenter:0, Fermenter
-forestry:moistener:0, Moistener
-forestry:squeezer:0, Squeezer
-forestry:still:0, Still
-forestry:rainmaker:0, Rainmaker
-forestry:fabricator:0, Thermionic Fabricator
-forestry:raintank:0, Rain Tank
-forestry:stamps:0, Stamp (1n)
-forestry:stamps:1, Stamp (2n)
-forestry:stamps:2, Stamp (5n)
-forestry:stamps:3, Stamp (10n)
-forestry:stamps:4, Stamp (20n)
-forestry:stamps:5, Stamp (50n)
-forestry:stamps:6, Stamp (100n)
-forestry:letters, Letter
-forestry:catalogue, Catalogue
-forestry:mailbox:0, Mailbox
-forestry:trade_station:0, Trade Station
-forestry:stamp_collector:0, Stamp Collector
-forestry:engine_peat:0, Peat-fired Engine
-forestry:engine_biogas:0, Biogas Engine
-forestry:engine_clockwork:0, Clockwork Engine
-forestry:book_forester, Forester's Manual
 forestry:arboretum:0, Arboretum (Managed)
 forestry:arboretum:1, Arboretum (Manual)
 forestry:farm_crops:0, Farm (Managed)
@@ -2061,6 +2060,8 @@ forestry:farm_ender:0, Ender Farm (Managed)
 forestry:farm_ender:1, Ender Farm (Manual)
 forestry:peat_bog:0, Peat Bog (Managed)
 forestry:peat_bog:1, Peat Bog (Manual)
+forestry:worktable:0, Worktable
+forestry:genetic_filter:0, Genetic Filter
 forestry:greenhouse:0, Greenhouse Block
 forestry:greenhouse:3, Greenhouse Energy Distributor
 forestry:greenhouse:4, Greenhouse Control
@@ -2072,7 +2073,6 @@ forestry:climatiser:3, Greenhouse Humidifier
 forestry:climatiser:4, Greenhouse Dehumidifier
 forestry:greenhouse_screen, Portable Greenhouse Screen
 forestry:camouflage_spray_can, Camouflage Spray Can
-forestry:database:0, Database
 enderstorage:ender_storage:0, Ender Chest
 enderstorage:ender_storage:1, Ender Tank
 enderstorage:ender_pouch, Ender Pouch
@@ -2806,139 +2806,6 @@ openblocks:glyph:119, 'w' Glyph
 openblocks:glyph:120, 'x' Glyph
 openblocks:glyph:121, 'y' Glyph
 openblocks:glyph:122, 'z' Glyph
-rustic:olive_oil, Olive Oil
-rustic:ironberry_juice, Ironberry Juice
-rustic:wildberry_juice, Wildberry Juice
-rustic:grape_juice, Grape Juice
-rustic:apple_juice, Apple Juice
-rustic:ale_wort, Ale Wort
-rustic:honey, Honey
-rustic:stone_pillar, Stone Pillar
-rustic:andesite_pillar, Andesite Pillar
-rustic:diorite_pillar, Diorite Pillar
-rustic:granite_pillar, Granite Pillar
-rustic:slate_pillar, Slate Pillar
-rustic:chain, Iron Chain
-rustic:candle, Iron Candle
-rustic:chandelier, Iron Chandelier Ring
-rustic:chain_gold, Golden Chain
-rustic:candle_gold, Golden Candle
-rustic:chandelier_gold, Golden Chandelier Ring
-rustic:beehive, Beehive
-rustic:apiary, Apiary
-rustic:slate, Slate
-rustic:slate_roof, Slate Roof
-rustic:slate_tile, Slate Tile
-rustic:slate_brick, Slate Brick
-rustic:slate_chiseled, Chiseled Slate
-rustic:stairs_slate_roof, Slate Roof Stairs
-rustic:slate_roof_slab_item, Slate Roof Slab
-rustic:stairs_slate_brick, Slate Brick Stairs
-rustic:slate_brick_slab_item, Slate Brick Slab
-rustic:clay_wall, Clay Wall
-rustic:clay_wall_cross, Crossed Clay Wall
-rustic:clay_wall_diag, Diagonal Clay Wall
-rustic:chair_oak, Oak Chair
-rustic:chair_big_oak, Dark Oak Chair
-rustic:chair_birch, Birch Chair
-rustic:chair_spruce, Spruce Chair
-rustic:chair_acacia, Acacia Chair
-rustic:chair_jungle, Jungle Chair
-rustic:chair_olive, Olive Wood Chair
-rustic:chair_ironwood, Ironwood Chair
-rustic:table_oak, Oak Table
-rustic:table_big_oak, Dark Oak Table
-rustic:table_birch, Birch Table
-rustic:table_spruce, Spruce Table
-rustic:table_acacia, Acacia Table
-rustic:table_jungle, Jungle Table
-rustic:table_olive, Olive Wood Table
-rustic:table_ironwood, Ironwood Table
-rustic:vase, Pot
-rustic:barrel, Barrel
-rustic:iron_lattice, Iron Lattice
-rustic:iron_lantern, Iron Lantern
-rustic:golden_lantern, Golden Lantern
-rustic:painted_wood_white, White Painted Wood
-rustic:painted_wood_orange, Orange Painted Wood
-rustic:painted_wood_magenta, Magenta Painted Wood
-rustic:painted_wood_light_blue, Light Blue Painted Wood
-rustic:painted_wood_yellow, Yellow Painted Wood
-rustic:painted_wood_lime, Lime Painted Wood
-rustic:painted_wood_pink, Pink Painted Wood
-rustic:painted_wood_gray, Gray Painted Wood
-rustic:painted_wood_silver, Light Gray Painted Wood
-rustic:painted_wood_cyan, Cyan Painted Wood
-rustic:painted_wood_purple, Purple Painted Wood
-rustic:painted_wood_blue, Blue Painted Wood
-rustic:painted_wood_brown, Brown Painted Wood
-rustic:painted_wood_green, Green Painted Wood
-rustic:painted_wood_red, Red Painted Wood
-rustic:painted_wood_black, Black Painted Wood
-rustic:gargoyle, Gargoyle
-rustic:cabinet, Cabinet
-rustic:liquid_barrel, Liquid Barrel
-rustic:fertile_soil, Fertile Soil
-rustic:planks:0, Olive Wood Planks
-rustic:planks:1, Ironwood Planks
-rustic:log:0, Olive Wood
-rustic:log:1, Ironwood
-rustic:leaves:0, Olive Leaves
-rustic:leaves:1, Ironwood Leaves
-rustic:sapling:0, Olive Sapling
-rustic:sapling:1, Ironwood Sapling
-rustic:crushing_tub, Crushing Tub
-rustic:evaporating_basin, Drying Basin
-rustic:fence_olive, Olive Wood Fence
-rustic:fence_ironwood, Ironwood Fence
-rustic:fence_gate_olive, Olive Wood Fence Gate
-rustic:fence_gate_ironwood, Ironwood Fence Gate
-rustic:olive_slab_item, Olive Wood Slab
-rustic:ironwood_slab_item, Ironwood Slab
-rustic:stairs_olive, Olive Wood Stairs
-rustic:stairs_ironwood, Ironwood Stairs
-rustic:condenser, Alchemic Condenser
-rustic:retort, Alchemic Retort
-rustic:condenser_advanced, Advanced Alchemic Condenser
-rustic:retort_advanced, Advanced Alchemic Retort
-rustic:crop_stake, Wooden Stake
-rustic:wildberry_bush, Wildberry Bush
-rustic:rope, Rope
-rustic:grape_stem, Grape Seeds
-rustic:brewing_barrel, Brewing Barrel
-rustic:apple_seeds, Apple Seeds
-rustic:sapling_apple, Apple Sapling
-rustic:leaves_apple, Apple Leaves
-rustic:olive_door, Olive Door
-rustic:ironwood_door, Ironwood Door
-rustic:aloe_vera, Aloe Vera
-rustic:blood_orchid, Blood Orchid
-rustic:chamomile, Chamomile
-rustic:cohosh, Cohosh
-rustic:deathstalk_mushroom, Deathstalk Mushroom
-rustic:horsetail, Horsetail
-rustic:mooncap_mushroom, Mooncap Mushroom
-rustic:wind_thistle, Wind Thistle
-rustic:cloudsbluff, Cloudsbluff
-rustic:core_root, Core Root
-rustic:ginseng, Ginseng Root
-rustic:marsh_mallow, Marsh Mallow Root
-rustic:book, Almanac
-rustic:bee, Bee
-rustic:honeycomb, Honeycomb
-rustic:beeswax, Beeswax
-rustic:tallow, Tallow
-rustic:olives, Olives
-rustic:ironberries, Ironberries
-rustic:fluid_bottle, Bottle of %s
-rustic:dust_tiny_iron, Tiny Pile of Iron Dust
-rustic:elixir, item.rustic.elixir.name
-rustic:tomato, Tomato
-rustic:tomato_seeds, Tomato Seeds
-rustic:chili_pepper, Chili Pepper
-rustic:chili_pepper_seeds, Chili Pepper Seeds
-rustic:wildberries, Wildberries
-rustic:grapes, Grapes
 thermaldynamics:duct_0:0, Leadstone Fluxduct
 thermaldynamics:duct_0:1, Hardened Fluxduct
 thermaldynamics:duct_0:2, Redstone Energy Fluxduct
@@ -3810,100 +3677,6 @@ thermaldynamics:cover:0, Sponge Cover
 thermaldynamics:cover:0, Path Cover
 thermaldynamics:cover:0, Rope Ladder Cover
 thermaldynamics:cover:0, Scaffolding Cover
-thermaldynamics:cover:0, Stone Pillar Cover
-thermaldynamics:cover:0, Andesite Pillar Cover
-thermaldynamics:cover:0, Diorite Pillar Cover
-thermaldynamics:cover:0, Granite Pillar Cover
-thermaldynamics:cover:0, Slate Pillar Cover
-thermaldynamics:cover:0, Iron Chain Cover
-thermaldynamics:cover:0, Iron Candle Cover
-thermaldynamics:cover:0, Iron Chandelier Ring Cover
-thermaldynamics:cover:0, Golden Chain Cover
-thermaldynamics:cover:0, Golden Candle Cover
-thermaldynamics:cover:0, Golden Chandelier Ring Cover
-thermaldynamics:cover:0, Beehive Cover
-thermaldynamics:cover:0, Slate Cover
-thermaldynamics:cover:0, Slate Roof Cover
-thermaldynamics:cover:0, Slate Tile Cover
-thermaldynamics:cover:0, Slate Brick Cover
-thermaldynamics:cover:0, Chiseled Slate Cover
-thermaldynamics:cover:0, Slate Roof Stairs Cover
-thermaldynamics:cover:0, Slate Roof Slab Cover
-thermaldynamics:cover:0, Slate Brick Stairs Cover
-thermaldynamics:cover:0, Slate Brick Slab Cover
-thermaldynamics:cover:0, Clay Wall Cover
-thermaldynamics:cover:0, Crossed Clay Wall Cover
-thermaldynamics:cover:0, Diagonal Clay Wall Cover
-thermaldynamics:cover:0, Oak Chair Cover
-thermaldynamics:cover:0, Dark Oak Chair Cover
-thermaldynamics:cover:0, Birch Chair Cover
-thermaldynamics:cover:0, Spruce Chair Cover
-thermaldynamics:cover:0, Acacia Chair Cover
-thermaldynamics:cover:0, Jungle Chair Cover
-thermaldynamics:cover:0, Olive Wood Chair Cover
-thermaldynamics:cover:0, Ironwood Chair Cover
-thermaldynamics:cover:0, Oak Table Cover
-thermaldynamics:cover:0, Dark Oak Table Cover
-thermaldynamics:cover:0, Birch Table Cover
-thermaldynamics:cover:0, Spruce Table Cover
-thermaldynamics:cover:0, Acacia Table Cover
-thermaldynamics:cover:0, Jungle Table Cover
-thermaldynamics:cover:0, Olive Wood Table Cover
-thermaldynamics:cover:0, Ironwood Table Cover
-thermaldynamics:cover:0, Iron Lattice Cover
-thermaldynamics:cover:0, Iron Lantern Cover
-thermaldynamics:cover:0, Golden Lantern Cover
-thermaldynamics:cover:0, White Painted Wood Cover
-thermaldynamics:cover:0, Orange Painted Wood Cover
-thermaldynamics:cover:0, Magenta Painted Wood Cover
-thermaldynamics:cover:0, Light Blue Painted Wood Cover
-thermaldynamics:cover:0, Yellow Painted Wood Cover
-thermaldynamics:cover:0, Lime Painted Wood Cover
-thermaldynamics:cover:0, Pink Painted Wood Cover
-thermaldynamics:cover:0, Gray Painted Wood Cover
-thermaldynamics:cover:0, Light Gray Painted Wood Cover
-thermaldynamics:cover:0, Cyan Painted Wood Cover
-thermaldynamics:cover:0, Purple Painted Wood Cover
-thermaldynamics:cover:0, Blue Painted Wood Cover
-thermaldynamics:cover:0, Brown Painted Wood Cover
-thermaldynamics:cover:0, Green Painted Wood Cover
-thermaldynamics:cover:0, Red Painted Wood Cover
-thermaldynamics:cover:0, Black Painted Wood Cover
-thermaldynamics:cover:0, Gargoyle Cover
-thermaldynamics:cover:0, Fertile Soil Cover
-thermaldynamics:cover:0, Olive Wood Planks Cover
-thermaldynamics:cover:0, Ironwood Planks Cover
-thermaldynamics:cover:0, Olive Wood Cover
-thermaldynamics:cover:0, Ironwood Cover
-thermaldynamics:cover:0, Olive Leaves Cover
-thermaldynamics:cover:0, Ironwood Leaves Cover
-thermaldynamics:cover:0, Olive Sapling Cover
-thermaldynamics:cover:0, Ironwood Sapling Cover
-thermaldynamics:cover:0, Olive Wood Fence Cover
-thermaldynamics:cover:0, Ironwood Fence Cover
-thermaldynamics:cover:0, Olive Wood Fence Gate Cover
-thermaldynamics:cover:0, Ironwood Fence Gate Cover
-thermaldynamics:cover:0, Olive Wood Slab Cover
-thermaldynamics:cover:0, Ironwood Slab Cover
-thermaldynamics:cover:0, Olive Wood Stairs Cover
-thermaldynamics:cover:0, Ironwood Stairs Cover
-thermaldynamics:cover:0, Alchemic Retort Cover
-thermaldynamics:cover:0, Advanced Alchemic Retort Cover
-thermaldynamics:cover:0, Wooden Stake Cover
-thermaldynamics:cover:0, Wildberry Bush Cover
-thermaldynamics:cover:0, Rope Cover
-thermaldynamics:cover:0, Grape Seeds Cover
-thermaldynamics:cover:0, Apple Seeds Cover
-thermaldynamics:cover:0, Apple Sapling Cover
-thermaldynamics:cover:0, Apple Leaves Cover
-thermaldynamics:cover:0, Aloe Vera Cover
-thermaldynamics:cover:0, Blood Orchid Cover
-thermaldynamics:cover:0, Chamomile Cover
-thermaldynamics:cover:0, Cohosh Cover
-thermaldynamics:cover:0, Deathstalk Mushroom Cover
-thermaldynamics:cover:0, Horsetail Cover
-thermaldynamics:cover:0, Mooncap Mushroom Cover
-thermaldynamics:cover:0, Wind Thistle Cover
 simplyjetpacks:itemjetpack:0, Creative Jetpack
 simplyjetpacks:itemjetpack:1, Conductive Iron Jetpack
 simplyjetpacks:itemjetpack:2, Electrical Steel Jetpack
@@ -6836,11 +6609,6 @@ appliedenergistics2:facade:0, Cable Facade - Block of Copper
 appliedenergistics2:facade:0, Cable Facade - Block of Tin
 appliedenergistics2:facade:0, Cable Facade - Block of Bronze
 appliedenergistics2:facade:0, Cable Facade - Ash Bricks
-appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
-appliedenergistics2:facade:0, Cable Facade - Wood Pile
-appliedenergistics2:facade:0, Cable Facade - Decorative Wood Pile
-appliedenergistics2:facade:0, Cable Facade - Ash Block
-appliedenergistics2:facade:0, Cable Facade - Loam
 appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
 appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
 appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
@@ -6850,6 +6618,11 @@ appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
 appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
 appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
 appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
+appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
+appliedenergistics2:facade:0, Cable Facade - Wood Pile
+appliedenergistics2:facade:0, Cable Facade - Decorative Wood Pile
+appliedenergistics2:facade:0, Cable Facade - Ash Block
+appliedenergistics2:facade:0, Cable Facade - Loam
 appliedenergistics2:facade:0, Cable Facade - Magical Planks
 appliedenergistics2:facade:0, Cable Facade - Magical Wood
 appliedenergistics2:facade:0, Cable Facade - Diagonal Wood
@@ -6959,43 +6732,6 @@ appliedenergistics2:facade:0, Cable Facade - Flux Block
 appliedenergistics2:facade:0, Cable Facade - Elevator
 appliedenergistics2:facade:0, Cable Facade - Sponge
 appliedenergistics2:facade:0, Cable Facade - Scaffolding
-appliedenergistics2:facade:0, Cable Facade - Stone Pillar
-appliedenergistics2:facade:0, Cable Facade - Andesite Pillar
-appliedenergistics2:facade:0, Cable Facade - Diorite Pillar
-appliedenergistics2:facade:0, Cable Facade - Granite Pillar
-appliedenergistics2:facade:0, Cable Facade - Slate Pillar
-appliedenergistics2:facade:0, Cable Facade - Slate
-appliedenergistics2:facade:0, Cable Facade - Slate Roof
-appliedenergistics2:facade:0, Cable Facade - Slate Tile
-appliedenergistics2:facade:0, Cable Facade - Slate Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Slate
-appliedenergistics2:facade:0, Cable Facade - Clay Wall
-appliedenergistics2:facade:0, Cable Facade - Crossed Clay Wall
-appliedenergistics2:facade:0, Cable Facade - Diagonal Clay Wall
-appliedenergistics2:facade:0, Cable Facade - White Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Orange Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Magenta Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Light Blue Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Yellow Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Lime Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Pink Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Gray Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Light Gray Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Cyan Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Purple Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Blue Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Brown Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Green Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Red Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Black Painted Wood
-appliedenergistics2:facade:0, Cable Facade - Fertile Soil
-appliedenergistics2:facade:0, Cable Facade - Olive Wood Planks
-appliedenergistics2:facade:0, Cable Facade - Ironwood Planks
-appliedenergistics2:facade:0, Cable Facade - Olive Wood
-appliedenergistics2:facade:0, Cable Facade - Ironwood
-appliedenergistics2:facade:0, Cable Facade - Olive Leaves
-appliedenergistics2:facade:0, Cable Facade - Ironwood Leaves
-appliedenergistics2:facade:0, Cable Facade - Apple Leaves
 appliedenergistics2:facade:0, Cable Facade - Machine Structure
 appliedenergistics2:facade:0, Cable Facade - Motor
 appliedenergistics2:facade:0, Cable Facade - Advanced Motor
@@ -11346,34 +11082,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Pan Pattern
 tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
 tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
 tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Wide Guard Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:shard:0, Energetic Shard
 tconstruct:shard:0, Vibrant Shard
@@ -12636,27 +12372,7 @@ tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
-tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:4, Pattern Chest
-tconstruct:tooltables:2, Part Builder
-tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
@@ -12796,64 +12512,64 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Pan Cast
 tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Sharpening Kit Cast
 tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Wide Guard Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
 tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
 tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -14037,44 +13753,6 @@ netherendingores:ore_other_1:2, Overworld Ardite Ore
 netherendingores:ore_other_1:3, End Ardite Ore
 netherendingores:ore_other_1:4, Overworld Cobalt Ore
 netherendingores:ore_other_1:5, End Cobalt Ore
-xreliquary:altar, tile.altar.name
-xreliquary:apothecary_cauldron, tile.apothecary_cauldron.name
-xreliquary:apothecary_mortar, tile.apothecary_mortar.name
-xreliquary:fertile_lilypad, tile.fertile_lilypad.name
-xreliquary:interdiction_torch, tile.interdiction_torch.name
-xreliquary:wraith_node, tile.wraith_node.name
-xreliquary:pedestal:0, Pedestal
-xreliquary:pedestal:1, Pedestal
-xreliquary:pedestal:2, Pedestal
-xreliquary:pedestal:3, Pedestal
-xreliquary:pedestal:4, Pedestal
-xreliquary:pedestal:5, Pedestal
-xreliquary:pedestal:6, Pedestal
-xreliquary:pedestal:7, Pedestal
-xreliquary:pedestal:8, Pedestal
-xreliquary:pedestal:9, Pedestal
-xreliquary:pedestal:10, Pedestal
-xreliquary:pedestal:11, Pedestal
-xreliquary:pedestal:12, Pedestal
-xreliquary:pedestal:13, Pedestal
-xreliquary:pedestal:14, Pedestal
-xreliquary:pedestal:15, Pedestal
-xreliquary:pedestal_passive:0, Pedestal (Display only)
-xreliquary:pedestal_passive:1, Pedestal (Display only)
-xreliquary:pedestal_passive:2, Pedestal (Display only)
-xreliquary:pedestal_passive:3, Pedestal (Display only)
-xreliquary:pedestal_passive:4, Pedestal (Display only)
-xreliquary:pedestal_passive:5, Pedestal (Display only)
-xreliquary:pedestal_passive:6, Pedestal (Display only)
-xreliquary:pedestal_passive:7, Pedestal (Display only)
-xreliquary:pedestal_passive:8, Pedestal (Display only)
-xreliquary:pedestal_passive:9, Pedestal (Display only)
-xreliquary:pedestal_passive:10, Pedestal (Display only)
-xreliquary:pedestal_passive:11, Pedestal (Display only)
-xreliquary:pedestal_passive:12, Pedestal (Display only)
-xreliquary:pedestal_passive:13, Pedestal (Display only)
-xreliquary:pedestal_passive:14, Pedestal (Display only)
-xreliquary:pedestal_passive:15, Pedestal (Display only)
 xreliquary:alkahestry_tome, item.alkahestry_tome.name
 xreliquary:mob_ingredient:0, Rib Bone
 xreliquary:mob_ingredient:1, Withered Rib
@@ -14183,6 +13861,44 @@ xreliquary:attraction_potion, item.attraction_potion.name
 xreliquary:fertile_potion, item.fertile_potion.name
 xreliquary:potion:0, Condensed Potion Vial
 xreliquary:tipped_arrow, Tipped Arrow
+xreliquary:altar, tile.altar.name
+xreliquary:apothecary_cauldron, tile.apothecary_cauldron.name
+xreliquary:apothecary_mortar, tile.apothecary_mortar.name
+xreliquary:fertile_lilypad, tile.fertile_lilypad.name
+xreliquary:interdiction_torch, tile.interdiction_torch.name
+xreliquary:wraith_node, tile.wraith_node.name
+xreliquary:pedestal:0, Pedestal
+xreliquary:pedestal:1, Pedestal
+xreliquary:pedestal:2, Pedestal
+xreliquary:pedestal:3, Pedestal
+xreliquary:pedestal:4, Pedestal
+xreliquary:pedestal:5, Pedestal
+xreliquary:pedestal:6, Pedestal
+xreliquary:pedestal:7, Pedestal
+xreliquary:pedestal:8, Pedestal
+xreliquary:pedestal:9, Pedestal
+xreliquary:pedestal:10, Pedestal
+xreliquary:pedestal:11, Pedestal
+xreliquary:pedestal:12, Pedestal
+xreliquary:pedestal:13, Pedestal
+xreliquary:pedestal:14, Pedestal
+xreliquary:pedestal:15, Pedestal
+xreliquary:pedestal_passive:0, Pedestal (Display only)
+xreliquary:pedestal_passive:1, Pedestal (Display only)
+xreliquary:pedestal_passive:2, Pedestal (Display only)
+xreliquary:pedestal_passive:3, Pedestal (Display only)
+xreliquary:pedestal_passive:4, Pedestal (Display only)
+xreliquary:pedestal_passive:5, Pedestal (Display only)
+xreliquary:pedestal_passive:6, Pedestal (Display only)
+xreliquary:pedestal_passive:7, Pedestal (Display only)
+xreliquary:pedestal_passive:8, Pedestal (Display only)
+xreliquary:pedestal_passive:9, Pedestal (Display only)
+xreliquary:pedestal_passive:10, Pedestal (Display only)
+xreliquary:pedestal_passive:11, Pedestal (Display only)
+xreliquary:pedestal_passive:12, Pedestal (Display only)
+xreliquary:pedestal_passive:13, Pedestal (Display only)
+xreliquary:pedestal_passive:14, Pedestal (Display only)
+xreliquary:pedestal_passive:15, Pedestal (Display only)
 rftools:smartwrench, Smart Wrench
 rftools:rftools_manual, RFTools Manual
 rftools:rftools_shape_manual, RFTools Shape Manual
@@ -14342,27 +14058,6 @@ rftools:storage_scanner, Storage Scanner
 rftools:elevator, Elevator
 rftools:booster, Booster
 bq_standard:loot_chest, Loot Chest
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -14413,6 +14108,27 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 woot:die:0, Mesh Die
 woot:die:1, Plate Die
 woot:die:2, Core Die
@@ -16455,6 +16171,7 @@ jaopca:item_dusttinycopper, Tiny Pile of %s Dust
 jaopca:item_dusttinydraconium, Tiny Pile of %s Dust
 jaopca:item_dusttinygold, Tiny Pile of %s Dust
 jaopca:item_dusttinyiridium, Tiny Pile of %s Dust
+jaopca:item_dusttinyiron, Tiny Pile of %s Dust
 jaopca:item_dusttinylead, Tiny Pile of %s Dust
 jaopca:item_dusttinymithril, Tiny Pile of %s Dust
 jaopca:item_dusttinynickel, Tiny Pile of %s Dust

@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<bloodmagic:sacrificial_dagger>);
 recipes.remove(<thermalfoundation:material:515>);
 recipes.remove(<thermalfoundation:material:514>);
 recipes.remove(<thermalfoundation:material:513>);
@@ -9,6 +10,7 @@ recipes.remove(<bloodmagic:altar>);
 recipes.remove(<bloodmagic:soul_snare>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<bloodmagic:sacrificial_dagger>, [[null, <ore:plateGold>, <tconstruct:knife_blade>],[null, <ore:rodLapis>, <ore:plateGold>], [<ore:plateLead>, null, null]]);
 #Conductance Coil
 recipes.addShaped(<thermalfoundation:material:515>, [[<ore:alloyBasic>, <ore:alloyBasic>, <ore:stickElectrum>],[<ore:alloyBasic>, <moreplates:electrum_stick>, <ore:alloyBasic>], [<ore:stickElectrum>, <ore:alloyBasic>, <ore:alloyBasic>]]);
 #Transmission Coil
