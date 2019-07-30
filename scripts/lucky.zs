@@ -4,6 +4,13 @@ recipes.addShaped(<minecraft:iron_bars> * 16,[
 	[null, null, null],
 	[<ore:plateIron>,<ore:stickIron>,<ore:plateIron>],
 	[<ore:plateIron>,<ore:stickIron>,<ore:plateIron>]]);
+	
+#Hopper
+recipes.remove(<minecraft:hopper>);
+recipes.addShaped(<minecraft:hopper>, [
+	[<ore:plateIron>, null, <ore:plateIron>],
+	[<ore:plateIron>, <ore:chest>, <ore:plateIron>], 
+	[null, <ore:plateIron>, null]]);
 
 
 //Immersive Engineering
