@@ -40,8 +40,10 @@ recipes.remove(<forestry:ffarm:5>);
 recipes.remove(<forestry:ffarm:2>);
 recipes.remove(<forestry:ffarm:3>);
 recipes.remove(<forestry:ffarm:4>);
+recipes.remove(<forestry:fabricator>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:1>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:4>);
+
 
 #Thermionic fabricator
 recipes.addShaped(<forestry:fabricator>, [
@@ -65,9 +67,9 @@ mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:1> * 2,[
 
 #Gold electron tube
 mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:4> ,[
-	[ <ore:ingotGold>, <immersiveengineering:material:9>, <ore:ingotGold>],
-	[ <immersiveengineering:wirecoil:5>, <forestry:chipsets:1>.withTag({T: 1 as short}), <immersiveengineering:wirecoil:5>],
-	[ <forestry:thermionic_tubes:1>, <ore:plateGold>, <forestry:thermionic_tubes:1>]],
+	[<ore:ingotGold>, <immersiveengineering:material:9>, <ore:ingotGold>],
+	[<immersiveengineering:wirecoil:5>, <forestry:chipsets:1>.withTag({T: 1 as short}), <immersiveengineering:wirecoil:5>],
+	[<forestry:thermionic_tubes:1>, <ore:plateGold>, <forestry:thermionic_tubes:1>]],
 	<liquid:glass> * 600);
 
 var Blocks = [
@@ -197,4 +199,3 @@ for i, Block in Blocks {
 	[<immersiveengineering:material:9>, FarmBlockR[i], <immersiveengineering:material:9>],
 	[<immersiveengineering:wirecoil:5>, <forestry:thermionic_tubes:4>, <immersiveengineering:wirecoil:5>]]);
 }
-
