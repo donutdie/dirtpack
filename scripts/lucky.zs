@@ -43,6 +43,12 @@ recipes.remove(<forestry:ffarm:4>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:1>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:4>);
 
+#Thermionic fabricator
+recipes.addShaped(<forestry:fabricator>, [
+	[<ore:plateGold>, <forestry:chipsets:1>, <ore:plateGold>],
+	[<immersiveengineering:material:8>, <forestry:sturdy_machine>, <immersiveengineering:material:8>],
+	[<ore:plateGold>, <immersiveengineering:wirecoil:5>, <ore:plateGold>]]);
+
 #Fertilizer
 mods.forestry.Carpenter.addRecipe(<forestry:fertilizer_compound> * 8, [
 	[<forestry:fertilizer_bio>, <forestry:fertilizer_bio>, <forestry:fertilizer_bio>],
@@ -177,7 +183,6 @@ for i,Block in Blocks {
 
 for i, Block in Blocks {
 	recipes.remove(Block);
-	//reicpes.remove(FarmValveR[i]);
 	recipes.addShaped(FarmValveR[i], [
 	[<minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>],
 	[<minecraft:water_bucket>, FarmBlockR[i], <minecraft:water_bucket>], 
@@ -192,3 +197,4 @@ for i, Block in Blocks {
 	[<immersiveengineering:material:9>, FarmBlockR[i], <immersiveengineering:material:9>],
 	[<immersiveengineering:wirecoil:5>, <forestry:thermionic_tubes:4>, <immersiveengineering:wirecoil:5>]]);
 }
+
