@@ -36,6 +36,10 @@ recipes.addShaped(<immersiveengineering:material:9> * 4, [
 //Forestry
 recipes.remove(<forestry:humus>);
 recipes.remove(<forestry:fertilizer_compound>);
+recipes.remove(<forestry:ffarm:5>);
+recipes.remove(<forestry:ffarm:2>);
+recipes.remove(<forestry:ffarm:3>);
+recipes.remove(<forestry:ffarm:4>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:1>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:4>);
 
@@ -173,7 +177,7 @@ for i,Block in Blocks {
 
 for i, Block in Blocks {
 	recipes.remove(Block);
-	reicpes.remove(FarmValveR[i]);
+	//reicpes.remove(FarmValveR[i]);
 	recipes.addShaped(FarmValveR[i], [
 	[<minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>],
 	[<minecraft:water_bucket>, FarmBlockR[i], <minecraft:water_bucket>], 
@@ -188,4 +192,3 @@ for i, Block in Blocks {
 	[<immersiveengineering:material:9>, FarmBlockR[i], <immersiveengineering:material:9>],
 	[<immersiveengineering:wirecoil:5>, <forestry:thermionic_tubes:4>, <immersiveengineering:wirecoil:5>]]);
 }
-
