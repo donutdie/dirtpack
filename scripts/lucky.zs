@@ -17,6 +17,8 @@ recipes.addShaped(<minecraft:hopper>, [
 //Immersive Engineering
 recipes.remove(<immersiveengineering:material:8>);
 recipes.remove(<immersiveengineering:material:9>);
+recipes.remove(<immersiveengineering:wirecoil:5>);
+recipes.remove(<immersiveengineering:wirecoil:2>);
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:8>);
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:9>);
 
@@ -31,6 +33,39 @@ recipes.addShaped(<immersiveengineering:material:9> * 4, [
 	[<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>],
 	[ <ore:barsIron>, <ore:gearSteel>, <ore:barsIron>, ],
 	[<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>]]);
+
+#IE wire coils
+var IEwirecoil = [
+	<immersiveengineering:wirecoil>,
+	<immersiveengineering:wirecoil:1>,
+	<immersiveengineering:wirecoil:3>,
+	<immersiveengineering:wirecoil:4>,
+] as IItemStack[];
+
+var IEwires = [
+	<immersiveengineering:material:20>,
+	<immersiveengineering:material:21>,
+	<immersiveengineering:material:4>,
+	<immersiveengineering:material:23>,
+] as IItemStack[];
+
+for i,wire in IEwirecoil {
+	recipes.remove(IEwirecoil[i]);
+	recipes.addShaped(IEwirecoil[i] * 4,[
+		[null, IEwires[i], null],
+		[IEwires[i], <forestry:oak_stick>, IEwires[i]],
+		[null, IEwires[i], null]]);
+}
+
+recipes.addShapedMirrored(<immersiveengineering:wirecoil:2> * 4, [
+	[null, <immersiveengineering:material:22>, null],
+	[<immersiveengineering:material:23>, <forestry:oak_stick>, <immersiveengineering:material:23>],
+	[null, <immersiveengineering:material:22>, null],]);
+
+recipes.addShapedMirrored(<immersiveengineering:wirecoil:5> * 4, [
+	[null, <immersiveengineering:material:22>, null],
+	[<minecraft:redstone>, <forestry:oak_stick>, <minecraft:redstone>,],
+	[null, <immersiveengineering:material:22>, null]]);
 
 //Forestry
 recipes.remove(<forestry:humus>);
