@@ -14,7 +14,6 @@ recipes.addShaped(<minecraft:hopper>, [
 	[<ore:plateIron>, <ore:chest>, <ore:plateIron>], 
 	[null, <ore:plateIron>, null]]);
 
-
 //Immersive Engineering
 recipes.remove(<immersiveengineering:material:8>);
 recipes.remove(<immersiveengineering:material:9>);
@@ -41,9 +40,13 @@ recipes.remove(<forestry:ffarm:2>);
 recipes.remove(<forestry:ffarm:3>);
 recipes.remove(<forestry:ffarm:4>);
 recipes.remove(<forestry:fabricator>);
+recipes.remove(<forestry:bog_earth>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:1>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:4>);
-
+mods.forestry.Carpenter.removeRecipe(<forestry:bog_earth>);
+mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<minecraft:carrot>]);
+mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<minecraft:apple>]);
+mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<biomesoplenty:persimmon>]);
 
 #Thermionic fabricator
 recipes.addShaped(<forestry:fabricator>, [
@@ -71,6 +74,18 @@ mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:4> ,[
 	[<immersiveengineering:wirecoil:5>, <forestry:chipsets:1>.withTag({T: 1 as short}), <immersiveengineering:wirecoil:5>],
 	[<forestry:thermionic_tubes:1>, <ore:plateGold>, <forestry:thermionic_tubes:1>]],
 	<liquid:glass> * 600);
+
+mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:wheat>], 60, <forestry:mulch> % 25);
+mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:apple>], 60, <forestry:mulch> % 35);
+mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:carrot>], 60, <forestry:mulch> % 35);
+mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:potato>], 60, <forestry:mulch> % 35);
+
+#Bog earth
+mods.forestry.Carpenter.addRecipe(<forestry:bog_earth> * 4, [
+	[<forestry:fertilizer_compound>, <forestry:humus>, <forestry:fertilizer_compound>],
+	[<forestry:humus>, null, <forestry:humus>],
+	[<forestry:fertilizer_compound>, <forestry:humus>, <forestry:fertilizer_compound>]],
+	10, <liquid:lifeessence> * 75);
 
 var Blocks = [
 	<minecraft:stonebrick>, 
@@ -199,3 +214,10 @@ for i, Block in Blocks {
 	[<immersiveengineering:material:9>, FarmBlockR[i], <immersiveengineering:material:9>],
 	[<immersiveengineering:wirecoil:5>, <forestry:thermionic_tubes:4>, <immersiveengineering:wirecoil:5>]]);
 }
+
+//Blood magic
+mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:stone>);
+
+//InputStack, OutputStack, TierRequired, LPRequired, UsageRate, DrainRate
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate>, 
+	<minecraft:leather>, 0, 1000, 25, 20);
