@@ -2,7 +2,6 @@ import crafttweaker.item.IItemStack as IItemStack;
 
 print("Initializing Vanilla");
 
-
 //Planks
 recipes.remove(<ore:plankWood>);
 recipes.addShapeless("Planks", <minecraft:planks> * 2, [<minecraft:log>]);
@@ -11,8 +10,6 @@ recipes.addShapeless("Planks2", <minecraft:planks:2> * 2, [<minecraft:log:2>]);
 recipes.addShapeless("Planks3", <minecraft:planks:3> * 2, [<minecraft:log:3>]);
 recipes.addShapeless("Planks4", <minecraft:planks:4> * 2, [<minecraft:log2>]);
 recipes.addShapeless("Planks5", <minecraft:planks:5> * 2, [<minecraft:log2:1>]);
-
-
 
 //Sticks
 recipes.remove(<minecraft:stick>);
@@ -28,7 +25,6 @@ recipes.addShapedMirrored("Sticks from logs",
 
 recipes.remove(<minecraft:furnace>);
 recipes.addShaped(<minecraft:furnace>, [[<ore:compressed1xCobblestone>, <ore:cobblestone>, <ore:compressed1xCobblestone>],[<ore:cobblestone>, <ore:blockCoal>, <ore:cobblestone>], [<ore:compressed1xCobblestone>, <ore:cobblestone>, <ore:compressed1xCobblestone>]]);
-
 
 // Chest
 recipes.remove(<minecraft:chest>);
@@ -66,5 +62,19 @@ recipes.addShaped(<minecraft:bucket>, [[null, null, null],[<ore:plateIron>, <imm
 #Piston
 recipes.remove(<minecraft:piston>);
 recipes.addShaped(<minecraft:piston>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<ore:plankTreatedWood>, <ore:gearSteel>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:gearElectrum>, <ore:plankTreatedWood>]]);
+
+#Iron bars
+recipes.remove(<minecraft:iron_bars>);
+recipes.addShaped(<minecraft:iron_bars> * 16,[
+	[null, null, null],
+	[<ore:plateIron>,<ore:stickIron>,<ore:plateIron>],
+	[<ore:plateIron>,<ore:stickIron>,<ore:plateIron>]]);
+
+#Hopper
+recipes.remove(<minecraft:hopper>);
+recipes.addShaped(<minecraft:hopper>, [
+	[<ore:plateIron>, null, <ore:plateIron>],
+	[<ore:plateIron>, <ore:chest>, <ore:plateIron>], 
+	[null, <ore:plateIron>, null]]);
 
 print("Vanilla Initialized");
