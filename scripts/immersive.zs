@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemStack as IItemStack;
+
 recipes.remove(<immersiveengineering:wirecoil>);
 recipes.remove(<immersiveengineering:metal_device1:1>);
 recipes.remove(<immersiveengineering:metal_device1>);
@@ -223,4 +225,57 @@ mods.forestry.Carpenter.addRecipe(<immersiveengineering:material:18>, [
 	[<immersiveengineering:material:17>, <immersiveengineering:material:17> ,<immersiveengineering:material:17>]
 	], 25, <liquid:biodiesel> * 500);	
 
+
+//Immersive Engineering
+recipes.remove(<immersiveengineering:material:8>);
+recipes.remove(<immersiveengineering:material:9>);
+recipes.remove(<immersiveengineering:wirecoil:5>);
+recipes.remove(<immersiveengineering:wirecoil:2>);
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:8>);
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:9>);
+
+#Iron mechanical component
+recipes.addShaped(<immersiveengineering:material:8> * 4,[
+	[<ore:plateIron>, <ore:barsIron>, <ore:plateIron>],
+	[<ore:barsIron>, <ore:gearCopper>, <ore:barsIron>],
+	[<ore:plateIron>, <ore:barsIron>, <ore:plateIron>]]);
+
+#Steel mechanical component
+recipes.addShaped(<immersiveengineering:material:9> * 4, [
+	[<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>],
+	[ <ore:barsIron>, <ore:gearSteel>, <ore:barsIron>, ],
+	[<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>]]);
+
+#IE wire coils
+var IEwirecoil = [
+	<immersiveengineering:wirecoil>,
+	<immersiveengineering:wirecoil:1>,
+	<immersiveengineering:wirecoil:3>,
+	<immersiveengineering:wirecoil:4>,
+] as IItemStack[];
+
+var IEwires = [
+	<immersiveengineering:material:20>,
+	<immersiveengineering:material:21>,
+	<immersiveengineering:material:4>,
+	<immersiveengineering:material:23>,
+] as IItemStack[];
+
+for i,wire in IEwirecoil {
+	recipes.remove(IEwirecoil[i]);
+	recipes.addShaped(IEwirecoil[i] * 4,[
+		[null, IEwires[i], null],
+		[IEwires[i], <forestry:oak_stick>, IEwires[i]],
+		[null, IEwires[i], null]]);
+}
+
+recipes.addShapedMirrored(<immersiveengineering:wirecoil:2> * 4, [
+	[null, <immersiveengineering:material:22>, null],
+	[<immersiveengineering:material:23>, <forestry:oak_stick>, <immersiveengineering:material:23>],
+	[null, <immersiveengineering:material:22>, null],]);
+
+recipes.addShapedMirrored(<immersiveengineering:wirecoil:5> * 4, [
+	[null, <immersiveengineering:material:22>, null],
+	[<minecraft:redstone>, <forestry:oak_stick>, <minecraft:redstone>,],
+	[null, <immersiveengineering:material:22>, null]]);
 
