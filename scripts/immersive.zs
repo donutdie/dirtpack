@@ -31,12 +31,6 @@ recipes.remove(<immersiveengineering:metal_decoration0:4>);
 recipes.remove(<immersiveengineering:metal_decoration0:3>);
 recipes.remove(<ore:scaffoldingSteel>);
 
-#copper wire
-recipes.addShaped(<immersiveengineering:wirecoil> * 4, [
-[null, <ore:wireCopper>, null],
-[<ore:wireCopper>, <forestry:oak_stick>, <ore:wireCopper>],
-[null, <ore:wireCopper>, null]]);
-
 #blast heater
 recipes.addShaped(<immersiveengineering:metal_device1>, [
 [<ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>],
