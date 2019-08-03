@@ -32,6 +32,6 @@ recipes.addShaped(<tconstruct:casting:1>, [[<ore:ingotBrickSeared>, null, <ore:i
 recipes.remove(<tconstruct:casting>);
 recipes.addShaped(<tconstruct:casting>, [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>],[<tconstruct:materials>, <tconstruct:tooltables:3>, <tconstruct:materials>], [<tconstruct:materials>, null, <tconstruct:materials>]]);
 
-#Tool Forge
+#Tool Forge (RECIPE DOES NOT WORK!)
 recipes.remove(<tconstruct:toolforge>);
 recipes.addShaped(<tconstruct:toolforge>, [[<tconstruct:seared:3>, <tconstruct:seared:3>, <tconstruct:seared:3>],[<ore:blockSteel>, <tconstruct:tooltables>, <ore:blockSteel>], [<ore:blockSteel>, null, <ore:blockSteel>]]);
