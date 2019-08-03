@@ -65,7 +65,6 @@ recipes.remove(<forestry:ffarm:2>);
 recipes.remove(<forestry:ffarm:3>);
 recipes.remove(<forestry:ffarm:4>);
 recipes.remove(<forestry:fabricator>);
-recipes.remove(<forestry:bog_earth>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:1>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:4>);
 mods.forestry.Carpenter.removeRecipe(<forestry:bog_earth>);
@@ -99,12 +98,6 @@ mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:apple>], 60, <
 mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:carrot>], 60, <forestry:mulch> % 35);
 mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:potato>], 60, <forestry:mulch> % 35);
 
-#Bog earth
-mods.forestry.Carpenter.addRecipe(<forestry:bog_earth> * 4, [
-	[<forestry:fertilizer_compound>, <forestry:humus>, <forestry:fertilizer_compound>],
-	[<forestry:humus>, null, <forestry:humus>],
-	[<forestry:fertilizer_compound>, <forestry:humus>, <forestry:fertilizer_compound>]],
-	3, <liquid:lifeessence> * 50);
 
 var Blocks = [
 	<minecraft:stonebrick>, 
