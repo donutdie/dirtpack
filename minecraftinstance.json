@@ -3313,7 +3313,7 @@
       "dateInstalled": "2019-07-22T23:51:30.0885976Z",
       "dateUpdated": "2019-07-29T18:26:05.013137Z",
       "dateLastUpdateAttempted": "2019-07-29T18:26:05.013137Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3498,6 +3498,102 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 225643,
+      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
+      "installedFile": {
+        "id": 2698039,
+        "displayName": "Botania r1.10-361.jar",
+        "fileName": "Botania r1.10-361.jar",
+        "fileDate": "2019-04-11T20:53:01.573Z",
+        "fileLength": 13820816,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2698/39/Botania r1.10-361.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 227083,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 243121,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 275300,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3982252326,
+            "type": 0
+          },
+          {
+            "foldername": "vazkii",
+            "fingerprint": 758747817,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 418217103,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3864145355,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1152924348,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1655183337,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "Botania r1.10-361.jar"
+      },
+      "dateInstalled": "2019-08-03T01:23:08.2802748Z",
+      "dateUpdated": "2019-08-03T01:23:08.404047Z",
+      "dateLastUpdateAttempted": "2019-08-03T01:23:08.404047Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 291926,
@@ -4361,7 +4457,7 @@
       "dateInstalled": "2019-07-22T17:32:31.7287675Z",
       "dateUpdated": "2019-07-29T18:25:31.2176151Z",
       "dateLastUpdateAttempted": "2019-07-29T18:25:31.2176151Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4444,6 +4540,72 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 247401,
+      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
+      "installedFile": {
+        "id": 2710204,
+        "displayName": "[1.12.2] Hammer Core - 2.0.4.7",
+        "fileName": "HammerCore-1.12.2-2.0.4.7.jar",
+        "fileDate": "2019-05-12T13:12:14.437Z",
+        "fileLength": 2208530,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2710/204/HammerCore-1.12.2-2.0.4.7.jar",
+        "isAlternate": false,
+        "alternateFileId": 2710205,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2979828072,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3403490410,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1850949177,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3547676547,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2191277172,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "HammerCore-1.12.2-2.0.4.7.jar"
+      },
+      "dateInstalled": "2019-08-03T01:23:10.3881996Z",
+      "dateUpdated": "2019-08-03T01:23:10.393186Z",
+      "dateLastUpdateAttempted": "2019-08-03T01:23:10.393186Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 268567,
@@ -5851,7 +6013,7 @@
       "dateInstalled": "2019-07-25T19:01:08.9118387Z",
       "dateUpdated": "2019-07-25T19:01:08.9238063Z",
       "dateLastUpdateAttempted": "2019-07-25T19:01:08.9238063Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6782,7 +6944,7 @@
       "dateInstalled": "2019-07-22T17:31:55.5933094Z",
       "dateUpdated": "2019-07-29T18:25:35.0859444Z",
       "dateLastUpdateAttempted": "2019-07-29T18:25:35.0859444Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7058,7 +7220,7 @@
       "dateInstalled": "2019-07-23T01:13:51.3699738Z",
       "dateUpdated": "2019-07-23T01:13:51.3809245Z",
       "dateLastUpdateAttempted": "2019-07-23T01:13:51.3809245Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9963,7 +10125,7 @@
       "dateInstalled": "2019-07-29T18:22:54.6697312Z",
       "dateUpdated": "2019-07-29T18:22:54.7088726Z",
       "dateLastUpdateAttempted": "2019-07-29T18:22:54.7088726Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10076,7 +10238,7 @@
       "dateInstalled": "2019-07-29T19:10:41.2013762Z",
       "dateUpdated": "2019-07-29T19:10:41.3170568Z",
       "dateLastUpdateAttempted": "2019-07-29T19:10:41.3170568Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10418,7 +10580,7 @@
       "dateInstalled": "2019-07-22T23:57:50.8181867Z",
       "dateUpdated": "2019-07-29T18:25:48.1528215Z",
       "dateLastUpdateAttempted": "2019-07-29T18:25:48.1528215Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11033,6 +11195,84 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 310637,
+      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
+      "installedFile": {
+        "id": 2721818,
+        "displayName": "[1.12.2] Botanic Additions - 3r",
+        "fileName": "BotanicAdditions-1.12.2-3r.jar",
+        "fileDate": "2019-06-08T11:30:47.22Z",
+        "fileLength": 179317,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2721/818/BotanicAdditions-1.12.2-3r.jar",
+        "isAlternate": false,
+        "alternateFileId": 2721819,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 247401,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4044569989,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 443796992,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3831192783,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1986022897,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3900491971,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2590768233,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "BotanicAdditions-1.12.2-3r.jar"
+      },
+      "dateInstalled": "2019-08-03T01:23:10.5304089Z",
+      "dateUpdated": "2019-08-03T01:23:10.531406Z",
+      "dateLastUpdateAttempted": "2019-08-03T01:23:10.531406Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 267193,
@@ -12638,7 +12878,7 @@
       "dateInstalled": "2019-07-29T19:00:43.1747739Z",
       "dateUpdated": "2019-07-29T19:00:43.1948995Z",
       "dateLastUpdateAttempted": "2019-07-29T19:00:43.1948995Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13815,7 +14055,7 @@
       "dateInstalled": "2019-07-22T23:39:45.7716588Z",
       "dateUpdated": "2019-07-22T23:39:45.8047068Z",
       "dateLastUpdateAttempted": "2019-07-22T23:39:45.8047068Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
