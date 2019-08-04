@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "astralsorcery:rock_crystals": {
+    "criteria": {
+      "rock_crystal_in_inventory": "2019-08-03 21:10:21 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2019-08-02 23:12:49 -0600"
@@ -62,6 +68,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2019-08-03 21:16:17 -0600"
     },
     "done": true
   },
@@ -192,9 +204,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2019-08-03 21:28:12 -0600"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2019-08-01 19:37:30 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2019-08-03 21:28:12 -0600"
     },
     "done": true
   },
@@ -207,6 +231,12 @@
   "enderio:gears/g1_wooden_gear": {
     "criteria": {
       "inv_changed-enderio:item_material": "2019-08-02 22:25:48 -0600"
+    },
+    "done": true
+  },
+  "botania:main/mana_pool_pickup": {
+    "criteria": {
+      "pool": "2019-08-03 21:15:06 -0600"
     },
     "done": true
   },
@@ -306,6 +336,12 @@
     },
     "done": true
   },
+  "advancedrocketry:normal/root": {
+    "criteria": {
+      "crafting_table": "2019-08-03 21:13:36 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2019-08-01 19:52:06 -0600"
@@ -336,15 +372,27 @@
     },
     "done": true
   },
+  "astralsorcery:craft_t2_altar": {
+    "criteria": {
+      "altar_craft_t2_altar": "2019-08-03 21:25:17 -0600"
+    },
+    "done": true
+  },
   "appliedenergistics2:main/facade": {
     "criteria": {
       "facade": "2019-08-02 22:50:11 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/nether_brick": {
+  "minecraft:story/root": {
     "criteria": {
-      "has_netherbrick": "2019-08-02 23:12:50 -0600"
+      "crafting_table": "2019-08-03 21:13:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2019-08-03 21:28:12 -0600"
     },
     "done": true
   },
@@ -357,12 +405,6 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brick_block": {
-    "criteria": {
-      "has_brick": "2019-08-02 23:12:49 -0600"
     },
     "done": true
   },

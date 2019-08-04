@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-08-03T01:39:39.0063321Z",
+  "lastPlayed": "2019-08-04T02:56:31.8343165Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -3251,6 +3251,84 @@
       "installedTargets": null
     },
     {
+      "addonID": 291926,
+      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
+      "installedFile": {
+        "id": 2550651,
+        "displayName": "NoNVFlash-1.12.2-1.2.0.3-universal.jar",
+        "fileName": "NoNVFlash-1.12.2-1.2.0.3-universal.jar",
+        "fileDate": "2018-04-11T00:16:52.05Z",
+        "fileLength": 7216,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2550/651/NoNVFlash-1.12.2-1.2.0.3-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2855969088,
+            "type": 3
+          },
+          {
+            "foldername": "cofh",
+            "fingerprint": 33564033,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2661664982,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1481322175,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3477904127,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1370041,
+        "projectId": 291926,
+        "packageFingerprintId": 235382980,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1563764,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "FileNameOnDisk": "NoNVFlash-1.12.2-1.2.0.3-universal.jar"
+      },
+      "dateInstalled": "2019-07-25T18:12:13.9024773Z",
+      "dateUpdated": "2018-07-25T18:12:13.9024773Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 225643,
       "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
       "installedFile": {
@@ -3340,84 +3418,6 @@
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 291926,
-      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
-      "installedFile": {
-        "id": 2550651,
-        "displayName": "NoNVFlash-1.12.2-1.2.0.3-universal.jar",
-        "fileName": "NoNVFlash-1.12.2-1.2.0.3-universal.jar",
-        "fileDate": "2018-04-11T00:16:52.05Z",
-        "fileLength": 7216,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2550/651/NoNVFlash-1.12.2-1.2.0.3-universal.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2855969088,
-            "type": 3
-          },
-          {
-            "foldername": "cofh",
-            "fingerprint": 33564033,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2661664982,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1481322175,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 3477904127,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1370041,
-        "projectId": 291926,
-        "packageFingerprintId": 235382980,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1563764,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "FileNameOnDisk": "NoNVFlash-1.12.2-1.2.0.3-universal.jar"
-      },
-      "dateInstalled": "2019-07-25T18:12:13.9024773Z",
-      "dateUpdated": "2018-07-25T18:12:13.9024773Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -4293,72 +4293,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 247401,
-      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
-      "installedFile": {
-        "id": 2710204,
-        "displayName": "[1.12.2] Hammer Core - 2.0.4.7",
-        "fileName": "HammerCore-1.12.2-2.0.4.7.jar",
-        "fileDate": "2019-05-12T13:12:14.437Z",
-        "fileLength": 2208530,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2710/204/HammerCore-1.12.2-2.0.4.7.jar",
-        "isAlternate": false,
-        "alternateFileId": 2710205,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2979828072,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3403490410,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1850949177,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 3547676547,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 2191277172,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "FileNameOnDisk": "HammerCore-1.12.2-2.0.4.7.jar"
-      },
-      "dateInstalled": "2019-08-03T01:23:10.3881996Z",
-      "dateUpdated": "2019-08-03T01:23:10.393186Z",
-      "dateLastUpdateAttempted": "2019-08-03T01:23:10.393186Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
       "addonID": 268567,
       "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
       "installedFile": {
@@ -4437,6 +4371,72 @@
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 247401,
+      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
+      "installedFile": {
+        "id": 2710204,
+        "displayName": "[1.12.2] Hammer Core - 2.0.4.7",
+        "fileName": "HammerCore-1.12.2-2.0.4.7.jar",
+        "fileDate": "2019-05-12T13:12:14.437Z",
+        "fileLength": 2208530,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2710/204/HammerCore-1.12.2-2.0.4.7.jar",
+        "isAlternate": false,
+        "alternateFileId": 2710205,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2979828072,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3403490410,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1850949177,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3547676547,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2191277172,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "HammerCore-1.12.2-2.0.4.7.jar"
+      },
+      "dateInstalled": "2019-08-03T01:23:10.3881996Z",
+      "dateUpdated": "2019-08-03T01:23:10.393186Z",
+      "dateLastUpdateAttempted": "2019-08-03T01:23:10.393186Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -7640,7 +7640,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 226406,
@@ -9385,94 +9385,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 247111,
-      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
-      "installedFile": {
-        "id": 2698796,
-        "displayName": "topaddons-1.12.2-1.11.0.jar",
-        "fileName": "topaddons-1.12.2-1.11.0.jar",
-        "fileDate": "2019-04-13T21:26:30.217Z",
-        "fileLength": 244342,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2698/796/topaddons-1.12.2-1.11.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 2698797,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 245211,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2021150649,
-            "type": 0
-          },
-          {
-            "foldername": "io",
-            "fingerprint": 2465567597,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3449926384,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2740156072,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2508079726,
-            "type": 0
-          },
-          {
-            "foldername": "topaddonslogo.png",
-            "fingerprint": 4209097068,
-            "type": 0
-          },
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 697443232,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3089378494,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "FileNameOnDisk": "topaddons-1.12.2-1.11.0.jar"
-      },
-      "dateInstalled": "2019-07-29T18:22:54.6697312Z",
-      "dateUpdated": "2019-07-29T18:22:54.7088726Z",
-      "dateLastUpdateAttempted": "2019-07-29T18:22:54.7088726Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 292785,
       "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
       "installedFile": {
@@ -9574,6 +9486,94 @@
       "dateInstalled": "2019-07-29T19:10:41.2013762Z",
       "dateUpdated": "2019-07-29T19:10:41.3170568Z",
       "dateLastUpdateAttempted": "2019-07-29T19:10:41.3170568Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 247111,
+      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
+      "installedFile": {
+        "id": 2698796,
+        "displayName": "topaddons-1.12.2-1.11.0.jar",
+        "fileName": "topaddons-1.12.2-1.11.0.jar",
+        "fileDate": "2019-04-13T21:26:30.217Z",
+        "fileLength": 244342,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2698/796/topaddons-1.12.2-1.11.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 2698797,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 245211,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2021150649,
+            "type": 0
+          },
+          {
+            "foldername": "io",
+            "fingerprint": 2465567597,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3449926384,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2740156072,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2508079726,
+            "type": 0
+          },
+          {
+            "foldername": "topaddonslogo.png",
+            "fingerprint": 4209097068,
+            "type": 0
+          },
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 697443232,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3089378494,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "topaddons-1.12.2-1.11.0.jar"
+      },
+      "dateInstalled": "2019-07-29T18:22:54.6697312Z",
+      "dateUpdated": "2019-07-29T18:22:54.7088726Z",
+      "dateLastUpdateAttempted": "2019-07-29T18:22:54.7088726Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -10608,7 +10608,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229876,
@@ -10920,7 +10920,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291737,
@@ -13535,7 +13535,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 74072,

@@ -2,12 +2,9 @@
 //Don't touch me!
 //#Remove
 
-
-
 recipes.remove(<thermalfoundation:material:515>);
 recipes.remove(<thermalfoundation:material:514>);
 recipes.remove(<thermalfoundation:material:513>);
-
 //Don't touch me!
 //#Add
 
@@ -17,5 +14,4 @@ recipes.addShaped(<thermalfoundation:material:515>, [[<ore:alloyBasic>, <ore:all
 recipes.addShaped(<thermalfoundation:material:514>, [[<ore:alloyBasic>, <ore:alloyBasic>, <ore:stickSilver>],[<ore:alloyBasic>, <moreplates:silver_stick>, <ore:alloyBasic>], [<ore:stickSilver>, <ore:alloyBasic>, <ore:alloyBasic>]]);
 #Reception Coil
 recipes.addShaped(<thermalfoundation:material:513>, [[<ore:alloyBasic>, <minecraft:redstone>, <ore:stickGold>],[<minecraft:redstone>, <moreplates:gold_stick>, <minecraft:redstone>], [<ore:stickGold>, <minecraft:redstone>, <ore:alloyBasic>]]);
-
 //File End

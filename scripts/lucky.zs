@@ -1,24 +1,10 @@
 //AE2
 mods.forestry.Carpenter.addRecipe(<appliedenergistics2:material:1>, [
-    [null, null, null],
-    [null, <appliedenergistics2:material>, null],
-    [null, null, null]
+    [<appliedenergistics2:material>]
     ], 50, <liquid:astralsorcery.liquidstarlight> * 75);
 
 
 
-//Botania
-recipes.remove(<botania:altar>);
-mods.botania.Apothecary.removeRecipe("puredaisy");
-
-#Petal apothecary
-recipes.remove(<botania:altar>);
-recipes.addShaped(<botania:altar>,[
-    [null, <botania:petalblock>, null],
-    [null, <minecraft:cobblestone_wall>, null],
-    [<extrautils2:compressedcobblestone:1>, <minecraft:brewing_stand>, <extrautils2:compressedcobblestone:1>]]);
-
-mods.astralsorcery.StarlightInfusion.addInfusion(<botania:petalblock>, <botania:specialflower>.withTag({type: "puredaisy"}), false, 1.0, 200);
 
 
 //Astral Sorcery
