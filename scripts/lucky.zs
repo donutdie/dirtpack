@@ -12,7 +12,7 @@ mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/handtelescope");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/telescope");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/crystallens");
-mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/updrade_tier3");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3");
 mods.astralsorcery.LightTransmutation.removeTransmutation(<astralsorcery:blockcustomore:1>, false);
 mods.astralsorcery.LightTransmutation.removeTransmutation(<minecraft:emerald_ore>, false);
 
@@ -77,7 +77,7 @@ mods.botania.Apothecary.addRecipe("endoflame", [
     <minecraft:fire_charge>, <ore:petalRed>, <ore:petalRed>, <ore:petalOrange>, <ore:petalBrown>]);
 
 #Mana lense
-recipes.remove(<botania:lens>.withTag({}));
+recipes.remove(<botania:lens>);
 recipes.addShaped(<botania:lens>.withTag({}), [
     [null, <ore:ingotManasteel>, null],
     [<ore:ingotManasteel>, <astralsorcery:itemcraftingcomponent:3>, <ore:ingotManasteel>],
@@ -97,3 +97,16 @@ recipes.addShaped(<botania:distributor>, [
     [<botania:pool>, <immersiveengineering:metal_device1:6>, <botania:pool>],
     [<ore:livingrock>, <botania:storage>, <ore:livingrock>]]);
 
+
+//Actualy Additions
+recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
+
+#Black quarts ore
+mods.astralsorcery.LightTransmutation.addTransmutation(<astralsorcery:blockcustomore>, <actuallyadditions:block_misc:3>, 250);
+
+#Iron casing
+recipes.remove(<actuallyadditions:block_misc:9>);
+recipes.addShaped(<actuallyadditions:block_misc:9>, [ 
+    [<immersiveengineering:material:9>, <botania:livingwood>, <immersiveengineering:material:9>],
+    [<botania:storage>, <moreplates:black_quartz_plate>, <botania:storage>],
+    [<immersiveengineering:material:9>, <botania:livingwood>, <immersiveengineering:material:9>]]);
