@@ -1,5 +1,14 @@
 import crafttweaker.item.IItemStack as IItemStack;
 
+//Advanced Rocketry
+#Basic lens
+recipes.remove(<advancedrocketry:lens>);
+
+recipes.addShaped(<advancedrocketry:lens>, [
+    [null, <ore:plateAluminum>, null],
+    [<ore:plateAluminum>, <botania:lens>, <ore:plateAluminum>],
+    [null, <ore:blockRedstone>, null]]);
+
 //AE2
 mods.forestry.Carpenter.addRecipe(<appliedenergistics2:material:1>, [
     [<appliedenergistics2:material>]
@@ -100,15 +109,32 @@ recipes.addShaped(<botania:distributor>, [
 
 //Actualy Additions
 recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
+recipes.remove(<actuallyadditions:block_misc:9>);
+recipes.remove(<immersiveengineering:metal_decoration0:5>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_atomic_reconstructor>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:1>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:2>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:3>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:4>);
 
 #Black quarts ore
 mods.astralsorcery.LightTransmutation.addTransmutation(<astralsorcery:blockcustomore>, <actuallyadditions:block_misc:3>, 250);
 
 #Iron casing
-recipes.remove(<actuallyadditions:block_misc:9>);
 recipes.addShaped(<actuallyadditions:block_misc:9>, [ 
-    [<immersiveengineering:material:9>, <botania:livingwood>, <immersiveengineering:material:9>],
+    [<immersiveengineering:material:9>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:material:9>],
     [<botania:storage>, <moreplates:black_quartz_plate>, <botania:storage>],
-    [<immersiveengineering:material:9>, <botania:livingwood>, <immersiveengineering:material:9>]]);
+    [<immersiveengineering:material:9>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:material:9>]]);
 
-#Add the following with 
+#Atomic reconstructor
+recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [
+    [<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
+    [<actuallyadditions:block_misc:9>, <advancedrocketry:lens>, <actuallyadditions:block_misc:9>],
+    [<immersiveengineering:metal_decoration0:1>, <immersiveengineering:wirecoil:5>, <immersiveengineering:metal_decoration0:1>]]);
+
+#Diamatine crystal
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:2>, <botania:manaresource:2>, 600);
+
+#Emeradic crystal
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:4>, <botania:manaresource:4>, 1500);
