@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2019-08-05 19:21:43 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2019-07-30 15:34:44 +0200"
@@ -375,6 +381,12 @@
   "botania:main/lexicon_use": {
     "criteria": {
       "use_lexicon": "2019-08-04 14:05:23 +0200"
+    },
+    "done": true
+  },
+  "botania:main/terrasteel_pickup": {
+    "criteria": {
+      "terrasteel": "2019-08-05 20:22:21 +0200"
     },
     "done": true
   },
