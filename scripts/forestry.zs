@@ -1,6 +1,19 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
+recipes.remove(<forestry:humus>);
+recipes.remove(<forestry:ffarm:5>);
+recipes.remove(<forestry:ffarm:2>);
+recipes.remove(<forestry:ffarm:3>);
+recipes.remove(<forestry:ffarm:4>);
+recipes.remove(<forestry:fabricator>);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:1>);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:4>);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:2>);
+mods.forestry.Carpenter.removeRecipe(<forestry:bog_earth>);
+mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<minecraft:carrot>]);
+mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<minecraft:apple>]);
+mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<biomesoplenty:persimmon>]);
 
 recipes.replaceAllOccurences( <immersiveengineering:material:27>,<forestry:chipsets:1>);
 rh(<immersiveengineering:material:27>);
@@ -34,8 +47,6 @@ mods.forestry.Carpenter.addRecipe(<forestry:chipsets:1>, [
 	[<minecraft:redstone>,<forestry:chipsets>,<minecraft:redstone>]
 	], 5, <liquid:water> * 1000);
 
-
-
 mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:2>);
 mods.forestry.Carpenter.addRecipe(<forestry:chipsets:2>, [ 
 	[<minecraft:redstone>, <forestry:chipsets:1>, <minecraft:redstone>],
@@ -43,7 +54,6 @@ mods.forestry.Carpenter.addRecipe(<forestry:chipsets:2>, [
 	[<minecraft:redstone>, <forestry:chipsets:1>,<minecraft:redstone>]
 	], 5,  <liquid:water> * 1000);
 
-//
 mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:3>);
 mods.forestry.Carpenter.addRecipe(<forestry:chipsets:3>, [
 	[<minecraft:redstone>, <forestry:chipsets:2> ,<minecraft:redstone>],
@@ -51,33 +61,17 @@ mods.forestry.Carpenter.addRecipe(<forestry:chipsets:3>, [
 	[<minecraft:redstone>, <forestry:chipsets:2> ,<minecraft:redstone>]
 	], 5, <liquid:water> * 1000);	
 
-//Impregenated Stick 2
+#Impregenated Stick 2
 mods.forestry.Carpenter.addRecipe(<forestry:oak_stick> * 2, [
 	[<ore:logWood>],
 	[<ore:logWood>]
 	], 5, <liquid:plantoil> * 100);	
-
-
-//Forestry
-recipes.remove(<forestry:humus>);
-recipes.remove(<forestry:ffarm:5>);
-recipes.remove(<forestry:ffarm:2>);
-recipes.remove(<forestry:ffarm:3>);
-recipes.remove(<forestry:ffarm:4>);
-recipes.remove(<forestry:fabricator>);
-mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:1>);
-mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:4>);
-mods.forestry.Carpenter.removeRecipe(<forestry:bog_earth>);
-mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<minecraft:carrot>]);
-mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<minecraft:apple>]);
-mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<biomesoplenty:persimmon>]);
 
 #Thermionic fabricator
 recipes.addShaped(<forestry:fabricator>, [
 	[<ore:plateElectrum>, <forestry:chipsets:1>, <ore:plateElectrum>],
 	[<immersiveengineering:material:8>, <forestry:sturdy_machine>, <immersiveengineering:material:8>],
 	[<ore:plateElectrum>, <immersiveengineering:wirecoil:5>, <ore:plateElectrum>]]);
-
 
 #Tin electron tube
 mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:1> * 2,[
@@ -89,15 +83,21 @@ mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:1> * 2,[
 #Gold electron tube
 mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:4> ,[
 	[<ore:ingotGold>, <immersiveengineering:material:9>, <ore:ingotGold>],
-	[<immersiveengineering:wirecoil:5>, <forestry:chipsets:1>.withTag({T: 1 as short}), <immersiveengineering:wirecoil:5>],
+	[<immersiveengineering:wirecoil:5>, <forestry:chipsets:1>, <immersiveengineering:wirecoil:5>],
 	[<forestry:thermionic_tubes:1>, <ore:plateGold>, <forestry:thermionic_tubes:1>]],
 	<liquid:glass> * 600);
+
+#Bronze electron tube
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:2> ,[
+	[null, <immersiveengineering:material:9>, null],
+	[<astralsorcery:itemcraftingcomponent:1>, <forestry:chipsets:1>, <astralsorcery:itemcraftingcomponent:1>],
+	[<ore:plateBronze>, <ore:gearManasteel>, <ore:plateBronze>]],
+	<liquid:astralsorcery.liquidstarlight> * 850);
 
 mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:wheat>], 60, <forestry:mulch> % 25);
 mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:apple>], 60, <forestry:mulch> % 35);
 mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:carrot>], 60, <forestry:mulch> % 35);
 mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:potato>], 60, <forestry:mulch> % 35);
-
 
 var Blocks = [
 	<minecraft:stonebrick>, 
