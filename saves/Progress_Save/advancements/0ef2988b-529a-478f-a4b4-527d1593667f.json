@@ -1,31 +1,7 @@
 {
-  "minecraft:nether/get_wither_skull": {
+  "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
-      "wither_skull": "2019-08-01 19:50:39 -0600"
-    },
-    "done": true
-  },
-  "enderio:gears/g2_stone_gear": {
-    "criteria": {
-      "inv_changed-enderio:item_material": "2019-08-02 22:25:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2019-08-01 19:51:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "zombie": "2019-08-01 19:37:30 -0600"
-    },
-    "done": true
-  },
-  "botania:main/terrasteel_pickup": {
-    "criteria": {
-      "terrasteel": "2019-08-02 23:13:20 -0600"
+      "has_stick": "2019-08-05 19:37:16 -0600"
     },
     "done": true
   },
@@ -35,15 +11,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_pickaxe": {
+  "minecraft:recipes/misc/paper": {
     "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+      "has_reeds": "2019-08-05 20:18:14 -0600"
     },
     "done": true
   },
-  "astralsorcery:rock_crystals": {
+  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
     "criteria": {
-      "rock_crystal_in_inventory": "2019-08-03 21:10:21 -0600"
+      "has_bonemeal": "2019-08-05 20:18:03 -0600"
     },
     "done": true
   },
@@ -59,33 +35,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_lapis_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2019-08-05 20:18:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2019-08-05 20:08:08 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/minecart": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
-    "criteria": {
-      "has_double_plant": "2019-08-03 21:16:17 -0600"
-    },
-    "done": true
-  },
-  "immersiveengineering:main/root": {
-    "criteria": {
-      "hold_manual": "2019-08-01 19:25:20 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/beacon": {
-    "criteria": {
-      "has_nether_star": "2019-08-01 19:51:08 -0600"
     },
     "done": true
   },
@@ -95,46 +59,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2019-08-01 19:25:35 -0600"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "beaches": "2019-08-01 19:50:27 -0600",
-      "plains": "2019-08-01 19:24:26 -0600"
-    },
-    "done": false
-  },
-  "minecraft:recipes/redstone/iron_door": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2019-08-02 23:12:49 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/tools/iron_hoe": {
+  "minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal": {
     "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+      "has_bonemeal": "2019-08-05 20:18:03 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_slab": {
+  "minecraft:recipes/decorations/ladder": {
     "criteria": {
-      "has_stonebrick": "2019-08-01 19:25:20 -0600"
-    },
-    "done": true
-  },
-  "immersiveengineering:main/craft_hammer": {
-    "criteria": {
-      "craft_hammer": "2019-08-01 19:25:20 -0600"
+      "has_stick": "2019-08-05 19:37:16 -0600"
     },
     "done": true
   },
@@ -144,45 +83,27 @@
     },
     "done": true
   },
-  "enderioconduits:goals/all_conduits": {
-    "criteria": {
-      "inv_changed-enderio:liquid_conduit_ender2": "2019-08-01 20:08:31 -0600"
-    },
-    "done": false
-  },
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2019-08-02 23:12:49 -0600"
     },
     "done": true
   },
-  "enderioconduits:fluid/1_fluid_conduit": {
+  "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
-      "inv_changed-enderio:liquid_conduit": "2019-08-01 20:08:31 -0600"
+      "has_stick": "2019-08-05 19:37:16 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/food/golden_apple": {
+  "botania:main/rune_pickup": {
     "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+      "rune": "2019-08-05 19:46:20 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
+  "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
-      "has_obsidian": "2019-08-01 19:35:28 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/iron_shovel": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/iron_trapdoor": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+      "has_diamond": "2019-08-05 20:08:08 -0600"
     },
     "done": true
   },
@@ -210,6 +131,367 @@
     },
     "done": true
   },
+  "botania:main/mana_pool_pickup": {
+    "criteria": {
+      "pool": "2019-08-03 21:15:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2019-08-05 20:08:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2019-08-01 19:35:28 -0600"
+    },
+    "done": true
+  },
+  "enderio:gears/g5_vibrant_gear": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2019-08-02 22:25:51 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2019-08-05 19:37:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2019-08-01 19:50:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2019-08-05 20:18:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/crafting_terminal": {
+    "criteria": {
+      "certus": "2019-08-05 19:45:02 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2019-08-05 19:37:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/presses": {
+    "criteria": {
+      "eng": "2019-08-05 19:41:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2019-08-03 21:13:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2019-08-03 21:28:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2019-08-05 20:17:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_bonemeal": "2019-08-05 20:18:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2019-08-01 19:35:28 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2019-08-01 19:51:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2019-08-01 19:50:39 -0600"
+    },
+    "done": true
+  },
+  "enderio:gears/g2_stone_gear": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2019-08-02 22:25:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2019-08-01 19:51:09 -0600"
+    },
+    "done": true
+  },
+  "botania:main/lexicon_use": {
+    "criteria": {
+      "use_lexicon": "2019-08-05 20:20:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2019-08-01 19:37:30 -0600"
+    },
+    "done": true
+  },
+  "botania:main/terrasteel_pickup": {
+    "criteria": {
+      "terrasteel": "2019-08-02 23:13:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar": {
+    "criteria": {
+      "has_reeds": "2019-08-05 20:18:14 -0600"
+    },
+    "done": true
+  },
+  "astralsorcery:rock_crystals": {
+    "criteria": {
+      "rock_crystal_in_inventory": "2019-08-03 21:10:21 -0600"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/controller": {
+    "criteria": {
+      "certus": "2019-08-05 19:39:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2019-08-05 20:08:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2019-08-03 21:16:17 -0600"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/root": {
+    "criteria": {
+      "hold_manual": "2019-08-01 19:25:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2019-08-01 19:51:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2019-08-01 19:25:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_bonemeal": "2019-08-05 20:18:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2019-08-01 19:50:27 -0600",
+      "plains": "2019-08-01 19:24:26 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2019-08-05 20:08:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2019-08-05 19:37:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stonebrick": "2019-08-01 19:25:20 -0600"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "craft_hammer": "2019-08-01 19:25:20 -0600"
+    },
+    "done": true
+  },
+  "enderioconduits:goals/all_conduits": {
+    "criteria": {
+      "inv_changed-enderio:liquid_conduit_ender2": "2019-08-01 20:08:31 -0600"
+    },
+    "done": false
+  },
+  "enderioconduits:fluid/1_fluid_conduit": {
+    "criteria": {
+      "inv_changed-enderio:liquid_conduit": "2019-08-01 20:08:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+    },
+    "done": true
+  },
+  "botania:main/spark_craft": {
+    "criteria": {
+      "spark": "2019-08-05 20:13:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2019-08-01 19:35:28 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2019-08-05 20:18:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/growth_accelerator": {
+    "criteria": {
+      "certus": "2019-08-05 19:45:17 -0600"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2019-08-01 19:37:30 -0600"
@@ -234,30 +516,6 @@
     },
     "done": true
   },
-  "botania:main/mana_pool_pickup": {
-    "criteria": {
-      "pool": "2019-08-03 21:15:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
-    "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_obsidian": "2019-08-01 19:35:28 -0600"
-    },
-    "done": true
-  },
-  "enderio:gears/g5_vibrant_gear": {
-    "criteria": {
-      "inv_changed-enderio:item_material": "2019-08-02 22:25:51 -0600"
-    },
-    "done": true
-  },
   "immersiveengineering:main/craft_heater": {
     "criteria": {
       "craft_hammer": "2019-08-01 19:26:43 -0600"
@@ -276,15 +534,15 @@
     },
     "done": true
   },
-  "minecraft:nether/summon_wither": {
-    "criteria": {
-      "summoned": "2019-08-01 19:50:42 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2019-08-01 19:48:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2019-08-05 20:08:08 -0600"
     },
     "done": true
   },
@@ -300,21 +558,9 @@
     },
     "done": false
   },
-  "minecraft:recipes/misc/gold_nugget": {
+  "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_leggings": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_axe": {
-    "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+      "has_diamond": "2019-08-05 20:08:08 -0600"
     },
     "done": true
   },
@@ -330,31 +576,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/iron_axe": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
   "advancedrocketry:normal/root": {
     "criteria": {
       "crafting_table": "2019-08-03 21:13:36 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/combat/shield": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_leggings": {
-    "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2019-08-02 23:12:49 -0600"
     },
@@ -366,15 +594,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_boots": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
   "astralsorcery:craft_t2_altar": {
     "criteria": {
       "altar_craft_t2_altar": "2019-08-03 21:25:17 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2019-08-05 20:08:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2019-08-05 20:08:08 -0600"
     },
     "done": true
   },
@@ -384,21 +618,9 @@
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
-      "crafting_table": "2019-08-03 21:13:36 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/stone_button": {
-    "criteria": {
-      "has_stone": "2019-08-03 21:28:12 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_chestplate": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+      "has_diamond": "2019-08-05 20:08:08 -0600"
     },
     "done": true
   },
@@ -408,39 +630,15 @@
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2019-08-01 19:35:28 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_stonebrick": "2019-08-01 19:25:20 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_leggings": {
-    "criteria": {
-      "has_leather": "2019-08-01 19:51:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_helmet": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
   "enderioconduits:fluid/3_fluid_conduit_ender": {
     "criteria": {
       "inv_changed-enderio:liquid_conduit_ender": "2019-08-01 20:08:31 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_shovel": {
-    "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
     },
     "done": true
   },

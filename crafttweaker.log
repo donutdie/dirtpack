@@ -1,6 +1,8 @@
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ae2.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: biomesOPlenty.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: botania.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: forestry.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gear_rod_plate.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: hideitkeepitsafe.zs} as we are currently loading with a different loader
@@ -11,12 +13,14 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: tconstruct.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: vanilla.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 11ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 4ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ae2.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: biomesOPlenty.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: botania.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: forestry.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gear_rod_plate.zs}
 [INITIALIZATION][CLIENT][INFO] Removing Metal Press Recipes for Titanium Aluminide Gear
@@ -237,6 +241,7 @@
 [INITIALIZATION][CLIENT][INFO] Removing Blueprint Recipe for Steel Mechanical Component
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: lucky.zs}
 [INITIALIZATION][CLIENT][ERROR] [AstralSorcery Altar Crafting] Using deprecated 'addAttunmentAltarRecipe' with the TYPO! This method will be removed in an upcoming update!
+[INITIALIZATION][CLIENT][ERROR] [AstralSorcery Altar Crafting] Using deprecated 'addAttunmentAltarRecipe' with the TYPO! This method will be removed in an upcoming update!
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modular\coke.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oredict.zs}
 [INITIALIZATION][CLIENT][INFO] Initialzing Ore Dict
@@ -246,9 +251,13 @@
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] Initializing Vanilla
 [INITIALIZATION][CLIENT][INFO] Vanilla Initialized
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 1187ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 1579ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:27> and replacing them with <forestry:chipsets:1>
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for ME Crafting Terminal with name ct_shaped733058059
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Illuminated Panel with name ct_shaped1390992404
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for ME Controller with name ct_shaped533507864
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Energy Acceptor with name ct_shaped-859812502
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Sacred Oak Wood Planks with name ct_shapeless-1113116431
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cherry Wood Planks with name ct_shapeless274035945
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Umbran Wood Planks with name ct_shapeless2000440363
@@ -265,6 +274,9 @@
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Ebony Wood Planks with name ct_shapeless-1001853717
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Eucalyptus Wood Planks with name ct_shapeless724550701
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Palm Wood Planks with name ct_shapeless-1368629838
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Petal Apothecary with name ct_shaped543970004
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Pool with name ct_shaped-1372107100
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diluted Mana Pool with name ct_shaped-1940450149
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Sturdy Casing with name ct_shaped-1287663048
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Carpenter with name ct_shaped-1619870776
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Squeezer with name ct_shaped-1694070328
@@ -364,8 +376,16 @@
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Cable Coil with name ct_shaped-428454099
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Coil with name ct_shaped-752866575
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Wire Coil with name ct_shaped937030704
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Petal Apothecary with name ct_shaped543970004
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Lens with name ct_shaped-3953811
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Luminous Crafting Table with name ct_shaped1728592637
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Lens with name ct_shaped1150898139
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Spreader with name ct_shaped1698163594
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Splitter with name ct_shaped-2086284204
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Casing with name ct_shaped350024442
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Atomic Reconstructor with name ct_shaped-1805401656
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wood Casing with name ct_shaped299608860
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Small Storage Crate with name ct_shaped-2119638742
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Runic Altar with name ct_shaped196374004
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Conductance Coil with name ct_shaped1966707651
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Transmission Coil with name ct_shaped1937794384
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Reception Coil with name ct_shaped-558310916
@@ -455,18 +475,39 @@
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
 [POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
 [AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
-[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Basic Circuit Board
-[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Enhanced Circuit Board
-[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Refined Circuit Board
-[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Intricate Circuit Board
+[AVAILABLE][CLIENT][INFO] Attempting to remove apothecary recipe for [<botania:specialflower>.withTag({type: "puredaisy"})]
+[AVAILABLE][CLIENT][INFO] Removing 1 Botania Petal Recipe(s) for <botania:specialflower>.withTag({type: "puredaisy"})
+[AVAILABLE][CLIENT][INFO] Attempting to remove mana infusion recipe for [<botania:manaresource>]
+[AVAILABLE][CLIENT][INFO] Removing 1 Botania Mana Infusion Recipe(s) for <botania:manaresource>
+[AVAILABLE][CLIENT][INFO] Attempting to remove mana infusion recipe for [<moreplates:manasteel_gear>]
+[AVAILABLE][CLIENT][INFO] Removing 1 Botania Mana Infusion Recipe(s) for <moreplates:manasteel_gear>
+[AVAILABLE][CLIENT][INFO] Attempting to remove mana infusion recipe for [<moreplates:manasteel_plate>]
+[AVAILABLE][CLIENT][INFO] Removing 1 Botania Mana Infusion Recipe(s) for <moreplates:manasteel_plate>
+[AVAILABLE][CLIENT][INFO] Attempting to remove Pure Daisy recipe for [<botania:livingrock>]
+[AVAILABLE][CLIENT][INFO] Removing 1 Botania PureDaisy Recipe(s) for <botania:livingrock>
 [AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:1>
 [AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:4>
+[AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:2>
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Bog Earth
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for Fruit Juice
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for Fruit Juice
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for Fruit Juice
-[AVAILABLE][CLIENT][INFO] Attempting to remove apothecary recipe for [<botania:specialflower>.withTag({type: "puredaisy"})]
-[AVAILABLE][CLIENT][INFO] Removing 1 Botania Petal Recipe(s) for <botania:specialflower>.withTag({type: "puredaisy"})
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Basic Circuit Board
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Enhanced Circuit Board
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Refined Circuit Board
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Intricate Circuit Board
+[AVAILABLE][CLIENT][INFO] Attempting to remove Pure Daisy recipe for [<botania:livingwood>]
+[AVAILABLE][CLIENT][INFO] Removing 1 Botania PureDaisy Recipe(s) for <botania:livingwood>
+[AVAILABLE][CLIENT][INFO] Attempting to remove apothecary recipe for [<botania:specialflower>.withTag({type: "endoflame"})]
+[AVAILABLE][CLIENT][INFO] Removing 1 Botania Petal Recipe(s) for <botania:specialflower>.withTag({type: "endoflame"})
+[AVAILABLE][CLIENT][INFO] Adding 1 Atomic Reconstructor Recipe(s) for <appliedenergistics2:material:13>
+[AVAILABLE][CLIENT][INFO] Adding 1 Atomic Reconstructor Recipe(s) for <appliedenergistics2:material:19>
+[AVAILABLE][CLIENT][INFO] Adding 1 Atomic Reconstructor Recipe(s) for <appliedenergistics2:material:15>
+[AVAILABLE][CLIENT][INFO] Adding 1 Atomic Reconstructor Recipe(s) for <appliedenergistics2:material:14>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania Mana Infusion Recipe(s) for <botania:manaresource>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania Mana Infusion Recipe(s) for <moreplates:manasteel_gear>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania Mana Infusion Recipe(s) for <moreplates:manasteel_plate>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <botania:livingrock>
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Basic Circuit Board
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Enhanced Circuit Board
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Refined Circuit Board
@@ -474,12 +515,23 @@
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Impregnated Stick
 [AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:1> * 2
 [AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:4>
+[AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:2>
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for <liquid:juice> * 75
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for <liquid:juice> * 75
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for <liquid:juice> * 75
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for <liquid:juice> * 75
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for HOP Graphite Dust
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Charged Certus Quartz Crystal
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <botania:livingwood>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania Petal Recipe(s) for <botania:specialflower>.withTag({type: "endoflame"})
+[AVAILABLE][CLIENT][INFO] Removing 0 Atomic Reconstructor Recipe(s) for Unknown item
+[AVAILABLE][CLIENT][INFO] Removing 0 Atomic Reconstructor Recipe(s) for Unknown item
+[AVAILABLE][CLIENT][INFO] Removing 0 Atomic Reconstructor Recipe(s) for Unknown item
+[AVAILABLE][CLIENT][INFO] Removing 0 Atomic Reconstructor Recipe(s) for Unknown item
+[AVAILABLE][CLIENT][INFO] Removing 0 Atomic Reconstructor Recipe(s) for Unknown item
+[AVAILABLE][CLIENT][INFO] Removing 0 Atomic Reconstructor Recipe(s) for Unknown item
+[AVAILABLE][CLIENT][INFO] Adding 1 Atomic Reconstructor Recipe(s) for <actuallyadditions:item_crystal:2>
+[AVAILABLE][CLIENT][INFO] Adding 1 Atomic Reconstructor Recipe(s) for <actuallyadditions:item_crystal:4>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:material:27>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:ore0:4>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <libvulpes:ore0:5>
@@ -544,350 +596,3 @@
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:mold:1>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <tconstruct:cast_custom:4>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <tconstruct:cast_custom:3>
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: biomesOPlenty.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: forestry.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gear_rod_plate.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: hideitkeepitsafe.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: immersive.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: lucky.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modular\coke.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oredict.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tconstruct.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 56ms
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:specialflower>.withTag({type: "bellethornChibi"}), <botania:specialflower>.withTag({type: "bellethorn"}), 2500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:specialflower>.withTag({type: "agricarnationChibi"}), <botania:specialflower>.withTag({type: "agricarnation"}), 2500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:specialflower>.withTag({type: "hopperhockChibi"}), <botania:specialflower>.withTag({type: "hopperhock"}), 2500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:specialflower>.withTag({type: "rannuncarpusChibi"}), <botania:specialflower>.withTag({type: "rannuncarpus"}), 2500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:specialflower>.withTag({type: "clayconiaChibi"}), <botania:specialflower>.withTag({type: "clayconia"}), 2500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:specialflower>.withTag({type: "marimorphosisChibi"}), <botania:specialflower>.withTag({type: "marimorphosis"}), 2500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:specialflower>.withTag({type: "bubbellChibi"}), <botania:specialflower>.withTag({type: "bubbell"}), 2500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:specialflower>.withTag({type: "solegnoliaChibi"}), <botania:specialflower>.withTag({type: "solegnolia"}), 2500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:leather>, <minecraft:rotten_flesh>, 600);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:log>, <minecraft:log2:1>, 40);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:log:1>, <minecraft:log>, 40);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:log:2>, <minecraft:log:1>, 40);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:log:3>, <minecraft:log:2>, 40);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:log2>, <minecraft:log:3>, 40);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:log2:1>, <minecraft:log2>, 40);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:sapling:1>, <minecraft:sapling>, 120);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:sapling:2>, <minecraft:sapling:1>, 120);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:sapling:3>, <minecraft:sapling:2>, 120);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:sapling:4>, <minecraft:sapling:3>, 120);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:sapling:5>, <minecraft:sapling:4>, 120);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:sapling>, <minecraft:sapling:5>, 120);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:glowstone_dust> * 4, <minecraft:glowstone>, 25);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:quartz> * 4, <minecraft:quartz_block:*>, 25);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:quartz> * 4, <botania:quartztypedark:*>, 25);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:quartz:1> * 4, <botania:quartztypemana:*>, 25);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:quartz:2> * 4, <botania:quartztypeblaze:*>, 25);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:quartz:3> * 4, <botania:quartztypelavender:*>, 25);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:quartz:4> * 4, <botania:quartztypered:*>, 25);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<botania:quartz:5> * 4, <botania:quartztypeelf:*>, 25);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:stonebrick:3>, <minecraft:stonebrick>, 150);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:ice>, <minecraft:snow>, 2250);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:waterlily>, <minecraft:vine>, 320);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:vine>, <minecraft:waterlily>, 320);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:fish:1>, <minecraft:fish>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:fish:2>, <minecraft:fish:1>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:fish:3>, <minecraft:fish:2>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:fish>, <minecraft:fish:3>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:wheat_seeds>, <minecraft:dye:3>, 6000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:potato>, <minecraft:wheat>, 6000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:carrot>, <minecraft:potato>, 6000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:beetroot_seeds>, <minecraft:carrot>, 6000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:melon_seeds>, <minecraft:beetroot_seeds>, 6000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:pumpkin_seeds>, <minecraft:melon_seeds>, 6000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:dye:3>, <minecraft:pumpkin_seeds>, 6000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:potato>, <minecraft:poisonous_potato>, 1200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:nether_wart>, <minecraft:blaze_rod>, 4000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:flint>, <minecraft:gunpowder>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:gunpowder>, <minecraft:flint>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:name_tag>, <minecraft:writable_book>, 16000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:1>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:2>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:3>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:4>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:5>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:6>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:7>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:8>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:9>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:10>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:11>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:12>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:13>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:14>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:string> * 3, <minecraft:wool:15>, 100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:slime_ball>, <minecraft:cactus>, 1200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:cactus>, <minecraft:slime_ball>, 1200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:ender_pearl>, <minecraft:ghast_tear>, 28000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:redstone>, <minecraft:glowstone_dust>, 300);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:glowstone_dust>, <minecraft:redstone>, 300);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:sand>, <minecraft:cobblestone>, 50);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:sand:1>, <minecraft:hardened_clay>, 50);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:clay_ball> * 4, <minecraft:clay>, 25);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:brick> * 4, <minecraft:brick_block>, 25);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:dirt:1>, <minecraft:dirt>, 120);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:stone:5>, <minecraft:stone>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:stone:3>, <minecraft:stone:5>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:stone:1>, <minecraft:stone:3>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:stone:5>, <minecraft:stone:1>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:deadbush>, <minecraft:tallgrass:2>, 500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:tallgrass:1>, <minecraft:deadbush>, 500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:tallgrass:2>, <minecraft:tallgrass:1>, 500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:red_flower>, <minecraft:yellow_flower>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:red_flower:1>, <minecraft:red_flower>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:red_flower:2>, <minecraft:red_flower:1>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:red_flower:3>, <minecraft:red_flower:2>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:red_flower:4>, <minecraft:red_flower:3>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:red_flower:5>, <minecraft:red_flower:4>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:red_flower:6>, <minecraft:red_flower:5>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:red_flower:7>, <minecraft:red_flower:6>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:red_flower:8>, <minecraft:red_flower:7>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:double_plant>, <minecraft:red_flower:8>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:double_plant:1>, <minecraft:double_plant>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:double_plant:4>, <minecraft:double_plant:1>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:double_plant:5>, <minecraft:double_plant:4>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:yellow_flower>, <minecraft:double_plant:5>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addAlchemy(<minecraft:chorus_flower>, <minecraft:chorus_fruit_popped>, 10000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:redstone> * 2, <minecraft:redstone>, 5000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:glowstone_dust> * 2, <minecraft:glowstone_dust>, 5000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:quartz> * 2, <minecraft:quartz>, 2500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:coal> * 2, <minecraft:coal>, 2100);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:snowball> * 2, <minecraft:snowball>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:netherrack> * 2, <minecraft:netherrack>, 200);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:soul_sand> * 2, <minecraft:soul_sand>, 1500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:gravel> * 2, <minecraft:gravel>, 720);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:leaves> * 2, <minecraft:leaves>, 2000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:leaves:1> * 2, <minecraft:leaves:1>, 2000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:leaves:2> * 2, <minecraft:leaves:2>, 2000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:leaves:3> * 2, <minecraft:leaves:3>, 2000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:leaves2> * 2, <minecraft:leaves2>, 2000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:leaves2:1> * 2, <minecraft:leaves2:1>, 2000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addConjuration(<minecraft:tallgrass:1> * 2, <minecraft:tallgrass:1>, 800);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotIron>, 3000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:storage>, <minecraft:iron_block>, 27000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:1>, <minecraft:ender_pearl>, 6000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:2>, <ore:gemDiamond>, 10000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:storage:3>, <minecraft:diamond_block>, 90000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <minecraft:gunpowder>, 500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <minecraft:redstone>, 500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <minecraft:glowstone_dust>, 500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <minecraft:sugar>, 500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:1>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:2>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:3>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:4>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:5>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:6>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:7>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:8>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:9>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:10>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:11>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:12>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:13>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:14>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:15>, 400);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:pistonrelay>, <minecraft:piston>, 15000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manacookie>, <minecraft:cookie>, 20000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:grassseeds>, <minecraft:tallgrass:1>, 2500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:grassseeds:1>, <minecraft:deadbush>, 2500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:grassseeds:2>, <minecraft:red_mushroom>, 6500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:grassseeds:2>, <minecraft:brown_mushroom>, 6500);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:quartz:1>, <minecraft:quartz>, 250);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:tinypotato>, <minecraft:potato>, 1337);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:managlass>, <minecraft:glass>, 150);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:16>, <minecraft:string>, 5000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botania:manabottle>, <minecraft:glass_bottle>, 5000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botanicadds:gaia_shard> * 8, <botania:manaresource:5>, 10000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botanicadds:mana_lapis>, <ore:gemLapis>, 5000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<botanicadds:mana_lapis_block>, <ore:blockLapis>, 45000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<moreplates:manasteel_gear>, <ore:gearIron>, 3000);
-Botania Infusion Recipes
-mods.botania.ManaInfusion.addInfusion(<moreplates:manasteel_plate>, <ore:plateIron>, 3000);
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:stone>, <botania:livingrock>);
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:logWood>, <botania:livingwood>);
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:netherrack>, <minecraft:cobblestone>);
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:soulSand>, <minecraft:sand>);
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:ice>, <minecraft:packed_ice>);
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:blockBlaze>, <minecraft:obsidian>);
-Botania Daisy Recipes
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:stone>, <botania:livingrock>);
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:logWood>, <botania:livingwood>);
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:netherrack>, <minecraft:cobblestone>);
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:soulSand>, <minecraft:sand>);
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:ice>, <minecraft:packed_ice>);
-Botania Daisy Recipes
-mods.botania.PureDaisy.addRecipe(<ore:blockBlaze>, <minecraft:obsidian>);
-Botania Daisy Recipes

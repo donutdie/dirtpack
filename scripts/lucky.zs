@@ -96,7 +96,7 @@ recipes.addShaped(<botania:lens>.withTag({}), [
 recipes.remove(<botania:spreader>);
 recipes.addShaped(<botania:spreader>, [
     [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
-    [<ore:plateGold>, <botania:lens>.withTag({}), null],
+    [<ore:livingwood>, <ore:plateEmerald>, <astralsorcery:itemcraftingcomponent:3>], 
     [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
 
 #Mana splitter
@@ -123,9 +123,9 @@ mods.astralsorcery.LightTransmutation.addTransmutation(<astralsorcery:blockcusto
 
 #Iron casing
 recipes.addShaped(<actuallyadditions:block_misc:9>, [ 
-    [<immersiveengineering:material:9>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:material:9>],
+    [<ore:ingotHOPGraphite>, <immersiveengineering:metal_decoration0:5>, <ore:ingotHOPGraphite>],
     [<botania:storage>, <moreplates:black_quartz_plate>, <botania:storage>],
-    [<immersiveengineering:material:9>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:material:9>]]);
+    [<ore:ingotHOPGraphite>, <immersiveengineering:metal_decoration0:5>, <ore:ingotHOPGraphite>]]);
 
 #Atomic reconstructor
 recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [
