@@ -76,41 +76,15 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/
     <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>]);
 
 //Botania
-#Livingwood
-mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
-mods.botania.PureDaisy.addRecipe(<astralsorcery:blockinfusedwood>, <botania:livingwood>);
 
-#Endoflame
-mods.botania.Apothecary.removeRecipe("endoflame");
-mods.botania.Apothecary.addRecipe("endoflame", [
-    <minecraft:fire_charge>, <ore:petalRed>, <ore:petalRed>, <ore:petalOrange>, <ore:petalBrown>]);
-
-#Mana lense
-recipes.remove(<botania:lens>);
-recipes.addShaped(<botania:lens>.withTag({}), [
-    [null, <ore:ingotManasteel>, null],
-    [<ore:ingotManasteel>, <astralsorcery:itemcraftingcomponent:3>, <ore:ingotManasteel>],
-    [null, <ore:ingotManasteel>, null]]);
-
-#Mana spreader
-recipes.remove(<botania:spreader>);
-recipes.addShaped(<botania:spreader>, [
-    [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
-    [<ore:livingwood>, <ore:plateEmerald>, <astralsorcery:itemcraftingcomponent:3>], 
-    [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
-
-#Mana splitter
-recipes.remove(<botania:distributor>);
-recipes.addShaped(<botania:distributor>, [
-    [<ore:livingrock>, <ore:plateManasteel>, <ore:livingrock>],
-    [<botania:pool>, <immersiveengineering:metal_device1:6>, <botania:pool>],
-    [<ore:livingrock>, <botania:storage>, <ore:livingrock>]]);
 
 
 //Actualy Additions
 recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
 recipes.remove(<actuallyadditions:block_misc:9>);
 recipes.remove(<immersiveengineering:metal_decoration0:5>);
+recipes.remove(<actuallyadditions:block_misc:7>);
+recipes.remove(<actuallyadditions:item_misc:7>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_atomic_reconstructor>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:1>);
@@ -138,3 +112,9 @@ mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_cry
 
 #Emeradic crystal
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:4>, <botania:manaresource:4>, 1500);
+
+#Casing
+recipes.addShaped(<actuallyadditions:block_misc:7>, [
+    [<actuallyadditions:block_crystal:5>, <ore:plateMithril>, <actuallyadditions:block_crystal:5>],
+    [<ore:plateMithril>, <actuallyadditions:block_misc:9>, <ore:plateMithril>],
+    [<actuallyadditions:block_crystal:5>, <ore:gearMithril>, <actuallyadditions:block_crystal:5>]]);
