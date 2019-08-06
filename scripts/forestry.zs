@@ -9,7 +9,7 @@ recipes.remove(<forestry:ffarm:4>);
 recipes.remove(<forestry:fabricator>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:1>);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:4>);
-mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:2>);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:11>);
 mods.forestry.Carpenter.removeRecipe(<forestry:bog_earth>);
 mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<minecraft:carrot>]);
 mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<minecraft:apple>]);
@@ -87,12 +87,14 @@ mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:4> ,[
 	[<forestry:thermionic_tubes:1>, <ore:plateGold>, <forestry:thermionic_tubes:1>]],
 	<liquid:glass> * 600);
 
-#Bronze electron tube
-mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:2> ,[
+#Lapis electron tube
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:11> ,[
 	[null, <immersiveengineering:material:9>, null],
 	[<astralsorcery:itemcraftingcomponent:1>, <forestry:chipsets:1>, <astralsorcery:itemcraftingcomponent:1>],
-	[<ore:plateBronze>, <ore:gearManasteel>, <ore:plateBronze>]],
+	[<ore:plateEnderium>, <ore:gearManasteel>, <ore:plateEnderium>]],
 	<liquid:astralsorcery.liquidstarlight> * 850);
+
+mods.forestry.ThermionicFabricator.addSmelting(<liquid:astralsorcery.liquidstarlight> * 120, <astralsorcery:itemcraftingcomponent>, 650);
 
 mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:wheat>], 60, <forestry:mulch> % 25);
 mods.forestry.Squeezer.addRecipe(<liquid:juice> * 75, [<minecraft:apple>], 60, <forestry:mulch> % 35);
