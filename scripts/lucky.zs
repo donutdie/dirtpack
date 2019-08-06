@@ -33,7 +33,7 @@ val Crystals =
 
 #Luminous crafting table
 recipes.addShaped(<astralsorcery:blockaltar>, [
-    [<ore:blockMarble>, <ore:blockMarble>, <ore:blockMarble>],
+    [<ore:blockMarble>, <ore:ingotHopGraphite>, <ore:blockMarble>],
     [<ore:blockMarble>, <avaritia:compressed_crafting_table>, <ore:blockMarble>],
     [<ore:plankTreatedWood>, <botania:petalblock>,<ore:plankTreatedWood>]]);
 
