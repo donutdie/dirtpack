@@ -1,0 +1,23 @@
+{
+    "author":"The DirtCraft Staff Team",
+    "manifestType":"minecraftModpack",
+    "manifestVersion":1,
+    "name":"DirtPack",
+    "overrides":"overrides",
+    "projectID":331881,
+    "version":"1.0",
+    "files":[],
+
+
+    "minecraft": 
+    {
+        "modLoaders": 
+        [
+            { 
+                "id":"forge-14.23.5.2838",
+                "primary":true
+            }
+        ],
+        "version":"1.12.2"
+    }
+}
