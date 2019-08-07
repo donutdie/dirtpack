@@ -1,6 +1,6 @@
-[20:40:09] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[20:40:09] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[20:40:09] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.4, built with Forge 14.23.5.2768
+[21:09:57] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[21:09:57] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[21:09:57] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.4, built with Forge 14.23.5.2768
 Forge: 14.23.5.2838
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -17,13 +17,13 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.5.4, createDeathpoints=true, showName=true, maxDistance=0, autoHideLabel=true, showStaticBeam=false, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=false, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.5.4, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.4, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=5.5.4, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=6, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.5.4, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[20:40:09] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[20:40:09] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[20:40:09] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
-[20:40:09] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[20:40:43] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[20:40:43] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 71
-[20:40:44] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+[21:09:57] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[21:09:57] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[21:09:57] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
+[21:09:57] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[21:10:29] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[21:10:30] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 71
+[21:10:31] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
 javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_51]
 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1949) ~[?:1.8.0_51]
@@ -77,10 +77,12 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_51]
 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1479) ~[?:1.8.0_51]
 	... 26 more
-[20:42:26] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
-[20:42:26] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\waypoints
-[20:42:26] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\DIM0. Memory: 5248MB total, 2998MB free 
-[20:42:26] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
-[20:42:28] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[20:42:29] [JM-task-4/WARN] [VanillaBlockSpriteProxy] Unable to get any texture to use as color for thermaldynamics:duct_0[meta=4]
-[20:43:34] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\DIM0
+[21:12:23] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[21:12:23] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\waypoints
+[21:12:24] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\DIM0. Memory: 5120MB total, 2975MB free 
+[21:12:24] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[21:12:29] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[21:12:31] [JM-task-4/WARN] [VanillaBlockSpriteProxy] Unable to get any texture to use as color for thermaldynamics:duct_0[meta=4]
+[21:13:06] [JM-task-4/WARN] [VanillaBlockSpriteProxy] Unable to get any texture to use as color for thermaldynamics:duct_32[meta=1]
+[21:20:25] [JM-task-4/WARN] [VanillaBlockSpriteProxy] Unable to get any texture to use as color for thermaldynamics:duct_16[meta=7]
+[22:00:50] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\DIM0

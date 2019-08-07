@@ -21,6 +21,8 @@
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ae2.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: biomesOPlenty.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: botania.zs}
+[INITIALIZATION][CLIENT][INFO] Altering Casting Recipe(s) for <thermalfoundation:material:328>
+[INITIALIZATION][CLIENT][INFO] Removing Metal Press Recipes for Mana Infused Plate
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: forestry.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gear_rod_plate.zs}
 [INITIALIZATION][CLIENT][INFO] Removing Metal Press Recipes for Titanium Aluminide Gear
@@ -251,7 +253,7 @@
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] Initializing Vanilla
 [INITIALIZATION][CLIENT][INFO] Vanilla Initialized
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 1579ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 1340ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:27> and replacing them with <forestry:chipsets:1>
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for ME Crafting Terminal with name ct_shaped733058059
@@ -277,6 +279,9 @@
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Petal Apothecary with name ct_shaped543970004
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Pool with name ct_shaped-1372107100
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diluted Mana Pool with name ct_shaped-1940450149
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Lens with name ct_shaped1150898139
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Spreader with name ct_shaped1698163594
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Splitter with name ct_shaped-2086284204
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Sturdy Casing with name ct_shaped-1287663048
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Carpenter with name ct_shaped-1619870776
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Squeezer with name ct_shaped-1694070328
@@ -377,12 +382,10 @@
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Coil with name ct_shaped-752866575
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Wire Coil with name ct_shaped937030704
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Lens with name ct_shaped-3953811
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Luminous Crafting Table with name ct_shaped1728592637
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Lens with name ct_shaped1150898139
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Spreader with name ct_shaped1698163594
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Splitter with name ct_shaped-2086284204
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Luminous Crafting Table with name ct_shaped1701070789
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Casing with name ct_shaped350024442
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Atomic Reconstructor with name ct_shaped-1805401656
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Casing with name ct_shaped1829503102
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wood Casing with name ct_shaped299608860
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Small Storage Crate with name ct_shaped-2119638742
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Runic Altar with name ct_shaped196374004
@@ -483,11 +486,18 @@
 [AVAILABLE][CLIENT][INFO] Removing 1 Botania Mana Infusion Recipe(s) for <moreplates:manasteel_gear>
 [AVAILABLE][CLIENT][INFO] Attempting to remove mana infusion recipe for [<moreplates:manasteel_plate>]
 [AVAILABLE][CLIENT][INFO] Removing 1 Botania Mana Infusion Recipe(s) for <moreplates:manasteel_plate>
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <thermalfoundation:material:136> in mode: ALL
+[AVAILABLE][CLIENT][ERROR] No Compactor recipe exists for: 1xitem.thermalfoundation.material@136
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <thermalfoundation:material:136> in mode: GEAR
 [AVAILABLE][CLIENT][INFO] Attempting to remove Pure Daisy recipe for [<botania:livingrock>]
 [AVAILABLE][CLIENT][INFO] Removing 1 Botania PureDaisy Recipe(s) for <botania:livingrock>
+[AVAILABLE][CLIENT][INFO] Attempting to remove Pure Daisy recipe for [<botania:livingwood>]
+[AVAILABLE][CLIENT][INFO] Removing 1 Botania PureDaisy Recipe(s) for <botania:livingwood>
+[AVAILABLE][CLIENT][INFO] Attempting to remove apothecary recipe for [<botania:specialflower>.withTag({type: "endoflame"})]
+[AVAILABLE][CLIENT][INFO] Removing 1 Botania Petal Recipe(s) for <botania:specialflower>.withTag({type: "endoflame"})
 [AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:1>
 [AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:4>
-[AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:2>
+[AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:11>
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Bog Earth
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for Fruit Juice
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for Fruit Juice
@@ -496,10 +506,6 @@
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Enhanced Circuit Board
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Refined Circuit Board
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Intricate Circuit Board
-[AVAILABLE][CLIENT][INFO] Attempting to remove Pure Daisy recipe for [<botania:livingwood>]
-[AVAILABLE][CLIENT][INFO] Removing 1 Botania PureDaisy Recipe(s) for <botania:livingwood>
-[AVAILABLE][CLIENT][INFO] Attempting to remove apothecary recipe for [<botania:specialflower>.withTag({type: "endoflame"})]
-[AVAILABLE][CLIENT][INFO] Removing 1 Botania Petal Recipe(s) for <botania:specialflower>.withTag({type: "endoflame"})
 [AVAILABLE][CLIENT][INFO] Adding 1 Atomic Reconstructor Recipe(s) for <appliedenergistics2:material:13>
 [AVAILABLE][CLIENT][INFO] Adding 1 Atomic Reconstructor Recipe(s) for <appliedenergistics2:material:19>
 [AVAILABLE][CLIENT][INFO] Adding 1 Atomic Reconstructor Recipe(s) for <appliedenergistics2:material:15>
@@ -507,7 +513,11 @@
 [AVAILABLE][CLIENT][INFO] Adding 1 Botania Mana Infusion Recipe(s) for <botania:manaresource>
 [AVAILABLE][CLIENT][INFO] Adding 1 Botania Mana Infusion Recipe(s) for <moreplates:manasteel_gear>
 [AVAILABLE][CLIENT][INFO] Adding 1 Botania Mana Infusion Recipe(s) for <moreplates:manasteel_plate>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania Mana Infusion Recipe(s) for <thermalfoundation:material:328>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania Mana Infusion Recipe(s) for <thermalfoundation:material:264>
 [AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <botania:livingrock>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <botania:livingwood>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania Petal Recipe(s) for <botania:specialflower>.withTag({type: "endoflame"})
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Basic Circuit Board
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Enhanced Circuit Board
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Refined Circuit Board
@@ -515,15 +525,14 @@
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Impregnated Stick
 [AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:1> * 2
 [AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:4>
-[AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:2>
+[AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Casting) Recipe(s) for <forestry:thermionic_tubes:11>
+[AVAILABLE][CLIENT][INFO] Altering Forestry Thermionic Fabricator (Smelting) Recipe(s) for <astralsorcery:itemcraftingcomponent>
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for <liquid:juice> * 75
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for <liquid:juice> * 75
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for <liquid:juice> * 75
 [AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for <liquid:juice> * 75
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for HOP Graphite Dust
 [AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Charged Certus Quartz Crystal
-[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <botania:livingwood>
-[AVAILABLE][CLIENT][INFO] Adding 1 Botania Petal Recipe(s) for <botania:specialflower>.withTag({type: "endoflame"})
 [AVAILABLE][CLIENT][INFO] Removing 0 Atomic Reconstructor Recipe(s) for Unknown item
 [AVAILABLE][CLIENT][INFO] Removing 0 Atomic Reconstructor Recipe(s) for Unknown item
 [AVAILABLE][CLIENT][INFO] Removing 0 Atomic Reconstructor Recipe(s) for Unknown item
@@ -596,3 +605,37 @@
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <immersiveengineering:mold:1>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <tconstruct:cast_custom:4>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <tconstruct:cast_custom:3>
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ae2.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: biomesOPlenty.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: botania.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: forestry.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gear_rod_plate.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: hideitkeepitsafe.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: immersive.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: lucky.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modular\coke.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oredict.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tconstruct.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 419ms
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ae2.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: biomesOPlenty.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: botania.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: forestry.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gear_rod_plate.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: hideitkeepitsafe.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: immersive.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: lucky.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: modular\coke.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: oredict.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: tconstruct.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: vanilla.zs}
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 150ms
