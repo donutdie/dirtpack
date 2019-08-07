@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "enderiomachines:basics/goal/1_all_simple_get": {
+    "criteria": {
+      "inv_changed-enderio:block_simple_alloy_smelter": "2019-08-07 16:57:19 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2019-07-30 15:34:44 +0200"
@@ -152,6 +158,12 @@
   "minecraft:recipes/decorations/cyan_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-07-30 15:41:27 +0200"
+    },
+    "done": true
+  },
+  "enderiomachines:basics/alloy/1_alloy_smelter_get": {
+    "criteria": {
+      "inv_changed-enderio:block_simple_alloy_smelter": "2019-08-07 16:57:19 +0200"
     },
     "done": true
   },
@@ -342,6 +354,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/noteblock": {
+    "criteria": {
+      "has_redstone": "2019-08-07 20:12:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2019-07-31 11:43:50 +0200"
@@ -384,6 +402,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2019-08-07 20:12:39 +0200"
+    },
+    "done": true
+  },
   "botania:main/terrasteel_pickup": {
     "criteria": {
       "terrasteel": "2019-08-05 20:22:21 +0200"
@@ -411,6 +435,12 @@
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_at_least_9_gold_ingot": "2019-07-30 15:34:44 +0200"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/controller": {
+    "criteria": {
+      "certus": "2019-08-07 16:45:04 +0200"
     },
     "done": true
   },
@@ -489,6 +519,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2019-08-07 20:12:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_brick": "2019-07-31 11:44:20 +0200"
@@ -546,6 +582,12 @@
   "biomesoplenty:recipes/transportation/boat_redwood": {
     "criteria": {
       "entered_water": "2019-07-31 16:39:51 +0200"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/growth_accelerator": {
+    "criteria": {
+      "certus": "2019-08-07 16:57:44 +0200"
     },
     "done": true
   },
@@ -624,6 +666,12 @@
   "immersiveengineering:main/place_conveyor": {
     "criteria": {
       "place_conveyor": "2019-08-01 19:45:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2019-08-07 20:12:39 +0200"
     },
     "done": true
   },
