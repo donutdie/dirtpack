@@ -38,8 +38,8 @@ mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:328>);
 mods.thermalexpansion.Compactor.removeMintRecipe(<thermalfoundation:material:136>);
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:328>);
 mods.thermalexpansion.Compactor.removeGearRecipe(<thermalfoundation:material:136>);
-mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:328>, <ore:plateEnderium>, 2700);
-mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:264>, <ore:gearEnderium>, 3500);
+mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:328>, <moreplates:vibrant_alloy_plate>, 2700);
+mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:264>, <moreplates:vibrant_alloy_gear>, 3500);
 
 #livingrock
 mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
