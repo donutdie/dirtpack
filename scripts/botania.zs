@@ -35,7 +35,7 @@ mods.botania.ManaInfusion.addInfusion(<moreplates:manasteel_plate>, <ore:plateSt
 
 #Mana infused 
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:328>);
-mods.thermalexpansion.Compactor.removePressRecipe(<thermalfoundation:material:136>);
+mods.thermalexpansion.Compactor.removeMintRecipe(<thermalfoundation:material:136>);
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:328>);
 mods.thermalexpansion.Compactor.removeGearRecipe(<thermalfoundation:material:136>);
 mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:328>, <ore:plateEnderium>, 2700);
