@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "enderiomachines:basics/goal/1_all_simple_get": {
+    "criteria": {
+      "inv_changed-enderio:block_simple_alloy_smelter": "2019-08-06 21:39:08 -0600"
+    },
+    "done": false
+  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2019-08-02 23:12:49 -0600"
@@ -107,6 +113,12 @@
     },
     "done": true
   },
+  "enderiomachines:basics/alloy/1_alloy_smelter_get": {
+    "criteria": {
+      "inv_changed-enderio:block_simple_alloy_smelter": "2019-08-06 21:39:08 -0600"
+    },
+    "done": true
+  },
   "enderio:gears/g3_iron_gear": {
     "criteria": {
       "inv_changed-enderio:item_material": "2019-08-02 22:25:50 -0600"
@@ -128,6 +140,12 @@
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2019-08-03 21:28:12 -0600"
+    },
+    "done": true
+  },
+  "enderio:start/1_infinity_powder_get": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2019-08-06 21:40:34 -0600"
     },
     "done": true
   },
@@ -299,6 +317,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/cable_glass": {
+    "criteria": {
+      "certus": "2019-08-06 21:31:08 -0600"
+    },
+    "done": true
+  },
   "enderio:gears/g2_stone_gear": {
     "criteria": {
       "inv_changed-enderio:item_material": "2019-08-02 22:25:49 -0600"
@@ -359,6 +383,12 @@
     },
     "done": true
   },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "seasonal_forest": "2019-08-06 21:21:28 -0600"
+    },
+    "done": false
+  },
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2019-08-01 19:52:06 -0600"
@@ -397,8 +427,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "ice_flats": "2019-08-06 21:20:06 -0600",
+      "swampland": "2019-08-06 21:21:11 -0600",
       "beaches": "2019-08-01 19:50:27 -0600",
-      "plains": "2019-08-01 19:24:26 -0600"
+      "plains": "2019-08-01 19:24:26 -0600",
+      "taiga": "2019-08-06 21:21:04 -0600",
+      "ocean": "2019-08-06 21:21:19 -0600",
+      "extreme_hills": "2019-08-06 21:20:27 -0600",
+      "river": "2019-08-06 21:21:22 -0600"
     },
     "done": false
   },
@@ -435,6 +471,12 @@
   "immersiveengineering:main/craft_hammer": {
     "criteria": {
       "craft_hammer": "2019-08-01 19:25:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2019-08-06 21:23:48 -0600"
     },
     "done": true
   },
@@ -477,6 +519,12 @@
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2019-08-06 21:28:44 -0600"
     },
     "done": true
   },
@@ -588,6 +636,12 @@
     },
     "done": true
   },
+  "enderio:root": {
+    "criteria": {
+      "location": "2019-08-06 21:19:55 -0600"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/mud_from_dirt": {
     "criteria": {
       "has_gem_block": "2019-08-01 19:25:35 -0600"
@@ -603,6 +657,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2019-08-05 20:08:08 -0600"
+    },
+    "done": true
+  },
+  "enderio:start/2_simple_chassis_get": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2019-08-06 21:39:36 -0600"
     },
     "done": true
   },
@@ -627,6 +687,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/place_floodlight": {
+    "criteria": {
+      "place_floodlight": "2019-08-06 21:22:10 -0600"
     },
     "done": true
   },

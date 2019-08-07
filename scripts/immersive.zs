@@ -273,3 +273,7 @@ recipes.addShapedMirrored(<immersiveengineering:wirecoil:5> * 4, [
 	[<minecraft:redstone>, <forestry:oak_stick>, <minecraft:redstone>,],
 	[null, <immersiveengineering:material:22>, null]]);
 
+
+
+#Coke dustBlaze
+mods.actuallyadditions.Crusher.addRecipe(<immersiveengineering:material:17>, <immersiveengineering:material:6>);
