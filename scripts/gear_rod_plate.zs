@@ -111,7 +111,6 @@ val gearsR = [
 
 for gear in gearsR {
 		recipes.remove(gear);
-		mods.immersiveengineering.MetalPress.removeRecipe(gear);
 		mods.tconstruct.Casting.removeTableRecipe(gear);
 }
 

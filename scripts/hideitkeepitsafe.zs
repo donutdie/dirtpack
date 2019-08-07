@@ -65,7 +65,6 @@ val shitToHide = [
 	<modularmachinery:blockenergyinputhatch:7>,
 	<modularmachinery:blockfluidinputhatch:7>,
 	<modularmachinery:blockfluidoutputhatch:7>,
-	<immersiveengineering:mold:1>,
 	<tconstruct:cast_custom:4>,
 	<tconstruct:cast_custom:3>,
 
