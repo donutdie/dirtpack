@@ -77,3 +77,11 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_51]
 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1479) ~[?:1.8.0_51]
 	... 26 more
+[18:05:45] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[18:05:46] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\waypoints
+[18:05:46] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\DIM0. Memory: 5120MB total, 2956MB free 
+[18:05:47] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[18:05:49] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[18:05:54] [JM-task-4/WARN] [VanillaBlockSpriteProxy] Unable to get any texture to use as color for thermaldynamics:duct_0[meta=4]
+[18:06:28] [JM-task-4/WARN] [VanillaBlockSpriteProxy] Unable to get any texture to use as color for thermaldynamics:duct_32[meta=1]
+[18:37:18] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\DIM0

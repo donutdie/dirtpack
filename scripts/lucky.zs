@@ -44,6 +44,7 @@ mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/telescope");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/crystallens");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/altar_tier_1");
 mods.astralsorcery.LightTransmutation.removeTransmutation(<astralsorcery:blockcustomore:1>, false);
 mods.astralsorcery.LightTransmutation.removeTransmutation(<minecraft:emerald_ore>, false);
 
@@ -55,7 +56,7 @@ val Crystals =
 
 #Luminous crafting table
 recipes.addShaped(<astralsorcery:blockaltar>, [
-    [<ore:blockMarble>, <ore:ingotHopGraphite>, <ore:blockMarble>],
+    [<ore:blockMarble>, <immersiveengineering:graphite_electrode>, <ore:blockMarble>],
     [<ore:blockMarble>, <avaritia:compressed_crafting_table>, <ore:blockMarble>],
     [<ore:plankTreatedWood>, <botania:petalblock>,<ore:plankTreatedWood>]]);
 
@@ -172,5 +173,5 @@ recipes.addShaped(<actuallyadditions:block_fermenting_barrel>, [
 #Oil generator
 recipes.addShaped(<actuallyadditions:block_oil_generator>, [
     [<actuallyadditions:block_misc:4>, <ore:gearConstructionAlloy>, <actuallyadditions:block_misc:4>],
-    [<actuallyadditions:block_furnace_double>, <actuallyadditions:block_misc:9>, <actuallyadditions:block_furnace_double>], 
+    [<immersiveengineering:metal_decoration0:6>, <actuallyadditions:block_misc:9>, <immersiveengineering:metal_decoration0:6>], 
     [<actuallyadditions:block_misc:4>, <ore:gearConstructionAlloy>, <actuallyadditions:block_misc:4>]]);

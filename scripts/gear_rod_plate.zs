@@ -207,7 +207,6 @@ val platesR = [
 	<jaopca:item_platedenselapis>,
 	<moreplates:black_quartz_plate>,
 	<moreplates:nether_quartz_plate>,
-	<moreplates:redstone_plate>,
 ] as IItemStack[];
 
 var ingots = [
@@ -230,7 +229,6 @@ var ingots = [
 	<minecraft:dye:4>,
 	<actuallyadditions:item_misc:5>,
 	<minecraft:quartz>,
-	<minecraft:redstone>,
 ] as IItemStack[];
 
 var rods = [

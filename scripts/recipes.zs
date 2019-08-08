@@ -1,6 +1,8 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<actuallyadditions:item_misc:8>);
+recipes.remove(<actuallyadditions:block_heat_collector>);
 recipes.remove(<enderio:block_simple_alloy_smelter>);
 recipes.remove(<enderio:item_material>);
 recipes.remove(<appliedenergistics2:chest>);
@@ -12,6 +14,8 @@ recipes.remove(<thermalfoundation:material:514>);
 recipes.remove(<thermalfoundation:material:513>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<actuallyadditions:block_heat_collector>, [[<ore:scaffoldingSteel>, <immersiveengineering:metal_device1:3>, <ore:scaffoldingSteel>],[<actuallyadditions:item_misc:8>, <immersiveengineering:metal_decoration0:5>, <actuallyadditions:item_misc:8>], [<chisel:lavastone>, <immersiveengineering:metal_decoration0:5>, <chisel:lavastone>]]);
+recipes.addShaped(<actuallyadditions:item_misc:8>, [[<ore:stickGold>, <immersiveengineering:wirecoil:1>, <ore:stickGold>],[<immersiveengineering:wirecoil:1>, <actuallyadditions:item_misc:7>, <immersiveengineering:wirecoil:1>], [<ore:stickGold>, <immersiveengineering:wirecoil:1>, <ore:stickGold>]]);
 recipes.addShaped(<enderio:block_simple_alloy_smelter>, [[<ore:plateVoid>, <immersiveengineering:metal_decoration0:5>, <ore:plateVoid>],[<ore:itemSimpleMachineChassi>, <actuallyadditions:block_furnace_double>, <ore:itemSimpleMachineChassi>], [<ore:plateVoid>, <immersiveengineering:metal_decoration0:5>, <ore:plateVoid>]]);
 recipes.addShaped(<enderio:item_material>, [[<ore:gearDiamatine>, <ore:plateFluix>, <ore:gearDiamatine>],[<ore:plateManasteel>, <ore:dustBedrock>, <ore:plateManasteel>], [<ore:gearDiamatine>, <ore:plateFluix>, <ore:gearDiamatine>]]);
 recipes.addShaped(<appliedenergistics2:drive>, [[<actuallyadditions:item_crystal:2>, <appliedenergistics2:chest>, <actuallyadditions:item_crystal:2>],[<actuallyadditions:block_crystal:5>, <actuallyadditions:block_misc:9>, <actuallyadditions:block_crystal:5>], [<ore:plateSteel>, <immersiveengineering:material:19>, <ore:plateSteel>]]);

@@ -227,6 +227,10 @@ recipes.remove(<immersiveengineering:wirecoil:5>);
 recipes.remove(<immersiveengineering:wirecoil:2>);
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:8>);
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:9>);
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:mold:1>);
+
+#GEAR MOLD
+mods.astralsorcery.StarlightInfusion.addInfusion(<immersiveengineering:mold>, <immersiveengineering:mold:1>, false, 1.0, 200);
 
 #Iron mechanical component
 recipes.addShaped(<immersiveengineering:material:8> * 4,[
