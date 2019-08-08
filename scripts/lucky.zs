@@ -1,5 +1,7 @@
 import crafttweaker.item.IItemStack as IItemStack;
 
+recipes.remove(<minecraft:hopper>);
+
 //Thermal Expansion
 recipes.remove(<thermaldynamics:servo>);
 recipes.remove(<thermaldynamics:duct_32:1>);
@@ -44,7 +46,7 @@ mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/telescope");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/crystallens");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3");
-mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/altar_tier_1");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/altar_tier1");
 mods.astralsorcery.LightTransmutation.removeTransmutation(<astralsorcery:blockcustomore:1>, false);
 mods.astralsorcery.LightTransmutation.removeTransmutation(<minecraft:emerald_ore>, false);
 
@@ -99,8 +101,99 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/
     <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>]);
 
 //Botania
+mods.botania.RuneAltar.removeRecipe(<botania:rune>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:1>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:2>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:3>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:4>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:5>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:6>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:7>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:8>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:9>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:10>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:11>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:12>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:13>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:14>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:15>);
+mods.botania.RuneAltar.removeRecipe(<botanicadds:rune_energy>);
+mods.botania.RuneAltar.removeRecipe(<botanicadds:rune_tp>);
 
-
+#Rune of Water
+mods.botania.RuneAltar.addRecipe(<botania:rune> *2, [
+    <botania:manaresource>, <botania:manaresource:23>, <minecraft:waterlily>, 
+    <ore:listAllfishfresh>, <minecraft:reeds>, <botania:petalblock:11>], 5200);
+#Rune of Fire
+mods.botania.RuneAltar.addRecipe(<botania:rune:1> *2, [
+    <botania:manaresource>, <botania:manaresource:23>, <minecraft:nether_wart>,
+    <minecraft:magma>, <minecraft:blaze_rod>, <botania:petalblock:1>], 5200);
+#Rune of Earth
+mods.botania.RuneAltar.addRecipe(<botania:rune:2> *2, [
+    <botania:manaresource>, <botania:manaresource:23>, <minecraft:grass>,
+    <ore:blockFuelCoke>, <ore:listAllmushroom>, <botania:petalblock:13>], 5200);
+#Rune of Air
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> *2, [
+    <botania:manaresource>, <botania:manaresource:23>, <minecraft:feather>,
+    <botania:manaresource:22>, <astralsorcery:itemusabledust>, <botania:petalblock>], 5200);
+#Rune of Spring
+mods.botania.RuneAltar.addRecipe(<botania:rune:4>, [
+    <botania:rune>, <botania:rune:1>, <ore:treeSapling>,
+    <botania:fertilizer>, <botania:fertilizer>, <botania:grassseeds>], 5200);
+#Rune of Summer
+mods.botania.RuneAltar.addRecipe(<botania:rune:5>, [
+    <botania:rune:2>, <botania:rune:3>, <ore:slimeball>,
+    <minecraft:golden_apple>, <minecraft:dye:2>, <minecraft:melon_block>], 9700);
+#Rune of Autumn
+mods.botania.RuneAltar.addRecipe(<botania:rune:6>, [
+    <botania:rune:3>, <botania:rune:1>, <botania:rune:2>,
+    <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>,
+    <minecraft:fermented_spider_eye>], 9700);
+#Rune of Winter
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [
+    <botania:rune:3>, <botania:rune:1>, <botania:rune:2>,
+    <minecraft:snow>, <minecraft:snow>, <minecraft:packed_ice>,
+    <minecraft:cake>], 9700);
+#Rune of Mana
+mods.botania.RuneAltar.addRecipe(<botania:rune:8>, [
+    <botania:storage>, <botania:manaresource:23>, <botania:manaresource:2>,
+    <botania:manaresource:1>, <botania:quartz:1>    ], 11570); 
+#Rune of Lust
+mods.botania.RuneAltar.addRecipe(<botania:rune:9>, [
+    <botania:storage>, <botania:manaresource:2>, <botania:manaresource:2>,
+    <botania:rune:3>, <botania:rune:5>, <botania:rune:8>], 11570);
+#Rune of Gluttony
+mods.botania.RuneAltar.addRecipe(<botania:rune:10>, [
+    <minecraft:bread>, <minecraft:pumpkin_pie>, <minecraft:cookie>,
+    <botania:rune:1>, <botania:rune:7>, <botania:rune:8>], 11570);
+#Rune of Greed
+mods.botania.RuneAltar.addRecipe(<botania:rune:11>, [
+    <minecraft:gold_block>, <botania:manaresource:2>, <botania:rune:3>,
+    <botania:rune:5>, <botania:rune:8>], 11570);
+#Rune of Sloth
+mods.botania.RuneAltar.addRecipe(<botania:rune:12>, [
+    <minecraft:soul_sand>, <minecraft:soul_sand>, <harvestcraft:turtlerawitem>,
+    <botania:manaresource:2>, <botania:rune>, <botania:rune:4>, <botania:rune:8>], 11570);
+#Rune of Wrath
+mods.botania.RuneAltar.addRecipe(<botania:rune:13>, [
+    <minecraft:lava_bucket>, <minecraft:iron_sword>, <botania:manaresource:2>,
+    <botania:manaresource:2>, <botania:rune:7>, <botania:rune:2>, <botania:rune:8>], 11570);
+#Rune of Envy
+mods.botania.RuneAltar.addRecipe(<botania:rune:14>, [
+    <minecraft:nether_wart>, <botania:manaresource:2>, <botania:manaresource:2>,
+    <botania:rune:7>, <botania:rune:2>, <botania:rune:8>], 11570);
+#Rune of Pride
+mods.botania.RuneAltar.addRecipe(<botania:rune:15>, [
+    <botania:storage:3>, <botania:rune:1>, <botania:rune:5>,
+    <botania:rune:8>], 11570);
+#Rune of Teleportation
+mods.botania.RuneAltar.addRecipe(<botanicadds:rune_energy>, [
+    <actuallyadditions:block_misc:6>, <minecraft:emerald>,
+    <botania:manaresource:2>, <botania:manaresource:2>, <botania:rune:8>], 11570);
+#Rune of Energy
+mods.botania.RuneAltar.addRecipe(<botanicadds:rune_tp>, [
+    <actuallyadditions:block_laser_relay>, <actuallyadditions:block_laser_relay>,
+    <botania:manaresource:2>, <botania:manaresource:2>, <botania:rune:8>], 11570);
 
 //Actualy Additions
 recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
@@ -112,6 +205,7 @@ recipes.remove(<actuallyadditions:block_grinder>);
 recipes.remove(<actuallyadditions:block_canola_press>);
 recipes.remove(<actuallyadditions:block_fermenting_barrel>);
 recipes.remove(<actuallyadditions:block_oil_generator>);
+recipes.remove(<actuallyadditions:block_display_stand>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_atomic_reconstructor>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:1>);
@@ -175,3 +269,20 @@ recipes.addShaped(<actuallyadditions:block_oil_generator>, [
     [<actuallyadditions:block_misc:4>, <ore:gearConstructionAlloy>, <actuallyadditions:block_misc:4>],
     [<immersiveengineering:metal_decoration0:6>, <actuallyadditions:block_misc:9>, <immersiveengineering:metal_decoration0:6>], 
     [<actuallyadditions:block_misc:4>, <ore:gearConstructionAlloy>, <actuallyadditions:block_misc:4>]]);
+
+#Display Stand
+recipes.addShaped(<actuallyadditions:block_display_stand>, [
+    [<actuallyadditions:block_testifi_bucks_green_wall>, <xreliquary:pedestal_passive>, <actuallyadditions:block_testifi_bucks_green_wall>],
+    [<actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:block_misc:9>, <actuallyadditions:block_testifi_bucks_green_wall>],
+    [<forestry:thermionic_tubes:11>, <avaritia:resource:1>, <forestry:thermionic_tubes:11>]]);
+
+
+
+//Avaritia
+// recipes.remove(<avaritia:resource>);
+
+
+// reicpes.addShaped(<avaritia:resource>, [
+//     [<actuallyadditions:item_crystal:2>, null, <actuallyadditions:item_crystal:2>],
+//     [null, <astralsorcery:itemcraftingcomponent:1>, null],
+//     [<actuallyadditions:item_crystal:2>, null, <actuallyadditions:item_crystal:2>]]);
