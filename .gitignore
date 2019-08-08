@@ -20,3 +20,6 @@ config/vanillafix/config_version
 config/vanillafix/methods-stable_39.csv
 mods/Mods.txt
 minecraftinstance.json
+.mixin.out/audit/mixin_implementation_report.txt
+config/brandon3055/contributors.json
+crafttweaker.log
