@@ -23,3 +23,4 @@ minecraftinstance.json
 .mixin.out/audit/mixin_implementation_report.txt
 config/brandon3055/contributors.json
 crafttweaker.log
+journeymap/journeymap.log
