@@ -89,7 +89,7 @@ mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:4> ,[
 
 #Lapis electron tube
 mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:11> ,[
-	[null, <immersiveengineering:material:9>, null],
+	[null, <immersiveengineering:material:9> * 2, null],
 	[<astralsorcery:itemcraftingcomponent:1>, <forestry:chipsets:1>, <astralsorcery:itemcraftingcomponent:1>],
 	[<ore:plateEnderium>, <ore:gearManasteel>, <ore:plateEnderium>]],
 	<liquid:astralsorcery.liquidstarlight> * 850);

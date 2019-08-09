@@ -206,6 +206,15 @@ recipes.remove(<actuallyadditions:block_canola_press>);
 recipes.remove(<actuallyadditions:block_fermenting_barrel>);
 recipes.remove(<actuallyadditions:block_oil_generator>);
 recipes.remove(<actuallyadditions:block_display_stand>);
+recipes.remove(<actuallyadditions:block_empowerer>);
+recipes.remove(<actuallyadditions:item_battery>);
+recipes.remove(<actuallyadditions:item_battery_double>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:2>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:3>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:4>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:5>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_atomic_reconstructor>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:1>);
@@ -228,17 +237,22 @@ recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [
     [<actuallyadditions:block_misc:9>, <advancedrocketry:lens>, <actuallyadditions:block_misc:9>],
     [<immersiveengineering:metal_decoration0:1>, <immersiveengineering:wirecoil:5>, <immersiveengineering:metal_decoration0:1>]]);
 
+#Enori Crystal
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:5>, <ore:ingotSteel>, 35000);
+#Palis Crystal
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:1>, <minecraft:prismarine_shard>, 20000);
+#Void Crystal
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:3>, <ore:fuelCoke>, 15000);
 #Diamatine crystal
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:2>, <botania:manaresource:2>, 75000);
-
 #Emeradic crystal
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:4>, <botania:manaresource:4>, 90000);
 
 #Casing
 recipes.addShaped(<actuallyadditions:block_misc:7>, [
-    [<actuallyadditions:block_crystal:5>, <ore:plateCrystalMatrix>, <actuallyadditions:block_crystal:5>],
-    [<ore:plateCrystalMatrix>, <actuallyadditions:block_misc:9>, <ore:plateCrystalMatrix>],
-    [<actuallyadditions:block_crystal:5>, <ore:gearMithril>, <actuallyadditions:block_crystal:5>]]);
+    [<immersiveengineering:metal_decoration0:5>, <ore:plateEndSteel>, <immersiveengineering:metal_decoration0:5>],
+    [<ore:plateEndSteel>, <actuallyadditions:block_misc:9>, <ore:plateEndSteel>],
+    [<immersiveengineering:metal_decoration0:5>, <minecraft:nether_star>, <immersiveengineering:metal_decoration0:5>]]);
 
 #Basic Coil
 recipes.addShaped(<actuallyadditions:item_misc:7>, [
@@ -274,12 +288,32 @@ recipes.addShaped(<actuallyadditions:block_oil_generator>, [
 recipes.addShaped(<actuallyadditions:block_display_stand>, [
     [<actuallyadditions:block_testifi_bucks_green_wall>, <xreliquary:pedestal_passive>, <actuallyadditions:block_testifi_bucks_green_wall>],
     [<actuallyadditions:block_testifi_bucks_green_wall>, <actuallyadditions:block_misc:9>, <actuallyadditions:block_testifi_bucks_green_wall>],
-    [<forestry:thermionic_tubes:11>, <avaritia:resource:1>, <forestry:thermionic_tubes:11>]]);
+    [<forestry:thermionic_tubes:11>, <moreplates:pig_iron_plate>, <forestry:thermionic_tubes:11>]]);
 
+#Empowerer
+recipes.addShaped(<actuallyadditions:block_empowerer>,[
+    [<actuallyadditions:item_crystal:2>, null, <actuallyadditions:item_crystal:2>],
+    [<ore:plateEnergeticAlloy>, <actuallyadditions:item_battery_double>.withTag({Energy: 350000}), <ore:plateEnergeticAlloy>],
+    [<actuallyadditions:block_misc:7>, <actuallyadditions:block_display_stand>, <actuallyadditions:block_misc:7>]]);
 
+#Single Battery
+recipes.addShaped(<actuallyadditions:item_battery>, [
+    [<moreplates:iron_alloy_plate>, <ore:plateRedstone>, <moreplates:iron_alloy_plate>],
+    [<actuallyadditions:item_crystal:5>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal:5>],
+    [<actuallyadditions:item_crystal:5>, <immersiveengineering:metal_decoration0:1>, <actuallyadditions:item_crystal:5>]]);
+
+#Double Battery
+recipes.addShaped(<actuallyadditions:item_battery_double>, [
+    [<ore:plateEnergeticAlloy>, <ore:plateRedstone>, <ore:plateEnergeticAlloy>],
+    [<actuallyadditions:item_battery>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_battery>],
+    [<actuallyadditions:item_crystal:2>, <immersiveengineering:metal_decoration0:1>, <actuallyadditions:item_crystal:2>]]);
+
+#Empowered Restonia Crystal
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>,
+    <minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, 500, 100, [1.0, 0.1, 0.1]);
 
 //Avaritia
-// recipes.remove(<avaritia:resource>);
+//recipes.remove(<avaritia:resource>);
 
 
 // reicpes.addShaped(<avaritia:resource>, [
