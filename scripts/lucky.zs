@@ -209,18 +209,26 @@ recipes.remove(<actuallyadditions:block_display_stand>);
 recipes.remove(<actuallyadditions:block_empowerer>);
 recipes.remove(<actuallyadditions:item_battery>);
 recipes.remove(<actuallyadditions:item_battery_double>);
+recipes.remove(<actuallyadditions:block_breaker>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:2>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:3>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:4>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:5>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:1>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:2>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:3>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:4>);
+mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:5>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_atomic_reconstructor>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:1>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:2>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:3>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:4>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:5>);
 
 #Black quarts ore
 mods.astralsorcery.LightTransmutation.addTransmutation(<astralsorcery:blockcustomore>, <actuallyadditions:block_misc:3>, 250);
@@ -240,13 +248,15 @@ recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [
 #Enori Crystal
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:5>, <ore:ingotSteel>, 35000);
 #Palis Crystal
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:1>, <minecraft:prismarine_shard>, 20000);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:1>, <botanicadds:mana_lapis>, 20000);
 #Void Crystal
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:3>, <ore:fuelCoke>, 15000);
 #Diamatine crystal
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:2>, <botania:manaresource:2>, 75000);
 #Emeradic crystal
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:4>, <botania:manaresource:4>, 90000);
+#Redstonia crystal
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal>, <extrautils2:ingredients>, 30000);
 
 #Casing
 recipes.addShaped(<actuallyadditions:block_misc:7>, [
@@ -297,7 +307,7 @@ recipes.addShaped(<actuallyadditions:block_empowerer>,[
     [<actuallyadditions:block_misc:7>, <actuallyadditions:block_display_stand>, <actuallyadditions:block_misc:7>]]);
 
 #Single Battery
-recipes.addShaped(<actuallyadditions:item_battery>, [
+    recipes.addShaped(<actuallyadditions:item_battery>, [
     [<moreplates:iron_alloy_plate>, <ore:plateRedstone>, <moreplates:iron_alloy_plate>],
     [<actuallyadditions:item_crystal:5>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal:5>],
     [<actuallyadditions:item_crystal:5>, <immersiveengineering:metal_decoration0:1>, <actuallyadditions:item_crystal:5>]]);
@@ -308,15 +318,69 @@ recipes.addShaped(<actuallyadditions:item_battery_double>, [
     [<actuallyadditions:item_battery>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_battery>],
     [<actuallyadditions:item_crystal:2>, <immersiveengineering:metal_decoration0:1>, <actuallyadditions:item_crystal:2>]]);
 
-#Empowered Restonia Crystal
+#Empowered Enori Crystal
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>,
+    <actuallyadditions:item_crystal:5>, <appliedenergistics2:material:11>, <immersiveengineering:material:8>, <minecraft:ghast_tear>, <ore:plateInvar>, 5000, 100, [1.0, 1.0, 1.0]);
+#Empowered Palis Crystal
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>,
+    <actuallyadditions:item_crystal:1>, <ore:prismarine>, <minecraft:ice>, <thermalfoundation:material:167>, <minecraft:ender_pearl>, 3500, 70, [0.0, 0.0, 1.0]);
+#Empowered Void Crystal
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:3>,
+    <actuallyadditions:item_crystal:3>, <minecraft:dye>, <botania:dye:15>, <immersiveengineering:material:19>, <ore:fuelCoke>, 4500, 50, [0.0, 0.0, 0.0]);
+#Empowered Diamantine Crystal
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>,
+    <actuallyadditions:item_crystal:2>, <extendedcrafting:material:40>, <botanicadds:rune_energy>, <astralsorcery:itemcraftingcomponent:4>, <thermalfoundation:material:326>, 7000, 130, [0.0, 1.0, 1.0]);
+#Empowered Emeradic Crystal
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:4>,
+    <actuallyadditions:item_crystal:4>, <extendedcrafting:storage:6>, <botania:rune:11>, <minecraft:emerald_block>, <moreplates:mirion_plate>, 12000, 160, [0.0, 1.0, 0.0]);
+#Empowered Restonia Cystral
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>,
-    <minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, 500, 100, [1.0, 0.1, 0.1]);
+    <actuallyadditions:item_crystal>, <xreliquary:mob_ingredient:7>, <extrautils2:ingredients:4>, <minecraft:nether_wart>, <tconstruct:ingots:1>, 5000, 70, [1.0, 0.0, 0.0]);
 
-//Avaritia
-//recipes.remove(<avaritia:resource>);
+#Block Breaker
+recipes.addShaped(<actuallyadditions:block_breaker>, [
+    [<immersiveengineering:material:9>, <ore:plateElectricalSteel>, <immersiveengineering:material:9>],
+    [<minecraft:piston>, <actuallyadditions:block_misc:7>, <minecraft:piston>],
+    [<immersiveengineering:material:9>, <ore:gearElectricalSteel>, <immersiveengineering:material:9>]]);
 
 
-// reicpes.addShaped(<avaritia:resource>, [
-//     [<actuallyadditions:item_crystal:2>, null, <actuallyadditions:item_crystal:2>],
-//     [null, <astralsorcery:itemcraftingcomponent:1>, null],
-//     [<actuallyadditions:item_crystal:2>, null, <actuallyadditions:item_crystal:2>]]);
+//Extended crafting
+recipes.remove(<extendedcrafting:table_basic>);
+recipes.remove(<extendedcrafting:material>);
+recipes.remove(<extendedcrafting:material:14>);
+recipes.remove(<extendedcrafting:material:8>);
+
+#Basic crafting table
+recipes.addShaped(<extendedcrafting:table_basic>, [
+    [<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>],
+    [<extendedcrafting:material:8>, <avaritia:double_compressed_crafting_table>, <extendedcrafting:material:8>],
+    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>]]);
+
+#Black Iron ingot
+recipes.addShaped(<extendedcrafting:material>, [
+    [<ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>],
+    [<ore:dustCoal>, <ore:ingotIron>, <ore:dustCoal>],
+    [<ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>]]);
+
+#Basic component
+recipes.addShaped(<extendedcrafting:material:14>, [
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+    [<extendedcrafting:material:2>, <extendedcrafting:material:7>, <minecraft:iron_ingot>],
+    [<extendedcrafting:material:2>, <extendedcrafting:material:2>, <minecraft:iron_ingot>]]); 
+
+#Basic catalyst
+recipes.addShaped(<extendedcrafting:material:8>, [
+    [<extendedcrafting:material:2>, <extendedcrafting:material:14>, <extendedcrafting:material:2>],
+    [<extendedcrafting:material:14>, <extendedcrafting:material>, <extendedcrafting:material:14>],
+    [<extendedcrafting:material:2>, <extendedcrafting:material:14>, <extendedcrafting:material:2>]]);
+
+
+//Extra Utilities 2
+recipes.remove(<extrautils2:resonator>);
+
+
+#Resonator
+mods.extendedcrafting.TableCrafting.addShaped(1, <extrautils2:resonator>,[
+    [<ore:plateRedstoneAlloy>, <ore:plateRedstoneAlloy>, <ore:plateRedstoneAlloy>],
+    [<actuallyadditions:item_crystal_empowered:3>, <extrautils2:ingredients:2>, <actuallyadditions:item_crystal_empowered:3>],
+    [<extendedcrafting:storage>, <extendedcrafting:storage>, <extendedcrafting:storage>]]);
