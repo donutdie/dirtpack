@@ -384,3 +384,11 @@ mods.extendedcrafting.TableCrafting.addShaped(1, <extrautils2:resonator>,[
     [<ore:plateRedstoneAlloy>, <ore:plateRedstoneAlloy>, <ore:plateRedstoneAlloy>],
     [<actuallyadditions:item_crystal_empowered:3>, <extrautils2:ingredients:2>, <actuallyadditions:item_crystal_empowered:3>],
     [<extendedcrafting:storage>, <extendedcrafting:storage>, <extendedcrafting:storage>]]);
+
+#Machine Block
+recipes.remove(<extrautils2:machine>);
+
+recipes.addShaped(<extrautils2:machine>, [
+    [<woot:stygianironingot>, <ore:plateDarkSteel>, <woot:stygianironingot>],
+    [<actuallyadditions:item_crystal_empowered>, <enderio:item_material:66>, <actuallyadditions:item_crystal_empowered>],
+    [<extrautils2:powerbattery>, <ore:plateDarkSteel>, <extrautils2:powerbattery>]]);
