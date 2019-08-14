@@ -46,7 +46,6 @@ mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/telescope");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/crystallens");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3");
-mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/altar_tier1");
 mods.astralsorcery.LightTransmutation.removeTransmutation(<astralsorcery:blockcustomore:1>, false);
 mods.astralsorcery.LightTransmutation.removeTransmutation(<minecraft:emerald_ore>, false);
 
@@ -377,7 +376,15 @@ recipes.addShaped(<extendedcrafting:material:8>, [
 
 //Extra Utilities 2
 recipes.remove(<extrautils2:resonator>);
+recipes.remove(<extrautils2:machine>);
 
+val OPBooks = 
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 48 as short}]})|
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 11 as short}]})|
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 48 as short}]})|
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 16 as short}]})|
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 28 as short}]})
+;
 
 #Resonator
 mods.extendedcrafting.TableCrafting.addShaped(1, <extrautils2:resonator>,[
@@ -386,9 +393,100 @@ mods.extendedcrafting.TableCrafting.addShaped(1, <extrautils2:resonator>,[
     [<extendedcrafting:storage>, <extendedcrafting:storage>, <extendedcrafting:storage>]]);
 
 #Machine Block
-recipes.remove(<extrautils2:machine>);
-
 recipes.addShaped(<extrautils2:machine>, [
     [<woot:stygianironingot>, <ore:plateDarkSteel>, <woot:stygianironingot>],
     [<actuallyadditions:item_crystal_empowered>, <enderio:item_material:66>, <actuallyadditions:item_crystal_empowered>],
     [<extrautils2:powerbattery>, <ore:plateDarkSteel>, <extrautils2:powerbattery>]]);
+
+#Enchanter
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}), [ 
+    [<botania:rune:8>, OPBooks, <botania:rune:8>],
+    [<actuallyadditions:item_crystal_empowered:2>, <minecraft:enchanting_table>, <actuallyadditions:item_crystal_empowered:2>],
+    [<ore:plateDarkSteel>, <extrautils2:machine>, <ore:plateDarkSteel>]]);
+
+
+//Woot
+recipes.remove(<woot:soulstone>);
+recipes.remove(<woot:factorybase>);
+recipes.remove(<woot:layout>);
+recipes.remove(<woot:builder>);
+recipes.remove(<woot:structure>);
+recipes.remove(<woot:structure:1>);
+recipes.remove(<woot:structure:5>);
+recipes.remove(<woot:factory>);
+recipes.remove(<woot:importer>);
+recipes.remove(<woot:exporter>);
+recipes.remove(<woot:cell>);
+recipes.remove(<woot:structure:6>);
+
+#Soul Stone
+recipes.addShaped(<woot:soulstone>, [
+    [<ore:ingotSoularium>, <ore:stone>, <ore:ingotSoularium>],
+    [<ore:stone>, <woot:soulsanddust>, <ore:stone>],
+    [<ore:ingotSoularium>, <ore:stone>, <ore:ingotSoularium>]]);
+
+#Factory Base
+recipes.addShaped(<woot:factorybase>, [
+    [<ore:barsIron>, <woot:soulstone>, <ore:barsIron>],
+    [<woot:soulstone>, <woot:stygianironplate>, <woot:soulstone>],
+    [<ore:barsIron>, <woot:soulstone>, <ore:barsIron>]]);
+
+#Factory Layout
+recipes.addShaped(<woot:layout>, [
+    [<woot:soulstone>, <woot:soulstone>, <woot:soulstone>],
+    [OPBooks, <xreliquary:mob_ingredient:11>, OPBooks],
+    [<woot:soulstone>, <woot:soulstone>, <woot:soulstone>]]);
+
+#The Intern
+recipes.addShaped(<woot:builder>, [
+    [<xreliquary:mob_ingredient:10>, <xreliquary:mob_ingredient:7>, <xreliquary:mob_ingredient:10>],
+    [<astralsorcery:itemlinkingtool>, <woot:layout>, <botania:twigwand>],
+    [null, <woot:soulstone>, null]]);
+
+#Factory Flesh Casing
+recipes.addShaped(<woot:structure>, [
+    [<minecraft:rotten_flesh>, <minecraft:skull:2>, <minecraft:rotten_flesh>],
+    [<woot:factorybase>, <xreliquary:mob_ingredient:6>,<woot:factorybase>],
+    [<minecraft:rotten_flesh>, <minecraft:skull:2>, <minecraft:rotten_flesh>]]);
+
+#Factory Bone Casing
+recipes.addShaped(<woot:structure:1>, [
+    [<minecraft:bone>, <minecraft:skull>, <minecraft:bone>],
+    [<woot:factorybase>, <xreliquary:mob_ingredient>, <woot:factorybase>],
+    [<minecraft:bone>, <minecraft:skull>, <minecraft:bone>]]);
+
+#Factory Upgrade Base
+recipes.addShaped(<woot:structure:5>, [
+    [<xreliquary:mob_ingredient:7>, <woot:factorybase>, <xreliquary:witch_hat>],
+    [<woot:factorybase>, <ore:itemSkull>, <woot:factorybase>],
+    [<xreliquary:mob_ingredient:3>, <woot:factorybase>, <xreliquary:mob_ingredient:11>]]);
+
+#Factory Heart
+recipes.addShaped(<woot:factory>, [
+    [<woot:factorybase>, <ore:gearManyullyn>, <woot:factorybase>], 
+    [<actuallyadditions:item_crystal_empowered:2>, <woot:controller>, <actuallyadditions:item_crystal_empowered:2>],
+    [<woot:factorybase>, <ore:gearManyullyn>, <woot:factorybase>]]);
+
+#Import Bus
+recipes.addShaped(<woot:importer>, [
+    [<ore:chest>, <minecraft:hopper>, <ore:chest>],
+    [<woot:factorybase>, <actuallyadditions:block_giant_chest_large>, <woot:factorybase>],
+    [<ore:chest>, null, <ore:chest>]]);
+
+#Export Bus
+recipes.addShaped(<woot:exporter>, [
+    [<ore:chest>, null, <ore:chest>],
+    [<woot:factorybase>, <actuallyadditions:block_giant_chest_large>, <woot:factorybase>],
+    [<ore:chest>, <minecraft:hopper>, <ore:chest>]]);
+
+#Basic Power Cell
+recipes.addShaped(<woot:cell>, [
+    [<woot:factorybase>, <woot:factorycore:5>, <woot:factorybase>],
+    [<actuallyadditions:item_battery_double>, <actuallyadditions:block_laser_relay>, <actuallyadditions:item_battery_double>],
+    [<woot:factorybase>, <woot:factorycore:5>, <woot:factorybase>]]);
+
+#Factory Tier 1 Cap
+recipes.addShaped(<woot:structure:6>, [
+    [<woot:shard:1>, <ore:itemSkull>, <woot:shard:1>],
+    [<woot:factorybase>, <woot:factorycore:6>, <woot:factorybase>],
+    [<woot:shard:1>, <ore:itemSkull>, <woot:shard:1>]]);
