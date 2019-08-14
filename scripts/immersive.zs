@@ -205,12 +205,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:3> * 2, [
 [<ore:plateIron>, <ore:alloyBasic>, <ore:plateIron>],
 [<ore:alloyBasic>, <ore:gearConstantan>, <ore:alloyBasic>], 
 [<ore:plateIron>, <ore:alloyBasic>, <ore:plateIron>]]);
-//File End
 
-
-
-//OH FUCK! This is how you tie it all together
-//HOP GRAPHITE RECIPE REQUIRES BIODIESEL
 mods.immersiveengineering.Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
 
 mods.forestry.Carpenter.addRecipe(<immersiveengineering:material:18>, [
@@ -276,8 +271,6 @@ recipes.addShapedMirrored(<immersiveengineering:wirecoil:5> * 4, [
 	[null, <immersiveengineering:material:22>, null],
 	[<minecraft:redstone>, <forestry:oak_stick>, <minecraft:redstone>,],
 	[null, <immersiveengineering:material:22>, null]]);
-
-
-
+	
 #Coke dustBlaze
 mods.actuallyadditions.Crusher.addRecipe(<immersiveengineering:material:17>, <immersiveengineering:material:6>);
