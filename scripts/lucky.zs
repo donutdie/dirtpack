@@ -334,7 +334,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empow
     <actuallyadditions:item_crystal:4>, <extendedcrafting:storage:6>, <botania:rune:11>, <minecraft:emerald_block>, <moreplates:mirion_plate>, 12000, 160, [0.0, 1.0, 0.0]);
 #Empowered Restonia Cystral
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>,
-    <actuallyadditions:item_crystal>, <xreliquary:mob_ingredient:7>, <extrautils2:ingredients:4>, <minecraft:nether_wart>, <tconstruct:ingots:1>, 5000, 70, [1.0, 0.0, 0.0]);
+    <actuallyadditions:item_crystal>, <minecraft:blaze_rod>, <extrautils2:ingredients:4>, <minecraft:nether_wart>, <tconstruct:ingots:1>, 5000, 70, [1.0, 0.0, 0.0]);
 
 #Block Breaker
 recipes.addShaped(<actuallyadditions:block_breaker>, [
@@ -420,7 +420,7 @@ recipes.remove(<woot:cell>);
 recipes.remove(<woot:structure:6>);
 
 #Soul Stone
-recipes.addShaped(<woot:soulstone>, [
+recipes.addShaped(<woot:soulstone> * 4, [
     [<ore:ingotSoularium>, <ore:stone>, <ore:ingotSoularium>],
     [<ore:stone>, <woot:soulsanddust>, <ore:stone>],
     [<ore:ingotSoularium>, <ore:stone>, <ore:ingotSoularium>]]);
@@ -444,16 +444,8 @@ recipes.addShaped(<woot:builder>, [
     [null, <woot:soulstone>, null]]);
 
 #Factory Flesh Casing
-recipes.addShaped(<woot:structure>, [
-    [<minecraft:rotten_flesh>, <minecraft:skull:2>, <minecraft:rotten_flesh>],
-    [<woot:factorybase>, <xreliquary:mob_ingredient:6>,<woot:factorybase>],
-    [<minecraft:rotten_flesh>, <minecraft:skull:2>, <minecraft:rotten_flesh>]]);
 
 #Factory Bone Casing
-recipes.addShaped(<woot:structure:1>, [
-    [<minecraft:bone>, <minecraft:skull>, <minecraft:bone>],
-    [<woot:factorybase>, <xreliquary:mob_ingredient>, <woot:factorybase>],
-    [<minecraft:bone>, <minecraft:skull>, <minecraft:bone>]]);
 
 #Factory Upgrade Base
 recipes.addShaped(<woot:structure:5>, [

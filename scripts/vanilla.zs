@@ -77,4 +77,7 @@ recipes.addShaped(<minecraft:hopper>, [
 	[<ore:plateIron>, <ore:chest>, <ore:plateIron>], 
 	[null, <ore:plateIron>, null]]);
 
+#Ink Sac Dupe
+mods.botania.ManaInfusion.addConjuration(<minecraft:dye> * 2, <minecraft:dye>, 1000);
+
 print("Vanilla Initialized");

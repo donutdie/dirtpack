@@ -74,3 +74,4 @@ recipes.addShaped(<botania:distributor>, [
     [<ore:livingrock>, <ore:plateManasteel>, <ore:livingrock>],
     [<botania:pool>, <immersiveengineering:metal_device1:6>, <botania:pool>],
     [<ore:livingrock>, <botania:storage>, <ore:livingrock>]]);
+
