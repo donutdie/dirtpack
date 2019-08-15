@@ -80,4 +80,18 @@ recipes.addShaped(<minecraft:hopper>, [
 #Ink Sac Dupe
 mods.botania.ManaInfusion.addConjuration(<minecraft:dye> * 2, <minecraft:dye>, 1000);
 
+#Brewing Stand
+recipes.remove(<minecraft:brewing_stand>);
+recipes.addShaped(<minecraft:brewing_stand>, [
+    [<ore:stickCoal>, <ore:rodBlaze>, <ore:stickCoal>],
+    [null, <ore:rodBlaze>, null], 
+    [<sonarcore:reinforcedstoneblock>, <sonarcore:reinforcedstoneblock>, <sonarcore:reinforcedstoneblock>]]);
+
+#Skeleton Head
+recipes.addShaped(<minecraft:skull>, [[null, <ore:bone>, null],[<ore:plateGold>, <tconstruct:fancy_frame:5>, <ore:plateGold>], [null, <minecraft:bone>, null]]);
+
+#Zombie Head
+recipes.addShaped(<minecraft:skull:2>, [[null, <minecraft:rotten_flesh>, null],[<ore:plateGold>, <tconstruct:fancy_frame:5>, <ore:plateGold>], [null, <minecraft:rotten_flesh>, null]]);
+
+
 print("Vanilla Initialized");
