@@ -6,7 +6,7 @@ mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/telescope");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/crystallens");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3");
-mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/infused_wood_column");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/infused_wood_column");
 mods.astralsorcery.LightTransmutation.removeTransmutation(<astralsorcery:blockcustomore:1>, false);
 mods.astralsorcery.LightTransmutation.removeTransmutation(<minecraft:emerald_ore>, false);
 

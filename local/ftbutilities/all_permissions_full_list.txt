@@ -1,4 +1,4 @@
-11711 nodes in total
+11753 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1014,6 +1014,20 @@ ftbutilities.claims.block.edit.botania.teruterubozu: OP
 ftbutilities.claims.block.edit.botania.tinyplanetblock: OP
 ftbutilities.claims.block.edit.botania.tinypotato: OP
 ftbutilities.claims.block.edit.botania.turntable: OP
+ftbutilities.claims.block.edit.botania_tweaks.advanced_extended_crafty_crate: OP
+ftbutilities.claims.block.edit.botania_tweaks.basic_extended_crafty_crate: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_1: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_2: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_3: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_4: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_5: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_6: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_7: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_8: OP
+ftbutilities.claims.block.edit.botania_tweaks.dire_crafty_crate: OP
+ftbutilities.claims.block.edit.botania_tweaks.elite_extended_crafty_crate: OP
+ftbutilities.claims.block.edit.botania_tweaks.potted_tiny_potato: OP
+ftbutilities.claims.block.edit.botania_tweaks.ultimate_extended_crafty_crate: OP
 ftbutilities.claims.block.edit.botanicadds.dreamrock: OP
 ftbutilities.claims.block.edit.botanicadds.elven_altar: OP
 ftbutilities.claims.block.edit.botanicadds.elven_lapis_block: OP
@@ -3587,6 +3601,20 @@ ftbutilities.claims.block.interact.botania.teruterubozu: OP
 ftbutilities.claims.block.interact.botania.tinyplanetblock: OP
 ftbutilities.claims.block.interact.botania.tinypotato: OP
 ftbutilities.claims.block.interact.botania.turntable: OP
+ftbutilities.claims.block.interact.botania_tweaks.advanced_extended_crafty_crate: OP
+ftbutilities.claims.block.interact.botania_tweaks.basic_extended_crafty_crate: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_1: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_2: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_3: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_4: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_5: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_6: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_7: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_8: OP
+ftbutilities.claims.block.interact.botania_tweaks.dire_crafty_crate: OP
+ftbutilities.claims.block.interact.botania_tweaks.elite_extended_crafty_crate: OP
+ftbutilities.claims.block.interact.botania_tweaks.potted_tiny_potato: OP
+ftbutilities.claims.block.interact.botania_tweaks.ultimate_extended_crafty_crate: OP
 ftbutilities.claims.block.interact.botanicadds.dreamrock: OP
 ftbutilities.claims.block.interact.botanicadds.elven_altar: OP
 ftbutilities.claims.block.interact.botanicadds.elven_lapis_block: OP
@@ -7236,6 +7264,20 @@ ftbutilities.claims.item.botania.waterbowl: ALL
 ftbutilities.claims.item.botania.waterring: ALL
 ftbutilities.claims.item.botania.waterrod: ALL
 ftbutilities.claims.item.botania.worldseed: ALL
+ftbutilities.claims.item.botania_tweaks.advanced_extended_crafty_crate: ALL
+ftbutilities.claims.item.botania_tweaks.basic_extended_crafty_crate: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_1: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_2: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_3: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_4: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_5: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_6: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_7: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_8: ALL
+ftbutilities.claims.item.botania_tweaks.dire_crafty_crate: ALL
+ftbutilities.claims.item.botania_tweaks.elite_extended_crafty_crate: ALL
+ftbutilities.claims.item.botania_tweaks.potted_tiny_potato: ALL
+ftbutilities.claims.item.botania_tweaks.ultimate_extended_crafty_crate: ALL
 ftbutilities.claims.item.botanicadds.dreamrock: ALL
 ftbutilities.claims.item.botanicadds.elven_altar: ALL
 ftbutilities.claims.item.botanicadds.elven_lapis: ALL
@@ -11733,6 +11775,8 @@ command.biomesoplenty.biomesoplenty
 command.blockdata
 command.botania.botania-open
 command.botania.botania-share
+command.botania_tweaks.botaniatweaks-debug-stats
+command.botania_tweaks.botaniatweaks-reset-stats
 command.bq_standard.bqs_advancement_dump
 command.bq_standard.bqs_loot
 command.brandonscore.bcore_ticktime

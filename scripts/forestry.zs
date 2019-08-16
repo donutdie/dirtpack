@@ -91,7 +91,7 @@ mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:4> ,[
 mods.forestry.ThermionicFabricator.addCast(<forestry:thermionic_tubes:11> ,[
 	[null, <immersiveengineering:material:9> * 2, null],
 	[<astralsorcery:itemcraftingcomponent:1>, <forestry:chipsets:1>, <astralsorcery:itemcraftingcomponent:1>],
-	[<ore:plateEnderium>, <ore:gearManasteel>, <ore:plateEnderium>]],
+	[<ore:plateCobalt>, <ore:gearManasteel>, <ore:plateCobalt>]],
 	<liquid:astralsorcery.liquidstarlight> * 850);
 
 mods.forestry.ThermionicFabricator.addSmelting(<liquid:astralsorcery.liquidstarlight> * 120, <astralsorcery:itemcraftingcomponent>, 650);

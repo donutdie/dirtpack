@@ -1,8 +1,17 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<enderio:item_basic_capacitor:1>);
+recipes.remove(<enderio:item_basic_capacitor>);
+recipes.remove(<minecraft:minecart>);
+recipes.remove(<minecraft:cauldron>);
+recipes.remove(<botania:terraplate>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<enderio:item_basic_capacitor:1>, [[null, <ore:plateEnergeticAlloy>, null],[<enderio:item_basic_capacitor>, <ore:plateVoidEmpowered>, <enderio:item_basic_capacitor>], [null, <ore:plateEnergeticAlloy>, null]]);
+recipes.addShaped(<enderio:item_basic_capacitor>, [[null, <immersiveengineering:wirecoil:2>, <ore:dustBedrock>],[<immersiveengineering:wirecoil:2>, <thermalfoundation:material:513>, <immersiveengineering:wirecoil:2>], [<ore:dustBedrock>, <immersiveengineering:wirecoil:2>, null]]);
+recipes.addShaped(<minecraft:minecart>, [[null, null, null],[<thermalfoundation:material:32>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:cauldron>, [[<ore:plateIron>, null, <ore:plateIron>],[<thermalfoundation:material:32>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<minecraft:golden_chestplate>, [[<ore:plateGold>, <minecraft:chainmail_chestplate>, <ore:plateGold>],[<ore:plateGold>, <thermalfoundation:material:33>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
 recipes.addShaped(<minecraft:golden_leggings>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],[<ore:plateGold>, <minecraft:chainmail_leggings>, <ore:plateGold>], [<ore:plateGold>, null, <ore:plateGold>]]);
 recipes.addShaped(<minecraft:golden_boots>, [[<ore:plateGold>, <minecraft:chainmail_boots>, <ore:plateGold>],[<ore:plateGold>, null, <ore:plateGold>], [null, null, null]]);
