@@ -14,6 +14,15 @@ recipes.remove(<woot:exporter>);
 recipes.remove(<woot:cell>);
 recipes.remove(<woot:structure:6>);
 
+val OPBooks = 
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 48 as short}]})|
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 11 as short}]})|
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 48 as short}]})|
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 16 as short}]})|
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 28 as short}]})
+;
+
+
 #Soul Stone
 recipes.addShaped(<woot:soulstone> * 4, [
     [<ore:ingotSoularium>, <ore:stone>, <ore:ingotSoularium>],

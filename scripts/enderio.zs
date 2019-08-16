@@ -2,6 +2,5 @@
 recipes.remove(<enderio:block_simple_alloy_smelter>);
 recipes.remove(<enderio:item_material>);
 
-#IM CHANGING THESE. GAME CRASHED BEFORE I COULD.
-recipes.addShaped(<enderio:block_simple_alloy_smelter>, [[<ore:plateVoid>, <immersiveengineering:metal_decoration0:5>, <ore:plateVoid>],[<ore:itemSimpleMachineChassi>, <actuallyadditions:block_furnace_double>, <ore:itemSimpleMachineChassi>], [<ore:plateVoid>, <immersiveengineering:metal_decoration0:5>, <ore:plateVoid>]]);
-recipes.addShaped(<enderio:item_material>, [[<ore:gearDiamatine>, <ore:plateFluix>, <ore:gearDiamatine>],[<ore:plateManasteel>, <ore:dustBedrock>, <ore:plateManasteel>], [<ore:gearDiamatine>, <ore:plateFluix>, <ore:gearDiamatine>]]);
+recipes.addShaped(<enderio:block_simple_alloy_smelter>, [[<astralsorcery:itemusabledust>, <tconstruct:smeltery_controller>, <astralsorcery:itemusabledust>],[<enderio:item_basic_capacitor>, <ore:itemSimpleMachineChassi>, <enderio:item_basic_capacitor>], [<astralsorcery:itemusabledust>, <ore:runeFireB>, <astralsorcery:itemusabledust>]]);
+recipes.addShaped(<enderio:item_material>, [[<ore:plateEnori>, <ore:gearDiamatine>, <ore:plateEnori>],[<enderio:item_basic_capacitor>, <actuallyadditions:block_misc:9>, <enderio:item_basic_capacitor>], [<ore:barsIron>, <immersiveengineering:metal_decoration0:2>, <ore:barsIron>]]);

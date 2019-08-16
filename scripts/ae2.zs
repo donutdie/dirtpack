@@ -38,8 +38,6 @@ recipes.addShaped(<appliedenergistics2:energy_acceptor>, [
 	[<ore:plateFluix>, <ore:runeGreedB>, <ore:plateFluix>], 
 	[<ore:ingotManasteel>, <ore:gearFluix>, <ore:ingotManasteel>]]);
 
-	mods.forestry.Carpenter.addRecipe(<appliedenergistics2:material:1>, [
-    [<appliedenergistics2:material>]
 
 #ME DRIVE
 recipes.addShaped(<appliedenergistics2:drive>, [

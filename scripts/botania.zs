@@ -233,3 +233,16 @@ recipes.addShaped(<botania:runealtar>, [
     [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], 
     [<ore:livingrock>, <botania:manaresource:2>, <ore:livingrock>]]);
 
+
+#elven gateway core
+recipes.remove(<botania:alfheimportal>);
+
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("dirtpack:shaped/internal/altar/elven_gateway_core", <botania:alfheimportal>, 500, 200, [
+    <astralsorcery:itemcraftingcomponent:1>, <botania:manaresource:18>, <astralsorcery:itemcraftingcomponent:1>,
+    <botania:livingwood:5>,<astralsorcery:itemenchantmentamulet>,<botania:livingwood:5>,
+    <botania:manaresource:18>,<botania:thirdeye>,<botania:manaresource:18>,
+    <ore:livingWood>,<ore:livingWood>,<ore:livingWood>,<ore:livingWood>,<ore:livingWood>,<ore:livingWood>,
+    <astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,
+    <ore:livingWood>,<ore:livingWood>
+
+]);
