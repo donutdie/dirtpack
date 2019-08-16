@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack as IItemStack;
 //Thermal Expansion
 recipes.remove(<thermaldynamics:servo>);
+recipes.remove(<thermaldynamics:duct_32>);
 recipes.remove(<thermaldynamics:duct_32:1>);
 recipes.remove(<thermaldynamics:duct_0>);
 recipes.remove(<thermalfoundation:material:515>);
@@ -15,16 +16,20 @@ recipes.addShaped(<thermaldynamics:servo> * 2, [
     [<ore:plateIron>, <minecraft:iron_nugget>, <ore:plateIron>]]);
 
 #Itemduct
-recipes.addShaped(<thermaldynamics:duct_32:1> * 8, [
-    [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+recipes.addShaped(<thermaldynamics:duct_32> * 8, [
+    [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>],
     [<immersiveengineering:conveyor>, <thermalfoundation:material:321>, <immersiveengineering:conveyor>],
-    [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
+    [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>]]);
+recipes.addShaped(<thermaldynamics:duct_32:1> * 8, [
+    [null, null, null],
+    [<immersiveengineering:conveyor>, <thermalfoundation:material:321>, <immersiveengineering:conveyor>],
+    [null, null, null]]);
 
 #Redstone fluxduct
 recipes.addShaped(<thermaldynamics:duct_0> * 8, [
-    [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+    [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>],
     [<moreplates:redstone_plate>, <thermalfoundation:storage:3>, <moreplates:redstone_plate>],
-    [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
+    [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>]]);
 
 #Conductance Coil
 recipes.addShaped(<thermalfoundation:material:515>, [

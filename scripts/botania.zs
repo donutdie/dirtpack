@@ -10,6 +10,26 @@ recipes.remove(<botania:pylon:1>);
 recipes.remove(<botania:pylon>);
 recipes.remove(<botania:alchemycatalyst>);
 recipes.remove(<botania:conjurationcatalyst>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:1>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:2>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:3>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:4>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:5>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:6>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:7>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:8>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:9>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:10>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:11>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:12>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:13>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:14>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:15>);
+mods.botania.RuneAltar.removeRecipe(<botanicadds:rune_energy>);
+mods.botania.RuneAltar.removeRecipe(<botanicadds:rune_tp>);
+recipes.remove(<botania:alfheimportal>);
+recipes.remove(<botania:runealtar>);
 
 #Petal apothecary
 recipes.remove(<botania:altar>);
@@ -130,27 +150,6 @@ recipes.addShaped(<botania:conjurationcatalyst>, [
     [<ore:plateElvenElementium>, <botania:alchemycatalyst>, <ore:plateElvenElementium>], 
     [<ore:elvenDragonstone>, <ore:plateElvenElementium>, <ore:elvenDragonstone>]]);
 
-
-//Botania
-mods.botania.RuneAltar.removeRecipe(<botania:rune>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:1>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:2>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:3>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:4>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:5>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:6>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:7>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:8>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:9>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:10>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:11>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:12>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:13>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:14>);
-mods.botania.RuneAltar.removeRecipe(<botania:rune:15>);
-mods.botania.RuneAltar.removeRecipe(<botanicadds:rune_energy>);
-mods.botania.RuneAltar.removeRecipe(<botanicadds:rune_tp>);
-
 #Rune of Water
 mods.botania.RuneAltar.addRecipe(<botania:rune> *2, [
     <botania:manaresource>, <botania:manaresource:23>, <minecraft:waterlily>, 
@@ -227,22 +226,16 @@ mods.botania.RuneAltar.addRecipe(<botanicadds:rune_tp>, [
     <botania:manaresource:2>, <botania:manaresource:2>, <botania:rune:8>], 11570);
 
 #Runic Altar
-recipes.remove(<botania:runealtar>);
 recipes.addShaped(<botania:runealtar>, [
     [<astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:3>],
     [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], 
     [<ore:livingrock>, <botania:manaresource:2>, <ore:livingrock>]]);
 
-
 #elven gateway core
-recipes.remove(<botania:alfheimportal>);
-
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("dirtpack:shaped/internal/altar/elven_gateway_core", <botania:alfheimportal>, 500, 200, [
     <astralsorcery:itemcraftingcomponent:1>, <botania:manaresource:18>, <astralsorcery:itemcraftingcomponent:1>,
     <botania:livingwood:5>,<astralsorcery:itemenchantmentamulet>,<botania:livingwood:5>,
     <botania:manaresource:18>,<botania:thirdeye>,<botania:manaresource:18>,
     <ore:livingWood>,<ore:livingWood>,<ore:livingWood>,<ore:livingWood>,<ore:livingWood>,<ore:livingWood>,
     <astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,
-    <ore:livingWood>,<ore:livingWood>
-
-]);
+    <ore:livingWood>,<ore:livingWood>]);
