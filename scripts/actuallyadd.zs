@@ -15,6 +15,8 @@ recipes.remove(<actuallyadditions:block_empowerer>);
 recipes.remove(<actuallyadditions:item_battery>);
 recipes.remove(<actuallyadditions:item_battery_double>);
 recipes.remove(<actuallyadditions:block_breaker>);
+recipes.remove(<actuallyadditions:block_bio_reactor>);
+recipes.remove(<actuallyadditions:block_furnace_solar>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:2>);
@@ -34,6 +36,7 @@ mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:3>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:4>);
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:5>);
+
 
 #Black quarts ore
 mods.astralsorcery.LightTransmutation.addTransmutation(<astralsorcery:blockcustomore>, <actuallyadditions:block_misc:3>, 250);
@@ -176,3 +179,16 @@ recipes.addShaped(<actuallyadditions:block_giant_chest>, [
     [<ore:chest>, <ore:stickTreatedWood>, <ore:chest>],
     [<ore:stickTreatedWood>, <actuallyadditions:block_misc:4>, <ore:stickTreatedWood>], 
     [<ore:chest>, <ore:stickTreatedWood>, <ore:chest>]]);
+
+#Bio Reactor
+recipes.addShaped(<actuallyadditions:block_bio_reactor>, [
+    [<ore:treeSapling>, <minecraft:tripwire_hook>, <ore:treeSapling>],
+    [<minecraft:tripwire_hook>, <actuallyadditions:block_misc:4>, <minecraft:tripwire_hook>],
+    [<ore:treeSapling>, <minecraft:tripwire_hook>, <ore:treeSapling>]]);
+
+ #Solar Panel
+recipes.addShaped(<actuallyadditions:block_furnace_solar>, [
+    [null, null, null],
+    [<ore:plateSteel>, <immersiveengineering:metal_decoration0>, <ore:plateSteel>],
+    [<actuallyadditions:block_misc:4>, <ore:gearLapis>, <actuallyadditions:block_misc:4>]
+])

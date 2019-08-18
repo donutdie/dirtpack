@@ -8,6 +8,10 @@ recipes.remove(<minecraft:cauldron>);
 recipes.remove(<botania:terraplate>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<minecraft:iron_leggings>, [[<ore:plateIron>, <thermalfoundation:material:32>, <ore:plateIron>],[<ore:plateIron>, <minecraft:golden_leggings>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:iron_boots>, [[<ore:plateIron>, <minecraft:golden_boots>, <ore:plateIron>],[<ore:plateIron>, null, <ore:plateIron>], [null, null, null]]);
+recipes.addShaped(<minecraft:iron_helmet>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<ore:plateIron>, <minecraft:golden_helmet>, <ore:plateIron>], [null, null, null]]);
+recipes.addShaped(<minecraft:iron_chestplate>, [[<ore:plateIron>, <minecraft:golden_chestplate>, <ore:plateIron>],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<enderio:item_basic_capacitor:1>, [[null, <ore:plateEnergeticAlloy>, null],[<enderio:item_basic_capacitor>, <ore:plateVoidEmpowered>, <enderio:item_basic_capacitor>], [null, <ore:plateEnergeticAlloy>, null]]);
 recipes.addShaped(<enderio:item_basic_capacitor>, [[null, <immersiveengineering:wirecoil:2>, <ore:dustBedrock>],[<immersiveengineering:wirecoil:2>, <thermalfoundation:material:513>, <immersiveengineering:wirecoil:2>], [<ore:dustBedrock>, <immersiveengineering:wirecoil:2>, null]]);
 recipes.addShaped(<minecraft:minecart>, [[null, null, null],[<thermalfoundation:material:32>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);

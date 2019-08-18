@@ -53,7 +53,7 @@ mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/
 mods.astralsorcery.LightTransmutation.addTransmutation(<minecraft:diamond_ore>, <astralsorcery:blockcustomore:1>, 200);
 
 #Celestial altar
-mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3", <astralsorcery:blockaltar:2>, 700, 400, [
+mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3", <astralsorcery:blockaltar:2>, 700, 400, [
     <jaopca:block_blockaquamarine>, null, <jaopca:block_blockaquamarine>,
     <ore:plateSteel>, Crystals, <ore:plateSteel>,
     <astralsorcery:blockmarble:2>, <jaopca:block_blockastralstarmetal>, <astralsorcery:blockmarble:2>,
