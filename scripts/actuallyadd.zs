@@ -17,6 +17,11 @@ recipes.remove(<actuallyadditions:item_battery_double>);
 recipes.remove(<actuallyadditions:block_breaker>);
 recipes.remove(<actuallyadditions:block_bio_reactor>);
 recipes.remove(<actuallyadditions:block_furnace_solar>);
+recipes.remove(<actuallyadditions:item_misc:6>);
+recipes.remove(<actuallyadditions:item_suction_ring>);
+recipes.remove(<actuallyadditions:item_misc:18>);
+recipes.remove(<actuallyadditions:item_misc:16>);
+recipes.remove(<actuallyadditions:item_drill:3>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:2>);
@@ -159,7 +164,7 @@ recipes.addShaped(<actuallyadditions:block_heat_collector>, [
     [<actuallyadditions:item_misc:8>, <immersiveengineering:metal_decoration0:5>, <actuallyadditions:item_misc:8>],
      [<chisel:lavastone>, <immersiveengineering:metal_decoration0:5>, <chisel:lavastone>]]);
 
-#NGL forgot
+#Advanced coil
 recipes.addShaped(<actuallyadditions:item_misc:8>, [
     [<ore:stickGold>, <immersiveengineering:wirecoil:1>, <ore:stickGold>],
     [<immersiveengineering:wirecoil:1>, <actuallyadditions:item_misc:7>, <immersiveengineering:wirecoil:1>], 
@@ -186,9 +191,28 @@ recipes.addShaped(<actuallyadditions:block_bio_reactor>, [
     [<minecraft:tripwire_hook>, <actuallyadditions:block_misc:4>, <minecraft:tripwire_hook>],
     [<ore:treeSapling>, <minecraft:tripwire_hook>, <ore:treeSapling>]]);
 
- #Solar Panel
+#Solar Panel
 recipes.addShaped(<actuallyadditions:block_furnace_solar>, [
     [null, null, null],
     [<ore:plateSteel>, <immersiveengineering:metal_decoration0>, <ore:plateSteel>],
-    [<actuallyadditions:block_misc:4>, <ore:gearLapis>, <actuallyadditions:block_misc:4>]
-])
+    [<actuallyadditions:block_misc:4>, <ore:gearLapis>, <actuallyadditions:block_misc:4>]]);
+
+#Ring
+recipes.addShaped(<actuallyadditions:item_misc:6>, [
+    [<botania:manaresource:2>, <ore:plateElectrum>, <botania:manaresource:2>],
+    [<ore:plateElectrum>, <advancedrocketry:lens>, <ore:plateElectrum>],
+    [<botania:manaresource:2>, <ore:plateElectrum>, <botania:manaresource:2>]]);
+
+#Ring of magnetizing
+recipes.addShaped(<actuallyadditions:item_suction_ring>.withTag({Energy: 0}), [
+    [<actuallyadditions:item_crystal_empowered:1>, <botania:magnetring>, <actuallyadditions:item_crystal_empowered>],
+    [<ore:ingotCobalt>, <actuallyadditions:item_misc:6>, <ore:ingotCobalt>],
+    [<actuallyadditions:item_crystal_empowered:1>, <ore:ingotCobalt>, <actuallyadditions:item_crystal_empowered>]]);
+
+#Drill core
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_misc:16>, 
+    <immersiveengineering:metal_decoration0:2>, <forestry:chipsets:1>, <thermalfoundation:material:513>, <actuallyadditions:item_crystal_empowered:2>, <ore:stickSteel>, 100000, 200, [1.0, 1.0, 1.0]);
+
+#Drill
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_drill:3>.withTag({Energy: 0}),
+    <actuallyadditions:item_misc:16>, <actuallyadditions:item_crystal_empowered:2>, <immersiveengineering:drillhead:1>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_misc:8>, 100000, 200, [1.0, 1.0, 1.0]);

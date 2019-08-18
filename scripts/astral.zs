@@ -35,14 +35,14 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/
     <ore:plateGold>, <ore:plankTreatedWood>, null]);
 
 #Telescope
-mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/altar/telescope", <astralsorcery:blockmachine>, 500, 300, [
+mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/telescope", <astralsorcery:blockmachine>, 500, 300, [
     null, <astralsorcery:itemhandtelescope>, null,
     <ore:plateGold>, <astralsorcery:blockinfusedwood>, <ore:plateGold>,
     <ore:fenceTreatedWood>, <astralsorcery:blockinfusedwood>, <ore:fenceTreatedWood>,
     null, null, null, null]);
 
 #Crystallens
-mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/altar/crystallens", <astralsorcery:blocklens>, 500, 300, [
+mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/crystallens", <astralsorcery:blocklens>, 500, 300, [
     <ore:plateGold> , <astralsorcery:itemcraftingcomponent:3> , <ore:plateGold> ,
     <astralsorcery:itemcraftingcomponent:3>, Crystals, <astralsorcery:itemcraftingcomponent:3>,
     <astralsorcery:blockinfusedwood:4>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:blockinfusedwood:4>,
@@ -53,7 +53,7 @@ mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/
 mods.astralsorcery.LightTransmutation.addTransmutation(<minecraft:diamond_ore>, <astralsorcery:blockcustomore:1>, 200);
 
 #Celestial altar
-mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3", <astralsorcery:blockaltar:2>, 700, 400, [
+mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3", <astralsorcery:blockaltar:2>, 700, 400, [
     <jaopca:block_blockaquamarine>, null, <jaopca:block_blockaquamarine>,
     <ore:plateSteel>, Crystals, <ore:plateSteel>,
     <astralsorcery:blockmarble:2>, <jaopca:block_blockastralstarmetal>, <astralsorcery:blockmarble:2>,

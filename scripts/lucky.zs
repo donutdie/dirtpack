@@ -68,14 +68,14 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("dirtpack:shaped/internal/altar
     <botania:rune:15>, <botania:rune:11>, <botania:rune:10>]);
 
 #Formation wand
-mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/altar/tool_architect", <astralsorcery:itemarchitectwand>, 1200, 100, [
+mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/tool_architect", <astralsorcery:itemarchitectwand>, 1200, 100, [
     null, <actuallyadditions:item_crystal:3>, <astralsorcery:itemcraftingcomponent:1>,
     null, <extrautils2:itembuilderswand>, <actuallyadditions:item_crystal:3>,
     <ore:rodAstralStarmetal>, null, null,
     <ore:dyePink>, <ore:dyePink>, <astralsorcery:blockmarble:6>, <ore:dyePink>]);
 
 #Impulsion wand
-mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/altar/tool_grapple", <astralsorcery:itemgrapplewand>, 1450, 250, [
+mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/tool_grapple", <astralsorcery:itemgrapplewand>, 1450, 250, [
     null, <minecraft:ender_pearl>, <ore:ingotAstralStarmetal>,
     null, <openblocks:hang_glider>, <minecraft:ender_pearl>,
     <ore:rodAstralStarmetal>, null, null,
@@ -96,3 +96,14 @@ recipes.addShaped(<botania:manatablet>, [
     [<actuallyadditions:item_crystal:2>, null, <actuallyadditions:item_crystal:2>],
     [<botania:rune:9>, <botania:rune:13>, <botania:rune:14>]]);
 
+
+
+//TE
+recipes.remove(<thermalinnovation:drill>);
+
+
+#Fluxbore
+recipes.addShaped(<thermalinnovation:drill>, [ 
+    [null, <immersiveengineering:drillhead>, null],
+    [<thermalfoundation:material:514>, <actuallyadditions:item_drill:3>, <thermalfoundation:material:514>],
+    [<ore:plateSteel>, <thermalexpansion:capacitor:2>, <ore:plateSteel>]]);
