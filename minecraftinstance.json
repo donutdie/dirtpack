@@ -12052,6 +12052,78 @@
       "installedTargets": null
     },
     {
+      "addonID": 323527,
+      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
+      "installedFile": {
+        "id": 2748902,
+        "displayName": "Release v1.6.8",
+        "fileName": "TBone-v1.6.8+mc1.12.2.jar",
+        "fileDate": "2019-07-26T18:23:42.503Z",
+        "fileLength": 214261,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2748/902/TBone-v1.6.8+mc1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 2748903,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 509669559,
+            "type": 0
+          },
+          {
+            "foldername": "t145",
+            "fingerprint": 2197587903,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4033398977,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3489559226,
+            "type": 0
+          },
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 1185419476,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2644731150,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "TBone-v1.6.8+mc1.12.2.jar"
+      },
+      "dateInstalled": "2019-08-19T23:58:08.379456Z",
+      "dateUpdated": "2019-08-19T23:58:08.3914233Z",
+      "dateLastUpdateAttempted": "2019-08-19T23:58:08.3914233Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 268387,
       "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
       "installedFile": {
@@ -12892,6 +12964,133 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 290145,
+      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
+      "installedFile": {
+        "id": 2751488,
+        "displayName": "Release v6.1.0",
+        "fileName": "MetalChests-v6.1.0+mc1.12.2.jar",
+        "fileDate": "2019-07-30T15:14:56.323Z",
+        "fileLength": 231323,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2751/488/MetalChests-v6.1.0+mc1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 2751493,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 247135,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 223094,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 223628,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 78778,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 323527,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 78608,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 69163,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 243121,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4274464585,
+            "type": 0
+          },
+          {
+            "foldername": "t145",
+            "fingerprint": 2767937660,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1070917182,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0
+          },
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 3574284957,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2846168077,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "MetalChests-v6.1.0+mc1.12.2.jar"
+      },
+      "dateInstalled": "2019-08-19T23:58:08.5313939Z",
+      "dateUpdated": "2019-08-19T23:58:08.5333872Z",
+      "dateLastUpdateAttempted": "2019-08-19T23:58:08.5333872Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 248370,
