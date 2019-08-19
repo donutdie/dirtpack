@@ -10104,7 +10104,7 @@
       "dateInstalled": "2019-07-22T17:31:55.7561922Z",
       "dateUpdated": "2019-07-22T17:31:55.7581636Z",
       "dateLastUpdateAttempted": "2019-07-22T17:31:55.7581636Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11268,7 +11268,7 @@
       "dateInstalled": "2019-07-25T18:12:13.9184334Z",
       "dateUpdated": "2018-07-25T18:12:13.9184334Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11801,7 +11801,7 @@
       "dateInstalled": "2019-08-16T22:32:32.105528Z",
       "dateUpdated": "2019-08-16T22:32:32.126625Z",
       "dateLastUpdateAttempted": "2019-08-16T22:32:32.126625Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11810,7 +11810,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238857,
