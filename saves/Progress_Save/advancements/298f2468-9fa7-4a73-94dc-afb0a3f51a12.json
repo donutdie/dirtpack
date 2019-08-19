@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2019-08-18 15:32:11 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2019-08-08 19:00:41 +0200"
@@ -26,6 +32,12 @@
   "astralsorcery:find_constellation": {
     "criteria": {
       "bright_constellation_discovered": "2019-08-03 20:36:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_the_recipe": "2019-08-18 13:59:40 +0200"
     },
     "done": true
   },
@@ -179,12 +191,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_leggings": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-08 19:00:41 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
       "has_sandstone": "2019-07-31 11:43:50 +0200"
@@ -209,9 +215,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2019-08-18 15:32:11 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_block": {
     "criteria": {
       "has_the_recipe": "2019-08-08 19:00:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2019-08-18 14:04:57 +0200"
     },
     "done": true
   },
@@ -251,6 +269,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2019-08-18 13:59:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2019-07-31 16:47:36 +0200"
@@ -260,12 +284,6 @@
   "minecraft:recipes/tools/golden_shovel": {
     "criteria": {
       "has_gold_ingot": "2019-07-30 15:34:44 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_helmet": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-08 19:00:41 +0200"
     },
     "done": true
   },
@@ -323,6 +341,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2019-08-18 13:07:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2019-08-18 14:39:49 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "seasonal_forest": "2019-08-01 19:12:57 +0200",
@@ -331,21 +361,15 @@
     },
     "done": false
   },
-  "minecraft:recipes/transportation/minecart": {
+  "minecraft:story/mine_stone": {
     "criteria": {
-      "has_iron_ingot": "2019-08-08 19:00:41 +0200"
+      "get_stone": "2019-08-18 15:32:11 +0200"
     },
     "done": true
   },
   "minecraft:recipes/misc/beacon": {
     "criteria": {
       "has_nether_star": "2019-08-08 19:47:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2019-07-30 15:40:31 +0200"
     },
     "done": true
   },
@@ -487,6 +511,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2019-08-18 15:32:11 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_umbran": {
     "criteria": {
       "entered_water": "2019-07-31 16:39:51 +0200"
@@ -553,6 +583,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2019-08-18 14:15:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
       "has_glass": "2019-07-30 15:41:27 +0200"
@@ -595,12 +631,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_boots": {
-    "criteria": {
-      "has_gold_ingot": "2019-07-30 15:34:44 +0200"
-    },
-    "done": true
-  },
   "immersiveengineering:main/multiblock_blastfurnace": {
     "criteria": {
       "form_blastfurnace": "2019-08-01 19:37:34 +0200"
@@ -637,9 +667,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_chestplate": {
+  "minecraft:recipes/misc/light_blue_dye_from_lapis_bonemeal": {
     "criteria": {
-      "has_gold_ingot": "2019-07-30 15:34:44 +0200"
+      "has_lapis": "2019-08-18 14:14:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_red_pink": {
+    "criteria": {
+      "has_pink_dye": "2019-08-18 13:07:13 +0200"
     },
     "done": true
   },
@@ -757,6 +793,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2019-08-18 15:32:11 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-07-30 15:41:27 +0200"
@@ -793,21 +835,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_helmet": {
-    "criteria": {
-      "has_gold_ingot": "2019-07-30 15:34:44 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_slime_ball": "2019-08-08 16:55:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_boots": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-08 19:00:41 +0200"
     },
     "done": true
   },
@@ -854,12 +884,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_chestplate": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-08 19:00:41 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/prismarine_bricks": {
     "criteria": {
       "has_prismarine_shard": "2019-08-09 16:17:22 +0200"
@@ -869,12 +893,6 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2019-08-01 14:05:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/brewing_stand": {
-    "criteria": {
-      "has_blaze_rod": "2019-08-08 14:53:50 +0200"
     },
     "done": true
   },
@@ -964,6 +982,7 @@
       "plains": "2019-08-01 19:13:03 +0200",
       "taiga": "2019-07-31 18:54:32 +0200",
       "taiga_hills": "2019-08-01 19:12:42 +0200",
+      "ocean": "2019-08-18 12:59:03 +0200",
       "extreme_hills": "2019-07-30 13:01:10 +0200",
       "river": "2019-07-31 16:39:51 +0200"
     },
@@ -1005,15 +1024,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2019-08-18 15:32:11 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_willow": {
     "criteria": {
       "entered_water": "2019-07-31 16:39:51 +0200"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2019-08-18 15:32:11 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_blue_banner": {
     "criteria": {
       "has_light_blue_wool": "2019-08-04 13:12:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2019-08-18 15:32:11 +0200"
     },
     "done": true
   },
@@ -1035,6 +1072,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2019-08-18 15:35:02 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/boat": {
     "criteria": {
       "entered_water": "2019-07-31 16:39:51 +0200"
@@ -1044,6 +1087,12 @@
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2019-07-31 16:47:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_lapis": "2019-08-18 14:14:59 +0200"
     },
     "done": true
   },
@@ -1149,9 +1198,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_leggings": {
+  "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
-      "has_gold_ingot": "2019-07-30 15:34:44 +0200"
+      "has_cobblestone": "2019-08-18 15:32:11 +0200"
     },
     "done": true
   },
@@ -1173,6 +1222,12 @@
     },
     "done": true
   },
+  "rftools:alltheitems": {
+    "criteria": {
+      "placed_storage": "2019-08-19 14:13:29 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
       "has_red_flower": "2019-08-01 19:21:46 +0200"
@@ -1182,6 +1237,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2019-08-08 19:00:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2019-08-18 15:32:11 +0200"
     },
     "done": true
   },
