@@ -1,5 +1,3 @@
-
-
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
@@ -67,7 +65,10 @@ val shitToHide = [
 	<modularmachinery:blockfluidoutputhatch:7>,
 	<tconstruct:cast_custom:4>,
 	<tconstruct:cast_custom:3>,
-
+	<actuallyadditions:block_item_viewer>,
+	<actuallyadditions:block_player_interface>,
+	<actuallyadditions:block_item_viewer_hopping>,
+	<actuallyadditions:block_feeder>
 ] as IItemStack[];
 
 for item in shitToHide {

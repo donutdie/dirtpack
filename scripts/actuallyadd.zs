@@ -22,6 +22,19 @@ recipes.remove(<actuallyadditions:item_suction_ring>);
 recipes.remove(<actuallyadditions:item_misc:18>);
 recipes.remove(<actuallyadditions:item_misc:16>);
 recipes.remove(<actuallyadditions:item_drill:3>);
+recipes.remove(<actuallyadditions:block_placer>);
+recipes.remove(<actuallyadditions:item_misc:8>);
+recipes.remove(<actuallyadditions:block_heat_collector>);
+recipes.remove(<actuallyadditions:block_misc:4>);
+recipes.remove(<actuallyadditions:block_giant_chest>);
+recipes.remove(<actuallyadditions:block_energizer>);
+recipes.remove(<actuallyadditions:block_fluid_placer>);
+recipes.remove(<actuallyadditions:item_battery_triple>);
+recipes.remove(<actuallyadditions:item_battery_quadruple>);
+recipes.remove(<actuallyadditions:item_battery_quintuple>);
+recipes.remove(<actuallyadditions:block_enervator>);
+recipes.remove(<actuallyadditions:block_fluid_collector>);
+recipes.remove(<actuallyadditions:block_miner>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:2>);
@@ -122,14 +135,32 @@ recipes.addShaped(<actuallyadditions:block_empowerer>,[
 #Single Battery
     recipes.addShaped(<actuallyadditions:item_battery>, [
     [<moreplates:iron_alloy_plate>, <ore:plateRedstone>, <moreplates:iron_alloy_plate>],
-    [<actuallyadditions:item_crystal:5>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal:5>],
+    [<actuallyadditions:item_crystal:5>, <actuallyadditions:item_misc:7>, <actuallyadditions:item_crystal:5>],
     [<actuallyadditions:item_crystal:5>, <immersiveengineering:metal_decoration0:1>, <actuallyadditions:item_crystal:5>]]);
 
 #Double Battery
 recipes.addShaped(<actuallyadditions:item_battery_double>, [
     [<ore:plateEnergeticAlloy>, <ore:plateRedstone>, <ore:plateEnergeticAlloy>],
-    [<actuallyadditions:item_battery>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_battery>],
+    [<actuallyadditions:item_misc:7>, <actuallyadditions:item_battery>, <actuallyadditions:item_misc:7>],
     [<actuallyadditions:item_crystal:2>, <immersiveengineering:metal_decoration0:1>, <actuallyadditions:item_crystal:2>]]);
+
+#Triple Battery
+recipes.addShaped(<actuallyadditions:item_battery_triple>, [ 
+    [<thermalfoundation:material:359>, <moreplates:redstone_alloy_plate>, <thermalfoundation:material:359>],
+    [<actuallyadditions:item_misc:8>, <actuallyadditions:item_battery_double>, <actuallyadditions:item_misc:8>],
+    [<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>]]);
+
+#Quad Battery
+recipes.addShaped(<actuallyadditions:item_battery_quadruple>, [
+    [<moreplates:electrical_steel_plate>, <moreplates:redstone_alloy_plate>, <moreplates:electrical_steel_plate>],
+    [<actuallyadditions:item_misc:8>, <actuallyadditions:item_battery_triple>, <actuallyadditions:item_misc:8>],
+    [<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:5>]]);
+
+#Quintuple Battery
+recipes.addShaped(<actuallyadditions:item_battery_quintuple>, [
+    [<thermalfoundation:material:328>, <moreplates:redstone_alloy_plate>, <thermalfoundation:material:328>],
+    [<actuallyadditions:item_misc:8>, <actuallyadditions:item_battery_quadruple>, <actuallyadditions:item_misc:8>],
+    [<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:4>, <actuallyadditions:item_crystal_empowered:2>]]);
 
 #Empowered Enori Crystal
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>,
@@ -156,8 +187,24 @@ recipes.addShaped(<actuallyadditions:block_breaker>, [
     [<minecraft:piston>, <actuallyadditions:block_misc:7>, <minecraft:piston>],
     [<immersiveengineering:material:9>, <ore:gearElectricalSteel>, <immersiveengineering:material:9>]]);
 
-recipes.remove(<actuallyadditions:item_misc:8>);
-recipes.remove(<actuallyadditions:block_heat_collector>);
+#Block Placer
+recipes.addShaped(<actuallyadditions:block_placer>, [
+    [<immersiveengineering:material:9>, <ore:plateElectricalSteel>, <immersiveengineering:material:9>],
+    [<minecraft:dispenser>, <actuallyadditions:block_misc:7>, <minecraft:dispenser>],
+    [<immersiveengineering:material:9>, <ore:gearElectricalSteel>, <immersiveengineering:material:9>]]);
+
+#Fluid Collector
+recipes.addShaped(<actuallyadditions:block_fluid_collector>, [
+    [null, <extracells:certustank>, null],
+    [<extracells:certustank>, <actuallyadditions:block_breaker>, <extracells:certustank>],
+    [null, <extracells:certustank>, null]]);
+
+#Fluid Placer
+recipes.addShaped(<actuallyadditions:block_fluid_collector>, [
+    [null, <minecraft:lever>, null],
+    [<minecraft:bucket>, <actuallyadditions:block_placer>, <minecraft:bucket>],
+    [null, <minecraft:lever>, null]]);
+
 #Heat Collector
 recipes.addShaped(<actuallyadditions:block_heat_collector>, [
     [<ore:scaffoldingSteel>, <immersiveengineering:metal_device1:3>, <ore:scaffoldingSteel>],
@@ -169,9 +216,6 @@ recipes.addShaped(<actuallyadditions:item_misc:8>, [
     [<ore:stickGold>, <immersiveengineering:wirecoil:1>, <ore:stickGold>],
     [<immersiveengineering:wirecoil:1>, <actuallyadditions:item_misc:7>, <immersiveengineering:wirecoil:1>], 
     [<ore:stickGold>, <immersiveengineering:wirecoil:1>, <ore:stickGold>]]);
-
-recipes.remove(<actuallyadditions:block_misc:4>);
-recipes.remove(<actuallyadditions:block_giant_chest>);
 
 #Wood Casing
 recipes.addShaped(<actuallyadditions:block_misc:4>, [
@@ -216,3 +260,30 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_misc:16>,
 #Drill
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_drill:3>.withTag({Energy: 0}),
     <actuallyadditions:item_misc:16>, <actuallyadditions:item_crystal_empowered:2>, <immersiveengineering:drillhead:1>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_misc:8>, 100000, 200, [1.0, 1.0, 1.0]);
+
+#Lens
+recipes.addShaped(<actuallyadditions:item_misc:18>, [
+    [<botania:managlass>, <botania:managlass>, <botania:managlass>],
+    [<botania:managlass>, <actuallyadditions:item_misc:5>, <botania:managlass>],
+    [<botania:managlass>, <botania:managlass>, <botania:managlass>]]);
+
+#Energizer
+recipes.addShaped(<actuallyadditions:block_energizer>, [
+    [<actuallyadditions:item_misc:7>, <actuallyadditions:item_battery_double>, <actuallyadditions:item_misc:8>],
+    [<actuallyadditions:block_misc:8>, <actuallyadditions:block_misc:7>, <actuallyadditions:block_misc:8>],
+    [<actuallyadditions:item_misc:8>, <actuallyadditions:item_battery_double>, <actuallyadditions:item_misc:7>]]);
+
+#Enervator
+recipes.addShaped(<actuallyadditions:block_enervator>, [
+    [<actuallyadditions:item_misc:8>, <actuallyadditions:item_battery_double>.withTag({Energy: 350000}), <actuallyadditions:item_misc:8>],
+    [<actuallyadditions:block_misc:8>, <actuallyadditions:block_misc:7>, <actuallyadditions:block_misc:8>],
+    [<actuallyadditions:item_misc:8>, <actuallyadditions:item_battery_double>.withTag({Energy: 350000}), <actuallyadditions:item_misc:8>]]);
+
+#Vertical Miner
+mods.astralsorcery.Altar.addAttunementAltarRecipe("dirtpack:shaped/internal/AA/VertiMiner", <actuallyadditions:block_miner>, 1400, 230, [
+    <actuallyadditions:block_misc:8>, <actuallyadditions:block_misc:7>, <actuallyadditions:block_misc:8>,
+    <actuallyadditions:block_misc:8>, <actuallyadditions:item_battery_quintuple>, <actuallyadditions:block_misc:8>,
+    <actuallyadditions:item_crystal:4>, <actuallyadditions:item_drill:3>, <actuallyadditions:item_crystal:4>,
+    <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered>,
+    <actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal_empowered:3>
+]);
