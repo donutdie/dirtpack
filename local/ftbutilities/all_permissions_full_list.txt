@@ -1,4 +1,4 @@
-11753 nodes in total
+11757 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -2179,6 +2179,7 @@ ftbutilities.claims.block.edit.mekanism.transmitter: OP
 ftbutilities.claims.block.edit.mekanismgenerators.generator: OP
 ftbutilities.claims.block.edit.mekanismgenerators.reactor: OP
 ftbutilities.claims.block.edit.mekanismgenerators.reactorglass: OP
+ftbutilities.claims.block.edit.metalchests.metal_chest: OP
 ftbutilities.claims.block.edit.minecraft.acacia_door: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence_gate: OP
@@ -4766,6 +4767,7 @@ ftbutilities.claims.block.interact.mekanism.transmitter: OP
 ftbutilities.claims.block.interact.mekanismgenerators.generator: OP
 ftbutilities.claims.block.interact.mekanismgenerators.reactor: OP
 ftbutilities.claims.block.interact.mekanismgenerators.reactorglass: OP
+ftbutilities.claims.block.interact.metalchests.metal_chest: OP
 ftbutilities.claims.block.interact.minecraft.acacia_door: ALL
 ftbutilities.claims.block.interact.minecraft.acacia_fence: OP
 ftbutilities.claims.block.interact.minecraft.acacia_fence_gate: OP
@@ -10283,6 +10285,8 @@ ftbutilities.claims.item.mekanismtools.steelshovel: ALL
 ftbutilities.claims.item.mekanismtools.steelsword: ALL
 ftbutilities.claims.item.mekanismtools.stonepaxel: ALL
 ftbutilities.claims.item.mekanismtools.woodpaxel: ALL
+ftbutilities.claims.item.metalchests.chest_upgrade: ALL
+ftbutilities.claims.item.metalchests.metal_chest: ALL
 ftbutilities.claims.item.minecraft.acacia_boat: ALL
 ftbutilities.claims.item.minecraft.acacia_door: ALL
 ftbutilities.claims.item.minecraft.acacia_fence: ALL
