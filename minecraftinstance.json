@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-08-16T01:42:04.9011Z",
+  "lastPlayed": "2019-08-20T00:14:37.0969326Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -3175,6 +3175,82 @@
       "dateUpdated": "2019-07-29T18:26:05.013137Z",
       "dateLastUpdateAttempted": "2019-07-29T18:26:05.013137Z",
       "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 271856,
+      "gameInstanceID": "749a4c3f-b4a0-4e1d-b5f1-ba6d1b1168fe",
+      "installedFile": {
+        "id": 2745712,
+        "displayName": "Geolosys 3.0.2b",
+        "fileName": "Geolosys-1.12.2-3.0.2b.jar",
+        "fileDate": "2019-07-21T22:00:54.043Z",
+        "fileLength": 320935,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2745/712/Geolosys-1.12.2-3.0.2b.jar",
+        "isAlternate": false,
+        "alternateFileId": 2745713,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 239197,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3705570846,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 4017365741,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2998727179,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3542482002,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3872270108,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Geolosys-1.12.2-3.0.2b.jar"
+      },
+      "dateInstalled": "2019-08-19T23:59:26.0227294Z",
+      "dateUpdated": "2019-08-19T23:59:26.0247164Z",
+      "dateLastUpdateAttempted": "2019-08-19T23:59:26.0247164Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12121,7 +12197,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268387,
@@ -13090,7 +13166,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248370,
