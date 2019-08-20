@@ -146,7 +146,7 @@ recipes.addShaped(<actuallyadditions:item_battery_double>, [
 
 #Triple Battery
 recipes.addShaped(<actuallyadditions:item_battery_triple>, [ 
-    [<thermalfoundation:material:359>, <moreplates:redstone_alloy_plate>, <thermalfoundation:material:359>],
+    [<ore:plateVibrantAlloy>, <moreplates:redstone_alloy_plate>, <ore:plateVibrantAlloy>],
     [<actuallyadditions:item_misc:8>, <actuallyadditions:item_battery_double>, <actuallyadditions:item_misc:8>],
     [<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>]]);
 
