@@ -25,7 +25,7 @@ recipes.addShaped(<astralsorcery:blockaltar>, [
 #Grindstone
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/grindstone", <astralsorcery:blockmachine:1>, 200, 200, [
      null, <ore:plankTreatedWood>, <ore:plankTreatedWood>,
-     null, <appliedenergistics2:grindstone>, <ore:plankTreatedWood>,
+     null, <appliedenergistics2:grindstone>, <ore:plankTreatedWood>,    
      <ore:plankTreatedWood>, <ore:gearIron>, <ore:plankTreatedWood>]);
 
 #Looking glass

@@ -75,7 +75,6 @@ val gearsR = [
 	<moreplates:alumite_gear>,
 	<moreplates:mirion_gear>,
 	<moreplates:osgloglas_gear>,
-	<moreplates:osmiridium_gear>,
 	<moreplates:ardite_gear>,
 	<moreplates:cobalt_gear>,
 	<moreplates:knightslime_gear>,

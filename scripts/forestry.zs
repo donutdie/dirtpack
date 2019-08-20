@@ -21,6 +21,12 @@ rh(<immersiveengineering:material:27>);
 recipes.remove(<forestry:sturdy_machine>);
 recipes.addShaped(<forestry:sturdy_machine>, [[<ore:plateBronze>, <ore:ingotBronze>, <ore:plateBronze>],[<ore:gearBronze>, <minecraft:minecart>, <ore:gearBronze>], [<ore:plateBronze>, <ore:ingotBronze>, <ore:plateBronze>]]);
 
+#Fertilizer
+recipes.addShaped(<forestry:fertilizer_compound> * 4, [
+	[null, <ore:sand>, null],
+	[<minecraft:dye:15>, <ore:gemApatite>, <minecraft:dye:15>], 
+	[null, <ore:sand>, null]]);
+
 #Carpenter
 recipes.remove(<forestry:carpenter>);
 recipes.addShaped(<forestry:carpenter>, [[<ore:ingotGold>, <ore:plateCopper>, <ore:ingotGold>],[<ore:gearGold>, <forestry:sturdy_machine>, <ore:gearGold>], [<ore:ingotGold>, <ore:plateCopper>, <ore:ingotGold>]]);

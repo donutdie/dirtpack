@@ -2,6 +2,9 @@ import crafttweaker.item.IItemStack as IItemStack;
 
 print("Initializing Vanilla");
 
+recipes.remove(<minecraft:minecart>);
+recipes.remove(<minecraft:cauldron>);
+
 //Planks
 recipes.remove(<ore:plankWood>);
 recipes.addShapeless("Planks", <minecraft:planks> * 2, [<minecraft:log>]);
@@ -93,5 +96,13 @@ recipes.addShaped(<minecraft:skull>, [[null, <ore:bone>, null],[<ore:plateGold>,
 #Zombie Head
 recipes.addShaped(<minecraft:skull:2>, [[null, <minecraft:rotten_flesh>, null],[<ore:plateGold>, <tconstruct:fancy_frame:5>, <ore:plateGold>], [null, <minecraft:rotten_flesh>, null]]);
 
+#Minecraft
+recipes.addShaped(<minecraft:minecart>, [[null, null, null],[<thermalfoundation:material:32>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
+#Cauldron
+recipes.addShaped(<minecraft:cauldron>, [[<ore:plateIron>, null, <ore:plateIron>],[<thermalfoundation:material:32>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
+#Vines
+recipes.addShaped(<minecraft:vine> * 4, [[<botania:grassseeds:5>, <botania:fertilizer>, <botania:grassseeds:5>],[<botania:fertilizer>, <botania:altgrass:4>, <botania:fertilizer>], [<botania:altgrass:4>, <botania:grassseeds>, <botania:altgrass:4>]]);
 
 print("Vanilla Initialized");

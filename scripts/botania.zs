@@ -10,6 +10,9 @@ recipes.remove(<botania:pylon:1>);
 recipes.remove(<botania:pylon>);
 recipes.remove(<botania:alchemycatalyst>);
 recipes.remove(<botania:conjurationcatalyst>);
+recipes.remove(<botania:fertilizer>);
+recipes.remove(<botania:terraplate>);
+mods.botania.ElvenTrade.removeRecipe(<botania:dreamwood>);
 mods.botania.RuneAltar.removeRecipe(<botania:rune>);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:1>);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:2>);
@@ -62,10 +65,6 @@ mods.botania.ManaInfusion.addInfusion(<moreplates:manasteel_gear>, <ore:gearStee
 mods.botania.ManaInfusion.addInfusion(<moreplates:manasteel_plate>, <ore:plateSteel>, 3000);
 
 #Mana infused 
-mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:328>);
-mods.thermalexpansion.Compactor.removeMintRecipe(<thermalfoundation:material:136>);
-mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:328>);
-mods.thermalexpansion.Compactor.removeGearRecipe(<thermalfoundation:material:136>);
 mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:328>, <moreplates:vibrant_alloy_plate>, 2700);
 mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:264>, <moreplates:vibrant_alloy_gear>, 3500);
 
@@ -239,3 +238,9 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("dirtpack:shaped/internal/altar
     <ore:livingWood>,<ore:livingWood>,<ore:livingWood>,<ore:livingWood>,<ore:livingWood>,<ore:livingWood>,
     <astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,
     <ore:livingWood>,<ore:livingWood>]);
+
+#Fertilizer
+recipes.addShaped(<botania:fertilizer> * 3, [
+    [<forestry:fertilizer_compound>, <minecraft:tallgrass:1>, <forestry:fertilizer_compound>],
+    [<forestry:humus>, <forestry:fertilizer_bio>, <forestry:humus>], 
+    [<forestry:fertilizer_compound>, <minecraft:tallgrass:1>, <forestry:fertilizer_compound>]]);

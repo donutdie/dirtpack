@@ -10,7 +10,6 @@ recipes.remove(<minecraft:iron_boots>);
 recipes.remove(<minecraft:iron_helmet>);
 recipes.remove(<minecraft:iron_chestplate>);
 
-
 recipes.addShaped(<minecraft:golden_chestplate>, [[<ore:plateGold>, <minecraft:chainmail_chestplate>, <ore:plateGold>],[<ore:plateGold>, <thermalfoundation:material:33>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
 recipes.addShaped(<minecraft:golden_leggings>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],[<ore:plateGold>, <minecraft:chainmail_leggings>, <ore:plateGold>], [<ore:plateGold>, null, <ore:plateGold>]]);
 recipes.addShaped(<minecraft:golden_boots>, [[<ore:plateGold>, <minecraft:chainmail_boots>, <ore:plateGold>],[<ore:plateGold>, null, <ore:plateGold>], [null, null, null]]);
@@ -106,4 +105,4 @@ recipes.remove(<thermalinnovation:drill>);
 recipes.addShaped(<thermalinnovation:drill>, [ 
     [null, <immersiveengineering:drillhead>, null],
     [<thermalfoundation:material:514>, <actuallyadditions:item_drill:3>, <thermalfoundation:material:514>],
-    [<ore:plateSteel>, <thermalexpansion:capacitor:2>, <ore:plateSteel>]]);
+    [<ore:plateSteel>, <thermalfoundation:material:513>, <ore:plateSteel>]]);
