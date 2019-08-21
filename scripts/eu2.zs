@@ -19,9 +19,9 @@ mods.extendedcrafting.TableCrafting.addShaped(1, <extrautils2:resonator>,[
 
 #Machine Block
 recipes.addShaped(<extrautils2:machine>, [
-    [<woot:stygianironingot>, <ore:plateDarkSteel>, <woot:stygianironingot>],
-    [<actuallyadditions:item_crystal_empowered>, <enderio:item_material:66>, <actuallyadditions:item_crystal_empowered>],
-    [<extrautils2:powerbattery>, <ore:plateDarkSteel>, <extrautils2:powerbattery>]]);
+    [<woot:stygianironingot>, <ore:plateSteel>, <woot:stygianironingot>],
+    [<actuallyadditions:item_crystal_empowered>, null, <actuallyadditions:item_crystal_empowered>],
+    [<extrautils2:powerbattery>, <ore:plateSteel>, <extrautils2:powerbattery>]]);
 
 #Enchanter
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}), [ 

@@ -65,8 +65,8 @@ mods.botania.ManaInfusion.addInfusion(<moreplates:manasteel_gear>, <ore:gearStee
 mods.botania.ManaInfusion.addInfusion(<moreplates:manasteel_plate>, <ore:plateSteel>, 3000);
 
 #Mana infused 
-mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:328>, <moreplates:vibrant_alloy_plate>, 2700);
-mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:264>, <moreplates:vibrant_alloy_gear>, 3500);
+mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:328>, <ore:plateEmerald>, 2700);
+mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:264>, <moreplates:emerald_plate>, 3500);
 
 #livingrock
 mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);

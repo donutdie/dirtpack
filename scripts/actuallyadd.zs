@@ -134,7 +134,7 @@ recipes.addShaped(<actuallyadditions:block_empowerer>,[
 
 #Single Battery
     recipes.addShaped(<actuallyadditions:item_battery>, [
-    [<moreplates:iron_alloy_plate>, <ore:plateRedstone>, <moreplates:iron_alloy_plate>],
+    [<ore:plateSteel>, <ore:plateRedstone>, <ore:plateSteel>],
     [<actuallyadditions:item_crystal:5>, <actuallyadditions:item_misc:7>, <actuallyadditions:item_crystal:5>],
     [<actuallyadditions:item_crystal:5>, <immersiveengineering:metal_decoration0:1>, <actuallyadditions:item_crystal:5>]]);
 
@@ -146,19 +146,19 @@ recipes.addShaped(<actuallyadditions:item_battery_double>, [
 
 #Triple Battery
 recipes.addShaped(<actuallyadditions:item_battery_triple>, [ 
-    [<ore:plateVibrantAlloy>, <moreplates:redstone_alloy_plate>, <ore:plateVibrantAlloy>],
+    [<ore:plateVibrantAlloy>, <ore:plateRedstone>, <ore:plateVibrantAlloy>],
     [<actuallyadditions:item_misc:8>, <actuallyadditions:item_battery_double>, <actuallyadditions:item_misc:8>],
     [<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>]]);
 
 #Quad Battery
 recipes.addShaped(<actuallyadditions:item_battery_quadruple>, [
-    [<moreplates:electrical_steel_plate>, <moreplates:redstone_alloy_plate>, <moreplates:electrical_steel_plate>],
+    [<ore:plateSteel>, <ore:plateRedstone>, <ore:plateSteel>],
     [<actuallyadditions:item_misc:8>, <actuallyadditions:item_battery_triple>, <actuallyadditions:item_misc:8>],
     [<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:5>]]);
 
 #Quintuple Battery
 recipes.addShaped(<actuallyadditions:item_battery_quintuple>, [
-    [<thermalfoundation:material:328>, <moreplates:redstone_alloy_plate>, <thermalfoundation:material:328>],
+    [<thermalfoundation:material:328>, <ore:plateRedstone>, <thermalfoundation:material:328>],
     [<actuallyadditions:item_misc:8>, <actuallyadditions:item_battery_quadruple>, <actuallyadditions:item_misc:8>],
     [<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:4>, <actuallyadditions:item_crystal_empowered:2>]]);
 

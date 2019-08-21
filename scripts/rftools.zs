@@ -6,6 +6,44 @@ recipes.remove(<rftools:infused_diamond>);
 recipes.remove(<rftools:dimensional_shard> * 8);
 recipes.remove(<rftools:crafter1>);
 recipes.remove(<rftools:crafter2>);
+recipes.remove(<rftools:modular_storage>);
+recipes.remove(<rftools:storage_module>);
+recipes.remove(<rftools:storage_module:1>);
+recipes.remove(<rftools:generic_module>);
+
+
+#Modular Storage
+mods.astralsorcery.Altar.addAttunementAltarRecipe("dirtpack:shaped/internal/RFTools/ModularStorage", <rftools:modular_storage>, 1050, 350, [
+    <ore:ingotHOPGraphite>, <actuallyadditions:block_crystal:5>, <ore:ingotHOPGraphite>,
+    <actuallyadditions:block_misc:9>, <actuallyadditions:block_giant_chest_medium>, <actuallyadditions:block_misc:9>,
+    <tconstruct:materials:17>, <actuallyadditions:block_crystal:5>, <tconstruct:materials:17>,
+    <botania:rune:9>, <botanicadds:rune_energy>, <botania:rune:15>, <botania:rune:11>]);
+
+#Generic Type Module
+recipes.addShaped(<rftools:generic_module>, [
+    [<minecraft:book>, <minecraft:writable_book>, <minecraft:book>],
+    [<minecraft:redstone>, <botania:manaresource>, <minecraft:redstone>],
+    [<minecraft:bookshelf>, <minecraft:bookshelf>,<minecraft:bookshelf>]]);
+
+#Tier 1 Storage Module
+recipes.addShaped(<rftools:storage_module>, [
+    [null, <minecraft:ghast_tear>, null],
+    [<botania:quartz:2>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 40 as short}]}), <botania:quartz:2>],
+    [<botania:rune:3>, <ironchest:iron_chest:1>, <botania:rune:2>]]);
+
+#Tier 2 Storage Module
+recipes.addShaped(<rftools:storage_module:1>, [
+    [null, <rftools:storage_module>, null],
+    [<minecraft:magma_cream>, <actuallyadditions:block_misc:6>, <minecraft:magma_cream>],
+    [<actuallyadditions:item_crystal:2>, <ironchest:iron_chest:2>, <actuallyadditions:item_crystal:2>]]);
+
+#Tier 3 Storage Module
+recipes.addShaped(<rftools:storage_module:2>, [
+    [null, <rftools:storage_module:1>, null],
+    [<immersiveengineering:material:19>, <botania:craftinghalo>, <immersiveengineering:material:19>],
+    [<botania:rune:7>, <ironchest:iron_chest:6>, <botania:rune:7>]]);
+
+
 
 #Charged Porter
 recipes.addShaped(<rftools:charged_porter>, [
@@ -15,14 +53,14 @@ recipes.addShaped(<rftools:charged_porter>, [
 
 #Matter Transmitter
 recipes.addShaped(<rftools:matter_transmitter>, [
-    [<ore:plateVibrantAlloy>, <astralsorcery:blockcelestialgateway>, <ore:plateVibrantAlloy>],
-    [<ore:plateRedstoneAlloy>, <rftools:machine_frame>, <ore:plateRedstoneAlloy>],
-    [<ore:plateVibrantAlloy>, <rftools:infused_enderpearl>, <ore:plateVibrantAlloy>]]);
+    [<ore:plateLumium>, <astralsorcery:blockcelestialgateway>, <ore:plateLumium>],
+    [<ore:platePigiron>, <rftools:machine_frame>, <ore:platePigiron>],
+    [<ore:plateLumium>, <rftools:infused_enderpearl>, <ore:plateLumium>]]);
 
 #Matter Receiver
 recipes.addShaped(<rftools:matter_receiver>, [
     [<ore:ingotGold>, <rftools:infused_enderpearl>, <ore:ingotGold>],
-    [<ore:plateRedstoneAlloy>, <rftools:machine_frame>, <ore:plateRedstoneAlloy>], 
+    [<ore:platePigiron>, <rftools:machine_frame>, <ore:platePigiron>], 
     [<ore:ingotGold>, <astralsorcery:blockcelestialgateway>, <ore:ingotGold>]]);
 
 #Machine Frame
@@ -51,9 +89,9 @@ recipes.addShaped(<rftools:dimensional_shard> * 8, [
 
 #Crafter Tier 1
 recipes.addShaped(<rftools:crafter1>, [
-    [<avaritia:double_compressed_crafting_table>, <moreplates:electrical_steel_plate>, <avaritia:double_compressed_crafting_table>],
-    [<moreplates:electrical_steel_plate>, <rftools:machine_frame>, <moreplates:electrical_steel_plate>],
-    [<avaritia:double_compressed_crafting_table>, <moreplates:redstone_alloy_gear>, <avaritia:double_compressed_crafting_table>]]);
+    [<avaritia:double_compressed_crafting_table>, <ore:plateRedstone>, <avaritia:double_compressed_crafting_table>],
+    [<ore:plateRedstone>, <rftools:machine_frame>, <ore:plateRedstone>],
+    [<avaritia:double_compressed_crafting_table>, <ore:plateRedstone>, <avaritia:double_compressed_crafting_table>]]);
 
 #Crafter Tier 2
 recipes.addShaped(<rftools:crafter2>, [
@@ -64,7 +102,7 @@ recipes.addShaped(<rftools:crafter2>, [
 #Crafter Tier 3
 recipes.addShaped(<rftools:crafter3>, [
     [<avaritia:double_compressed_crafting_table>, <actuallyadditions:item_crystal:4>, <avaritia:double_compressed_crafting_table>],
-    [<moreplates:end_steel_plate>, <rftools:crafter2>, <moreplates:end_steel_plate>],
-    [<avaritia:double_compressed_crafting_table>, <moreplates:end_steel_plate>, <avaritia:double_compressed_crafting_table>]]);
+    [<ore:plateElectrum>, <rftools:crafter2>, <ore:plateElectrum>],
+    [<avaritia:double_compressed_crafting_table>, <ore:plateElectrum>, <avaritia:double_compressed_crafting_table>]]);
 
 
