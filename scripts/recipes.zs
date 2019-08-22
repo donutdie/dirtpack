@@ -1,9 +1,11 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<immersivepetroleum:schematic>);
 recipes.remove(<forestry:fertilizer_compound> * 5);
 //Don't touch me!
 //#Add
+recipes.addShaped(<immersivepetroleum:schematic>, [[<immersiveengineering:connector:4>, null, null],[<immersiveengineering:metal_decoration0:7>, <immersiveengineering:metal_decoration0:3>, null], [null, <immersiveengineering:metal_decoration0:7>, <immersiveengineering:metal_decoration2:4>]]);
 recipes.addShaped(<ironchest:iron_chest:6>, [[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>],[<minecraft:obsidian>, <ironchest:iron_chest:2>, <minecraft:obsidian>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 recipes.addShaped(<ironchest:iron_chest:2>, [[<moreplates:diamond_plate>, <moreplates:diamond_plate>, <moreplates:diamond_plate>],[<moreplates:diamond_plate>, <ironchest:iron_chest:1>, <moreplates:diamond_plate>], [<moreplates:diamond_plate>, <moreplates:diamond_plate>, <moreplates:diamond_plate>]]);
 recipes.addShaped(<ironchest:iron_chest:1>, [[<thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>],[<thermalfoundation:material:33>, <ironchest:iron_chest:4>, <thermalfoundation:material:33>], [<thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>]]);

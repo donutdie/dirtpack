@@ -11,15 +11,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2019-08-05 19:37:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2019-08-15 16:32:22 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2019-08-01 19:52:06 -0600"
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2019-08-05 20:18:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2019-08-05 20:18:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+    },
+    "done": true
+  },
   "astralsorcery:root": {
     "criteria": {
       "astralsorcery_present": "2019-08-02 22:06:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_lapis_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2019-08-05 20:18:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2019-08-05 20:08:08 -0600"
     },
     "done": true
   },
@@ -41,15 +83,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2019-08-01 19:51:09 -0600"
     },
     "done": true
   },
+  "biomesoplenty:recipes/transportation/boat_fir": {
+    "criteria": {
+      "entered_water": "2019-08-07 18:28:54 -0600"
+    },
+    "done": true
+  },
   "botania:main/dirt_rod_craft": {
     "criteria": {
       "dirtrod": "2019-08-15 16:54:30 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2019-08-07 18:10:23 -0600"
     },
     "done": true
   },
@@ -62,6 +122,18 @@
   "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
       "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
+  "botania:main/crafting_halo_craft": {
+    "criteria": {
+      "pool": "2019-08-15 16:57:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2019-08-05 20:18:03 -0600"
     },
     "done": true
   },
@@ -95,7 +167,19 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2019-08-21 18:44:18 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2019-08-07 18:10:23 -0600"
     },
@@ -107,9 +191,27 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/transportation/boat_sacred_oak": {
+    "criteria": {
+      "entered_water": "2019-08-07 18:28:54 -0600"
+    },
+    "done": true
+  },
   "botania:main/manaweave_armor_craft": {
     "criteria": {
       "head": "2019-08-15 20:27:21 -0600"
+    },
+    "done": true
+  },
+  "botania:main/rune_pickup": {
+    "criteria": {
+      "rune": "2019-08-05 19:46:20 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_pine": {
+    "criteria": {
+      "entered_water": "2019-08-07 18:28:54 -0600"
     },
     "done": true
   },
@@ -119,21 +221,9 @@
     },
     "done": true
   },
-  "enderiomachines:basics/alloy/1_alloy_smelter_get": {
-    "criteria": {
-      "inv_changed-enderio:block_simple_alloy_smelter": "2019-08-06 21:39:08 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/cyan_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "enderio:gears/g3_iron_gear": {
-    "criteria": {
-      "inv_changed-enderio:item_material": "2019-08-02 22:25:50 -0600"
     },
     "done": true
   },
@@ -146,6 +236,30 @@
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2019-08-03 21:28:12 -0600"
+    },
+    "done": true
+  },
+  "botania:main/mana_pool_pickup": {
+    "criteria": {
+      "pool": "2019-08-03 21:15:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
     },
     "done": true
   },
@@ -167,6 +281,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2019-08-05 19:37:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_ethereal": {
     "criteria": {
       "entered_water": "2019-08-07 18:28:54 -0600"
@@ -185,6 +311,18 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/transportation/boat_cherry": {
+    "criteria": {
+      "entered_water": "2019-08-07 18:28:54 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2019-08-02 23:12:49 -0600"
@@ -192,6 +330,24 @@
     "done": true
   },
   "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/crafting_terminal": {
+    "criteria": {
+      "certus": "2019-08-05 19:45:02 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2019-08-01 19:52:06 -0600"
     },
@@ -209,15 +365,75 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2019-08-15 16:25:05 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ebony": {
+    "criteria": {
+      "entered_water": "2019-08-07 18:28:54 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-08-07 18:10:23 -0600"
     },
     "done": true
   },
+  "biomesoplenty:recipes/transportation/boat_hellbark": {
+    "criteria": {
+      "entered_water": "2019-08-07 18:28:54 -0600"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/presses": {
+    "criteria": {
+      "eng": "2019-08-05 19:41:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2019-08-03 21:13:36 -0600"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_mangrove": {
     "criteria": {
       "entered_water": "2019-08-07 18:28:54 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2019-08-03 21:28:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2019-08-05 20:17:23 -0600"
     },
     "done": true
   },
@@ -230,6 +446,18 @@
   "biomesoplenty:recipes/transportation/boat_eucalyptus": {
     "criteria": {
       "entered_water": "2019-08-07 18:28:54 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2019-08-01 19:35:28 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma": {
+    "criteria": {
+      "has_magma_cream": "2019-08-21 18:44:18 -0600"
     },
     "done": true
   },
@@ -251,6 +479,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/noteblock": {
+    "criteria": {
+      "has_redstone": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
   "minecraft:nether/get_wither_skull": {
     "criteria": {
       "wither_skull": "2019-08-01 19:50:39 -0600"
@@ -269,6 +503,18 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/transportation/boat_mahogany": {
+    "criteria": {
+      "entered_water": "2019-08-07 18:28:54 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2019-08-01 19:51:09 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-08-07 18:10:23 -0600"
@@ -281,9 +527,39 @@
     },
     "done": true
   },
+  "botania:main/lexicon_use": {
+    "criteria": {
+      "use_lexicon": "2019-08-05 20:20:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2019-08-06 21:56:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2019-08-01 19:37:30 -0600"
+    },
+    "done": true
+  },
   "botania:main/terrasteel_pickup": {
     "criteria": {
       "terrasteel": "2019-08-02 23:13:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
     },
     "done": true
   },
@@ -299,6 +575,18 @@
     },
     "done": true
   },
+  "astralsorcery:rock_crystals": {
+    "criteria": {
+      "rock_crystal_in_inventory": "2019-08-03 21:10:21 -0600"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/controller": {
+    "criteria": {
+      "certus": "2019-08-05 19:39:48 -0600"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2019-08-15 20:25:57 -0600"
@@ -308,6 +596,18 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2019-08-05 20:08:08 -0600"
+    },
+    "done": true
+  },
+  "rftools:specialores": {
+    "criteria": {
+      "find_ores": "2019-08-21 19:13:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2019-08-15 16:32:22 -0600"
     },
     "done": true
   },
@@ -330,6 +630,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2019-08-15 20:35:59 -0600"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/root": {
+    "criteria": {
+      "hold_manual": "2019-08-01 19:25:20 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/beacon": {
     "criteria": {
       "has_nether_star": "2019-08-01 19:51:08 -0600"
@@ -339,6 +651,31 @@
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2019-08-01 19:25:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_bonemeal": "2019-08-05 20:18:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "ice_flats": "2019-08-06 21:20:06 -0600",
+      "swampland": "2019-08-06 21:21:11 -0600",
+      "beaches": "2019-08-01 19:50:27 -0600",
+      "plains": "2019-08-01 19:24:26 -0600",
+      "taiga": "2019-08-06 21:21:04 -0600",
+      "ocean": "2019-08-06 21:21:19 -0600",
+      "extreme_hills": "2019-08-06 21:20:27 -0600",
+      "river": "2019-08-06 21:21:22 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
     },
     "done": true
   },
@@ -363,6 +700,12 @@
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2019-08-15 21:02:06 -0600"
     },
     "done": true
   },
@@ -396,6 +739,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "craft_hammer": "2019-08-01 19:25:20 -0600"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2019-08-06 21:23:48 -0600"
@@ -408,12 +757,6 @@
     },
     "done": true
   },
-  "enderioconduits:goals/all_conduits": {
-    "criteria": {
-      "inv_changed-enderio:liquid_conduit_ender2": "2019-08-01 20:08:31 -0600"
-    },
-    "done": false
-  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "entered_water": "2019-08-07 18:28:54 -0600"
@@ -423,6 +766,18 @@
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2019-08-02 23:12:49 -0600"
+    },
+    "done": true
+  },
+  "botania:main/spark_craft": {
+    "criteria": {
+      "spark": "2019-08-05 20:13:07 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_willow": {
+    "criteria": {
+      "entered_water": "2019-08-07 18:28:54 -0600"
     },
     "done": true
   },
@@ -444,6 +799,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2019-08-06 21:28:44 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "entered_water": "2019-08-07 18:28:54 -0600"
@@ -453,6 +814,12 @@
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/growth_accelerator": {
+    "criteria": {
+      "certus": "2019-08-05 19:45:17 -0600"
     },
     "done": true
   },
@@ -471,559 +838,6 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2019-08-01 19:37:30 -0600"
-    },
-    "done": true
-  },
-  "enderio:gears/g1_wooden_gear": {
-    "criteria": {
-      "inv_changed-enderio:item_material": "2019-08-02 22:25:48 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2019-08-01 19:51:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/clock": {
-    "criteria": {
-      "has_redstone": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_hoe": {
-    "criteria": {
-      "has_diamond": "2019-08-05 20:08:08 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/boat_umbran": {
-    "criteria": {
-      "entered_water": "2019-08-07 18:28:54 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "zombie": "2019-08-01 19:37:30 -0600"
-    },
-    "done": false
-  },
-  "minecraft:recipes/tools/diamond_shovel": {
-    "criteria": {
-      "has_diamond": "2019-08-05 20:08:08 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ender_eye": {
-    "criteria": {
-      "has_blaze_powder": "2019-08-15 20:35:59 -0600"
-    },
-    "done": true
-  },
-  "enderiomachines:basics/alloy/2_energetic_alloy_get": {
-    "criteria": {
-      "inv_changed-enderio:item_energetic_alloy": "2019-08-02 23:13:25 -0600"
-    },
-    "done": true
-  },
-  "advancedrocketry:normal/root": {
-    "criteria": {
-      "crafting_table": "2019-08-03 21:13:36 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lime_stained_glass": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glass_pane": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "astralsorcery:craft_t2_altar": {
-    "criteria": {
-      "altar_craft_t2_altar": "2019-08-03 21:25:17 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/boat_magic": {
-    "criteria": {
-      "entered_water": "2019-08-07 18:28:54 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/magenta_stained_glass": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_diamond": {
-    "criteria": {
-      "diamond": "2019-08-05 20:08:08 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_helmet": {
-    "criteria": {
-      "has_diamond": "2019-08-05 20:08:08 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/boat_palm": {
-    "criteria": {
-      "entered_water": "2019-08-07 18:28:54 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "immersiveengineering:main/place_floodlight": {
-    "criteria": {
-      "place_floodlight": "2019-08-06 21:22:10 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_stairs": {
-    "criteria": {
-      "has_stonebrick": "2019-08-01 19:25:20 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_boots": {
-    "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2019-08-05 19:37:16 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2019-08-15 16:32:22 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/paper": {
-    "criteria": {
-      "has_reeds": "2019-08-05 20:18:14 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
-    "criteria": {
-      "has_bonemeal": "2019-08-05 20:18:03 -0600"
-    },
-    "done": true
-  },
-  "enderiomachines:basics/goal/1_all_simple_get": {
-    "criteria": {
-      "inv_changed-enderio:block_simple_alloy_smelter": "2019-08-06 21:39:08 -0600"
-    },
-    "done": false
-  },
-  "minecraft:recipes/combat/golden_chestplate": {
-    "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_lapis_bonemeal": {
-    "criteria": {
-      "has_bonemeal": "2019-08-05 20:18:03 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_axe": {
-    "criteria": {
-      "has_diamond": "2019-08-05 20:08:08 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/glass_bottle": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/boat_fir": {
-    "criteria": {
-      "entered_water": "2019-08-07 18:28:54 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "botania:main/crafting_halo_craft": {
-    "criteria": {
-      "pool": "2019-08-15 16:57:01 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal": {
-    "criteria": {
-      "has_bonemeal": "2019-08-05 20:18:03 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_stained_glass": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/boat_sacred_oak": {
-    "criteria": {
-      "entered_water": "2019-08-07 18:28:54 -0600"
-    },
-    "done": true
-  },
-  "botania:main/rune_pickup": {
-    "criteria": {
-      "rune": "2019-08-05 19:46:20 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/boat_pine": {
-    "criteria": {
-      "entered_water": "2019-08-07 18:28:54 -0600"
-    },
-    "done": true
-  },
-  "enderio:gears/g4_energized_gear": {
-    "criteria": {
-      "inv_changed-enderio:item_material": "2019-08-02 22:25:50 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_slab": {
-    "criteria": {
-      "has_stone": "2019-08-03 21:28:12 -0600"
-    },
-    "done": true
-  },
-  "enderio:start/1_infinity_powder_get": {
-    "criteria": {
-      "inv_changed-enderio:item_material": "2019-08-06 21:40:34 -0600"
-    },
-    "done": true
-  },
-  "botania:main/mana_pool_pickup": {
-    "criteria": {
-      "pool": "2019-08-03 21:15:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_stained_glass": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
-    "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
-    },
-    "done": true
-  },
-  "enderio:gears/g5_vibrant_gear": {
-    "criteria": {
-      "inv_changed-enderio:item_material": "2019-08-02 22:25:51 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2019-08-05 19:37:16 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/yellow_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/boat_cherry": {
-    "criteria": {
-      "entered_water": "2019-08-07 18:28:54 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cyan_stained_glass": {
-    "criteria": {
-      "has_glass": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_axe": {
-    "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
-    },
-    "done": true
-  },
-  "appliedenergistics2:main/crafting_terminal": {
-    "criteria": {
-      "certus": "2019-08-05 19:45:02 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/iron_axe": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_helmet": {
-    "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_boots": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal_from_bone": {
-    "criteria": {
-      "has_bone": "2019-08-15 16:25:05 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/boat_ebony": {
-    "criteria": {
-      "entered_water": "2019-08-07 18:28:54 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/boat_hellbark": {
-    "criteria": {
-      "entered_water": "2019-08-07 18:28:54 -0600"
-    },
-    "done": true
-  },
-  "appliedenergistics2:main/presses": {
-    "criteria": {
-      "eng": "2019-08-05 19:41:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2019-08-03 21:13:36 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/stone_button": {
-    "criteria": {
-      "has_stone": "2019-08-03 21:28:12 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_chestplate": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2019-08-05 20:17:23 -0600"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2019-08-01 19:35:28 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/noteblock": {
-    "criteria": {
-      "has_redstone": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "enderio:gears/g2_stone_gear": {
-    "criteria": {
-      "inv_changed-enderio:item_material": "2019-08-02 22:25:49 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/boat_mahogany": {
-    "criteria": {
-      "entered_water": "2019-08-07 18:28:54 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2019-08-01 19:51:09 -0600"
-    },
-    "done": true
-  },
-  "botania:main/lexicon_use": {
-    "criteria": {
-      "use_lexicon": "2019-08-05 20:20:07 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2019-08-06 21:56:05 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/compass": {
-    "criteria": {
-      "has_redstone": "2019-08-07 18:10:23 -0600"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "zombie": "2019-08-01 19:37:30 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_pickaxe": {
-    "criteria": {
-      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
-    },
-    "done": true
-  },
-  "astralsorcery:rock_crystals": {
-    "criteria": {
-      "rock_crystal_in_inventory": "2019-08-03 21:10:21 -0600"
-    },
-    "done": true
-  },
-  "appliedenergistics2:main/controller": {
-    "criteria": {
-      "certus": "2019-08-05 19:39:48 -0600"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2019-08-15 16:32:22 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/magma_cream": {
-    "criteria": {
-      "has_blaze_powder": "2019-08-15 20:35:59 -0600"
-    },
-    "done": true
-  },
-  "immersiveengineering:main/root": {
-    "criteria": {
-      "hold_manual": "2019-08-01 19:25:20 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gray_dye": {
-    "criteria": {
-      "has_bonemeal": "2019-08-05 20:18:03 -0600"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "ice_flats": "2019-08-06 21:20:06 -0600",
-      "swampland": "2019-08-06 21:21:11 -0600",
-      "beaches": "2019-08-01 19:50:27 -0600",
-      "plains": "2019-08-01 19:24:26 -0600",
-      "taiga": "2019-08-06 21:21:04 -0600",
-      "ocean": "2019-08-06 21:21:19 -0600",
-      "extreme_hills": "2019-08-06 21:20:27 -0600",
-      "river": "2019-08-06 21:21:22 -0600"
-    },
-    "done": false
-  },
-  "minecraft:recipes/redstone/iron_door": {
-    "criteria": {
-      "has_iron_ingot": "2019-08-01 19:52:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2019-08-15 21:02:06 -0600"
-    },
-    "done": true
-  },
-  "immersiveengineering:main/craft_hammer": {
-    "criteria": {
-      "craft_hammer": "2019-08-01 19:25:20 -0600"
-    },
-    "done": true
-  },
-  "enderioconduits:fluid/1_fluid_conduit": {
-    "criteria": {
-      "inv_changed-enderio:liquid_conduit": "2019-08-01 20:08:31 -0600"
-    },
-    "done": true
-  },
-  "botania:main/spark_craft": {
-    "criteria": {
-      "spark": "2019-08-05 20:13:07 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/boat_willow": {
-    "criteria": {
-      "entered_water": "2019-08-07 18:28:54 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2019-08-06 21:28:44 -0600"
-    },
-    "done": true
-  },
-  "appliedenergistics2:main/growth_accelerator": {
-    "criteria": {
-      "certus": "2019-08-05 19:45:17 -0600"
     },
     "done": true
   },
@@ -1069,6 +883,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2019-08-01 19:51:09 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2019-08-07 18:10:23 -0600"
@@ -1078,6 +898,12 @@
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2019-08-01 19:52:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2019-08-07 18:10:23 -0600"
     },
     "done": true
   },
@@ -1093,7 +919,19 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2019-08-05 20:08:08 -0600"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_jacaranda": {
+    "criteria": {
+      "entered_water": "2019-08-07 18:28:54 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_umbran": {
     "criteria": {
       "entered_water": "2019-08-07 18:28:54 -0600"
     },
@@ -1105,15 +943,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-08-07 18:10:23 -0600"
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie": "2019-08-01 19:37:30 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2019-08-05 20:08:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2019-08-15 20:35:59 -0600"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/sand_from_dried_sand": {
     "criteria": {
       "has_gem_block": "2019-08-01 19:25:35 -0600"
+    },
+    "done": true
+  },
+  "advancedrocketry:normal/root": {
+    "criteria": {
+      "crafting_table": "2019-08-03 21:13:36 -0600"
     },
     "done": true
   },
@@ -1135,9 +1003,15 @@
     },
     "done": true
   },
-  "enderio:root": {
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
-      "location": "2019-08-06 21:19:55 -0600"
+      "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2019-08-07 18:10:23 -0600"
     },
     "done": true
   },
@@ -1153,9 +1027,33 @@
     },
     "done": true
   },
+  "rftools:root": {
+    "criteria": {
+      "has_machine_frame": "2019-08-21 19:13:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
+  "astralsorcery:craft_t2_altar": {
+    "criteria": {
+      "altar_craft_t2_altar": "2019-08-03 21:25:17 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_magic": {
+    "criteria": {
+      "entered_water": "2019-08-07 18:28:54 -0600"
     },
     "done": true
   },
@@ -1165,15 +1063,33 @@
     },
     "done": true
   },
-  "enderio:start/2_simple_chassis_get": {
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
-      "inv_changed-enderio:item_material": "2019-08-06 21:39:36 -0600"
+      "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2019-08-05 20:08:08 -0600"
     },
     "done": true
   },
   "appliedenergistics2:main/facade": {
     "criteria": {
       "facade": "2019-08-02 22:50:11 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2019-08-05 20:08:08 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_palm": {
+    "criteria": {
+      "entered_water": "2019-08-07 18:28:54 -0600"
     },
     "done": true
   },
@@ -1189,7 +1105,37 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stonebrick": {
+    "criteria": {
+      "has_stonebrick": "2019-08-21 18:56:52 -0600"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/place_floodlight": {
+    "criteria": {
+      "place_floodlight": "2019-08-06 21:22:10 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2019-08-07 18:10:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stonebrick": "2019-08-01 19:25:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-08-07 18:10:23 -0600"
     },
@@ -1201,9 +1147,9 @@
     },
     "done": true
   },
-  "enderioconduits:fluid/3_fluid_conduit_ender": {
+  "minecraft:recipes/combat/golden_boots": {
     "criteria": {
-      "inv_changed-enderio:liquid_conduit_ender": "2019-08-01 20:08:31 -0600"
+      "has_gold_ingot": "2019-08-02 23:12:49 -0600"
     },
     "done": true
   }
