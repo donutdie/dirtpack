@@ -1,108 +1,35 @@
 import crafttweaker.item.IItemStack as IItemStack;
 
-print("Initializing Vanilla");
+recipes.remove(<minecraft:chest>);
+recipes.addShaped(<minecraft:chest>, [
+	[<ore:logWood>, <ore:plankWood>, <ore:logWood>],
+	[<ore:plankWood>, <minecraft:stone_button>, <ore:plankWood>], 
+	[<ore:logWood>, <ore:plankWood>, <ore:logWood>]]);
 
-recipes.remove(<minecraft:minecart>);
-recipes.remove(<minecraft:cauldron>);
 
-//Planks
-recipes.remove(<ore:plankWood>);
-recipes.addShapeless("Planks", <minecraft:planks> * 2, [<minecraft:log>]);
-recipes.addShapeless("Planks1", <minecraft:planks:1> * 2, [<minecraft:log:1>]);
-recipes.addShapeless("Planks2", <minecraft:planks:2> * 2, [<minecraft:log:2>]);
-recipes.addShapeless("Planks3", <minecraft:planks:3> * 2, [<minecraft:log:3>]);
-recipes.addShapeless("Planks4", <minecraft:planks:4> * 2, [<minecraft:log2>]);
-recipes.addShapeless("Planks5", <minecraft:planks:5> * 2, [<minecraft:log2:1>]);
+recipes.remove(<minecraft:piston>);
+recipes.addShaped(<minecraft:piston>, [
+	[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+	[<sonarcore:reinforcedstoneblock>, <ore:plateIron>, <sonarcore:reinforcedstoneblock>], 
+	[<sonarcore:reinforcedstoneblock>, <ore:gearRedstone>, <sonarcore:reinforcedstoneblock>]]);
 
-//Sticks
-recipes.remove(<minecraft:stick>);
-recipes.addShapedMirrored("Sticks", 
-<minecraft:stick> * 2, 
-[[<ore:plankWood>], 
-[<ore:plankWood>]]);
 
-recipes.addShapedMirrored("Sticks from logs", 
-<minecraft:stick> * 4, 
-[[<ore:logWood>],
-[<ore:logWood>]]);
+recipes.remove(<minecraft:bucket>);
+recipes.addShaped(<minecraft:bucket>, [
+	[<ore:plateIron>, null, <ore:plateIron>], 
+	[null, <ore:plateIron>, null]]);
+
 
 recipes.remove(<minecraft:furnace>);
-recipes.addShaped(<minecraft:furnace>, [[<ore:compressed1xCobblestone>, <ore:cobblestone>, <ore:compressed1xCobblestone>],[<ore:cobblestone>, <ore:blockCoal>, <ore:cobblestone>], [<ore:compressed1xCobblestone>, <ore:cobblestone>, <ore:compressed1xCobblestone>]]);
-
-// Chest
-recipes.remove(<minecraft:chest>);
-
-recipes.addShaped("Chest Basic", <minecraft:chest>, [
-[<ore:logWood>, <ore:plankWood>, <ore:logWood>], 
-[<ore:plankWood>, null , <ore:plankWood>],
-[<ore:logWood>, <ore:plankWood>, <ore:logWood>]]);
+recipes.addShaped(<minecraft:furnace>, [
+	[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+	[<ore:cobblestone>, <ore:gemCoal>, <ore:cobblestone>], 
+	[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 
 
-recipes.addShaped("Chest Treated", <minecraft:chest> * 4, [
-[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
-[<ore:plankWood>, <immersiveengineering:wooden_device0:0>, <ore:plankWood>],
-[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
-
-
-recipes.remove(<minecraft:dropper>);
-recipes.remove(<minecraft:dispenser>);
-
-recipes.addShaped("Minecraft Dropper", <minecraft:dropper>,[
-    [<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>],
-    [<minecraft:redstone_block>, null, <minecraft:redstone_block>],
-    [<extrautils2:compressedcobblestone>, <thermalfoundation:material:24>, <extrautils2:compressedcobblestone>]]);
-
-recipes.addShaped("Minecraft Dispenser", <minecraft:dispenser>,[
-    [<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>],
-    [<minecraft:redstone_block>, <minecraft:bow>, <minecraft:redstone_block>],
-    [<extrautils2:compressedcobblestone>, <thermalfoundation:material:24>, <extrautils2:compressedcobblestone>]]);
-
-#Bucket
-recipes.remove(<minecraft:bucket>);
-recipes.addShaped(<minecraft:bucket>, [[null, null, null],[<ore:plateIron>, <immersiveengineering:tool>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
-
-
-#Piston
-recipes.remove(<minecraft:piston>);
-recipes.addShaped(<minecraft:piston>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<ore:plankTreatedWood>, <ore:gearSteel>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:gearElectrum>, <ore:plankTreatedWood>]]);
-
-#Iron bars
-recipes.remove(<minecraft:iron_bars>);
-recipes.addShaped(<minecraft:iron_bars> * 16,[
-	[null, null, null],
-	[<ore:plateIron>,<ore:stickIron>,<ore:plateIron>],
-	[<ore:plateIron>,<ore:stickIron>,<ore:plateIron>]]);
-
-#Hopper
 recipes.remove(<minecraft:hopper>);
 recipes.addShaped(<minecraft:hopper>, [
 	[<ore:plateIron>, null, <ore:plateIron>],
-	[<ore:plateIron>, <ore:chest>, <ore:plateIron>], 
+	[<ore:plateIron>, <tconstruct:wooden_hopper>, <ore:plateIron>], 
 	[null, <ore:plateIron>, null]]);
 
-#Ink Sac Dupe
-mods.botania.ManaInfusion.addConjuration(<minecraft:dye> * 2, <minecraft:dye>, 1000);
-
-#Brewing Stand
-recipes.remove(<minecraft:brewing_stand>);
-recipes.addShaped(<minecraft:brewing_stand>, [
-    [<ore:stickCoal>, <ore:rodBlaze>, <ore:stickCoal>],
-    [null, <ore:rodBlaze>, null], 
-    [<sonarcore:reinforcedstoneblock>, <sonarcore:reinforcedstoneblock>, <sonarcore:reinforcedstoneblock>]]);
-
-#Skeleton Head
-recipes.addShaped(<minecraft:skull>, [[null, <ore:bone>, null],[<ore:plateGold>, <tconstruct:fancy_frame:5>, <ore:plateGold>], [null, <minecraft:bone>, null]]);
-
-#Zombie Head
-recipes.addShaped(<minecraft:skull:2>, [[null, <minecraft:rotten_flesh>, null],[<ore:plateGold>, <tconstruct:fancy_frame:5>, <ore:plateGold>], [null, <minecraft:rotten_flesh>, null]]);
-
-#Minecraft
-recipes.addShaped(<minecraft:minecart>, [[null, null, null],[<thermalfoundation:material:32>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
-
-#Cauldron
-recipes.addShaped(<minecraft:cauldron>, [[<ore:plateIron>, null, <ore:plateIron>],[<thermalfoundation:material:32>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
-
-#Vines
-recipes.addShaped(<minecraft:vine> * 4, [[<botania:grassseeds:5>, <botania:fertilizer>, <botania:grassseeds:5>],[<botania:fertilizer>, <botania:altgrass:4>, <botania:fertilizer>], [<botania:altgrass:4>, <botania:grassseeds>, <botania:altgrass:4>]]);
-
-print("Vanilla Initialized");

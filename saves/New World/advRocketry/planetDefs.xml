@@ -1,17 +1,5 @@
 <galaxy>
 	<star name="Sol" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0" >
-		<planet name="Sol-16" DIMID="16">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.5286528,0.520311</skyColor>
-			<gravitationalMultiplier>104</gravitationalMultiplier>
-			<orbitalDistance>48</orbitalDistance>
-			<orbitalPhi>3</orbitalPhi>
-			<rotationalPeriod>21335</rotationalPeriod>
-			<atmosphereDensity>72</atmosphereDensity>
-			<biomeIds>minecraft:mesa,biomesoplenty:steppe,biomesoplenty:lush_swamp,minecraft:savanna,biomesoplenty:woodland</biomeIds>
-			<oceanBlock>minecraft:lava</oceanBlock>
-		</planet>
 		<planet name="Earth" DIMID="0" dimMapping="">
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
@@ -36,46 +24,36 @@
 		<planet name="Sol-17" DIMID="17">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.46204507,0.69036305,1.0</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>113</orbitalDistance>
-			<orbitalPhi>2</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>26</atmosphereDensity>
-			<biomeIds>minecraft:mutated_forest,biomesoplenty:marsh,minecraft:savanna_rock,minecraft:mutated_jungle,minecraft:ocean</biomeIds>
+			<skyColor>0.8,0.80255634,0.0</skyColor>
+			<gravitationalMultiplier>107</gravitationalMultiplier>
+			<orbitalDistance>38</orbitalDistance>
+			<orbitalPhi>4</orbitalPhi>
+			<rotationalPeriod>19591</rotationalPeriod>
+			<atmosphereDensity>136</atmosphereDensity>
+			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
 			<planet name="Sol-17: 0" DIMID="18">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.16356438,0.89377177,1.0</skyColor>
-				<gravitationalMultiplier>73</gravitationalMultiplier>
-				<orbitalDistance>162</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>61693</rotationalPeriod>
-				<atmosphereDensity>34</atmosphereDensity>
-				<seaLevel>46</seaLevel>
-				<biomeIds>biomesoplenty:gravel_beach,biomesoplenty:temperate_rainforest,minecraft:mutated_forest,biomesoplenty:quagmire,biomesoplenty:corrupted_sands</biomeIds>
+				<skyColor>0.0,0.8789042,1.0</skyColor>
+				<gravitationalMultiplier>36</gravitationalMultiplier>
+				<orbitalDistance>190</orbitalDistance>
+				<orbitalPhi>-1</orbitalPhi>
+				<rotationalPeriod>514403</rotationalPeriod>
+				<atmosphereDensity>17</atmosphereDensity>
+				<seaLevel>75</seaLevel>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+				<oceanBlock>advancedrocketry:oxygenfluid</oceanBlock>
 			</planet>
-		</planet>
-		<planet name="Sol-19" DIMID="19">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.552822,0.15893728</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>110</orbitalDistance>
-			<orbitalPhi>-3</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>170</atmosphereDensity>
-			<biomeIds>minecraft:mutated_jungle,minecraft:jungle_hills,advancedrocketry:oceanspires,minecraft:mutated_mesa,biomesoplenty:phantasmagoric_inferno,advancedrocketry:deepswamp,advancedrocketry:stormland</biomeIds>
-			<planet name="Sol-19: 0" DIMID="20">
+			<planet name="Sol-17: 1" DIMID="19">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.5405171,1.0</skyColor>
-				<gravitationalMultiplier>63</gravitationalMultiplier>
-				<orbitalDistance>174</orbitalDistance>
-				<orbitalPhi>8</orbitalPhi>
-				<rotationalPeriod>95981</rotationalPeriod>
-				<atmosphereDensity>28</atmosphereDensity>
-				<biomeIds>biomesoplenty:rainforest,minecraft:deep_ocean,biomesoplenty:shrubland,minecraft:mutated_plains,biomesoplenty:phantasmagoric_inferno</biomeIds>
+				<skyColor>0.20499784,0.55238086,1.0</skyColor>
+				<gravitationalMultiplier>60</gravitationalMultiplier>
+				<orbitalDistance>144</orbitalDistance>
+				<orbitalPhi>-5</orbitalPhi>
+				<rotationalPeriod>111111</rotationalPeriod>
+				<atmosphereDensity>22</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
 			</planet>
 			<oceanBlock>minecraft:lava</oceanBlock>
 		</planet>
@@ -83,890 +61,758 @@
 			<isKnown>false</isKnown>
 			<GasGiant>true</GasGiant>
 			<gas>oxygen</gas>
-			<gas>hydrogen</gas>
 			<gas>nitrogen</gas>
+			<gas>hydrogen</gas>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>200</orbitalDistance>
+			<orbitalDistance>193</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
 			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>122</atmosphereDensity>
-			<planet name="Sol-4: 0" DIMID="5">
+			<atmosphereDensity>107</atmosphereDensity>
+		</planet>
+		<planet name="Sol-20" DIMID="20">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.7259598,0.6325985,1.0</skyColor>
+			<gravitationalMultiplier>104</gravitationalMultiplier>
+			<orbitalDistance>119</orbitalDistance>
+			<orbitalPhi>-2</orbitalPhi>
+			<rotationalPeriod>21335</rotationalPeriod>
+			<atmosphereDensity>65</atmosphereDensity>
+			<biomeIds>advancedrocketry:oceanspires,minecraft:extreme_hills,minecraft:mutated_redwood_taiga,biomesoplenty:shrubland,minecraft:mutated_savanna</biomeIds>
+			<planet name="Sol-20: 0" DIMID="21">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.1842463,0.53154314,1.0</skyColor>
-				<gravitationalMultiplier>41</gravitationalMultiplier>
-				<orbitalDistance>153</orbitalDistance>
-				<orbitalPhi>-3</orbitalPhi>
-				<rotationalPeriod>348224</rotationalPeriod>
-				<atmosphereDensity>36</atmosphereDensity>
-				<biomeIds>biomesoplenty:land_of_lakes,biomesoplenty:mangrove,biomesoplenty:kelp_forest,minecraft:roofed_forest,minecraft:mushroom_island</biomeIds>
+				<skyColor>0.47593683,0.7585192,1.0</skyColor>
+				<gravitationalMultiplier>28</gravitationalMultiplier>
+				<orbitalDistance>106</orbitalDistance>
+				<orbitalPhi>-1</orbitalPhi>
+				<rotationalPeriod>1093294</rotationalPeriod>
+				<atmosphereDensity>24</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
 			</planet>
-			<planet name="Sol-4: 1" DIMID="6">
+			<planet name="Sol-20: 1" DIMID="22">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.3557039,0.52696073,1.0</skyColor>
-				<gravitationalMultiplier>75</gravitationalMultiplier>
-				<orbitalDistance>119</orbitalDistance>
-				<orbitalPhi>-3</orbitalPhi>
-				<rotationalPeriod>56888</rotationalPeriod>
-				<atmosphereDensity>22</atmosphereDensity>
+				<skyColor>0.0,0.93579817,1.0</skyColor>
+				<gravitationalMultiplier>49</gravitationalMultiplier>
+				<orbitalDistance>159</orbitalDistance>
+				<orbitalPhi>-2</orbitalPhi>
+				<rotationalPeriod>203996</rotationalPeriod>
+				<atmosphereDensity>15</atmosphereDensity>
 				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
 			</planet>
 		</planet>
-		<planet name="Sol-21" DIMID="21">
+		<planet name="Sol-5" DIMID="5">
 			<isKnown>false</isKnown>
-			<hasRings>true</hasRings>
-			<ringColor>0.8,0.620294,1.0</ringColor>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.620294,1.0</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>84</orbitalDistance>
-			<orbitalPhi>3</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>57</atmosphereDensity>
-			<biomeIds>minecraft:extreme_hills</biomeIds>
-			<planet name="Sol-21: 0" DIMID="22">
+			<skyColor>0.8,0.65809876,0.0</skyColor>
+			<gravitationalMultiplier>124</gravitationalMultiplier>
+			<orbitalDistance>91</orbitalDistance>
+			<orbitalPhi>-1</orbitalPhi>
+			<rotationalPeriod>12587</rotationalPeriod>
+			<atmosphereDensity>200</atmosphereDensity>
+			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
+			<planet name="Sol-5: 0" DIMID="6">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.5593602,0.98102725,1.0</skyColor>
-				<gravitationalMultiplier>60</gravitationalMultiplier>
-				<orbitalDistance>96</orbitalDistance>
-				<orbitalPhi>-3</orbitalPhi>
-				<rotationalPeriod>111111</rotationalPeriod>
-				<atmosphereDensity>23</atmosphereDensity>
+				<skyColor>0.014669776,0.6266862,1.0</skyColor>
+				<gravitationalMultiplier>65</gravitationalMultiplier>
+				<orbitalDistance>153</orbitalDistance>
+				<orbitalPhi>2</orbitalPhi>
+				<rotationalPeriod>87391</rotationalPeriod>
+				<atmosphereDensity>16</atmosphereDensity>
+				<seaLevel>75</seaLevel>
 				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+				<oceanBlock>advancedrocketry:oxygenfluid</oceanBlock>
 			</planet>
-			<planet name="Sol-21: 1" DIMID="23">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.1210354,0.75938785,1.0</skyColor>
-				<gravitationalMultiplier>72</gravitationalMultiplier>
-				<orbitalDistance>155</orbitalDistance>
-				<orbitalPhi>-4</orbitalPhi>
-				<rotationalPeriod>64300</rotationalPeriod>
-				<atmosphereDensity>29</atmosphereDensity>
-				<biomeIds>biomesoplenty:phantasmagoric_inferno,biomesoplenty:mangrove,minecraft:birch_forest,minecraft:jungle_edge,minecraft:mutated_extreme_hills</biomeIds>
-			</planet>
-			<planet name="Sol-21: 2" DIMID="24">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.31453282,0.5145844,1.0</skyColor>
-				<gravitationalMultiplier>41</gravitationalMultiplier>
-				<orbitalDistance>122</orbitalDistance>
-				<orbitalPhi>-4</orbitalPhi>
-				<rotationalPeriod>348224</rotationalPeriod>
-				<atmosphereDensity>22</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
+			<oceanBlock>minecraft:lava</oceanBlock>
 		</planet>
 		<planet name="Sol-7" DIMID="7">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.96846277,0.0706079</skyColor>
-			<gravitationalMultiplier>104</gravitationalMultiplier>
-			<orbitalDistance>74</orbitalDistance>
-			<orbitalPhi>-1</orbitalPhi>
-			<rotationalPeriod>21335</rotationalPeriod>
-			<atmosphereDensity>143</atmosphereDensity>
-			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
+			<skyColor>0.509868,0.9177342,1.0</skyColor>
+			<gravitationalMultiplier>103</gravitationalMultiplier>
+			<orbitalDistance>138</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>21963</rotationalPeriod>
+			<atmosphereDensity>56</atmosphereDensity>
+			<biomeIds>biomesoplenty:undergarden,biomesoplenty:redwood_forest_edge,biomesoplenty:land_of_lakes,biomesoplenty:eucalyptus_forest,biomesoplenty:wetland</biomeIds>
 			<planet name="Sol-7: 0" DIMID="8">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.33602512,0.5661403,1.0</skyColor>
-				<gravitationalMultiplier>31</gravitationalMultiplier>
-				<orbitalDistance>125</orbitalDistance>
-				<orbitalPhi>-3</orbitalPhi>
-				<rotationalPeriod>805612</rotationalPeriod>
-				<atmosphereDensity>27</atmosphereDensity>
-				<seaLevel>73</seaLevel>
-				<biomeIds>biomesoplenty:ominous_woods,biomesoplenty:flower_island,biomesoplenty:flower_field,minecraft:mutated_mesa_rock,biomesoplenty:volcanic_island</biomeIds>
+				<skyColor>0.24925262,0.83781195,1.0</skyColor>
+				<gravitationalMultiplier>52</gravitationalMultiplier>
+				<orbitalDistance>117</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>170687</rotationalPeriod>
+				<atmosphereDensity>14</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
 			</planet>
 			<planet name="Sol-7: 1" DIMID="9">
 				<isKnown>false</isKnown>
-				<hasRings>true</hasRings>
-				<ringColor>0.0,0.5392792,1.0</ringColor>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.5392792,1.0</skyColor>
-				<gravitationalMultiplier>69</gravitationalMultiplier>
-				<orbitalDistance>191</orbitalDistance>
-				<orbitalPhi>2</orbitalPhi>
-				<rotationalPeriod>73057</rotationalPeriod>
+				<skyColor>0.0,0.7982087,1.0</skyColor>
+				<gravitationalMultiplier>52</gravitationalMultiplier>
+				<orbitalDistance>190</orbitalDistance>
+				<orbitalPhi>3</orbitalPhi>
+				<rotationalPeriod>161206</rotationalPeriod>
 				<atmosphereDensity>29</atmosphereDensity>
-				<biomeIds>minecraft:mushroom_island_shore,minecraft:smaller_extreme_hills,minecraft:extreme_hills_with_trees,minecraft:mutated_savanna,biomesoplenty:xeric_shrubland</biomeIds>
+				<biomeIds>minecraft:mutated_savanna,biomesoplenty:visceral_heap,biomesoplenty:bayou,minecraft:ocean,biomesoplenty:xeric_shrubland</biomeIds>
 			</planet>
-			<oceanBlock>minecraft:lava</oceanBlock>
+			<planet name="Sol-7: 2" DIMID="10">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.0,0.9195039,1.0</skyColor>
+				<gravitationalMultiplier>71</gravitationalMultiplier>
+				<orbitalDistance>175</orbitalDistance>
+				<orbitalPhi>-6</orbitalPhi>
+				<rotationalPeriod>67055</rotationalPeriod>
+				<atmosphereDensity>29</atmosphereDensity>
+				<biomeIds>minecraft:mutated_swampland,biomesoplenty:mystic_grove,minecraft:mutated_birch_forest_hills,biomesoplenty:chaparral,biomesoplenty:marsh</biomeIds>
+			</planet>
 		</planet>
-		<planet name="Sol-25" DIMID="25">
+		<planet name="Sol-23" DIMID="23">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.5980227,0.89278424</skyColor>
-			<gravitationalMultiplier>96</gravitationalMultiplier>
-			<orbitalDistance>9</orbitalDistance>
-			<orbitalPhi>-2</orbitalPhi>
-			<rotationalPeriod>27126</rotationalPeriod>
-			<atmosphereDensity>0</atmosphereDensity>
-			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-		</planet>
-		<planet name="Sol-10" DIMID="10">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.7978792,0.738498,1.0</skyColor>
+			<skyColor>0.8,0.9165795,0.09586644</skyColor>
 			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>106</orbitalDistance>
+			<orbitalDistance>137</orbitalDistance>
 			<orbitalPhi>-5</orbitalPhi>
 			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>61</atmosphereDensity>
-			<biomeIds>minecraft:smaller_extreme_hills,biomesoplenty:alps,minecraft:ocean,biomesoplenty:highland,biomesoplenty:dead_forest</biomeIds>
-			<planet name="Sol-10: 0" DIMID="11">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.56295776,0.8979889,1.0</skyColor>
-				<gravitationalMultiplier>74</gravitationalMultiplier>
-				<orbitalDistance>104</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>59226</rotationalPeriod>
-				<atmosphereDensity>30</atmosphereDensity>
-				<biomeIds>minecraft:ice_flats</biomeIds>
-			</planet>
-			<planet name="Sol-10: 1" DIMID="12">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.686221,1.0</skyColor>
-				<gravitationalMultiplier>52</gravitationalMultiplier>
-				<orbitalDistance>184</orbitalDistance>
-				<orbitalPhi>2</orbitalPhi>
-				<rotationalPeriod>161206</rotationalPeriod>
-				<atmosphereDensity>37</atmosphereDensity>
-				<biomeIds>advancedrocketry:marsh,biomesoplenty:corrupted_sands,biomesoplenty:moor,biomesoplenty:land_of_lakes,biomesoplenty:tropical_island</biomeIds>
-			</planet>
-			<planet name="Sol-10: 2" DIMID="13">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.065268815,0.7846354,1.0</skyColor>
-				<gravitationalMultiplier>43</gravitationalMultiplier>
-				<orbitalDistance>143</orbitalDistance>
-				<orbitalPhi>-4</orbitalPhi>
-				<rotationalPeriod>301860</rotationalPeriod>
-				<atmosphereDensity>13</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
+			<atmosphereDensity>200</atmosphereDensity>
+			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
+			<oceanBlock>minecraft:lava</oceanBlock>
 		</planet>
-		<planet name="Sol-14" DIMID="14">
+		<planet name="Sol-24" DIMID="24">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.08693683,0.5867819,1.0</skyColor>
-			<gravitationalMultiplier>111</gravitationalMultiplier>
-			<orbitalDistance>161</orbitalDistance>
-			<orbitalPhi>2</orbitalPhi>
-			<rotationalPeriod>17548</rotationalPeriod>
-			<atmosphereDensity>21</atmosphereDensity>
-			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-		</planet>
-		<planet name="Sol-15" DIMID="15">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.8064059,0.6697593</skyColor>
-			<gravitationalMultiplier>99</gravitationalMultiplier>
-			<orbitalDistance>137</orbitalDistance>
-			<orbitalPhi>-1</orbitalPhi>
-			<rotationalPeriod>24734</rotationalPeriod>
-			<atmosphereDensity>132</atmosphereDensity>
-			<biomeIds>minecraft:mutated_desert,biomesoplenty:flower_field,biomesoplenty:lavender_fields,biomesoplenty:flower_island,biomesoplenty:wetland,advancedrocketry:deepswamp,advancedrocketry:stormland</biomeIds>
-		</planet>
-	</star>
-	<star name="Wolf 12" temp="10" x="300" y="-200" size="1.0" numPlanets="0" numGasGiants="0" >
-		<planet name="Sol-32" DIMID="32">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.055351377,0.98299927,1.0</skyColor>
+			<skyColor>0.8,0.7513427,0.7058152</skyColor>
 			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>131</orbitalDistance>
+			<orbitalDistance>79</orbitalDistance>
 			<orbitalPhi>1</orbitalPhi>
 			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>7</atmosphereDensity>
-			<seaLevel>46</seaLevel>
-			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			<planet name="Sol-32: 0" DIMID="33">
+			<atmosphereDensity>85</atmosphereDensity>
+			<biomeIds>minecraft:extreme_hills</biomeIds>
+			<planet name="Sol-24: 0" DIMID="25">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.2480436,0.6869619,1.0</skyColor>
-				<gravitationalMultiplier>49</gravitationalMultiplier>
-				<orbitalDistance>123</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>203996</rotationalPeriod>
-				<atmosphereDensity>22</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
-		</planet>
-		<planet name="Sol-34" DIMID="34">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.9284761,0.58034116</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>173</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>175</atmosphereDensity>
-			<biomeIds>minecraft:mushroom_island,biomesoplenty:phantasmagoric_inferno,biomesoplenty:origin_beach,minecraft:mutated_swampland,advancedrocketry:marsh,advancedrocketry:deepswamp,advancedrocketry:stormland</biomeIds>
-			<oceanBlock>minecraft:lava</oceanBlock>
-		</planet>
-		<planet name="Sol-35" DIMID="35">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.83744335,0.6547674</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>69</orbitalDistance>
-			<orbitalPhi>-5</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>84</atmosphereDensity>
-			<seaLevel>79</seaLevel>
-			<biomeIds>minecraft:mutated_jungle,biomesoplenty:gravel_beach,biomesoplenty:overgrown_cliffs,biomesoplenty:lush_desert,minecraft:desert_hills</biomeIds>
-			<planet name="Sol-35: 0" DIMID="36">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.5208596,1.0</skyColor>
-				<gravitationalMultiplier>58</gravitationalMultiplier>
-				<orbitalDistance>174</orbitalDistance>
-				<orbitalPhi>3</orbitalPhi>
-				<rotationalPeriod>123006</rotationalPeriod>
-				<atmosphereDensity>13</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
-			<planet name="Sol-35: 1" DIMID="37">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.83478636,1.0</skyColor>
-				<gravitationalMultiplier>66</gravitationalMultiplier>
-				<orbitalDistance>190</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>83479</rotationalPeriod>
-				<atmosphereDensity>17</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+				<skyColor>0.5591099,0.7547977,1.0</skyColor>
+				<gravitationalMultiplier>72</gravitationalMultiplier>
+				<orbitalDistance>115</orbitalDistance>
+				<orbitalPhi>2</orbitalPhi>
+				<rotationalPeriod>64300</rotationalPeriod>
+				<atmosphereDensity>36</atmosphereDensity>
+				<biomeIds>minecraft:birch_forest,biomesoplenty:brushland,minecraft:mutated_savanna,minecraft:mutated_forest,biomesoplenty:volcanic_island</biomeIds>
 			</planet>
 		</planet>
 		<planet name="Sol-26" DIMID="26">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.839807,0.15422475</skyColor>
+			<skyColor>0.8,0.86835635,0.6878253</skyColor>
+			<gravitationalMultiplier>92</gravitationalMultiplier>
+			<orbitalDistance>43</orbitalDistance>
+			<orbitalPhi>-7</orbitalPhi>
+			<rotationalPeriod>30821</rotationalPeriod>
+			<atmosphereDensity>51</atmosphereDensity>
+			<biomeIds>minecraft:birch_forest_hills,minecraft:mutated_savanna_rock,biomesoplenty:tropical_island,minecraft:beaches,biomesoplenty:flower_field</biomeIds>
+		</planet>
+		<planet name="Sol-11" DIMID="11">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.0,0.553423,1.0</skyColor>
 			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>74</orbitalDistance>
-			<orbitalPhi>-1</orbitalPhi>
+			<orbitalDistance>186</orbitalDistance>
+			<orbitalPhi>-4</orbitalPhi>
 			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>145</atmosphereDensity>
-			<biomeIds>minecraft:mushroom_island</biomeIds>
-			<planet name="Sol-26: 0" DIMID="27">
+			<atmosphereDensity>0</atmosphereDensity>
+			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			<planet name="Sol-11: 0" DIMID="12">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.9008039,1.0</skyColor>
-				<gravitationalMultiplier>41</gravitationalMultiplier>
-				<orbitalDistance>196</orbitalDistance>
-				<orbitalPhi>1</orbitalPhi>
-				<rotationalPeriod>348224</rotationalPeriod>
-				<atmosphereDensity>26</atmosphereDensity>
-				<biomeIds>biomesoplenty:bayou,biomesoplenty:redwood_forest,biomesoplenty:corrupted_sands,biomesoplenty:moor,biomesoplenty:fungi_forest</biomeIds>
+				<skyColor>0.16842437,0.8116238,1.0</skyColor>
+				<gravitationalMultiplier>52</gravitationalMultiplier>
+				<orbitalDistance>155</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>161206</rotationalPeriod>
+				<atmosphereDensity>25</atmosphereDensity>
+				<seaLevel>76</seaLevel>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+				<oceanBlock>advancedrocketry:oxygenfluid</oceanBlock>
 			</planet>
+			<planet name="Sol-11: 1" DIMID="13">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.21785259,0.841539,1.0</skyColor>
+				<gravitationalMultiplier>84</gravitationalMultiplier>
+				<orbitalDistance>145</orbitalDistance>
+				<orbitalPhi>-4</orbitalPhi>
+				<rotationalPeriod>40492</rotationalPeriod>
+				<atmosphereDensity>27</atmosphereDensity>
+				<biomeIds>biomesoplenty:visceral_heap,biomesoplenty:sacred_springs,minecraft:mutated_mesa_rock,biomesoplenty:lavender_fields,biomesoplenty:bamboo_forest</biomeIds>
+			</planet>
+			<planet name="Sol-11: 2" DIMID="14">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.0,0.5240929,1.0</skyColor>
+				<gravitationalMultiplier>65</gravitationalMultiplier>
+				<orbitalDistance>184</orbitalDistance>
+				<orbitalPhi>-4</orbitalPhi>
+				<rotationalPeriod>87391</rotationalPeriod>
+				<atmosphereDensity>18</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+		</planet>
+		<planet name="Sol-15" DIMID="15">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.79575837,0.36554337</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>132</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>167</atmosphereDensity>
+			<biomeIds>minecraft:mutated_mesa_clear_rock,biomesoplenty:bayou,biomesoplenty:visceral_heap,minecraft:mutated_savanna_rock,biomesoplenty:lush_desert,advancedrocketry:deepswamp,advancedrocketry:stormland</biomeIds>
+			<planet name="Sol-15: 0" DIMID="16">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.36071527,0.7287511,1.0</skyColor>
+				<gravitationalMultiplier>61</gravitationalMultiplier>
+				<orbitalDistance>120</orbitalDistance>
+				<orbitalPhi>-4</orbitalPhi>
+				<rotationalPeriod>105735</rotationalPeriod>
+				<atmosphereDensity>21</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+	</star>
+	<star name="Wolf 12" temp="10" x="300" y="-200" size="1.0" numPlanets="0" numGasGiants="0" >
+		<planet name="Sol-27" DIMID="27">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.75267684,0.0</skyColor>
+			<gravitationalMultiplier>104</gravitationalMultiplier>
+			<orbitalDistance>87</orbitalDistance>
+			<orbitalPhi>-2</orbitalPhi>
+			<rotationalPeriod>20732</rotationalPeriod>
+			<atmosphereDensity>200</atmosphereDensity>
+			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
 			<oceanBlock>minecraft:lava</oceanBlock>
 		</planet>
 		<planet name="Sol-28" DIMID="28">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.6446544,0.71858037,1.0</skyColor>
-			<gravitationalMultiplier>103</gravitationalMultiplier>
-			<orbitalDistance>125</orbitalDistance>
-			<orbitalPhi>-7</orbitalPhi>
-			<rotationalPeriod>21963</rotationalPeriod>
-			<atmosphereDensity>61</atmosphereDensity>
-			<biomeIds>biomesoplenty:chaparral,biomesoplenty:grove,minecraft:mushroom_island_shore,biomesoplenty:shrubland,minecraft:mutated_birch_forest</biomeIds>
-			<planet name="Sol-28: 0" DIMID="29">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.14050597,0.84594214,1.0</skyColor>
-				<gravitationalMultiplier>36</gravitationalMultiplier>
-				<orbitalDistance>132</orbitalDistance>
-				<orbitalPhi>-7</orbitalPhi>
-				<rotationalPeriod>514403</rotationalPeriod>
-				<atmosphereDensity>14</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
-			<planet name="Sol-28: 1" DIMID="30">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.50174737,1.0</skyColor>
-				<gravitationalMultiplier>45</gravitationalMultiplier>
-				<orbitalDistance>197</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>263374</rotationalPeriod>
-				<atmosphereDensity>13</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
-			<planet name="Sol-28: 2" DIMID="31">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.46368676,0.90885156,1.0</skyColor>
-				<gravitationalMultiplier>28</gravitationalMultiplier>
-				<orbitalDistance>105</orbitalDistance>
-				<orbitalPhi>-2</orbitalPhi>
-				<rotationalPeriod>1093294</rotationalPeriod>
-				<atmosphereDensity>29</atmosphereDensity>
-				<biomeIds>minecraft:mushroom_island_shore,minecraft:mesa,minecraft:mutated_jungle,biomesoplenty:eucalyptus_forest,minecraft:mutated_mesa_clear_rock</biomeIds>
-			</planet>
+			<skyColor>0.3850531,0.79988426,1.0</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>159</orbitalDistance>
+			<orbitalPhi>-3</orbitalPhi>
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>69</atmosphereDensity>
+			<biomeIds>minecraft:mutated_redwood_taiga_hills,minecraft:mutated_redwood_taiga,minecraft:mutated_jungle,biomesoplenty:corrupted_sands,biomesoplenty:bayou</biomeIds>
+		</planet>
+		<planet name="Sol-29" DIMID="29">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.0,0.93486774,1.0</skyColor>
+			<gravitationalMultiplier>122</gravitationalMultiplier>
+			<orbitalDistance>200</orbitalDistance>
+			<orbitalPhi>1</orbitalPhi>
+			<rotationalPeriod>13216</rotationalPeriod>
+			<atmosphereDensity>44</atmosphereDensity>
+			<biomeIds>biomesoplenty:quagmire,biomesoplenty:sacred_springs,biomesoplenty:outback,biomesoplenty:lush_swamp,biomesoplenty:lavender_fields</biomeIds>
+		</planet>
+		<planet name="Sol-30" DIMID="30">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.84653234,0.17609358</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>80</orbitalDistance>
+			<orbitalPhi>-5</orbitalPhi>
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>152</atmosphereDensity>
+			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
+			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+		<planet name="Sol-31" DIMID="31">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.6274115,0.5489925</skyColor>
+			<gravitationalMultiplier>91</gravitationalMultiplier>
+			<orbitalDistance>65</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>31848</rotationalPeriod>
+			<atmosphereDensity>93</atmosphereDensity>
+			<biomeIds>minecraft:mushroom_island_shore,biomesoplenty:wasteland,biomesoplenty:marsh,biomesoplenty:chaparral,minecraft:deep_ocean</biomeIds>
+			<oceanBlock>minecraft:lava</oceanBlock>
 		</planet>
 	</star>
 	<star name="Epsilon ire" temp="170" x="-200" y="80" size="1.0" numPlanets="0" numGasGiants="0" >
-		<planet name="Sol-50" DIMID="50">
+		<planet name="Sol-32" DIMID="32">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.53663206,1.0</skyColor>
+			<skyColor>0.8,0.81269825,0.0</skyColor>
 			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>95</orbitalDistance>
-			<orbitalPhi>4</orbitalPhi>
+			<orbitalDistance>79</orbitalDistance>
+			<orbitalPhi>-1</orbitalPhi>
 			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>62</atmosphereDensity>
-			<seaLevel>66</seaLevel>
-			<biomeIds>biomesoplenty:coral_reef,biomesoplenty:alps,advancedrocketry:oceanspires,biomesoplenty:origin_island,biomesoplenty:quagmire</biomeIds>
-			<planet name="Sol-50: 0" DIMID="51">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.18633705,0.6354802,1.0</skyColor>
-				<gravitationalMultiplier>63</gravitationalMultiplier>
-				<orbitalDistance>164</orbitalDistance>
-				<orbitalPhi>-2</orbitalPhi>
-				<rotationalPeriod>95981</rotationalPeriod>
-				<atmosphereDensity>34</atmosphereDensity>
-				<seaLevel>45</seaLevel>
-				<biomeIds>minecraft:roofed_forest,minecraft:birch_forest_hills,biomesoplenty:overgrown_cliffs,biomesoplenty:ominous_woods,biomesoplenty:rainforest</biomeIds>
-			</planet>
-			<planet name="Sol-50: 1" DIMID="52">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.13037556,0.65068984,1.0</skyColor>
-				<gravitationalMultiplier>84</gravitationalMultiplier>
-				<orbitalDistance>151</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>40492</rotationalPeriod>
-				<atmosphereDensity>15</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
-			<planet name="Sol-50: 2" DIMID="53">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.49827778,0.8252345,1.0</skyColor>
-				<gravitationalMultiplier>51</gravitationalMultiplier>
-				<orbitalDistance>101</orbitalDistance>
-				<orbitalPhi>1</orbitalPhi>
-				<rotationalPeriod>180925</rotationalPeriod>
-				<atmosphereDensity>24</atmosphereDensity>
-				<seaLevel>74</seaLevel>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-				<oceanBlock>advancedrocketry:oxygenfluid</oceanBlock>
-			</planet>
-		</planet>
-		<planet name="Sol-54" DIMID="54">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.94125843,0.50269413</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>158</orbitalDistance>
-			<orbitalPhi>-7</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>171</atmosphereDensity>
-			<biomeIds>advancedrocketry:crystalchasms</biomeIds>
-			<planet name="Sol-54: 0" DIMID="55">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.82321227,1.0</skyColor>
-				<gravitationalMultiplier>61</gravitationalMultiplier>
-				<orbitalDistance>191</orbitalDistance>
-				<orbitalPhi>-1</orbitalPhi>
-				<rotationalPeriod>105735</rotationalPeriod>
-				<atmosphereDensity>30</atmosphereDensity>
-				<biomeIds>minecraft:savanna_rock,minecraft:mutated_savanna_rock,minecraft:mutated_birch_forest_hills,biomesoplenty:coral_reef,biomesoplenty:fungi_forest</biomeIds>
-			</planet>
+			<atmosphereDensity>164</atmosphereDensity>
+			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
 			<oceanBlock>minecraft:lava</oceanBlock>
 		</planet>
-		<planet name="Sol-38" DIMID="38">
+		<planet name="Sol-33" DIMID="33">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.92285824,0.039844632</skyColor>
-			<gravitationalMultiplier>127</gravitationalMultiplier>
-			<orbitalDistance>76</orbitalDistance>
+			<skyColor>0.8,0.59210604,0.67368555</skyColor>
+			<gravitationalMultiplier>120</gravitationalMultiplier>
+			<orbitalDistance>151</orbitalDistance>
+			<orbitalPhi>-4</orbitalPhi>
+			<rotationalPeriod>13888</rotationalPeriod>
+			<atmosphereDensity>142</atmosphereDensity>
+			<seaLevel>66</seaLevel>
+			<biomeIds>minecraft:mushroom_island</biomeIds>
+		</planet>
+		<planet name="Sol-34" DIMID="34">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.25061333,0.86423373,1.0</skyColor>
+			<gravitationalMultiplier>115</gravitationalMultiplier>
+			<orbitalDistance>174</orbitalDistance>
+			<orbitalPhi>-4</orbitalPhi>
+			<rotationalPeriod>15780</rotationalPeriod>
+			<atmosphereDensity>58</atmosphereDensity>
+			<biomeIds>minecraft:mutated_birch_forest,minecraft:birch_forest,minecraft:desert,biomesoplenty:shrubland,minecraft:mutated_roofed_forest</biomeIds>
+		</planet>
+		<planet name="Sol-35" DIMID="35">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.7068976,0.688051</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>130</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
-			<rotationalPeriod>11716</rotationalPeriod>
-			<atmosphereDensity>154</atmosphereDensity>
-			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
-			<planet name="Sol-38: 0" DIMID="39">
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>124</atmosphereDensity>
+			<biomeIds>biomesoplenty:cherry_blossom_grove,minecraft:desert_hills,minecraft:savanna,aroma1997sdimension:miningbiome,minecraft:desert</biomeIds>
+		</planet>
+		<planet name="Sol-36" DIMID="36">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.9097345,0.37406504</skyColor>
+			<gravitationalMultiplier>116</gravitationalMultiplier>
+			<orbitalDistance>27</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>14984</rotationalPeriod>
+			<atmosphereDensity>75</atmosphereDensity>
+			<biomeIds>biomesoplenty:brushland,biomesoplenty:lush_desert,advancedrocketry:marsh,minecraft:frozen_ocean,minecraft:mutated_mesa_rock</biomeIds>
+			<planet name="Sol-36: 0" DIMID="37">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.287242,0.80875283,1.0</skyColor>
-				<gravitationalMultiplier>84</gravitationalMultiplier>
-				<orbitalDistance>141</orbitalDistance>
-				<orbitalPhi>1</orbitalPhi>
-				<rotationalPeriod>40492</rotationalPeriod>
-				<atmosphereDensity>29</atmosphereDensity>
-				<biomeIds>minecraft:mushroom_island,biomesoplenty:grassland,minecraft:swampland,minecraft:jungle_hills,minecraft:smaller_extreme_hills</biomeIds>
+				<skyColor>0.0,0.5762222,1.0</skyColor>
+				<gravitationalMultiplier>52</gravitationalMultiplier>
+				<orbitalDistance>185</orbitalDistance>
+				<orbitalPhi>-1</orbitalPhi>
+				<rotationalPeriod>161206</rotationalPeriod>
+				<atmosphereDensity>25</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<planet name="Sol-36: 1" DIMID="38">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.5076629,0.5339814,1.0</skyColor>
+				<gravitationalMultiplier>81</gravitationalMultiplier>
+				<orbitalDistance>124</orbitalDistance>
+				<orbitalPhi>-1</orbitalPhi>
+				<rotationalPeriod>45160</rotationalPeriod>
+				<atmosphereDensity>37</atmosphereDensity>
+				<biomeIds>minecraft:mutated_plains,biomesoplenty:phantasmagoric_inferno,biomesoplenty:coral_reef,minecraft:stone_beach,minecraft:deep_ocean</biomeIds>
+			</planet>
+			<planet name="Sol-36: 2" DIMID="39">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.43652344,0.88865507,1.0</skyColor>
+				<gravitationalMultiplier>51</gravitationalMultiplier>
+				<orbitalDistance>119</orbitalDistance>
+				<orbitalPhi>-2</orbitalPhi>
+				<rotationalPeriod>180925</rotationalPeriod>
+				<atmosphereDensity>26</atmosphereDensity>
+				<biomeIds>biomesoplenty:flower_field,minecraft:birch_forest,biomesoplenty:origin_island,minecraft:extreme_hills_with_trees,biomesoplenty:sacred_springs</biomeIds>
 			</planet>
 			<oceanBlock>minecraft:lava</oceanBlock>
 		</planet>
 		<planet name="Sol-40" DIMID="40">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.8025403,0.8925022</skyColor>
-			<gravitationalMultiplier>98</gravitationalMultiplier>
-			<orbitalDistance>111</orbitalDistance>
-			<orbitalPhi>-1</orbitalPhi>
-			<rotationalPeriod>25499</rotationalPeriod>
-			<atmosphereDensity>87</atmosphereDensity>
-			<biomeIds>minecraft:extreme_hills</biomeIds>
+			<skyColor>0.8,0.69261336,1.0</skyColor>
+			<gravitationalMultiplier>94</gravitationalMultiplier>
+			<orbitalDistance>106</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>28895</rotationalPeriod>
+			<atmosphereDensity>67</atmosphereDensity>
+			<biomeIds>minecraft:frozen_river,minecraft:mutated_ice_flats,biomesoplenty:sacred_springs,biomesoplenty:marsh,biomesoplenty:dead_swamp</biomeIds>
 		</planet>
 		<planet name="Sol-41" DIMID="41">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.16649753,0.69531167,1.0</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>177</orbitalDistance>
-			<orbitalPhi>-2</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>49</atmosphereDensity>
-			<biomeIds>minecraft:ocean,biomesoplenty:wetland,advancedrocketry:marsh,biomesoplenty:wasteland,biomesoplenty:visceral_heap</biomeIds>
-			<planet name="Sol-41: 0" DIMID="42">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.11783105,0.6654333,1.0</skyColor>
-				<gravitationalMultiplier>76</gravitationalMultiplier>
-				<orbitalDistance>148</orbitalDistance>
-				<orbitalPhi>-2</orbitalPhi>
-				<rotationalPeriod>54672</rotationalPeriod>
-				<atmosphereDensity>19</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
-			<planet name="Sol-41: 1" DIMID="43">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.3343659,0.69911385,1.0</skyColor>
-				<gravitationalMultiplier>86</gravitationalMultiplier>
-				<orbitalDistance>128</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>37732</rotationalPeriod>
-				<atmosphereDensity>19</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
-		</planet>
-		<planet name="Sol-44" DIMID="44">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.71701026,0.42121595</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>123</orbitalDistance>
-			<orbitalPhi>-1</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>149</atmosphereDensity>
-			<biomeIds>biomesoplenty:highland,minecraft:mushroom_island,minecraft:extreme_hills,minecraft:plains,minecraft:stone_beach,advancedrocketry:deepswamp,advancedrocketry:stormland</biomeIds>
-			<planet name="Sol-44: 0" DIMID="45">
-				<isKnown>false</isKnown>
-				<hasRings>true</hasRings>
-				<ringColor>0.35909438,0.5529775,1.0</ringColor>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.35909438,0.5529775,1.0</skyColor>
-				<gravitationalMultiplier>52</gravitationalMultiplier>
-				<orbitalDistance>113</orbitalDistance>
-				<orbitalPhi>-3</orbitalPhi>
-				<rotationalPeriod>170687</rotationalPeriod>
-				<atmosphereDensity>13</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
-			<oceanBlock>minecraft:lava</oceanBlock>
-		</planet>
-		<planet name="Sol-46" DIMID="46">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.72839236,0.14855868</skyColor>
-			<gravitationalMultiplier>128</gravitationalMultiplier>
-			<orbitalDistance>86</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
-			<rotationalPeriod>11444</rotationalPeriod>
-			<atmosphereDensity>146</atmosphereDensity>
-			<biomeIds>minecraft:mutated_mesa_clear_rock,minecraft:mutated_savanna,biomesoplenty:phantasmagoric_inferno,minecraft:ocean,minecraft:savanna,advancedrocketry:deepswamp,advancedrocketry:stormland</biomeIds>
-			<planet name="Sol-46: 1" DIMID="48">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.83797246,1.0</skyColor>
-				<gravitationalMultiplier>85</gravitationalMultiplier>
-				<orbitalDistance>160</orbitalDistance>
-				<orbitalPhi>-2</orbitalPhi>
-				<rotationalPeriod>39079</rotationalPeriod>
-				<atmosphereDensity>15</atmosphereDensity>
-				<seaLevel>75</seaLevel>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-				<oceanBlock>advancedrocketry:oxygenfluid</oceanBlock>
-			</planet>
-			<planet name="Sol-46: 2" DIMID="49">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.99438643,1.0</skyColor>
-				<gravitationalMultiplier>67</gravitationalMultiplier>
-				<orbitalDistance>184</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>79797</rotationalPeriod>
-				<atmosphereDensity>26</atmosphereDensity>
-				<biomeIds>biomesoplenty:redwood_forest,minecraft:mutated_birch_forest_hills,minecraft:birch_forest,biomesoplenty:origin_island,minecraft:mutated_redwood_taiga_hills</biomeIds>
-			</planet>
-			<planet name="Sol-46: 0" DIMID="47">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.21709764,0.53853726,1.0</skyColor>
-				<gravitationalMultiplier>88</gravitationalMultiplier>
-				<orbitalDistance>165</orbitalDistance>
-				<orbitalPhi>2</orbitalPhi>
-				<rotationalPeriod>35217</rotationalPeriod>
-				<atmosphereDensity>35</atmosphereDensity>
-				<biomeIds>biomesoplenty:temperate_rainforest,biomesoplenty:xeric_shrubland,biomesoplenty:flower_island,minecraft:ocean,biomesoplenty:prairie</biomeIds>
-			</planet>
+			<skyColor>0.8,0.94528514,0.36377257</skyColor>
+			<gravitationalMultiplier>127</gravitationalMultiplier>
+			<orbitalDistance>146</orbitalDistance>
+			<orbitalPhi>1</orbitalPhi>
+			<rotationalPeriod>11716</rotationalPeriod>
+			<atmosphereDensity>175</atmosphereDensity>
+			<biomeIds>advancedrocketry:oceanspires,minecraft:mutated_mesa,biomesoplenty:brushland,minecraft:mutated_desert,minecraft:jungle_hills,advancedrocketry:deepswamp,advancedrocketry:stormland</biomeIds>
 			<oceanBlock>minecraft:lava</oceanBlock>
 		</planet>
 	</star>
 	<star name="Proxima Centaurs" temp="200" x="-150" y="250" size="1.0" numPlanets="0" numGasGiants="0" >
-		<planet name="Sol-56" DIMID="56">
+		<planet name="Sol-42" DIMID="42">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.9387824,0.0</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>35</orbitalDistance>
-			<orbitalPhi>4</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>194</atmosphereDensity>
+			<skyColor>0.8,0.9625876,0.094102025</skyColor>
+			<gravitationalMultiplier>92</gravitationalMultiplier>
+			<orbitalDistance>57</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>30821</rotationalPeriod>
+			<atmosphereDensity>127</atmosphereDensity>
+			<seaLevel>55</seaLevel>
 			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
 			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+		<planet name="Sol-43" DIMID="43">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.7567326,0.80175775</skyColor>
+			<gravitationalMultiplier>128</gravitationalMultiplier>
+			<orbitalDistance>82</orbitalDistance>
+			<orbitalPhi>2</orbitalPhi>
+			<rotationalPeriod>11444</rotationalPeriod>
+			<atmosphereDensity>65</atmosphereDensity>
+			<biomeIds>advancedrocketry:crystalchasms</biomeIds>
+		</planet>
+		<planet name="Sol-44" DIMID="44">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.0,0.87912035,1.0</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>200</orbitalDistance>
+			<orbitalPhi>-7</orbitalPhi>
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>28</atmosphereDensity>
+			<seaLevel>69</seaLevel>
+			<biomeIds>biomesoplenty:sacred_springs,biomesoplenty:phantasmagoric_inferno,biomesoplenty:flower_island,minecraft:mesa_clear_rock,minecraft:mushroom_island_shore</biomeIds>
+			<planet name="Sol-44: 0" DIMID="45">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.14204937,0.6356153,1.0</skyColor>
+				<gravitationalMultiplier>67</gravitationalMultiplier>
+				<orbitalDistance>156</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>79797</rotationalPeriod>
+				<atmosphereDensity>19</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<planet name="Sol-44: 1" DIMID="46">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.0,0.58307016,1.0</skyColor>
+				<gravitationalMultiplier>86</gravitationalMultiplier>
+				<orbitalDistance>181</orbitalDistance>
+				<orbitalPhi>-3</orbitalPhi>
+				<rotationalPeriod>37732</rotationalPeriod>
+				<atmosphereDensity>25</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+		</planet>
+	</star>
+	<star name="Magnis Vulpes" temp="70" x="-150" y="-250" size="1.0" numPlanets="0" numGasGiants="0" >
+		<planet name="Sol-48" DIMID="48">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.71755767,0.5361519</skyColor>
+			<gravitationalMultiplier>120</gravitationalMultiplier>
+			<orbitalDistance>107</orbitalDistance>
+			<orbitalPhi>2</orbitalPhi>
+			<rotationalPeriod>13888</rotationalPeriod>
+			<atmosphereDensity>125</atmosphereDensity>
+			<biomeIds>minecraft:mutated_mesa_clear_rock,biomesoplenty:origin_beach,advancedrocketry:marsh,minecraft:ocean,biomesoplenty:temperate_rainforest</biomeIds>
+			<planet name="Sol-48: 0" DIMID="49">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.18028718,0.7326769,1.0</skyColor>
+				<gravitationalMultiplier>54</gravitationalMultiplier>
+				<orbitalDistance>162</orbitalDistance>
+				<orbitalPhi>1</orbitalPhi>
+				<rotationalPeriod>152415</rotationalPeriod>
+				<atmosphereDensity>35</atmosphereDensity>
+				<biomeIds>biomesoplenty:volcanic_island,biomesoplenty:grove,biomesoplenty:undergarden,minecraft:mesa,minecraft:mutated_redwood_taiga_hills</biomeIds>
+			</planet>
+			<planet name="Sol-48: 1" DIMID="50">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.009539008,0.5700855,1.0</skyColor>
+				<gravitationalMultiplier>51</gravitationalMultiplier>
+				<orbitalDistance>159</orbitalDistance>
+				<orbitalPhi>-1</orbitalPhi>
+				<rotationalPeriod>180925</rotationalPeriod>
+				<atmosphereDensity>17</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+		<planet name="Sol-47" DIMID="47">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.6043935,0.4578839</skyColor>
+			<gravitationalMultiplier>104</gravitationalMultiplier>
+			<orbitalDistance>93</orbitalDistance>
+			<orbitalPhi>-3</orbitalPhi>
+			<rotationalPeriod>21335</rotationalPeriod>
+			<atmosphereDensity>123</atmosphereDensity>
+			<biomeIds>minecraft:mutated_birch_forest_hills,minecraft:mutated_mesa_clear_rock,minecraft:mutated_extreme_hills_with_trees,biomesoplenty:grove,biomesoplenty:moor</biomeIds>
+			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+	</star>
+	<star name="Ma-Roo" temp="200" x="50" y="-250" size="1.0" numPlanets="0" numGasGiants="0" >
+		<planet name="Sol-51" DIMID="51">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.58972514,0.0</skyColor>
+			<gravitationalMultiplier>94</gravitationalMultiplier>
+			<orbitalDistance>54</orbitalDistance>
+			<orbitalPhi>-6</orbitalPhi>
+			<rotationalPeriod>28895</rotationalPeriod>
+			<atmosphereDensity>184</atmosphereDensity>
+			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
+			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+		<planet name="Sol-52" DIMID="52">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.6840668,0.52162004</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>123</orbitalDistance>
+			<orbitalPhi>-6</orbitalPhi>
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>137</atmosphereDensity>
+			<biomeIds>minecraft:roofed_forest,minecraft:frozen_ocean,minecraft:plains,biomesoplenty:origin_island,biomesoplenty:flower_island,advancedrocketry:deepswamp,advancedrocketry:stormland</biomeIds>
+			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+		<planet name="Sol-53" DIMID="53">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.43061763,0.9829823,1.0</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>176</orbitalDistance>
+			<orbitalPhi>-6</orbitalPhi>
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>74</atmosphereDensity>
+			<biomeIds>biomesoplenty:cherry_blossom_grove,aroma1997sdimension:miningbiome,biomesoplenty:corrupted_sands,biomesoplenty:undergarden,biomesoplenty:bamboo_forest</biomeIds>
+			<planet name="Sol-53: 0" DIMID="54">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.25301564,0.99548316,1.0</skyColor>
+				<gravitationalMultiplier>43</gravitationalMultiplier>
+				<orbitalDistance>137</orbitalDistance>
+				<orbitalPhi>-2</orbitalPhi>
+				<rotationalPeriod>301860</rotationalPeriod>
+				<atmosphereDensity>24</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<planet name="Sol-53: 1" DIMID="55">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.10755098,0.99967134,1.0</skyColor>
+				<gravitationalMultiplier>40</gravitationalMultiplier>
+				<orbitalDistance>167</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>375000</rotationalPeriod>
+				<atmosphereDensity>33</atmosphereDensity>
+				<biomeIds>minecraft:mutated_jungle,minecraft:mushroom_island_shore,minecraft:mutated_savanna_rock,minecraft:mutated_roofed_forest,minecraft:mutated_mesa_rock</biomeIds>
+			</planet>
+			<planet name="Sol-53: 2" DIMID="56">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.32102752,0.5876279,1.0</skyColor>
+				<gravitationalMultiplier>82</gravitationalMultiplier>
+				<orbitalDistance>138</orbitalDistance>
+				<orbitalPhi>-8</orbitalPhi>
+				<rotationalPeriod>43528</rotationalPeriod>
+				<atmosphereDensity>33</atmosphereDensity>
+				<biomeIds>advancedrocketry:marsh,biomesoplenty:bamboo_forest,biomesoplenty:mountain_foothills,minecraft:mutated_plains,minecraft:extreme_hills_with_trees</biomeIds>
+			</planet>
 		</planet>
 		<planet name="Sol-57" DIMID="57">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.98531866,0.8581913</skyColor>
+			<skyColor>0.8,0.57453036,0.29396075</skyColor>
 			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>109</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
+			<orbitalDistance>154</orbitalDistance>
+			<orbitalPhi>-2</orbitalPhi>
 			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>87</atmosphereDensity>
-			<biomeIds>minecraft:mutated_desert,minecraft:plains,biomesoplenty:mountain_foothills,minecraft:deep_ocean,biomesoplenty:origin_island</biomeIds>
+			<atmosphereDensity>184</atmosphereDensity>
+			<biomeIds>biomesoplenty:corrupted_sands,minecraft:mutated_mesa,minecraft:mutated_mesa_rock,biomesoplenty:brushland,advancedrocketry:marsh,advancedrocketry:deepswamp,advancedrocketry:stormland</biomeIds>
 			<planet name="Sol-57: 0" DIMID="58">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.44834816,0.5613602,1.0</skyColor>
-				<gravitationalMultiplier>48</gravitationalMultiplier>
-				<orbitalDistance>117</orbitalDistance>
+				<skyColor>0.08361143,0.8678163,1.0</skyColor>
+				<gravitationalMultiplier>78</gravitationalMultiplier>
+				<orbitalDistance>174</orbitalDistance>
 				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>217013</rotationalPeriod>
-				<atmosphereDensity>21</atmosphereDensity>
-				<seaLevel>71</seaLevel>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+				<rotationalPeriod>50574</rotationalPeriod>
+				<atmosphereDensity>34</atmosphereDensity>
+				<biomeIds>minecraft:desert_hills,minecraft:mesa,biomesoplenty:undergarden,biomesoplenty:oasis,biomesoplenty:outback</biomeIds>
 			</planet>
 			<planet name="Sol-57: 1" DIMID="59">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.57346684,0.97613525,1.0</skyColor>
-				<gravitationalMultiplier>42</gravitationalMultiplier>
-				<orbitalDistance>119</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>323939</rotationalPeriod>
-				<atmosphereDensity>37</atmosphereDensity>
-				<biomeIds>biomesoplenty:lush_desert,minecraft:mutated_jungle_edge,biomesoplenty:mountain_foothills,minecraft:extreme_hills_with_trees,biomesoplenty:origin_beach</biomeIds>
-			</planet>
-		</planet>
-		<planet name="Sol-60" DIMID="60">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.008618474,0.89633775,1.0</skyColor>
-			<gravitationalMultiplier>114</gravitationalMultiplier>
-			<orbitalDistance>152</orbitalDistance>
-			<orbitalPhi>1</orbitalPhi>
-			<rotationalPeriod>16199</rotationalPeriod>
-			<atmosphereDensity>0</atmosphereDensity>
-			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-		</planet>
-	</star>
-	<star name="Magnis Vulpes" temp="70" x="-150" y="-250" size="1.0" numPlanets="0" numGasGiants="0" >
-		<planet name="Sol-61" DIMID="61">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.6535151,0.0</skyColor>
-			<gravitationalMultiplier>107</gravitationalMultiplier>
-			<orbitalDistance>34</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
-			<rotationalPeriod>19591</rotationalPeriod>
-			<atmosphereDensity>146</atmosphereDensity>
-			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
-			<planet name="Sol-61: 0" DIMID="62">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.58737874,1.0</skyColor>
-				<gravitationalMultiplier>60</gravitationalMultiplier>
-				<orbitalDistance>188</orbitalDistance>
-				<orbitalPhi>-3</orbitalPhi>
-				<rotationalPeriod>111111</rotationalPeriod>
-				<atmosphereDensity>21</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
-			<oceanBlock>minecraft:lava</oceanBlock>
-		</planet>
-		<planet name="Sol-63" DIMID="63">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.4481076,0.9767683,1.0</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>167</orbitalDistance>
-			<orbitalPhi>-1</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>71</atmosphereDensity>
-			<biomeIds>biomesoplenty:brushland,biomesoplenty:eucalyptus_forest,biomesoplenty:flower_island,biomesoplenty:lush_swamp,biomesoplenty:tropical_rainforest</biomeIds>
-			<planet name="Sol-63: 0" DIMID="64">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.43751097,0.9926797,1.0</skyColor>
-				<gravitationalMultiplier>80</gravitationalMultiplier>
-				<orbitalDistance>117</orbitalDistance>
-				<orbitalPhi>-4</orbitalPhi>
-				<rotationalPeriod>46875</rotationalPeriod>
-				<atmosphereDensity>32</atmosphereDensity>
-				<biomeIds>biomesoplenty:kelp_forest,biomesoplenty:moor,minecraft:mutated_savanna_rock,minecraft:mesa,biomesoplenty:coral_reef</biomeIds>
-			</planet>
-			<planet name="Sol-63: 1" DIMID="65">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.0,0.69314134,1.0</skyColor>
-				<gravitationalMultiplier>86</gravitationalMultiplier>
-				<orbitalDistance>195</orbitalDistance>
-				<orbitalPhi>-6</orbitalPhi>
-				<rotationalPeriod>37732</rotationalPeriod>
-				<atmosphereDensity>17</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
-			<planet name="Sol-63: 2" DIMID="66">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.35682213,0.5664103,1.0</skyColor>
-				<gravitationalMultiplier>82</gravitationalMultiplier>
-				<orbitalDistance>118</orbitalDistance>
-				<orbitalPhi>2</orbitalPhi>
-				<rotationalPeriod>43528</rotationalPeriod>
-				<atmosphereDensity>26</atmosphereDensity>
-				<biomeIds>biomesoplenty:quagmire,minecraft:deep_ocean,minecraft:mesa_rock,minecraft:mutated_desert,biomesoplenty:mountain</biomeIds>
-			</planet>
-		</planet>
-	</star>
-	<star name="Ma-Roo" temp="200" x="50" y="-250" size="1.0" numPlanets="0" numGasGiants="0" >
-		<planet name="Sol-67" DIMID="67">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.9635071,0.0</skyColor>
-			<gravitationalMultiplier>107</gravitationalMultiplier>
-			<orbitalDistance>21</orbitalDistance>
-			<orbitalPhi>-3</orbitalPhi>
-			<rotationalPeriod>19591</rotationalPeriod>
-			<atmosphereDensity>179</atmosphereDensity>
-			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
-			<oceanBlock>minecraft:lava</oceanBlock>
-		</planet>
-		<planet name="Sol-68" DIMID="68">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.7457812,0.66147834,1.0</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>147</orbitalDistance>
-			<orbitalPhi>-1</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>88</atmosphereDensity>
-			<biomeIds>minecraft:ice_flats</biomeIds>
-		</planet>
-		<planet name="Sol-69" DIMID="69">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.6180607,0.8228052,1.0</skyColor>
-			<gravitationalMultiplier>90</gravitationalMultiplier>
-			<orbitalDistance>154</orbitalDistance>
-			<orbitalPhi>-4</orbitalPhi>
-			<rotationalPeriod>32921</rotationalPeriod>
-			<atmosphereDensity>70</atmosphereDensity>
-			<biomeIds>biomesoplenty:pasture,biomesoplenty:chaparral,minecraft:mutated_savanna_rock,biomesoplenty:wasteland,biomesoplenty:kelp_forest</biomeIds>
-		</planet>
-		<planet name="Sol-70" DIMID="70">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.62595844,0.0</skyColor>
-			<gravitationalMultiplier>119</gravitationalMultiplier>
-			<orbitalDistance>95</orbitalDistance>
-			<orbitalPhi>-4</orbitalPhi>
-			<rotationalPeriod>14241</rotationalPeriod>
-			<atmosphereDensity>200</atmosphereDensity>
-			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
-			<planet name="Sol-70: 0" DIMID="71">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.25295764,0.6830311,1.0</skyColor>
-				<gravitationalMultiplier>46</gravitationalMultiplier>
-				<orbitalDistance>149</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>246568</rotationalPeriod>
-				<atmosphereDensity>30</atmosphereDensity>
-				<biomeIds>biomesoplenty:outback,biomesoplenty:land_of_lakes,biomesoplenty:wetland,biomesoplenty:steppe,biomesoplenty:wasteland</biomeIds>
-			</planet>
-			<planet name="Sol-70: 1" DIMID="72">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.29757392,0.58628184,1.0</skyColor>
-				<gravitationalMultiplier>82</gravitationalMultiplier>
-				<orbitalDistance>135</orbitalDistance>
-				<orbitalPhi>2</orbitalPhi>
-				<rotationalPeriod>43528</rotationalPeriod>
-				<atmosphereDensity>22</atmosphereDensity>
-				<seaLevel>77</seaLevel>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-				<oceanBlock>advancedrocketry:oxygenfluid</oceanBlock>
-			</planet>
-			<oceanBlock>minecraft:lava</oceanBlock>
-		</planet>
-		<planet name="Sol-73" DIMID="73">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.9389884,0.41631067</skyColor>
-			<gravitationalMultiplier>91</gravitationalMultiplier>
-			<orbitalDistance>13</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
-			<rotationalPeriod>31848</rotationalPeriod>
-			<atmosphereDensity>53</atmosphereDensity>
-			<biomeIds>minecraft:stone_beach,minecraft:mutated_plains,minecraft:deep_ocean,biomesoplenty:undergarden,minecraft:birch_forest</biomeIds>
-			<oceanBlock>minecraft:lava</oceanBlock>
-		</planet>
-		<planet name="Sol-74" DIMID="74">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.5651121,0.61543953,1.0</skyColor>
-			<gravitationalMultiplier>114</gravitationalMultiplier>
-			<orbitalDistance>89</orbitalDistance>
-			<orbitalPhi>-1</orbitalPhi>
-			<rotationalPeriod>16199</rotationalPeriod>
-			<atmosphereDensity>14</atmosphereDensity>
-			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			<planet name="Sol-74: 0" DIMID="75">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.44780827,0.7086231,1.0</skyColor>
-				<gravitationalMultiplier>54</gravitationalMultiplier>
-				<orbitalDistance>125</orbitalDistance>
-				<orbitalPhi>1</orbitalPhi>
-				<rotationalPeriod>152415</rotationalPeriod>
-				<atmosphereDensity>27</atmosphereDensity>
-				<biomeIds>minecraft:jungle_hills,minecraft:mutated_mesa,biomesoplenty:shrubland,minecraft:mutated_jungle_edge,biomesoplenty:kelp_forest</biomeIds>
-			</planet>
-		</planet>
-	</star>
-	<star name="Alykitt" temp="120" x="75" y="200" size="1.0" numPlanets="0" numGasGiants="0" >
-		<planet name="Sol-80" DIMID="80">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.79420817,0.98993444,1.0</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>156</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>96</atmosphereDensity>
-			<biomeIds>minecraft:mesa_clear_rock,minecraft:birch_forest,biomesoplenty:origin_beach,biomesoplenty:corrupted_sands,minecraft:smaller_extreme_hills</biomeIds>
-			<planet name="Sol-80: 0" DIMID="81">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.4497522,0.73441017,1.0</skyColor>
-				<gravitationalMultiplier>47</gravitationalMultiplier>
-				<orbitalDistance>118</orbitalDistance>
-				<orbitalPhi>-2</orbitalPhi>
-				<rotationalPeriod>231162</rotationalPeriod>
-				<atmosphereDensity>36</atmosphereDensity>
-				<biomeIds>biomesoplenty:marsh,biomesoplenty:overgrown_cliffs,minecraft:mutated_extreme_hills_with_trees,minecraft:mutated_desert,biomesoplenty:lush_swamp</biomeIds>
-			</planet>
-			<planet name="Sol-80: 1" DIMID="82">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.055386543,0.74989057,1.0</skyColor>
-				<gravitationalMultiplier>56</gravitationalMultiplier>
-				<orbitalDistance>155</orbitalDistance>
-				<orbitalPhi>1</orbitalPhi>
-				<rotationalPeriod>136661</rotationalPeriod>
-				<atmosphereDensity>13</atmosphereDensity>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			</planet>
-		</planet>
-		<planet name="Sol-83" DIMID="83">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.0,0.6714105,1.0</skyColor>
-			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>176</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
-			<rotationalPeriod>10923</rotationalPeriod>
-			<atmosphereDensity>0</atmosphereDensity>
-			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-			<planet name="Sol-83: 0" DIMID="84">
-				<isKnown>false</isKnown>
-				<hasRings>true</hasRings>
-				<ringColor>0.17886865,0.58244365,1.0</ringColor>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.17886865,0.58244365,1.0</skyColor>
-				<gravitationalMultiplier>63</gravitationalMultiplier>
-				<orbitalDistance>161</orbitalDistance>
-				<orbitalPhi>-6</orbitalPhi>
-				<rotationalPeriod>95981</rotationalPeriod>
-				<atmosphereDensity>33</atmosphereDensity>
-				<biomeIds>biomesoplenty:outback,biomesoplenty:eucalyptus_forest,biomesoplenty:lush_swamp,biomesoplenty:wasteland,minecraft:jungle_edge</biomeIds>
-			</planet>
-		</planet>
-		<planet name="Sol-76" DIMID="76">
-			<isKnown>false</isKnown>
-			<GasGiant>true</GasGiant>
-			<gas>oxygen</gas>
-			<gas>hydrogen</gas>
-			<gas>nitrogen</gas>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
-			<gravitationalMultiplier>121</gravitationalMultiplier>
-			<orbitalDistance>200</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>137</atmosphereDensity>
-			<planet name="Sol-76: 0" DIMID="77">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.12855172,0.8126913,1.0</skyColor>
-				<gravitationalMultiplier>52</gravitationalMultiplier>
-				<orbitalDistance>146</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
-				<rotationalPeriod>170687</rotationalPeriod>
-				<atmosphereDensity>13</atmosphereDensity>
-				<seaLevel>75</seaLevel>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
-				<oceanBlock>advancedrocketry:oxygenfluid</oceanBlock>
-			</planet>
-		</planet>
-		<planet name="Sol-78" DIMID="78">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.7119228,0.41844237</skyColor>
-			<gravitationalMultiplier>121</gravitationalMultiplier>
-			<orbitalDistance>91</orbitalDistance>
-			<orbitalPhi>-2</orbitalPhi>
-			<rotationalPeriod>13547</rotationalPeriod>
-			<atmosphereDensity>122</atmosphereDensity>
-			<biomeIds>biomesoplenty:cherry_blossom_grove,biomesoplenty:wasteland,minecraft:forest,biomesoplenty:chaparral,biomesoplenty:visceral_heap</biomeIds>
-			<planet name="Sol-78: 0" DIMID="79">
-				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.036006927,0.6653591,1.0</skyColor>
-				<gravitationalMultiplier>48</gravitationalMultiplier>
-				<orbitalDistance>152</orbitalDistance>
-				<orbitalPhi>-3</orbitalPhi>
-				<rotationalPeriod>217013</rotationalPeriod>
+				<skyColor>0.0,0.81485,1.0</skyColor>
+				<gravitationalMultiplier>84</gravitationalMultiplier>
+				<orbitalDistance>170</orbitalDistance>
+				<orbitalPhi>-5</orbitalPhi>
+				<rotationalPeriod>40492</rotationalPeriod>
 				<atmosphereDensity>14</atmosphereDensity>
 				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
 			</planet>
 			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+		<planet name="Sol-60" DIMID="60">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.96538496,0.38523245</skyColor>
+			<gravitationalMultiplier>95</gravitationalMultiplier>
+			<orbitalDistance>74</orbitalDistance>
+			<orbitalPhi>1</orbitalPhi>
+			<rotationalPeriod>27992</rotationalPeriod>
+			<atmosphereDensity>107</atmosphereDensity>
+			<biomeIds>biomesoplenty:volcanic_island,biomesoplenty:bamboo_forest,minecraft:extreme_hills,biomesoplenty:pasture,minecraft:forest</biomeIds>
+			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+		<planet name="Sol-61" DIMID="61">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.92359424,0.9010845</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>71</orbitalDistance>
+			<orbitalPhi>1</orbitalPhi>
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>47</atmosphereDensity>
+			<biomeIds>minecraft:mutated_redwood_taiga_hills,biomesoplenty:snowy_tundra,biomesoplenty:coral_reef,biomesoplenty:redwood_forest,minecraft:redwood_taiga_hills</biomeIds>
+			<planet name="Sol-61: 0" DIMID="62">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.1595332,0.7606076,1.0</skyColor>
+				<gravitationalMultiplier>84</gravitationalMultiplier>
+				<orbitalDistance>166</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>40492</rotationalPeriod>
+				<atmosphereDensity>37</atmosphereDensity>
+				<biomeIds>biomesoplenty:bamboo_forest,biomesoplenty:prairie,minecraft:mesa_clear_rock,biomesoplenty:flower_island,minecraft:mutated_jungle_edge</biomeIds>
+			</planet>
+			<planet name="Sol-61: 1" DIMID="63">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.51694685,0.9891494,1.0</skyColor>
+				<gravitationalMultiplier>42</gravitationalMultiplier>
+				<orbitalDistance>108</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>323939</rotationalPeriod>
+				<atmosphereDensity>23</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+		</planet>
+	</star>
+	<star name="Alykitt" temp="120" x="75" y="200" size="1.0" numPlanets="0" numGasGiants="0" >
+		<planet name="Sol-64" DIMID="64">
+			<isKnown>false</isKnown>
+			<GasGiant>true</GasGiant>
+			<gas>oxygen</gas>
+			<gas>nitrogen</gas>
+			<gas>hydrogen</gas>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>109</gravitationalMultiplier>
+			<orbitalDistance>200</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<atmosphereDensity>153</atmosphereDensity>
+		</planet>
+		<planet name="Sol-65" DIMID="65">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.9142766,0.0</skyColor>
+			<gravitationalMultiplier>102</gravitationalMultiplier>
+			<orbitalDistance>21</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>22615</rotationalPeriod>
+			<atmosphereDensity>197</atmosphereDensity>
+			<biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic</biomeIds>
+			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+		<planet name="Sol-66" DIMID="66">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.5870112,0.91382,1.0</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>157</orbitalDistance>
+			<orbitalPhi>-5</orbitalPhi>
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>84</atmosphereDensity>
+			<biomeIds>biomesoplenty:xeric_shrubland,biomesoplenty:cherry_blossom_grove,biomesoplenty:marsh,biomesoplenty:lush_desert,biomesoplenty:oasis</biomeIds>
+			<planet name="Sol-66: 0" DIMID="67">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.0,0.5627526,1.0</skyColor>
+				<gravitationalMultiplier>68</gravitationalMultiplier>
+				<orbitalDistance>176</orbitalDistance>
+				<orbitalPhi>1</orbitalPhi>
+				<rotationalPeriod>76328</rotationalPeriod>
+				<atmosphereDensity>19</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<planet name="Sol-66: 1" DIMID="68">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.040199995,0.6338413,1.0</skyColor>
+				<gravitationalMultiplier>57</gravitationalMultiplier>
+				<orbitalDistance>168</orbitalDistance>
+				<orbitalPhi>-6</orbitalPhi>
+				<rotationalPeriod>129594</rotationalPeriod>
+				<atmosphereDensity>25</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<planet name="Sol-66: 2" DIMID="69">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.21099162,0.86701536,1.0</skyColor>
+				<gravitationalMultiplier>52</gravitationalMultiplier>
+				<orbitalDistance>137</orbitalDistance>
+				<orbitalPhi>-6</orbitalPhi>
+				<rotationalPeriod>161206</rotationalPeriod>
+				<atmosphereDensity>25</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+		</planet>
+		<planet name="Sol-70" DIMID="70">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.0,0.59208965,1.0</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>200</orbitalDistance>
+			<orbitalPhi>-1</orbitalPhi>
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>47</atmosphereDensity>
+			<biomeIds>biomesoplenty:visceral_heap,minecraft:birch_forest_hills,minecraft:roofed_forest,minecraft:jungle_hills,minecraft:mesa_rock</biomeIds>
+			<planet name="Sol-70: 0" DIMID="71">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.2841624,0.69870615,1.0</skyColor>
+				<gravitationalMultiplier>78</gravitationalMultiplier>
+				<orbitalDistance>146</orbitalDistance>
+				<orbitalPhi>-2</orbitalPhi>
+				<rotationalPeriod>50574</rotationalPeriod>
+				<atmosphereDensity>36</atmosphereDensity>
+				<biomeIds>biomesoplenty:steppe,biomesoplenty:coral_reef,biomesoplenty:chaparral,minecraft:mutated_swampland,minecraft:birch_forest_hills</biomeIds>
+			</planet>
 		</planet>
 	</star>
 </galaxy>

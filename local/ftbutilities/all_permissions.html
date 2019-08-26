@@ -627,6 +627,15 @@ false
 '>
 </td></tr>
 <tr>
+<td><code>ftbutilities.claims.block.interact.ic2.reinforced_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
 <td><code>ftbutilities.claims.block.interact.minecraft.acacia_door</code></td>
 <td><code>bool</code></td>
 <td class='true' colspan='2'><code>true</code></td>
@@ -1016,6 +1025,28 @@ false
 '>
 <p>/warp Warmup Timer</p>
 </td></tr>
+<tr>
+<td><code>pneumaticcraft.amadron.addperiodictrade</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player to add a custom periodic offer via the Amadron Tablet</p>
+</td></tr>
+<tr>
+<td><code>pneumaticcraft.amadron.addstatictrade</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player to add a custom static offer via the Amadron Tablet</p>
+</td></tr>
 </table><br><table><tr><th>Available command nodes</th><th>Usage</th></tr>
 <tr><td><code>command.advancedrocketry.advancedrocketry</code></td><td class='error' title='Invalid usage language key!'>advancedRocketry help</td></tr>
 <tr><td><code>command.advancement</code></td><td>/advancement &lt;grant|revoke|test&gt; &lt;player&gt;</td></tr>
@@ -1025,6 +1056,7 @@ false
 <tr><td><code>command.aroma1997core.sleep</code></td><td class='error' title='Invalid usage language key!'>/sleep</td></tr>
 <tr><td><code>command.aroma1997sdimension.dimensionalworld</code></td><td class='error' title='Invalid usage language key!'>/dimensionalworld reloadconfig<br>/dimensionalworld findstructure</td></tr>
 <tr><td><code>command.astralsorcery.astralsorcery</code></td><td class='error' title='Invalid usage language key!'>/astralsorcery &lt;action&gt; [player] [arguments...]</td></tr>
+<tr><td><code>command.base.base.recipes.reload</code></td><td class='error' title='Invalid usage language key!'>Reloads the Recipe System</td></tr>
 <tr><td><code>command.baubles.baubles</code></td><td class='error' title='Invalid usage language key!'>/baubles &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
 <tr><td><code>command.bdlib.dumpregistry</code></td><td>dumpregistry</td></tr>
 <tr><td><code>command.bdlib.oredistribution</code></td><td>/oredistribution &lt;radius&gt; [&lt;min height&gt;] [&lt;max height&gt;] [--file]</td></tr>
@@ -1050,7 +1082,7 @@ false
 <tr><td><code>command.cofhworld.cofhworld.list</code></td><td>Lists all CoFHWorld features</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.reload</code></td><td>Reloads CoFHWorld configuration</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.version</code></td><td>cofhworld.version.usage</td></tr>
-<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blocks | botania | botbrews | botlexcats | botlexentries | botlexpages | botlextypes | botorechid | bugs | chiselGroups | conflict | copy | discord | docs | dumpzs | enchants | entities | foods | gases | give | hand | help | infuseTypes | inventory | jeiCategories | json | keyNames | liquids | log | mekrecipes | mods | names | nbt | oredict | potions | recipeNames | recipes | reload | scripts | seeds | syntax | ticmat | wiki | zslint</td></tr>
+<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | botania | botbrews | botlexcats | botlexentries | botlexpages | botlextypes | botorechid | bugs | chiselGroups | conflict | copy | creativetab | discord | docs | dumpzs | enchants | entities | foods | gases | give | hand | help | infuseTypes | inventory | jeiCategories | json | keyNames | liquids | log | materialparts | materials | mekrecipes | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | ticmat | wiki | zslint</td></tr>
 <tr><td><code>command.crafttweaker.ctgui</code></td><td class='error' title='Invalid usage language key!'>CTGUI &lt;id&gt;</td></tr>
 <tr><td><code>command.debug</code></td><td>/debug &lt;start|stop&gt;</td></tr>
 <tr><td><code>command.defaultgamemode</code></td><td>/defaultgamemode &lt;mode&gt;</td></tr>
@@ -1097,10 +1129,13 @@ false
 <tr><td><code>command.ftblib.team.create</code></td><td>/team create &lt;id&gt; [color]</td></tr>
 <tr><td><code>command.ftblib.team.create_server_team</code></td><td>commands.team.create_server_team.usage</td></tr>
 <tr><td><code>command.ftblib.team.delete</code></td><td>/team delete &lt;team&gt;</td></tr>
+<tr><td><code>command.ftblib.team.get</code></td><td>/team get &lt;player&gt;</td></tr>
 <tr><td><code>command.ftblib.team.help</code></td><td>/help [page|command name]</td></tr>
+<tr><td><code>command.ftblib.team.info</code></td><td>/team info &lt;team&gt;</td></tr>
 <tr><td><code>command.ftblib.team.join</code></td><td>/team join &lt;team&gt;</td></tr>
 <tr><td><code>command.ftblib.team.kick</code></td><td>/team kick &lt;player&gt;</td></tr>
 <tr><td><code>command.ftblib.team.leave</code></td><td>/team leave</td></tr>
+<tr><td><code>command.ftblib.team.list</code></td><td>/team list</td></tr>
 <tr><td><code>command.ftblib.team.request_invite</code></td><td>/team request_invite &lt;team&gt;</td></tr>
 <tr><td><code>command.ftblib.team.settings</code></td><td>/team settings &lt;config id&gt; [value]</td></tr>
 <tr><td><code>command.ftblib.team.status</code></td><td>/team status &lt;player&gt; [set_status]</td></tr>
@@ -1108,6 +1143,7 @@ false
 <tr><td><code>command.ftbutilities.back</code></td><td>/back</td></tr>
 <tr><td><code>command.ftbutilities.chunks.claim</code></td><td>/chunks claim</td></tr>
 <tr><td><code>command.ftbutilities.chunks.help</code></td><td>/help [page|command name]</td></tr>
+<tr><td><code>command.ftbutilities.chunks.info</code></td><td>/chunks info</td></tr>
 <tr><td><code>command.ftbutilities.chunks.load</code></td><td>/chunks load</td></tr>
 <tr><td><code>command.ftbutilities.chunks.unclaim</code></td><td>/chunks unclaim</td></tr>
 <tr><td><code>command.ftbutilities.chunks.unclaim_all</code></td><td>/chunks unclaim_all [dimension] [player]</td></tr>
@@ -1134,6 +1170,7 @@ false
 <tr><td><code>command.ftbutilities.nbtedit.player</code></td><td>/nbtedit player &lt;player&gt;</td></tr>
 <tr><td><code>command.ftbutilities.nbtedit.tile</code></td><td>/nbtedit tile &lt;x&gt; &lt;y&gt; &lt;z&gt;</td></tr>
 <tr><td><code>command.ftbutilities.nick</code></td><td>/nick &lt;name...&gt;</td></tr>
+<tr><td><code>command.ftbutilities.nickfor</code></td><td>/nickfor &lt;player&gt; &lt;name...&gt;</td></tr>
 <tr><td><code>command.ftbutilities.ranks.add</code></td><td>/ranks add &lt;id&gt; [parent]</td></tr>
 <tr><td><code>command.ftbutilities.ranks.delete</code></td><td>/ranks delete &lt;rank&gt;</td></tr>
 <tr><td><code>command.ftbutilities.ranks.get</code></td><td>/ranks get [player]</td></tr>
@@ -1169,6 +1206,7 @@ false
 <tr><td><code>command.hammercore.hc_timetoticks</code></td><td class='error' title='Invalid usage language key!'>Use /hc_timetoticks &lt;time:string&gt; (time example: 1t1s1m1h1d1M1y - 1 tick and 1 second and 1 minute and 1 hour and 1 day and 1 month and 1 year)</td></tr>
 <tr><td><code>command.hammercore.hc_tpx</code></td><td class='error' title='Invalid usage language key!'>Used to tp between 2 points on server. Can be used between dimensions</td></tr>
 <tr><td><code>command.help</code></td><td>/help [page|command name]</td></tr>
+<tr><td><code>command.ic2.ic2</code></td><td class='error' title='Invalid usage language key!'>/ic2 uu-world-scan &lt;tiny|small|medium|large&gt; | debug (dumpUuValues | resolveIngredient &lt;name&gt; | dumpTextures &lt;name&gt; &lt;size&gt; | dumpLargeGrids | enet (logIssues | logUpdates) (true|false)) | currentItem | itemNameWithVariant | giveCrop &lt;owner&gt; &lt;name&gt; &lt;growth (1-31)&gt; &lt;gain (1-31)&gt; &lt;resistance (1-31)&gt;</td></tr>
 <tr><td><code>command.immersiveengineering.ie.clearshaders</code></td><td class='error' title='Invalid usage language key!'>/ie clearshaders [player name]</td></tr>
 <tr><td><code>command.immersiveengineering.ie.help.clearshaders</code></td><td class='error' title='Invalid usage language key!'>/ie clearshaders [player name]</td></tr>
 <tr><td><code>command.immersiveengineering.ie.help.mineral</code></td><td class='error' title='Invalid usage language key!'>Use "/ie mineral help" for more information</td></tr>
@@ -1214,6 +1252,10 @@ om_config_s default &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;...
 <tr><td><code>command.openmods.om_source_s</code></td><td class='error' title='Invalid usage language key!'>om_source_s class &lt;class name&gt;</td></tr>
 <tr><td><code>command.particle</code></td><td>/particle &lt;name&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;xd&gt; &lt;yd&gt; &lt;zd&gt; &lt;speed&gt; [count] [mode] [player] [params]</td></tr>
 <tr><td><code>command.playsound</code></td><td>/playsound &lt;sound&gt; &lt;source&gt; &lt;player&gt; [x] [y] [z] [volume] [pitch] [minimumVolume]</td></tr>
+<tr><td><code>command.pneumaticcraft.deliveramazon</code></td><td class='error' title='Invalid usage language key!'>deliverAmazon &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;inventoryX&gt; &lt;inventorY&gt; &lt;inventoryZ&gt;<br>deliverAmazon &lt;player&gt; &lt;inventoryX&gt; &lt;inventorY&gt; &lt;inventoryZ&gt;</td></tr>
+<tr><td><code>command.pneumaticcraft.dumpnbt</code></td><td>dumpNBT</td></tr>
+<tr><td><code>command.pneumaticcraft.getglobalvariable</code></td><td class='error' title='Invalid usage language key!'>getGlobalVariable &lt;variableName&gt;</td></tr>
+<tr><td><code>command.pneumaticcraft.setglobalvariable</code></td><td class='error' title='Invalid usage language key!'>setGlobalVariable &lt;variableName&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt;</td></tr>
 <tr><td><code>command.publish</code></td><td>/publish</td></tr>
 <tr><td><code>command.recipe</code></td><td>/recipe &lt;give|take&gt; [player] &lt;name|*&gt;</td></tr>
 <tr><td><code>command.replaceitem</code></td><td>/replaceitem &lt;entity|block&gt; ...</td></tr>

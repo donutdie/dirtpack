@@ -1,29 +1,22 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
-recipes.remove(<immersivepetroleum:schematic>);
-recipes.remove(<forestry:fertilizer_compound> * 5);
+recipes.remove(<ic2:te:3>);
+recipes.remove(<pneumaticcraft:uv_light_box>);
+recipes.remove(<pneumaticcraft:refinery>);
+recipes.remove(<pneumaticcraft:vortex_tube>);
+recipes.remove(<pneumaticcraft:pressure_chamber_wall>);
+recipes.remove(<immersiveengineering:tool:1>);
+recipes.remove(<forestry:sturdy_machine>);
 //Don't touch me!
 //#Add
-recipes.addShaped(<immersivepetroleum:schematic>, [[<immersiveengineering:connector:4>, null, null],[<immersiveengineering:metal_decoration0:7>, <immersiveengineering:metal_decoration0:3>, null], [null, <immersiveengineering:metal_decoration0:7>, <immersiveengineering:metal_decoration2:4>]]);
-recipes.addShaped(<ironchest:iron_chest:6>, [[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>],[<minecraft:obsidian>, <ironchest:iron_chest:2>, <minecraft:obsidian>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
-recipes.addShaped(<ironchest:iron_chest:2>, [[<moreplates:diamond_plate>, <moreplates:diamond_plate>, <moreplates:diamond_plate>],[<moreplates:diamond_plate>, <ironchest:iron_chest:1>, <moreplates:diamond_plate>], [<moreplates:diamond_plate>, <moreplates:diamond_plate>, <moreplates:diamond_plate>]]);
-recipes.addShaped(<ironchest:iron_chest:1>, [[<thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>],[<thermalfoundation:material:33>, <ironchest:iron_chest:4>, <thermalfoundation:material:33>], [<thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>]]);
-recipes.addShaped(<ironchest:iron_chest:4>, [[<thermalfoundation:material:322>, <thermalfoundation:material:322>, <thermalfoundation:material:322>],[<thermalfoundation:material:322>, <ironchest:iron_chest>, <thermalfoundation:material:322>], [<thermalfoundation:material:322>, <thermalfoundation:material:322>, <thermalfoundation:material:322>]]);
-recipes.addShaped(<ironchest:iron_chest>, [[<thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>],[<thermalfoundation:material:32>, <ironchest:iron_chest:3>, <thermalfoundation:material:32>], [<thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>]]);
-recipes.addShaped(<ironchest:iron_chest:3>, [[<thermalfoundation:material:320>, <thermalfoundation:material:320>, <thermalfoundation:material:320>],[<thermalfoundation:material:320>, <actuallyadditions:block_giant_chest_medium>, <thermalfoundation:material:320>], [<thermalfoundation:material:320>, <thermalfoundation:material:320>, <thermalfoundation:material:320>]]);
-#Luminescense.
-recipes.addShaped(<extendedcrafting:material:7> * 2, [[<ore:dustLumium>, <ore:dustStarMetal>, null],[<ore:gunpowder>, <ore:powderMana>, null]]);
-#Glider Wing
-recipes.remove(<openblocks:generic>);
-recipes.addShaped(<openblocks:generic>, [[null, <ore:stickTreatedWood>, <harvestcraft:hardenedleatheritem>],[<ore:stickTreatedWood>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>]]);
-#Sleeping Bag
-recipes.remove(<openblocks:sleeping_bag>);
-recipes.addShaped(<openblocks:sleeping_bag>, [[null, null, <botania:spellcloth>],[<ore:clothManaweave>, <ore:clothManaweave>, <ore:clothManaweave>], [<ore:materialCloth>, <ore:materialCloth>, <ore:materialCloth>]]);
-#Woot Anvil
-recipes.remove(<woot:anvil>);
-recipes.addShaped(<woot:anvil>, [[<woot:stygianiron>, <ore:ingotBrickNetherGlazed>, <woot:stygianiron>],[null, <minecraft:obsidian>, null], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
-#Infused Wood Column
-recipes.remove(<astralsorcery:blockinfusedwood:2>);
-recipes.addShaped(<astralsorcery:blockinfusedwood:2>, [[null, <astralsorcery:blockinfusedwood:1>, null],[<ore:plankTreatedWood>, <astralsorcery:blockinfusedwood:1>, <ore:plankTreatedWood>], [<immersiveengineering:treated_wood_stairs0>, <astralsorcery:blockinfusedwood:1>, <immersiveengineering:treated_wood_stairs0>]]);
+recipes.addShaped(<ic2:te:3>, [[null, <ic2:re_battery:*>, null],[<immersiveengineering:wirecoil:5>, <ic2:resource:12>, <immersiveengineering:wirecoil:5>], [null, <ic2:te:46>, null]]);
+recipes.addShaped(<pneumaticcraft:uv_light_box>, [[<ore:electronTube>, <ore:electronTube>, <ore:electronTube>],[<ore:gearIronCompressed>, <pneumaticcraft:pcb_blueprint>, <immersiveengineering:graphite_electrode>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<pneumaticcraft:refinery>, [[<mekanism:basicblock:10>, <pneumaticcraft:ingot_iron_compressed>, <mekanism:basicblock:10>],[<pneumaticcraft:ingot_iron_compressed>, <immersiveengineering:metal_decoration0:4>, <pneumaticcraft:ingot_iron_compressed>], [<mekanism:basicblock:10>, <forestry:sturdy_machine>, <mekanism:basicblock:10>]]);
+recipes.addShaped(<pneumaticcraft:vortex_tube>, [[<ore:ingotIronCompressed>, <pneumaticcraft:heat_frame>, <ore:ingotIronCompressed>],[<ore:ingotCobalt>, <pneumaticcraft:pressure_tube>, <ore:ingotArdite>], [<ore:ingotIronCompressed>, <pneumaticcraft:heat_frame>, <ore:ingotIronCompressed>]]);
+recipes.addShaped(<pneumaticcraft:pressure_chamber_wall> * 16, [[<pneumaticcraft:ingot_iron_compressed>, <thermalfoundation:material:160>, <pneumaticcraft:ingot_iron_compressed>],[<thermalfoundation:material:160>, <ic2:crafting:15>, <thermalfoundation:material:160>], [<pneumaticcraft:ingot_iron_compressed>, <thermalfoundation:material:160>, <pneumaticcraft:ingot_iron_compressed>]]);
+recipes.addShaped(<pneumaticcraft:air_compressor>, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>],[<ore:ingotIronCompressed>, null, <pneumaticcraft:pressure_tube>], [<ore:ingotHOPGraphite>, <minecraft:furnace>, <ore:ingotHOPGraphite>]]);
+recipes.addShaped(<immersiveengineering:tool:1>, [[null, <ore:ingotIron>, null],[<ore:ingotIron>, <ore:fiberHemp>, <ore:stickTreatedWood>], [null, <ore:stickTreatedWood>, null]]);
+recipes.addShaped(<forestry:impregnated_casing>, [[null, null, null],[<ore:ingotConstantan>, <forestry:frame_impregnated>, <ore:ingotConstantan>], [<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>]]);
+recipes.addShaped(<forestry:sturdy_machine> * 2, [[<ore:ingotBronze>, <ore:ingotConstantan>, <ore:ingotBronze>],[<ore:gearBronze>, <minecraft:minecart>, <ore:gearBronze>], [<ore:ingotBronze>, <ore:ingotConstantan>, <ore:ingotBronze>]]);
 //File End

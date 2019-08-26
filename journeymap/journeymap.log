@@ -1,6 +1,8 @@
-[18:42:01] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[18:42:01] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[18:42:01] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.4, built with Forge 14.23.5.2768
+[18:36:01] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[18:36:01] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[18:36:01] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[18:36:01] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[18:36:01] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.5, built with Forge 14.23.5.2768
 Forge: 14.23.5.2838
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -11,19 +13,20 @@ Features:
 	MapTopo : singleplayer = true , multiplayer = true
 	MapSurface : singleplayer = true , multiplayer = true
 	MapCaves : singleplayer = true , multiplayer = true
-MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.5.4, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=1, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=night, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=North, shape=Circle, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=Compass, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Top Right, info1Label=Blank, fontScale=1}
-MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.5.4, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=1, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=North, shape=Rectangle, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=Compass, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Top Right, info1Label=Blank, fontScale=1}
-FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5.4, mobDisplay=Small Dots, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=1, preferredMapType=day}
-WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.5.4, createDeathpoints=true, showName=true, maxDistance=0, autoHideLabel=true, showStaticBeam=false, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=false, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
-WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.5.4, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
-CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.4, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=5.5.4, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=6, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.5.4, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[18:42:01] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[18:42:01] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[18:42:01] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
-[18:42:01] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[18:42:25] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[18:42:25] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 71
-[18:42:26] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.5.5, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=1, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=North, shape=Circle, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=Compass, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Top Right, info1Label=Blank, fontScale=1}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.5.5, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=1, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=North, shape=Rectangle, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=Compass, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Top Right, info1Label=Blank, fontScale=1}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5.5, mobDisplay=Small Dots, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=1, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.5.5, createDeathpoints=true, showName=true, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.5.5, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.5, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
+[18:36:02] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[18:36:02] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[18:36:02] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
+[18:36:02] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
+[18:36:02] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[18:36:31] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[18:36:32] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 72
+[18:36:33] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
 javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_51]
 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1949) ~[?:1.8.0_51]
@@ -50,7 +53,7 @@ javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: 
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.3.3.jar:4.3.3]
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106) ~[httpclient-4.3.3.jar:4.3.3]
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[httpclient-4.3.3.jar:4.3.3]
-	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:1.12.2-5.5.4]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:1.12.2-5.5.5]
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_51]
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_51]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_51]
@@ -77,11 +80,33 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_51]
 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1479) ~[?:1.8.0_51]
 	... 26 more
-[18:44:14] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
-[18:44:14] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[18:44:14] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\waypoints
-[18:44:14] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\DIM0. Memory: 4064MB total, 2169MB free 
-[18:44:14] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
-[18:44:17] [JM-task-4/WARN] [VanillaBlockSpriteProxy] Unable to get any texture to use as color for thermaldynamics:duct_0[meta=4]
-[18:44:47] [JM-task-4/WARN] [VanillaBlockSpriteProxy] Unable to get any texture to use as color for thermaldynamics:duct_32[meta=1]
-[19:55:01] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\Progress_Save\DIM0
+[18:38:25] [Server thread/INFO] [PropertiesBase] global (FirstLoaded) Setting config file to version "5.5.5": journeymap.server.global.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] global (Valid) Creating config file: C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\server\5.5\journeymap.server.global.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] default (FirstLoaded) Setting config file to version "5.5.5": journeymap.server.default.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] default (Valid) Creating config file: C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\server\5.5\journeymap.server.default.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim0 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim0.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim0 (Valid) Creating config file: C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\server\5.5\journeymap.server.dim0.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim1 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim1.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim1 (Valid) Creating config file: C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\server\5.5\journeymap.server.dim1.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim-1 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim-1.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim-1 (Valid) Creating config file: C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\server\5.5\journeymap.server.dim-1.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim418 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim418.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim418 (Valid) Creating config file: C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\server\5.5\journeymap.server.dim418.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim-6 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim-6.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim-6 (Valid) Creating config file: C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\server\5.5\journeymap.server.dim-6.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim-11325 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim-11325.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim-11325 (Valid) Creating config file: C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\server\5.5\journeymap.server.dim-11325.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim-2 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim-2.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim-2 (Valid) Creating config file: C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\server\5.5\journeymap.server.dim-2.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim2 (Initialized) Setting config file to version "5.5.5": journeymap.server.dim2.config
+[18:38:25] [Server thread/INFO] [PropertiesBase] dim2 (Valid) Creating config file: C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\server\5.5\journeymap.server.dim2.config
+[18:38:52] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[18:38:52] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[18:38:52] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[18:38:52] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\New World\waypoints
+[18:38:53] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\New World\DIM0. Memory: 4416MB total, 2400MB free 
+[18:38:53] [Netty Local Client IO #0/INFO] [JourneymapClient] Teleport Enabled:true
+[18:38:53] [Netty Local Client IO #0/INFO] [JourneymapClient] Server Admin Enabled:true
+[18:38:53] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[18:38:54] [JM-task-4/WARN] [VanillaBlockSpriteProxy] Unable to get any texture to use as color for thermaldynamics:duct_32[meta=0]
+[19:20:15] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Doctor\Twitch\Minecraft\Instances\dirtpack\journeymap\data\sp\New World\DIM0
